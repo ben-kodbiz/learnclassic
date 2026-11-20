@@ -1,0 +1,63 @@
+{
+  "lessonId": "m1-w04-ch08",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m1-w04-ch08-001",
+      "lessonId": "m1-w04-ch08",
+      "type": "multiple-choice",
+      "prompt": "Identify the grammatical role and case of المَسْجِدِ in بَابُ المَسْجِدِ مَفْتُوحٌ.",
+      "arabic": "بَابُ المَسْجِدِ مَفْتُوحٌ",
+      "target": "المَسْجِدِ",
+      "choices": [
+        "Muḍāf ilayh — Genitive (majrūr) marked by kasrah",
+        "Muḍāf — Nominative (marfūʿ)",
+        "Khabar — Nominative (marfūʿ)"
+      ],
+      "answer": "Muḍāf ilayh — Genitive (majrūr) marked by kasrah",
+      "explanation": "المَسْجِدِ is the second term of the iḍāfah (al-muḍāf ilayh), which is always in the genitive case.",
+      "feedback": {
+        "rule": "The muḍāf ilayh is strictly genitive (majrūr).",
+        "governor": "Al-iḍāfah (annexation by بَابُ)",
+        "role": "Muḍāf ilayh",
+        "caseOrMood": "Genitive (majrūr) marked by kasrah"
+      },
+      "skillTags": ["idafah", "jarr"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w04-ch08-002",
+      "lessonId": "m1-w04-ch08",
+      "type": "fill-in-blank",
+      "prompt": "Select the correct form of كِتَابَانِ ('two books') when annexed as muḍāf: 'the two books of the student'.",
+      "arabic": "_____ الطَّالِبِ",
+      "choices": ["كِتَابَا", "كِتَابَانِ", "الكِتَابَا"],
+      "answer": "كِتَابَا",
+      "explanation": "A dual muḍāf drops its final nūn (كِتَابَانِ → كِتَابَا) and never takes أَلْ.",
+      "feedback": {
+        "rule": "Duals and sound masculine plurals drop final nūn when serving as muḍāf.",
+        "commonError": "Keeping the nūn (كِتَابَانِ الطَّالِبِ) or adding أَلْ (الكِتَابَا)."
+      },
+      "skillTags": ["idafah", "dual"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w04-ch08-003",
+      "lessonId": "m1-w04-ch08",
+      "type": "word-ordering",
+      "prompt": "Arrange the words to form: 'The door of the mosque is open.'",
+      "tokens": ["مَفْتُوحٌ", "المَسْجِدِ", "بَابُ"],
+      "answer": ["بَابُ", "المَسْجِدِ", "مَفْتُوحٌ"],
+      "explanation": "The iḍāfah بَابُ المَسْجِدِ forms a single definite mubtadaʾ, followed by the indefinite khabar مَفْتُوحٌ.",
+      "feedback": {
+        "rule": "Muḍāf + Muḍāf Ilayh + Khabar",
+        "caseOrMood": "بَابُ (nom.) | المَسْجِدِ (gen.) | مَفْتُوحٌ (nom.)"
+      },
+      "skillTags": ["idafah", "word-order"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "m2-w09-ch15",
+  "moduleId": "module-2",
+  "week": 9,
+  "chapter": 15,
+  "title": "The Subjunctive Mood (Al-Muḍāriʿ al-Manṣūb)",
+  "titleArabic": "الفِعْلُ المُضَارِعُ المَنْصُوبُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 15; Ryding Ch. 34)",
+  "objectives": [
+    "Recognise the core subjunctive governing particles (ḥurūf al-naṣb): أنْ, لَنْ, كَيْ, لِـ, and حَتَّى.",
+    "Apply the two subjunctive inflectional signs: final fatḥah (-a) and deletion of final nūn (ḥadhf al-nūn).",
+    "Parse subordinate purpose clauses and emphatic future negations with لَنْ."
+  ],
+  "recallPrompt": "From Chapter 14: What is the default mood ending on a sound singular imperfect verb like يَكْتُبُ when no governing particle precedes it?",
+  "glossaryTerms": ["fil", "harf", "nasb", "raf"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "What Triggers the Subjunctive (Al-Naṣb)?",
+      "body": "An imperfect verb (al-muḍāriʿ) defaults to the indicative mood (marfūʿ). When preceded by a subjunctive particle (ḥarf naṣb), the verb shifts into the subjunctive mood (manṣūb). In Classical Arabic, this commonly expresses purpose ('in order that'), complementation ('that'), or emphatic future negation ('will never')."
+    },
+    {
+      "type": "rule",
+      "label": "Subjunctive Inflection Rule",
+      "arabicTerm": "حُرُوفُ النَّصْبِ",
+      "summary": "After أَنْ, لَنْ, كَيْ, لِـ, or حَتَّى: sound singular stems replace final ḍammah (-u) with fatḥah (-a), while the five dual/plural forms (al-afʿāl al-khamsah) drop their final nūn."
+    },
+    {
+      "type": "table",
+      "heading": "Indicative vs. Subjunctive Endings",
+      "headers": ["Person / Number", "Indicative (Marfūʿ)", "Subjunctive (Manṣūb)", "Morphological Change"],
+      "rows": [
+        ["3ms (he)", "يَكْتُبُ", "لَنْ يَكْتُبَ", "Final ḍammah (-u) → fatḥah (-a)"],
+        ["2ms (you m. sg.)", "تَكْتُبُ", "أَنْ تَكْتُبَ", "Final ḍammah (-u) → fatḥah (-a)"],
+        ["3mp (they m. pl.)", "يَكْتُبُونَ", "لَنْ يَكْتُبُوا", "Final nūn dropped; silent alif al-fāriqah added"],
+        ["2fs (you f. sg.)", "تَكْتُبِينَ", "أَنْ تَكْتُبِي", "Final nūn dropped"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "يَجْتَهِدُ الطَّالِبُ كَيْ يَفْهَمَ الدَّرْسَ",
+      "transliteration": "yajtahidu ṭ-ṭālibu kay yafhama d-darsa",
+      "translation": "The student strives in order to understand the lesson.",
+      "irab": "كَيْ: حَرْفُ نَصْبٍ | يَفْهَمَ: فِعْلٌ مُضَارِعٌ مَنْصُوبٌ بِكَيْ وَعَلَامَةُ نَصْبِهِ الفَتْحَةُ",
+      "notes": "Notice that يَجْتَهِدُ remains indicative (-u) because no particle precedes it, whereas يَفْهَمَ becomes subjunctive (-a) under the governance of كَيْ.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "example",
+      "arabic": "لَنْ يَرْجِعُوا قَبْلَ الغُرُوبِ",
+      "transliteration": "lan yarjiʿū qabla l-ghurūbi",
+      "translation": "They will never return before sunset.",
+      "irab": "لَنْ: حَرْفُ نَفْيٍ وَنَصْبٍ | يَرْجِعُوا: فِعْلٌ مُضَارِعٌ مَنْصُوبٌ بِحَذْفِ النُّونِ",
+      "notes": "Because يَرْجِعُونَ belongs to al-afʿāl al-khamsah, its subjunctive sign is deletion of the final nūn (ḥadhf al-nūn), leaving يَرْجِعُوا.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "heading": "Do Not Confuse أَنْ with أَنَّ",
+      "body": "أَنْ (with sukūn on nūn) governs imperfect verbs in the subjunctive. أَنَّ (with shaddah on nūn) belongs to the sisters of إِنَّ and governs nominal clauses."
+    }
+  ]
+}

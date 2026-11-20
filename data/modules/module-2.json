@@ -1,0 +1,367 @@
+{
+  "moduleId": "module-2",
+  "number": 2,
+  "title": "The Classical Verbal System, Mood Governance & Morphological Stems",
+  "titleArabic": "صِيَغُ الفِعْلِ وَأَحْوَالُهُ",
+  "titleTranslit": "Ṣiyagh al-Fiʿl wa-Aḥwāluh",
+  "weeks": [
+    {
+      "week": 9,
+      "title": "The Imperfect System & Subjunctive Governance (Al-Nawāṣib)",
+      "chapters": [
+        {
+          "id": "m2-w09-ch14",
+          "chapter": 14,
+          "title": "The Imperfect Tense (Al-Muḍāriʿ al-Marfūʿ)",
+          "textbookTitle": "The Imperfect",
+          "rydingReference": "Ryding Ch. 21 (§21.1) & Ch. 34 (Moods: Indicative)",
+          "titleArabic": "الفِعْلُ المُضَارِعُ المَرْفُوعُ",
+          "prerequisites": ["m1-w08-cons"],
+          "classicalFocus": "Imperfect prefix and suffix paradigms; indicative markers (ḍammah or retained nūn in al-afʿāl al-khamsah); negation with mā (past) vs. lā (present).",
+          "coreRules": [
+            "Indicative singular sound stems end in -u; the five dual/plural forms (afʿāl al-khamsah) retain final nūn."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 25–26: imperfect conjugation and negation.",
+          "estimatedMinutes": 30,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m2-w09-ch15",
+          "chapter": 15,
+          "title": "The Subjunctive Mood (Al-Muḍāriʿ al-Manṣūb)",
+          "textbookTitle": "Moods of the Imperfect. The subjunctive",
+          "rydingReference": "Ryding Ch. 34 (Moods of the Verb: Indicative and Subjunctive)",
+          "titleArabic": "الفِعْلُ المُضَارِعُ المَنْصُوبُ",
+          "prerequisites": ["m2-w09-ch14"],
+          "classicalFocus": "Subjunctive triggers (an, lan, kay, li-, ḥattā); absolute future negation with lan.",
+          "coreRules": [
+            "Subjunctive marks singular stems with fatḥah and deletes final nūn (ḥadhf al-nūn) in duals and plurals."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 27–28: translating clauses of purpose and parsing lan and an clauses.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "title": "The Jussive (Al-Jawāzim), Imperative & Internal Passive",
+      "chapters": [
+        {
+          "id": "m2-w10-ch16",
+          "chapter": 16,
+          "title": "The Jussive Mood (Al-Muḍāriʿ al-Majzūm)",
+          "textbookTitle": "Moods of the Imperfect. The Jussive",
+          "rydingReference": "Ryding Ch. 35 (Moods of the Verb: Jussive and Imperative)",
+          "titleArabic": "الفِعْلُ المُضَارِعُ المَجْزُومُ",
+          "prerequisites": ["m2-w09-ch15"],
+          "classicalFocus": "Jussive governed by lam (past negation), lā al-nāhiyah (prohibition), and conditional particles.",
+          "coreRules": [
+            "Jussive marks sound singulars with sukūn, drops final nūn, and apocopates final weak consonants."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 29–30: contrasting mā + past vs. lam + jussive and prohibitions.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m2-w10-ch17",
+          "chapter": 17,
+          "title": "The Imperative (Fiʿl al-Amr)",
+          "textbookTitle": "The Imperative",
+          "rydingReference": "Ryding Ch. 35 (Moods of the Verb: Imperative)",
+          "titleArabic": "فِعْلُ الأَمْرِ",
+          "prerequisites": ["m2-w10-ch16"],
+          "classicalFocus": "Derivation from the jussive base; prosthetic hamzat al-waṣl prefix and its vowelling.",
+          "coreRules": [
+            "Prosthetic hamzat al-waṣl takes ḍammah if the middle radical vowel is u, and kasrah if it is a or i."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 31–32: constructing positive commands and negative prohibitions.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m2-w10-ch18",
+          "chapter": 18,
+          "title": "The Internal Passive (Al-Fiʿl al-Majhūl)",
+          "textbookTitle": "The Passive Verb",
+          "rydingReference": "Ryding Ch. 38 (The Passive Voice)",
+          "titleArabic": "الفِعْلُ المَجْهُولُ",
+          "prerequisites": ["m2-w10-ch17"],
+          "classicalFocus": "Internal vowel shifts (past fuʿila, imperfect yufʿalu); promotion of direct object to deputy agent (nāʾib al-fāʿil).",
+          "coreRules": [
+            "The agent is deleted and the deputy agent (nāʾib al-fāʿil) takes the nominative case (rafʿ)."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 33–34: converting active sentences to passive.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "title": "Derived Verb Stems — Principles & Forms II, III, IV",
+      "chapters": [
+        {
+          "id": "m2-w11-ch19",
+          "chapter": 19,
+          "title": "Morphological Principles of Augmentation (Al-Mazīd)",
+          "textbookTitle": "Derived Forms of the Triliteral Verb. General Introduction",
+          "rydingReference": "Ryding Ch. 20 (Verb Classes & Derivation Patterns, §§20.1–20.2)",
+          "titleArabic": "أَوْزَانُ الفِعْلِ المَزِيدِ",
+          "prerequisites": ["m2-w10-ch18"],
+          "classicalFocus": "Systematic root augmentation (al-mazīd) and predictable active (mu- -i-) and passive (mu- -a-) participles.",
+          "coreRules": [
+            "Prefixation, infixation, and consonant doubling systematically modify core root semantics."
+          ],
+          "practiceFocus": "Mapping the derived triliteral paradigm across Forms II–X.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m2-w11-ch20",
+          "chapter": 20,
+          "title": "Forms II, III, and IV",
+          "textbookTitle": "Derived Forms of the Triliteral Verb, II, III, and IV",
+          "rydingReference": "Ryding Ch. 23–25 (Forms II, III, IV)",
+          "titleArabic": "الأَوْزَانُ الثَّانِي وَالثَّالِثُ وَالرَّابِعُ",
+          "prerequisites": ["m2-w11-ch19"],
+          "classicalFocus": "Form II (faʿʿala, maṣdar tafʿīl), Form III (fāʿala, maṣdar mufāʿalah/fiʿāl), and Form IV (afʿala, maṣdar ifʿāl).",
+          "coreRules": [
+            "Forms II, III, and IV take ḍammah on their imperfect prefixes (yu-)."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 35–36: deriving Forms II–IV and analyzing causative/transitive verbs.",
+          "estimatedMinutes": 30,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "title": "Reflexive & Reciprocal Stems — Forms V & VI",
+      "chapters": [
+        {
+          "id": "m2-w12-ch21",
+          "chapter": 21,
+          "title": "Forms V (tafaʿʿala) & VI (tafāʿala)",
+          "textbookTitle": "Forms V and VI",
+          "rydingReference": "Ryding Ch. 26 (Form V) & Ch. 27 (Form VI)",
+          "titleArabic": "الوَزْنَانِ الخَامِسُ وَالسَّادِسُ",
+          "prerequisites": ["m2-w11-ch20"],
+          "classicalFocus": "Form V reflexive/resultative (maṣdar tafaʿʿul) and Form VI mutual/reciprocal (maṣdar tafāʿul); transitivity shifts.",
+          "coreRules": [
+            "Prefixing ta- to Forms II and III shifts transitive verbs toward reflexive or reciprocal meanings."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 37–38: identifying theological and spiritual vocabulary in Forms V and VI.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "title": "Passive-Reflexive & Participatory Stems — Forms VII & VIII",
+      "chapters": [
+        {
+          "id": "m2-w13-ch22",
+          "chapter": 22,
+          "title": "Forms VII (infaʿala) & VIII (iftaʿala)",
+          "textbookTitle": "Forms VII and VIII",
+          "rydingReference": "Ryding Ch. 28 (Form VII) & Ch. 29 (Form VIII)",
+          "titleArabic": "الوَزْنَانِ السَّابِعُ وَالثَّامِنُ",
+          "prerequisites": ["m2-w12-ch21"],
+          "classicalFocus": "Medio-passive Form VII (infiʿāl) and participatory Form VIII (iftiʿāl); Form VIII dental assimilation phonotactics.",
+          "coreRules": [
+            "Form VIII infixed -t- assimilates after emphatics (ṣād, ḍād, ṭāʾ, ẓāʾ), dentals (dāl, dhāl, zāy), or wāw (e.g., ittaqā from w-q-y)."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 39–40: unravelling assimilated Form VIII roots.",
+          "estimatedMinutes": 30,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "title": "Stative & Inchoative Stems (Forms IX, X) & Doubled Verbs",
+      "chapters": [
+        {
+          "id": "m2-w14-ch23",
+          "chapter": 23,
+          "title": "Forms IX (ifʿalla) & X (istafʿala)",
+          "textbookTitle": "Forms IX, X and XI",
+          "rydingReference": "Ryding Ch. 30 (Form IX) & Ch. 31 (Form X)",
+          "titleArabic": "الوَزْنَانِ التَّاسِعُ وَالعَاشِرُ",
+          "prerequisites": ["m2-w13-ch22"],
+          "classicalFocus": "Form IX (colors, bodily defects, stative conditions) and Form X (requesting, seeking, or deeming; maṣdar istifʿāl).",
+          "coreRules": [
+            "Form X prefixes ista- to express seeking or considering (e.g., istaghfara: to seek forgiveness)."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 41–42: invocations and petitions in Form X.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m2-w14-ch24",
+          "chapter": 24,
+          "title": "Doubled / Geminate Verbs (Al-Fiʿl al-Muḍāʿaf)",
+          "textbookTitle": "Irregular Verbs. The Doubled Verb",
+          "rydingReference": "Ryding Ch. 22 (§22.3, Geminate Roots)",
+          "titleArabic": "الفِعْلُ المُضَعَّفُ",
+          "prerequisites": ["m2-w14-ch23"],
+          "classicalFocus": "Identical 2nd and 3rd radicals (madda, radda); phonotactic rules of idghām contraction vs. uncontracted stems.",
+          "coreRules": [
+            "Identical radicals contract with shaddah when vowelled and separate before consonant-initial suffixes (madad-tu)."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 43–44: conjugating doubled verbs across past, present, and jussive.",
+          "estimatedMinutes": 30,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "title": "Hamzated & Assimilated Verbs",
+      "chapters": [
+        {
+          "id": "m2-w15-ch25",
+          "chapter": 25,
+          "title": "Hamzated Verbs I — Initial Hamza",
+          "textbookTitle": "Hamzated Verbs. Hamza as Initial Radical",
+          "rydingReference": "Ryding Ch. 2 (§2.3.2) & Ch. 22 (§22.4, Hamzated Roots)",
+          "titleArabic": "المَهْمُوزُ الفَاءِ",
+          "prerequisites": ["m2-w14-ch24"],
+          "classicalFocus": "Verbs with initial hamza (akhadha, akala) and irregular contracted imperatives (khudh, kul, mur).",
+          "coreRules": [
+            "Common initial-hamza verbs drop the hamza in the imperative (khudh, kul, mur)."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 45–46: conjugating initial-hamza verbs.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m2-w15-ch26",
+          "chapter": 26,
+          "title": "Hamzated Verbs II — Middle & Final Hamza",
+          "textbookTitle": "Hamza as Middle and Final Radical",
+          "rydingReference": "Ryding Ch. 2 (Hamza Seat Rules, §2.3.2) & Ch. 22 (§22.4)",
+          "titleArabic": "المَهْمُوزُ العَيْنِ وَاللَّامِ",
+          "prerequisites": ["m2-w15-ch25"],
+          "classicalFocus": "Medial/final hamza (saʾala, qaraʾa) and orthographic seat rules (alif, wāw, yāʾ, or on the line).",
+          "coreRules": [
+            "Hamza seat selection follows the vowel-strength hierarchy: kasrah > ḍammah > fatḥah > sukūn."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 47–48: writing hamza accurately across varying declensions.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m2-w15-ch27",
+          "chapter": 27,
+          "title": "Assimilated Verbs (Al-Fiʿl al-Mithāl)",
+          "textbookTitle": "Weak Verbs. The Assimilated Verb",
+          "rydingReference": "Ryding Ch. 22 (§22.5, Assimilated Roots)",
+          "titleArabic": "الفِعْلُ المِثَالُ",
+          "prerequisites": ["m2-w15-ch26"],
+          "classicalFocus": "Initial weak radical wāw or yāʾ (waṣala, waqaʿa); systematic elision of initial wāw in Form I imperfect and imperative.",
+          "coreRules": [
+            "Initial wāw drops in Form I imperfects with middle kasrah (yaṣilu) and in the imperative (ṣil)."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 49–50: tracking wāw elision in prayer and scripture.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "title": "Hollow Verbs, Defective Verbs & Lexicography",
+      "chapters": [
+        {
+          "id": "m2-w16-ch28",
+          "chapter": 28,
+          "title": "Hollow Verbs (Al-Fiʿl al-Ajwaf)",
+          "textbookTitle": "The Hollow Verb",
+          "rydingReference": "Ryding Ch. 22 (§22.6, Hollow Roots)",
+          "titleArabic": "الفِعْلُ الأَجْوَفُ",
+          "prerequisites": ["m2-w15-ch27"],
+          "classicalFocus": "Middle radical wāw or yāʾ (qāla, bāʿa, khāfa); morphophonemic vowel shortening in closed syllables.",
+          "coreRules": [
+            "When the third radical takes sukūn (qultu, lam yaqul), the long medial vowel shortens."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 51–52: hollow verbs across all three moods.",
+          "estimatedMinutes": 30,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m2-w16-ch29",
+          "chapter": 29,
+          "title": "Defective Verbs (Al-Fiʿl al-Nāqiṣ)",
+          "textbookTitle": "The Verb with Weak Final Radical",
+          "rydingReference": "Ryding Ch. 22 (§22.7, Defective Roots)",
+          "titleArabic": "الفِعْلُ النَّاقِصُ",
+          "prerequisites": ["m2-w16-ch28"],
+          "classicalFocus": "Final radical wāw or yāʾ (daʿā, ramā, raḍiya); jussive/imperative apocopation; defective nouns and participles (al-qāḍī / qāḍin).",
+          "coreRules": [
+            "In the jussive and imperative, the final weak letter is deleted completely (lam yadʿu, lam yarmi)."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 53–54: conjugating defective verbs across moods.",
+          "estimatedMinutes": 30,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m2-w16-ch33",
+          "chapter": 33,
+          "title": "Root-Based Lexicography & Dictionary Mechanics",
+          "textbookTitle": "How to Use an Arabic Dictionary",
+          "rydingReference": "Ryding Appendix I (How to Use an Arabic Dictionary)",
+          "titleArabic": "اِسْتِخْدَامُ المَعَاجِمِ",
+          "prerequisites": ["m2-w16-ch29"],
+          "classicalFocus": "Identifying roots, stripping augmented affixes (ḥurūf al-ziyādah), and navigating classical dictionaries (Hans Wehr, Lane's Lexicon).",
+          "coreRules": [
+            "Restore weak and assimilated radicals to their underlying triliteral root before dictionary lookup."
+          ],
+          "practiceFocus": "Dictionary lookup drills of classical roots.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "title": "Multiply Weak Verbs, Quadriliterals & Consolidation of Module 2",
+      "chapters": [
+        {
+          "id": "m2-w17-ch30",
+          "chapter": 30,
+          "title": "Doubly & Trebly Weak Verbs (Al-Lafīf)",
+          "textbookTitle": "The Doubly and Trebly Weak Verb",
+          "rydingReference": "Ryding Ch. 22 (§22.8, Doubly Weak Roots)",
+          "titleArabic": "اللَّفِيفُ المَقْرُونُ وَالمَفْرُوقُ",
+          "prerequisites": ["m2-w16-ch33"],
+          "classicalFocus": "Doubly and trebly weak verbs (al-lafīf al-maqrūn and al-mafrūq, e.g., ḥayiya, waqā, raʾā) and minimal imperative stems (qi).",
+          "coreRules": [
+            "Doubly weak verbs combine initial/medial weak rules with defective final-radical deletion."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 55–56: conjugating doubly weak verbs.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m2-w17-ch31",
+          "chapter": 31,
+          "title": "Quadriliteral Verbs & Module 2 Consolidation",
+          "textbookTitle": "The Quadriliteral Verb",
+          "rydingReference": "Ryding Ch. 32 (Quadriliteral Verbs) & Inflectional Tables",
+          "titleArabic": "الفِعْلُ الرُّبَاعِيُّ وَمُرَاجَعَةُ الأَفْعَالِ",
+          "prerequisites": ["m2-w17-ch30"],
+          "classicalFocus": "Four-radical verbs (faʿlala, e.g., zalzala, waswasa) and derived forms; systematic conjugation review across all derived and weak paradigms.",
+          "coreRules": [
+            "Quadriliteral verbs conjugate in parallel with Form II and Form V triliteral verbs."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 57–58: parsing Qur'anic verses featuring quadriliterals (Sūrat al-Zalzalah) and Module 2 paradigm review.",
+          "estimatedMinutes": 30,
+          "reviewStatus": "pending"
+        }
+      ]
+    }
+  ]
+}

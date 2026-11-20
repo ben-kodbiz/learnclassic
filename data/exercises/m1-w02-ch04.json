@@ -1,0 +1,68 @@
+{
+  "lessonId": "m1-w02-ch04",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m1-w02-ch04-001",
+      "lessonId": "m1-w02-ch04",
+      "type": "multiple-choice",
+      "prompt": "Identify the case and governing factor of المَسْجِدِ in الطَّالِبُ فِي المَسْجِدِ.",
+      "arabic": "الطَّالِبُ فِي المَسْجِدِ",
+      "target": "المَسْجِدِ",
+      "choices": [
+        "Genitive (majrūr) — governed by the preposition فِي",
+        "Accusative (manṣūb) — direct object",
+        "Nominative (marfūʿ) — predicate"
+      ],
+      "answer": "Genitive (majrūr) — governed by the preposition فِي",
+      "explanation": "The preposition فِي (ḥarf jarr) governs the following noun in the genitive case, marked by kasrah (-i).",
+      "feedback": {
+        "rule": "Prepositions govern the following noun in the genitive case (jarr).",
+        "governor": "فِي (preposition)",
+        "caseOrMood": "Genitive (majrūr) marked by kasrah"
+      },
+      "skillTags": ["case", "jarr", "preposition"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w02-ch04-002",
+      "lessonId": "m1-w02-ch04",
+      "type": "fill-in-blank",
+      "prompt": "Select the correctly spelled indefinite accusative form of مَدِينَةٌ ('a city').",
+      "choices": ["مَدِينَةً", "مَدِينَةًا", "مَدِينَةٍ"],
+      "answer": "مَدِينَةً",
+      "explanation": "Nouns ending in tāʾ marbūṭah take fatḥatān directly on ة without adding a trailing alif.",
+      "feedback": {
+        "rule": "Do not add trailing alif after tāʾ marbūṭah in the indefinite accusative.",
+        "caseOrMood": "Accusative (manṣūb) with tanwīn (-an)"
+      },
+      "skillTags": ["orthography", "nasb", "tanwin"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w02-ch04-003",
+      "lessonId": "m1-w02-ch04",
+      "type": "matching",
+      "prompt": "Match each grammatical case to its primary singular marker.",
+      "pairs": [
+        { "left": "Nominative (Rafʿ)", "right": "Ḍammah (-u / -un)" },
+        { "left": "Accusative (Naṣb)", "right": "Fatḥah (-a / -an)" },
+        { "left": "Genitive (Jarr)", "right": "Kasrah (-i / -in)" }
+      ],
+      "answer": {
+        "Nominative (Rafʿ)": "Ḍammah (-u / -un)",
+        "Accusative (Naṣb)": "Fatḥah (-a / -an)",
+        "Genitive (Jarr)": "Kasrah (-i / -in)"
+      },
+      "explanation": "The three nominal cases are marked on regular singular nouns by ḍammah, fatḥah, and kasrah.",
+      "feedback": {
+        "rule": "Threefold singular case declension (aḥwāl al-iʿrāb)"
+      },
+      "skillTags": ["case", "terminology"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

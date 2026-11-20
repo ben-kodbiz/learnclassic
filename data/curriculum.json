@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.1.0",
+  "title": "Classical Arabic Grammar",
+  "subtitle": "Integrated 26-Week Curriculum in Ṣarf, Naḥw, and Iʿrāb",
+  "referenceEditions": [
+    {
+      "id": "haywood-nahmad",
+      "role": "Primary Curriculum & Exercises",
+      "title": "A New Arabic Grammar of the Written Language",
+      "authors": ["J. A. Haywood", "H. M. Nahmad"],
+      "edition": "Second Edition (1965)",
+      "publisher": "Lund Humphries, London",
+      "isbn": "0-85331-585-X"
+    },
+    {
+      "id": "ryding",
+      "role": "Morphosyntactic & Phonological Reference",
+      "title": "A Reference Grammar of Modern Standard Arabic",
+      "authors": ["Karin C. Ryding"],
+      "edition": "First Edition (2005)",
+      "publisher": "Cambridge University Press"
+    }
+  ],
+  "scope": {
+    "focus": "Classical Arabic, Qur'anic syntax, morphology (ṣarf), syntax (naḥw), grammatical inflection (iʿrāb), and classical-text reading.",
+    "excluded": [
+      "Appendix A: Colloquial Arabic Dialects",
+      "Modern conversational, journalistic, or spoken dialect lessons"
+    ],
+    "methodologicalPrinciples": [
+      "Primary dual discipline: Morphology (ṣarf) for root derivation and metric paradigms (wazn), paired with Syntax & Inflection (naḥw / iʿrāb) for syntactic governance (ʿamal).",
+      "Full desinential inflection (iʿrāb): vocalize every case and mood ending (ḍammah, fatḥah, kasrah, sukūn) to preserve grammatical meaning.",
+      "Original instructional content: explanations and exercises are authored originally for this app, using Haywood & Nahmad and Ryding as syllabus and theoretical references."
+    ],
+    "irabRoutine": [
+      "Sentence Boundary & Type: Identify whether the clause is Nominal (Ismiyyah) or Verbal (Fiʿliyyah).",
+      "Isolate Nuclear Components: Mubtadaʾ + Khabar (with kāna/inna if present), or Fiʿl + Fāʿil + Mafʿūl Bihi.",
+      "Account for Governing Agents (ʿAwāmil): Check mood particles (nawāṣib, jawāzim) and case governors (prepositions, iḍāfah, ḥāl, tamyīz, illā)."
+    ]
+  },
+  "conventions": {
+    "transliteration": "Academic Latin transliteration with macrons (ā, ī, ū), underdots (ḥ, ṣ, ḍ, ṭ, ẓ), hamza (ʾ), and ʿayn (ʿ). Arabic script with full tashkīl remains primary.",
+    "reviewStatuses": ["pending", "reviewed", "verified"],
+    "chapterOrderNote": "Haywood & Nahmad Chapters 1–52 + Literary Supplement are mapped across 26 weeks alongside Karin C. Ryding Chapters 1–39 & Appendices I–II. Original textbook chapter numbers are preserved."
+  },
+  "totalWeeks": 26,
+  "availableLessons": [
+    "m1-w01-ch01",
+    "m1-w01-ch02",
+    "m1-w02-ch03",
+    "m1-w02-ch04",
+    "m1-w03-ch05",
+    "m1-w03-ch06",
+    "m1-w04-ch07",
+    "m1-w04-ch08",
+    "m1-w05-ch09",
+    "m1-w05-ch10",
+    "m1-w06-ch11",
+    "m1-w06-ch12",
+    "m1-w07-ch13",
+    "m1-w08-cons",
+    "m2-w09-ch15",
+    "m3-w23-ch44"
+  ],
+  "modules": [
+    {
+      "id": "module-1",
+      "number": 1,
+      "title": "Foundational Classical Morphology & Nominal Syntax",
+      "titleArabic": "المَبَادِئُ وَالأَسْمَاءُ",
+      "titleTranslit": "Al-Mabādiʾ wa-l-Asmāʾ",
+      "weekRange": [1, 8],
+      "chapterRange": "Haywood Ch. 1–13 · Ryding Ch. 1–10, 12–13, 21–22, 36",
+      "summary": "Script, phonetics, nominal sentences, the 3-case system, annexation (iḍāfah), personal/demonstrative pronouns, adjectives, Form I perfect verbs, and Week 8 consolidation.",
+      "checkpoint": "Read aloud and parse the iʿrāb of unvocalized nominal and verbal sentences, naming every case ending and governing factor (ʿāmil).",
+      "dataFile": "data/modules/module-1.json",
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "module-2",
+      "number": 2,
+      "title": "The Classical Verbal System, Mood Governance & Morphological Stems",
+      "titleArabic": "صِيَغُ الفِعْلِ وَأَحْوَالُهُ",
+      "titleTranslit": "Ṣiyagh al-Fiʿl wa-Aḥwāluh",
+      "weekRange": [9, 17],
+      "chapterRange": "Haywood Ch. 14–31, 33 · Ryding Ch. 2, 20–32, 34–35, 38, App. I",
+      "summary": "Imperfect moods (Indicative, Subjunctive, Jussive), Imperative, Passive Voice, Derived Forms II–X, doubled/hamzated/weak verbs, lexicography, and Week 17 consolidation.",
+      "checkpoint": "Conjugate across all derived and weak paradigms, explain mood governance, and extract underlying roots for classical dictionary lookup.",
+      "dataFile": "data/modules/module-2.json",
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "module-3",
+      "number": 3,
+      "title": "Advanced Classical Syntax, Qur'anic Structures & Textual Iʿrāb",
+      "titleArabic": "الأَسَالِيبُ وَالإِعْرَابُ المُتَقَدِّمُ",
+      "titleTranslit": "Al-Asālīb wa-l-Iʿrāb al-Mutaqaddim",
+      "weekRange": [18, 26],
+      "chapterRange": "Haywood Ch. 32, 34–52 & Supplement · Ryding Ch. 5–6, 8–11, 14–16, 18–19, 36–37, 39, App. II",
+      "summary": "Particles of praise/blame, relative and conditional clauses, numerals, noun derivations, comprehensive accusative syntax, diptotes, classical metrics, and authentic literary analysis.",
+      "checkpoint": "Execute full word-by-word iʿrāb on Sūrat al-Fātiḥah, classical hadith, Kalīlah wa-Dimnah, and Ibn Baṭṭūṭah.",
+      "dataFile": "data/modules/module-3.json",
+      "reviewStatus": "pending"
+    }
+  ]
+}

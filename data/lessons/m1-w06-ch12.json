@@ -1,0 +1,58 @@
+{
+  "id": "m1-w06-ch12",
+  "moduleId": "module-1",
+  "week": 6,
+  "chapter": 12,
+  "title": "The Verb — Form I Past Verb (Al-Fiʿl al-Māḍī)",
+  "titleArabic": "الفِعْلُ المَاضِي",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 12; Ryding Ch. 21–22)",
+  "objectives": [
+    "Conjugate regular Form I triliteral verbs in the past tense (al-māḍī) using subject suffixes.",
+    "Distinguish the three Form I stem vowel classes (فَعَلَ, فَعِلَ, فَعُلَ).",
+    "Apply V-S-O word order and the singular-verb agreement rule before overt plural subjects."
+  ],
+  "recallPrompt": "From Chapter 6: What are the three schematic letters used to represent a triliteral root?",
+  "glossaryTerms": ["fil", "fail", "maful", "raf", "nasb"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "The Form I Past Verb & Stem Vowels",
+      "body": "Arabic dictionaries cite verbs in the 3rd-person masculine singular past tense (e.g., كَتَبَ 'he wrote'). Depending on the verb, the middle radical takes fatḥah (فَعَلَ — usually active/transitive, like كَتَبَ), kasrah (فَعِلَ — often temporary states/perception, like عَلِمَ 'to know'), or ḍammah (فَعُلَ — always intransitive permanent traits, like كَرُمَ 'to be noble')."
+    },
+    {
+      "type": "rule",
+      "label": "Verbal Sentence Agreement (V-S-O)",
+      "arabicTerm": "الجُمْلَةُ الفِعْلِيَّةُ",
+      "summary": "In a classical verbal sentence (Verb + Subject + Object), when the verb precedes an overt plural noun subject, the verb remains SINGULAR and agrees with the subject only in gender (masculine or feminine)."
+    },
+    {
+      "type": "table",
+      "heading": "Selected Form I Past Conjugation (كَتَبَ — to write)",
+      "headers": ["Person", "Arabic", "Transliteration", "Suffix"],
+      "rows": [
+        ["3ms (he)", "كَتَبَ", "kataba", "ـَ"],
+        ["3fs (she)", "كَتَبَتْ", "katabat", "ـَتْ"],
+        ["2ms (you m.)", "كَتَبْتَ", "katabta", "ـْتَ"],
+        ["1s (I)", "كَتَبْتُ", "katabtu", "ـْتُ"],
+        ["3mp (they m.)", "كَتَبُوا", "katabū", "ـُوا"],
+        ["1p (we)", "كَتَبْنَا", "katabnā", "ـْنَا"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "كَتَبَ الطُّلَّابُ الدَّرْسَ",
+      "transliteration": "kataba ṭ-ṭullābu d-darsa",
+      "translation": "The students wrote the lesson.",
+      "irab": "كَتَبَ: فِعْلٌ مَاضٍ مَبْنِيٌّ عَلَى الفَتْحِ | الطُّلَّابُ: فَاعِلٌ مَرْفُوعٌ بِالضَّمَّةِ | الدَّرْسَ: مَفْعُولٌ بِهِ مَنْصُوبٌ بِالفَتْحَةِ",
+      "notes": "Even though الطُّلَّابُ is plural, the preceding verb كَتَبَ stays masculine singular (never كَتَبُوا الطُّلَّابُ).",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Silent Alif al-Fāriqah",
+      "body": "The 3rd-person masculine plural suffix ـُوا (e.g., كَتَبُوا) ends in a silent alif (alif al-fāriqah) that distinguishes plural verbs from nouns ending in wāw."
+    }
+  ]
+}

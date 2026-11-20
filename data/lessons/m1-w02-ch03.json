@@ -1,0 +1,56 @@
+{
+  "id": "m1-w02-ch03",
+  "moduleId": "module-1",
+  "week": 2,
+  "chapter": 3,
+  "title": "Gender & Collective Nouns of Unity",
+  "titleArabic": "التَّذْكِيرُ وَالتَّأْنِيثُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 3; Ryding Ch. 6 §6.1)",
+  "objectives": [
+    "Distinguish nouns feminine by marker (tāʾ marbūṭah) from nouns feminine by meaning or convention.",
+    "Form nouns of unity (ism al-waḥdah) from collective nouns (ism al-jins) using ة.",
+    "Use interrogative particles أَ and هَلْ in simple nominal questions."
+  ],
+  "recallPrompt": "From Chapter 2: How does an indefinite singular noun show that it has no definite article?",
+  "glossaryTerms": ["ism", "mubtada", "khabar"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Grammatical Gender in Classical Arabic",
+      "body": "Arabic classifies all nouns as either masculine (mudhakkar) or feminine (muʾannath). Most feminine nouns end in tāʾ marbūṭah (ـة / ـة), such as مَدِينَةٌ ('a city'). However, some nouns are feminine without any suffix—either by natural female meaning (أُمٌّ 'mother', أُخْتٌ 'sister') or by convention (شَمْسٌ 'sun', أَرْضٌ 'earth', نَارٌ 'fire', and paired body parts like يَدٌ 'hand')."
+    },
+    {
+      "type": "rule",
+      "label": "Collective Nouns & Nouns of Unity",
+      "arabicTerm": "اِسْمُ الجِنْسِ وَاسْمُ الوَحْدَةِ",
+      "summary": "Collective nouns (ism al-jins) denote a species or mass (e.g., شَجَرٌ 'trees') and are grammatically masculine singular. Adding tāʾ marbūṭah produces a feminine noun of unity (ism al-waḥdah) denoting a single item (شَجَرَةٌ 'a single tree')."
+    },
+    {
+      "type": "table",
+      "heading": "Gender & Unity Patterns",
+      "headers": ["Type", "Arabic", "Transliteration", "Meaning & Agreement"],
+      "rows": [
+        ["Marked feminine", "مَدِينَةٌ كَبِيرَةٌ", "madīnatun kabīratun", "A large city (both carry ة)"],
+        ["Unmarked feminine", "شَمْسٌ مُشْرِقَةٌ", "shamsun mushriqatun", "A shining sun (predicate takes ة)"],
+        ["Collective (masc. sg.)", "شَجَرٌ كَثِيرٌ", "shajarun kathīrun", "Many trees (grammatically masc. sg.)"],
+        ["Noun of unity (fem. sg.)", "شَجَرَةٌ وَاحِدَةٌ", "shajaratun wāḥidatun", "One single tree (grammatically fem. sg.)"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "هَلِ الأَرْضُ وَاسِعَةٌ؟",
+      "transliteration": "hali l-ʾarḍu wāsiʿatun?",
+      "translation": "Is the earth wide?",
+      "irab": "هَلْ: حَرْفُ اسْتِفْهَامٍ | الأَرْضُ: مُبْتَدَأٌ مَرْفُوعٌ | وَاسِعَةٌ: خَبَرٌ مَرْفُوعٌ مُؤَنَّثٌ",
+      "notes": "الأَرْضُ has no tāʾ marbūṭah, yet it is inherently feminine, so its predicate وَاسِعَةٌ must take ة. Notice هَلْ takes a helping kasrah (هَلِ) before hamzat al-waṣl.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Interrogative Particles أَ and هَلْ",
+      "body": "Both أَ (prefixed directly to the first word) and هَلْ turn a statement into a yes/no question without changing word order or case endings."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "m1-w02-ch04",
+  "moduleId": "module-1",
+  "week": 2,
+  "chapter": 4,
+  "title": "The Three Cases (Aḥwāl al-Iʿrāb)",
+  "titleArabic": "أَحْوَالُ الإِعْرَابِ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 4; Ryding Ch. 3 §3.9, Ch. 8 §§8.1–8.4)",
+  "objectives": [
+    "Identify the three nominal cases: Nominative (rafʿ), Accusative (naṣb), and Genitive (jarr).",
+    "Vocalize definite and indefinite singular nouns across all three cases.",
+    "Apply the accusative alif spelling rule and recognize prepositions governing jarr."
+  ],
+  "recallPrompt": "From Chapter 3: Why does وَاسِعَةٌ take ة in الأَرْضُ وَاسِعَةٌ?",
+  "glossaryTerms": ["raf", "nasb", "jarr", "harf", "tanwin"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Why Case Endings Matter in Classical Arabic",
+      "body": "In Classical Arabic, a noun's final short vowel signals its syntactic role in the sentence. There are three nominal cases: Nominative (rafʿ / marfūʿ) for subjects and predicates; Accusative (naṣb / manṣūb) for direct objects and adverbials; and Genitive (jarr / majrūr) after prepositions and in annexation (iḍāfah)."
+    },
+    {
+      "type": "rule",
+      "label": "Threefold Singular Declension",
+      "arabicTerm": "الرَّفْعُ وَالنَّصْبُ وَالجَرُّ",
+      "summary": "Definite singular nouns end in -u (nom.), -a (acc.), and -i (gen.). Indefinite singular nouns end in -un, -an, and -in, with an added silent alif (ـًا) in the indefinite accusative (except after ة or ء preceded by ا)."
+    },
+    {
+      "type": "table",
+      "heading": "Case Markers on Singular Triptote Nouns",
+      "headers": ["Case", "Definite", "Indefinite", "Primary Function"],
+      "rows": [
+        ["Nominative (Marfūʿ)", "البَيْتُ (-u)", "بَيْتٌ (-un)", "Subject (mubtadaʾ / fāʿil), predicate (khabar)"],
+        ["Accusative (Manṣūb)", "البَيْتَ (-a)", "بَيْتًا (-an)", "Direct object (mafʿūl bihi), adverbial"],
+        ["Genitive (Majrūr)", "البَيْتِ (-i)", "بَيْتٍ (-in)", "After prepositions (حُرُوفُ الجَرِّ), muḍāf ilayh"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "الطَّالِبُ فِي المَسْجِدِ",
+      "transliteration": "aṭ-ṭālibu fī l-masjidi",
+      "translation": "The student is in the mosque.",
+      "irab": "الطَّالِبُ: مُبْتَدَأٌ مَرْفُوعٌ بِالضَّمَّةِ | فِي: حَرْفُ جَرٍّ | المَسْجِدِ: اسْمٌ مَجْرُورٌ بِفِي وَعَلَامَةُ جَرِّهِ الكَسْرَةُ",
+      "notes": "The preposition فِي governs المَسْجِدِ in the genitive case, marked by kasrah (-i).",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "heading": "Accusative Alif Exception",
+      "body": "Indefinite accusative nouns ending in tāʾ marbūṭah (e.g., مَدِينَةً) or hamzah after alif (e.g., سَمَاءً) take fatḥatān directly without adding a trailing alif."
+    }
+  ]
+}

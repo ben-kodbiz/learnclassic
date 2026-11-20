@@ -1,0 +1,111 @@
+{
+  "lessonId": "m1-w01-ch02",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m1-w01-ch02-001",
+      "lessonId": "m1-w01-ch02",
+      "type": "multiple-choice",
+      "prompt": "Identify the grammatical role and case of الكِتَابُ in the nominal sentence below.",
+      "arabic": "الكِتَابُ جَدِيدٌ",
+      "target": "الكِتَابُ",
+      "choices": [
+        "Mubtadaʾ — Nominative (marfūʿ)",
+        "Khabar — Accusative (manṣūb)",
+        "Mubtadaʾ — Genitive (majrūr)"
+      ],
+      "answer": "Mubtadaʾ — Nominative (marfūʿ)",
+      "explanation": "الكِتَابُ opens the nominal sentence as the definite subject (mubtadaʾ) and is nominative, marked by a single ḍammah because of أَلْ.",
+      "feedback": {
+        "rule": "A nominal sentence (al-jumlah al-ismiyyah) begins with a definite nominative mubtadaʾ.",
+        "role": "Mubtadaʾ (Inchoative Subject)",
+        "caseOrMood": "Nominative (marfūʿ) marked by ḍammah",
+        "commonError": "Do not confuse the absence of tanwīn (removed by أَلْ) with a change in case."
+      },
+      "skillTags": ["nominal-sentence", "mubtada", "raf"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w01-ch02-002",
+      "lessonId": "m1-w01-ch02",
+      "type": "true-false",
+      "prompt": "True or False: The phrase البَيْتُ الكَبِيرُ is a complete equational sentence meaning 'The house is big.'",
+      "arabic": "البَيْتُ الكَبِيرُ",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "False. Both words carry the definite article أَلْ, making البَيْتُ الكَبِيرُ a noun phrase ('the big house'), not a complete sentence.",
+      "feedback": {
+        "rule": "In a basic nominal sentence, the mubtadaʾ is definite and the khabar is indefinite.",
+        "role": "Definite noun + definite attributive adjective",
+        "caseOrMood": "Both nominative (marfūʿ)",
+        "commonError": "A complete sentence would be البَيْتُ كَبِيرٌ (indefinite predicate)."
+      },
+      "skillTags": ["definiteness", "nominal-sentence"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w01-ch02-003",
+      "lessonId": "m1-w01-ch02",
+      "type": "fill-in-blank",
+      "prompt": "Select the correct indefinite predicate (khabar) to complete: 'Knowledge is beneficial.'",
+      "arabic": "العِلْمُ _____",
+      "choices": ["نَافِعٌ", "النَّافِعُ", "نَافِعًا"],
+      "answer": "نَافِعٌ",
+      "explanation": "The khabar of a basic nominal sentence must be indefinite and nominative (marked by tanwīn -un): نَافِعٌ.",
+      "feedback": {
+        "rule": "The khabar agrees with the mubtadaʾ in gender and number while remaining indefinite and nominative.",
+        "role": "Khabar (Predicate)",
+        "caseOrMood": "Nominative (marfūʿ) with tanwīn (-un)",
+        "commonError": "Using النَّافِعُ creates a noun phrase rather than a sentence; نَافِعًا is accusative."
+      },
+      "skillTags": ["khabar", "tanwin", "raf"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w01-ch02-004",
+      "lessonId": "m1-w01-ch02",
+      "type": "matching",
+      "prompt": "Match each Arabic term or example to its grammatical description.",
+      "pairs": [
+        { "left": "عِلْمٌ", "right": "Indefinite nominative noun with tanwīn" },
+        { "left": "العِلْمُ", "right": "Definite nominative noun (tanwīn dropped)" },
+        { "left": "مُبْتَدَأ", "right": "Subject of a nominal sentence" },
+        { "left": "خَبَر", "right": "Predicate of a nominal sentence" }
+      ],
+      "answer": {
+        "عِلْمٌ": "Indefinite nominative noun with tanwīn",
+        "العِلْمُ": "Definite nominative noun (tanwīn dropped)",
+        "مُبْتَدَأ": "Subject of a nominal sentence",
+        "خَبَر": "Predicate of a nominal sentence"
+      },
+      "explanation": "Definiteness with أَلْ removes tanwīn, and nominal sentences pair a mubtadaʾ with a khabar.",
+      "feedback": {
+        "rule": "Definiteness and nominal clause roles",
+        "commonError": "Remember that أَلْ and tanwīn never appear on the same noun together."
+      },
+      "skillTags": ["terminology", "definiteness"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w01-ch02-005",
+      "lessonId": "m1-w01-ch02",
+      "type": "word-ordering",
+      "prompt": "Arrange the Arabic words in order to form the sentence: 'The mosque is spacious.'",
+      "tokens": ["وَاسِعٌ", "المَسْجِدُ"],
+      "answer": ["المَسْجِدُ", "وَاسِعٌ"],
+      "explanation": "In a basic nominal sentence, the definite mubtadaʾ (المَسْجِدُ) precedes the indefinite khabar (وَاسِعٌ).",
+      "feedback": {
+        "rule": "Standard nominal order: Mubtadaʾ (definite) + Khabar (indefinite).",
+        "role": "المَسْجِدُ (mubtadaʾ) + وَاسِعٌ (khabar)",
+        "caseOrMood": "Both nominative (marfūʿ)"
+      },
+      "skillTags": ["word-order", "nominal-sentence"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "lessonId": "m1-w03-ch06",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m1-w03-ch06-001",
+      "lessonId": "m1-w03-ch06",
+      "type": "fill-in-blank",
+      "prompt": "Select the predicate that agrees with the non-human broken plural الكُتُبُ ('The books are new').",
+      "arabic": "الكُتُبُ _____",
+      "choices": ["جَدِيدَةٌ", "جَدِيدٌ", "جَدِيدَاتٌ"],
+      "answer": "جَدِيدَةٌ",
+      "explanation": "Non-human broken plurals (jamʿ ghayr al-ʿāqil) take feminine singular agreement: جَدِيدَةٌ.",
+      "feedback": {
+        "rule": "Non-human plurals are grammatically feminine singular.",
+        "role": "Khabar (Predicate)",
+        "caseOrMood": "Nominative (marfūʿ)"
+      },
+      "skillTags": ["broken-plural", "agreement"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w03-ch06-002",
+      "lessonId": "m1-w03-ch06",
+      "type": "multiple-choice",
+      "prompt": "What is the triliteral root of أَقْلَامٌ ('pens')?",
+      "arabic": "أَقْلَامٌ",
+      "choices": ["ق-ل-م", "أ-ق-ل", "ق-ل-ا"],
+      "answer": "ق-ل-م",
+      "explanation": "أَقْلَامٌ follows the pattern أَفْعَالٌ; stripping the prefix أَ and infix ا leaves the root ق-ل-م.",
+      "feedback": {
+        "rule": "Match the word against the ف-ع-ل pattern (أَفْعَالٌ) to isolate the three root consonants."
+      },
+      "skillTags": ["root-extraction", "wazn"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w03-ch06-003",
+      "lessonId": "m1-w03-ch06",
+      "type": "true-false",
+      "prompt": "True or False: Broken plurals inflect using long-vowel letters (-ūna / -īna) rather than short vowels.",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "False. Broken plurals inflect with short vowels (-u, -a, -i) just like singular nouns.",
+      "feedback": {
+        "rule": "Broken plurals decline with short vowels; only sound masculine plurals and duals inflect by letters."
+      },
+      "skillTags": ["broken-plural", "case"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

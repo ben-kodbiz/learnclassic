@@ -1,0 +1,56 @@
+{
+  "lessonId": "m1-w03-ch05",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m1-w03-ch05-001",
+      "lessonId": "m1-w03-ch05",
+      "type": "fill-in-blank",
+      "prompt": "Complete the nominal sentence with the nominative dual: 'The two books are new.'",
+      "arabic": "_____ جَدِيدَانِ",
+      "choices": ["الكِتَابَانِ", "الكِتَابَيْنِ", "الكِتَابَ"],
+      "answer": "الكِتَابَانِ",
+      "explanation": "The subject (mubtadaʾ) is nominative; duals mark the nominative with -āni (الكِتَابَانِ).",
+      "feedback": {
+        "rule": "Dual nouns mark rafʿ with alif (-āni) and naṣb/jarr with yāʾ (-ayni).",
+        "role": "Mubtadaʾ",
+        "caseOrMood": "Nominative (marfūʿ) marked by alif"
+      },
+      "skillTags": ["dual", "raf"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w03-ch05-002",
+      "lessonId": "m1-w03-ch05",
+      "type": "multiple-choice",
+      "prompt": "Which ending is correct for a sound feminine plural in the accusative case?",
+      "choices": ["-ātin (ـَاتٍ)", "-ātan (ـَاتًا)", "-īna (ـِينَ)"],
+      "answer": "-ātin (ـَاتٍ)",
+      "explanation": "Sound feminine plurals never take fatḥah; both accusative and genitive end in kasrah (-ātٍ / -ātِ).",
+      "feedback": {
+        "rule": "Sound feminine plural takes kasrah in place of fatḥah in the accusative.",
+        "caseOrMood": "Accusative (manṣūb) marked by kasrah"
+      },
+      "skillTags": ["sound-plural", "nasb"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w03-ch05-003",
+      "lessonId": "m1-w03-ch05",
+      "type": "word-ordering",
+      "prompt": "Arrange the words to form: 'They (masc. pl.) are teachers.'",
+      "tokens": ["مُعَلِّمُونَ", "هُمْ"],
+      "answer": ["هُمْ", "مُعَلِّمُونَ"],
+      "explanation": "Independent pronoun هُمْ serves as the definite mubtadaʾ, followed by the nominative sound masculine plural predicate مُعَلِّمُونَ.",
+      "feedback": {
+        "rule": "Pronoun mubtadaʾ + nominative sound plural khabar.",
+        "caseOrMood": "مُعَلِّمُونَ is nominative marked by wāw"
+      },
+      "skillTags": ["pronouns", "sound-plural", "word-order"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "lessonId": "m1-w06-ch11",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m1-w06-ch11-001",
+      "lessonId": "m1-w06-ch11",
+      "type": "fill-in-blank",
+      "prompt": "Complete the phrase with the agreeing adjective: 'in a large mosque'.",
+      "arabic": "فِي مَسْجِدٍ _____",
+      "choices": ["كَبِيرٍ", "الكَبِيرِ", "كَبِيرٌ"],
+      "answer": "كَبِيرٍ",
+      "explanation": "مَسْجِدٍ is masculine, singular, indefinite, and genitive; its attributive adjective must match all four: كَبِيرٍ.",
+      "feedback": {
+        "rule": "Attributive adjectives agree in gender, number, case, and definiteness.",
+        "caseOrMood": "Genitive (majrūr) with tanwīn (-in)"
+      },
+      "skillTags": ["adjectives", "agreement"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w06-ch11-002",
+      "lessonId": "m1-w06-ch11",
+      "type": "multiple-choice",
+      "prompt": "Which structure expresses the superlative 'the greatest book'?",
+      "choices": [
+        "أَعْظَمُ كِتَابٍ",
+        "أَعْظَمُ مِنْ كِتَابٍ",
+        "كِتَابٌ أَعْظَمُ"
+      ],
+      "answer": "أَعْظَمُ كِتَابٍ",
+      "explanation": "Placing the elative أَعْظَمُ as muḍāf before an indefinite genitive singular (كِتَابٍ) expresses the superlative.",
+      "feedback": {
+        "rule": "Elative أَفْعَلُ + genitive noun = superlative; أَفْعَلُ + مِنْ = comparative."
+      },
+      "skillTags": ["elative", "idafah"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w06-ch11-003",
+      "lessonId": "m1-w06-ch11",
+      "type": "true-false",
+      "prompt": "True or False: Elative adjectives on the pattern أَفْعَلُ take tanwīn when indefinite.",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "False. Pattern أَفْعَلُ is a diptote and never takes tanwīn.",
+      "feedback": {
+        "rule": "Pattern أَفْعَلُ is barred from tanwīn (diptote)."
+      },
+      "skillTags": ["elative", "diptote"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

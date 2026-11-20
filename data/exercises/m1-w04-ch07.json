@@ -1,0 +1,65 @@
+{
+  "lessonId": "m1-w04-ch07",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m1-w04-ch07-001",
+      "lessonId": "m1-w04-ch07",
+      "type": "multiple-choice",
+      "prompt": "Why does مَسَاجِدُ ('mosques') end in a single ḍammah rather than tanwīn (-un)?",
+      "arabic": "مَسَاجِدُ",
+      "choices": [
+        "It follows the ultimate plural pattern مَفَاعِلُ, which is a diptote barred from tanwīn",
+        "It is in an iḍāfah construct",
+        "It is a dual noun"
+      ],
+      "answer": "It follows the ultimate plural pattern مَفَاعِلُ, which is a diptote barred from tanwīn",
+      "explanation": "Broken plurals on مَفَاعِلُ and مَفَاعِيلُ are diptotes (al-mamnūʿ min al-ṣarf) and never take tanwīn.",
+      "feedback": {
+        "rule": "Quadriliteral plural patterns مَفَاعِلُ and مَفَاعِيلُ are diptotes.",
+        "caseOrMood": "Nominative (marfūʿ) with single ḍammah"
+      },
+      "skillTags": ["broken-plural", "diptote"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w04-ch07-002",
+      "lessonId": "m1-w04-ch07",
+      "type": "matching",
+      "prompt": "Match each singular noun to its broken plural.",
+      "pairs": [
+        { "left": "مَسْجِدٌ (mosque)", "right": "مَسَاجِدُ" },
+        { "left": "مِفْتَاحٌ (key)", "right": "مَفَاتِيحُ" },
+        { "left": "عَالِمٌ (scholar)", "right": "عُلَمَاءُ" }
+      ],
+      "answer": {
+        "مَسْجِدٌ (mosque)": "مَسَاجِدُ",
+        "مِفْتَاحٌ (key)": "مَفَاتِيحُ",
+        "عَالِمٌ (scholar)": "عُلَمَاءُ"
+      },
+      "explanation": "مَسْجِدٌ → مَسَاجِدُ (مَفَاعِلُ), مِفْتَاحٌ → مَفَاتِيحُ (مَفَاعِيلُ), عَالِمٌ → عُلَمَاءُ (فُعَلَاءُ).",
+      "feedback": {
+        "rule": "Quadriliteral and human broken plural patterns"
+      },
+      "skillTags": ["broken-plural"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w04-ch07-003",
+      "lessonId": "m1-w04-ch07",
+      "type": "true-false",
+      "prompt": "True or False: Human broken plurals such as عُلَمَاءُ ('scholars') are treated as feminine singular.",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "False. The feminine singular agreement rule applies to non-human plurals; rational human plurals take plural agreement.",
+      "feedback": {
+        "rule": "Human plurals agree in actual gender and plural number."
+      },
+      "skillTags": ["agreement", "broken-plural"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

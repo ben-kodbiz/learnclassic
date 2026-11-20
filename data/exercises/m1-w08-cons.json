@@ -1,0 +1,70 @@
+{
+  "lessonId": "m1-w08-cons",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m1-w08-cons-001",
+      "lessonId": "m1-w08-cons",
+      "type": "multiple-choice",
+      "prompt": "In قَرَأَ الطَّالِبُ كِتَابَ التَّارِيخِ, why does كِتَابَ end in a single fatḥah without أَلْ or tanwīn?",
+      "arabic": "قَرَأَ الطَّالِبُ كِتَابَ التَّارِيخِ",
+      "target": "كِتَابَ",
+      "choices": [
+        "It is the direct object (accusative) AND the muḍāf of an iḍāfah",
+        "It is a diptote",
+        "It is the subject of the verb"
+      ],
+      "answer": "It is the direct object (accusative) AND the muḍāf of an iḍāfah",
+      "explanation": "كِتَابَ receives the action of قَرَأَ (so it is accusative, -a) and is annexed to التَّارِيخِ (so as muḍāf it drops أَلْ and tanwīn).",
+      "feedback": {
+        "rule": "A noun's case comes from its sentence role; iḍāfah strips أَلْ and tanwīn from the muḍāf.",
+        "governor": "قَرَأَ (governs naṣb) + iḍāfah",
+        "role": "Mafʿūl bihi & Muḍāf",
+        "caseOrMood": "Accusative (manṣūb) marked by fatḥah"
+      },
+      "skillTags": ["irab", "idafah", "maful"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w08-cons-002",
+      "lessonId": "m1-w08-cons",
+      "type": "matching",
+      "prompt": "Match each sentence element in قَرَأَ الطَّالِبُ كِتَابَ التَّارِيخِ فِي المَكْتَبَةِ to its grammatical role.",
+      "pairs": [
+        { "left": "قَرَأَ", "right": "Past verb (fiʿl māḍī)" },
+        { "left": "الطَّالِبُ", "right": "Agent (fāʿil, nominative)" },
+        { "left": "كِتَابَ", "right": "Direct object & muḍāf (accusative)" },
+        { "left": "التَّارِيخِ", "right": "Muḍāf ilayh (genitive)" }
+      ],
+      "answer": {
+        "قَرَأَ": "Past verb (fiʿl māḍī)",
+        "الطَّالِبُ": "Agent (fāʿil, nominative)",
+        "كِتَابَ": "Direct object & muḍāf (accusative)",
+        "التَّارِيخِ": "Muḍāf ilayh (genitive)"
+      },
+      "explanation": "Executing the 3-step Iʿrāb Routine identifies the verbal clause, its nuclear components, and its governing factors.",
+      "feedback": {
+        "rule": "Module 1 full-sentence iʿrāb parsing"
+      },
+      "skillTags": ["irab", "vso"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w08-cons-003",
+      "lessonId": "m1-w08-cons",
+      "type": "word-ordering",
+      "prompt": "Arrange the words to form: 'The student read the book of history.'",
+      "tokens": ["التَّارِيخِ", "كِتَابَ", "الطَّالِبُ", "قَرَأَ"],
+      "answer": ["قَرَأَ", "الطَّالِبُ", "كِتَابَ", "التَّارِيخِ"],
+      "explanation": "V-S-O order places قَرَأَ first, followed by الطَّالِبُ (fāʿil) and the iḍāfah object كِتَابَ التَّارِيخِ.",
+      "feedback": {
+        "rule": "Fiʿl + Fāʿil + Mafʿūl Bihi (iḍāfah)"
+      },
+      "skillTags": ["word-order", "vso", "idafah"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

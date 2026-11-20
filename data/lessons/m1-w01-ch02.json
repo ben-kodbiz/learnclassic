@@ -1,0 +1,64 @@
+{
+  "id": "m1-w01-ch02",
+  "moduleId": "module-1",
+  "week": 1,
+  "chapter": 2,
+  "title": "The Definite Article & The Nominal Sentence",
+  "titleArabic": "أَلْ التَّعْرِيفِ وَالجُمْلَةُ الاسْمِيَّةُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 2; Ryding Ch. 4 §§4.1–4.2)",
+  "objectives": [
+    "Distinguish indefinite nouns marked by tanwīn from definite nouns prefixed with al-.",
+    "Identify the mubtadaʾ (subject) and khabar (predicate) in an equational nominal sentence.",
+    "Explain why Arabic requires no present-tense copula ('is/are') in basic nominal clauses."
+  ],
+  "recallPrompt": "From Chapter 1: When reading أَلشَّمْسُ aloud, does the lām of أَلْ remain silent or pronounced, and why?",
+  "glossaryTerms": ["ism", "mubtada", "khabar", "tanwin", "raf"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Definiteness and Nunation (Tanwīn)",
+      "body": "Classical Arabic has no separate word for the indefinite article ('a' or 'an'). Instead, an indefinite singular noun carries nunation (tanwīn)—a doubled vowel ending (-un, -an, or -in). Prefixing the definite article أَلْ (al-, 'the') makes the noun definite and removes tanwīn."
+    },
+    {
+      "type": "rule",
+      "label": "Definiteness & Zero-Copula Rule",
+      "arabicTerm": "المُبْتَدَأُ وَالخَبَرُ",
+      "summary": "A basic equational nominal sentence (al-jumlah al-ismiyyah) pairs a definite nominative subject (mubtadaʾ) with an indefinite nominative predicate (khabar), with no verb 'to be' in the present tense."
+    },
+    {
+      "type": "table",
+      "heading": "Indefinite vs. Definite Nominal Forms",
+      "headers": ["Form", "Arabic", "Transliteration", "Grammatical Note"],
+      "rows": [
+        ["Indefinite noun", "عِلْمٌ", "ʿilmun", "Nominative with tanwīn (-un): 'knowledge' / 'a science'"],
+        ["Definite noun", "العِلْمُ", "al-ʿilmu", "Prefix al- removes tanwīn, leaving single ḍammah (-u)"],
+        ["Nominal sentence", "العِلْمُ نُورٌ", "al-ʿilmu nūrun", "Definite mubtadaʾ + indefinite khabar = 'Knowledge is light.'"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "العِلْمُ نُورٌ",
+      "transliteration": "al-ʿilmu nūrun",
+      "translation": "Knowledge is light.",
+      "irab": "العِلْمُ: مُبْتَدَأٌ مَرْفُوعٌ بِالضَّمَّةِ | نُورٌ: خَبَرٌ مَرْفُوعٌ بِالضَّمَّةِ",
+      "notes": "Both words are nominative (marfūʿ). Definiteness on the first word and indefiniteness on the second signals a complete equational sentence rather than a phrase.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "example",
+      "arabic": "المَسْجِدُ وَاسِعٌ",
+      "transliteration": "al-masjidu wāsiʿun",
+      "translation": "The mosque is spacious.",
+      "irab": "المَسْجِدُ: مُبْتَدَأٌ مَرْفُوعٌ | وَاسِعٌ: خَبَرٌ مَرْفُوعٌ",
+      "notes": "Notice how the predicate وَاسِعٌ agrees with المَسْجِدُ in gender (masculine) and number (singular), while remaining indefinite.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Phrase vs. Sentence Check",
+      "body": "Always check the definiteness of both words: 'العِلْمُ النَّافِعُ' (both definite) is a noun phrase ('the beneficial knowledge'), whereas 'العِلْمُ نَافِعٌ' (definite + indefinite) is a complete sentence ('Knowledge is beneficial')."
+    }
+  ]
+}

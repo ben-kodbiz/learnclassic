@@ -1,0 +1,63 @@
+{
+  "lessonId": "m1-w06-ch12",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m1-w06-ch12-001",
+      "lessonId": "m1-w06-ch12",
+      "type": "fill-in-blank",
+      "prompt": "Select the correct verb form when the verb precedes an overt plural subject: 'The students wrote the lesson.'",
+      "arabic": "_____ الطُّلَّابُ الدَّرْسَ",
+      "choices": ["كَتَبَ", "كَتَبُوا", "كَتَبَتْ"],
+      "answer": "كَتَبَ",
+      "explanation": "In V-S-O order, a verb preceding an overt masculine plural subject remains masculine singular: كَتَبَ الطُّلَّابُ.",
+      "feedback": {
+        "rule": "When a verb precedes an explicit plural noun subject, it remains singular and agrees only in gender.",
+        "commonError": "Using plural كَتَبُوا before an explicit plural subject."
+      },
+      "skillTags": ["verb-agreement", "vso", "past-tense"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w06-ch12-002",
+      "lessonId": "m1-w06-ch12",
+      "type": "matching",
+      "prompt": "Match each conjugated past-tense form of كَتَبَ to its person.",
+      "pairs": [
+        { "left": "كَتَبْتُ", "right": "1st singular (I wrote)" },
+        { "left": "كَتَبْتَ", "right": "2nd masc. singular (you wrote)" },
+        { "left": "كَتَبَتْ", "right": "3rd fem. singular (she wrote)" },
+        { "left": "كَتَبْنَا", "right": "1st plural (we wrote)" }
+      ],
+      "answer": {
+        "كَتَبْتُ": "1st singular (I wrote)",
+        "كَتَبْتَ": "2nd masc. singular (you wrote)",
+        "كَتَبَتْ": "3rd fem. singular (she wrote)",
+        "كَتَبْنَا": "1st plural (we wrote)"
+      },
+      "explanation": "Past-tense subject pronouns attach as suffixes to the triliteral stem.",
+      "feedback": {
+        "rule": "Form I past tense suffix paradigm"
+      },
+      "skillTags": ["conjugation", "past-tense"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w06-ch12-003",
+      "lessonId": "m1-w06-ch12",
+      "type": "word-ordering",
+      "prompt": "Arrange the words into a classical V-S-O sentence: 'The students wrote the lesson.'",
+      "tokens": ["الدَّرْسَ", "الطُّلَّابُ", "كَتَبَ"],
+      "answer": ["كَتَبَ", "الطُّلَّابُ", "الدَّرْسَ"],
+      "explanation": "Classical verbal sentences place the verb first (كَتَبَ), then the nominative fāʿil (الطُّلَّابُ), then the accusative mafʿūl bihi (الدَّرْسَ).",
+      "feedback": {
+        "rule": "V-S-O word order: Fiʿl + Fāʿil (marfūʿ) + Mafʿūl Bihi (manṣūb)."
+      },
+      "skillTags": ["vso", "word-order", "irab"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

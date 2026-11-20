@@ -1,0 +1,60 @@
+{
+  "lessonId": "m1-w05-ch09",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m1-w05-ch09-001",
+      "lessonId": "m1-w05-ch09",
+      "type": "fill-in-blank",
+      "prompt": "Select the correct attached pronoun form for 'in his house' (with vowel harmony after kasrah).",
+      "arabic": "فِي _____",
+      "choices": ["بَيْتِهِ", "بَيْتَهُ", "بَيْتِهُ"],
+      "answer": "بَيْتِهِ",
+      "explanation": "بَيْتِ is genitive (-i) after فِي, so the 3ms suffix shifts from ـهُ to ـهِ: بَيْتِهِ.",
+      "feedback": {
+        "rule": "3rd-person suffixes (-hu, -humā, -hum, -hunna) shift ḍammah to kasrah after kasrah or yāʾ.",
+        "governor": "فِي (preposition)",
+        "caseOrMood": "Genitive (majrūr)"
+      },
+      "skillTags": ["attached-pronouns", "vowel-harmony"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w05-ch09-002",
+      "lessonId": "m1-w05-ch09",
+      "type": "true-false",
+      "prompt": "True or False: A noun with an attached possessive pronoun (such as كِتَابُهُ) may also take the definite article أَلْ (الكِتَابُهُ).",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "False. The attached pronoun functions as a muḍāf ilayh, so the noun acts as muḍāf and never takes أَلْ or tanwīn.",
+      "feedback": {
+        "rule": "Noun + attached pronoun = iḍāfah (no أَلْ, no tanwīn)."
+      },
+      "skillTags": ["attached-pronouns", "idafah"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w05-ch09-003",
+      "lessonId": "m1-w05-ch09",
+      "type": "multiple-choice",
+      "prompt": "What is the grammatical role of the suffix ـهِ in فِي بَيْتِهِ?",
+      "arabic": "فِي بَيْتِهِ",
+      "target": "ـهِ",
+      "choices": [
+        "Muḍāf ilayh (in the place of genitive / في محل جر)",
+        "Mubtadaʾ (nominative)",
+        "Direct object (accusative)"
+      ],
+      "answer": "Muḍāf ilayh (in the place of genitive / في محل جر)",
+      "explanation": "Any pronoun attached to a noun serves as its muḍāf ilayh (genitive possessor).",
+      "feedback": {
+        "rule": "Attached pronoun on a noun = muḍāf ilayh."
+      },
+      "skillTags": ["attached-pronouns", "irab"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

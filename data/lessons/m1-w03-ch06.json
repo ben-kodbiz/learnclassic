@@ -1,0 +1,56 @@
+{
+  "id": "m1-w03-ch06",
+  "moduleId": "module-1",
+  "week": 3,
+  "chapter": 6,
+  "title": "The Triliteral Root System & Broken Plurals I",
+  "titleArabic": "جَمْعُ التَّكْسِيرِ (١)",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 6; Ryding Ch. 7)",
+  "objectives": [
+    "Extract the three-consonant root (al-aṣl al-thulāthī) using the ف-ع-ل metric pattern.",
+    "Recognize common broken plural patterns (أَفْعَالٌ, فُعُولٌ, فِعَالٌ, فُعُلٌ).",
+    "Apply the non-human plural agreement rule (feminine singular modifiers)."
+  ],
+  "recallPrompt": "From Chapter 5: How do sound masculine and feminine plurals form their endings?",
+  "glossaryTerms": ["ism", "raf"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Roots, Patterns (Awzān), and Broken Plurals",
+      "body": "Most Arabic nouns and verbs derive from a three-consonant root represented schematically by ف-ع-ل (f-ʿ-l). Instead of adding a suffix, most Arabic nouns form their plural internally by rearranging vowels and adding prefixes or infixes—this is the broken plural (jamʿ al-taksīr), which declines with short vowels like a singular noun."
+    },
+    {
+      "type": "rule",
+      "label": "Non-Human Plural Agreement",
+      "arabicTerm": "جَمْعُ غَيْرِ العَاقِلِ",
+      "summary": "Any plural referring to non-human objects, animals, or abstract concepts (jamʿ ghayr al-ʿāqil) is grammatically treated as feminine singular for adjective, pronoun, and verb agreement."
+    },
+    {
+      "type": "table",
+      "heading": "Common Broken Plural Patterns",
+      "headers": ["Pattern (Wazn)", "Singular", "Broken Plural", "Root"],
+      "rows": [
+        ["أَفْعَالٌ (afʿāl)", "قَلَمٌ (pen)", "أَقْلَامٌ", "ق-ل-م"],
+        ["فُعُولٌ (fuʿūl)", "بَيْتٌ (house)", "بُيُوتٌ", "ب-ي-ت"],
+        ["فُعُلٌ (fuʿul)", "كِتَابٌ (book)", "كُتُبٌ", "ك-ت-ب"],
+        ["فِعَالٌ (fiʿāl)", "جَبَلٌ (mountain)", "جِبَالٌ", "ج-ب-ل"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "الكُتُبُ جَدِيدَةٌ",
+      "transliteration": "al-kutubu jadīdatun",
+      "translation": "The books are new.",
+      "irab": "الكُتُبُ: مُبْتَدَأٌ مَرْفُوعٌ بِالضَّمَّةِ | جَدِيدَةٌ: خَبَرٌ مَرْفُوعٌ مُفْرَدٌ مُؤَنَّثٌ",
+      "notes": "الكُتُبُ is a non-human broken plural, so its predicate جَدِيدَةٌ takes the feminine singular form.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Learning Plurals with Singulars",
+      "body": "Because broken plural patterns vary by noun, always learn each noun together with its plural (e.g., كِتَابٌ / كُتُبٌ, بَيْتٌ / بُيُوتٌ)."
+    }
+  ]
+}

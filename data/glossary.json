@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "terms": [
+    {
+      "id": "ism",
+      "term": "Ism",
+      "termArabic": "اِسْم",
+      "definition": "A noun, pronoun, adjective, or verbal noun (maṣdar) that carries independent lexical meaning without being bound to tense.",
+      "lessonIds": ["m1-w01-ch02", "m1-w02-ch04"]
+    },
+    {
+      "id": "fil",
+      "term": "Fiʿl",
+      "termArabic": "فِعْل",
+      "definition": "A verb denoting an action or state tied to a grammatical tense/aspect (past māḍī, imperfect muḍāriʿ, or imperative amr).",
+      "lessonIds": ["m1-w06-ch12", "m2-w09-ch14"]
+    },
+    {
+      "id": "harf",
+      "term": "Ḥarf",
+      "termArabic": "حَرْف",
+      "definition": "A particle (preposition, conjunction, mood governor, or interrogative) whose meaning is realized in relation to nouns or verbs.",
+      "lessonIds": ["m1-w02-ch04", "m2-w09-ch15", "m3-w25-ch47"]
+    },
+    {
+      "id": "raf",
+      "term": "Rafʿ (Nominative / Indicative)",
+      "termArabic": "رَفْع",
+      "definition": "The unmarked grammatical state (marfūʿ), typically marked by ḍammah (-u/-un) on nouns and on indicative imperfect verbs.",
+      "lessonIds": ["m1-w02-ch04", "m2-w09-ch14"]
+    },
+    {
+      "id": "nasb",
+      "term": "Naṣb (Accusative / Subjunctive)",
+      "termArabic": "نَصْب",
+      "definition": "The governed state (manṣūb), typically marked by fatḥah (-a/-an) on verbal objects/adverbials and on subjunctive imperfect verbs.",
+      "lessonIds": ["m1-w02-ch04", "m2-w09-ch15", "m3-w24-ch45"]
+    },
+    {
+      "id": "jarr",
+      "term": "Jarr (Genitive)",
+      "termArabic": "جَرّ",
+      "definition": "The noun-only case (majrūr) governed by prepositions (ḥurūf al-jarr) or annexation (iḍāfah), typically marked by kasrah (-i/-in).",
+      "lessonIds": ["m1-w02-ch04", "m1-w04-ch08", "m3-w23-ch44"]
+    },
+    {
+      "id": "jazm",
+      "term": "Jazm (Jussive)",
+      "termArabic": "جَزْم",
+      "definition": "The verb-only apocopated mood (majzūm) governed by lam, prohibitive lā, or conditional particles, marked by sukūn or deletion.",
+      "lessonIds": ["m2-w10-ch16"]
+    },
+    {
+      "id": "mubtada",
+      "term": "Mubtadaʾ (Inchoative Subject)",
+      "termArabic": "مُبْتَدَأ",
+      "definition": "The nominative topic/subject that opens an equational nominal sentence (al-jumlah al-ismiyyah).",
+      "lessonIds": ["m1-w01-ch02"]
+    },
+    {
+      "id": "khabar",
+      "term": "Khabar (Predicate)",
+      "termArabic": "خَبَر",
+      "definition": "The predicate that completes a nominal sentence by giving information about the mubtadaʾ.",
+      "lessonIds": ["m1-w01-ch02", "m1-w07-ch13"]
+    },
+    {
+      "id": "fail",
+      "term": "Fāʿil (Agent / Verbal Subject)",
+      "termArabic": "فَاعِل",
+      "definition": "The nominative doer/agent of an active verb in a verbal sentence (al-jumlah al-fiʿliyyah).",
+      "lessonIds": ["m1-w06-ch12"]
+    },
+    {
+      "id": "maful",
+      "term": "Mafʿūl Bihi (Direct Object)",
+      "termArabic": "مَفْعُولٌ بِهِ",
+      "definition": "The accusative noun or pronoun upon which the action of a transitive verb falls.",
+      "lessonIds": ["m1-w07-ch13", "m3-w24-ch45"]
+    },
+    {
+      "id": "idafah",
+      "term": "Iḍāfah (Genitive Construct)",
+      "termArabic": "إِضَافَة",
+      "definition": "An annexation phrase linking a possessed noun (muḍāf, stripped of al- and tanwīn) to a genitive possessor (muḍāf ilayh).",
+      "lessonIds": ["m1-w04-ch08"]
+    },
+    {
+      "id": "mamnu-min-al-sarf",
+      "term": "Al-Mamnūʿ min al-Ṣarf (Diptote)",
+      "termArabic": "المَمْنُوعُ مِنَ الصَّرْفِ",
+      "definition": "A noun or adjective barred from tanwīn that takes ḍammah in the nominative and fatḥah in both accusative and genitive when indefinite.",
+      "lessonIds": ["m3-w23-ch44"]
+    },
+    {
+      "id": "tanwin",
+      "term": "Tanwīn (Nunation)",
+      "termArabic": "تَنْوِين",
+      "definition": "A doubled short vowel (-un, -an, -in) at the end of a fully declinable indefinite noun.",
+      "lessonIds": ["m1-w01-ch02", "m3-w23-ch44"]
+    }
+  ]
+}

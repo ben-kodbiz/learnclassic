@@ -1,0 +1,400 @@
+{
+  "moduleId": "module-3",
+  "number": 3,
+  "title": "Advanced Classical Syntax, Qur'anic Structures & Textual Iʿrāb",
+  "titleArabic": "الأَسَالِيبُ وَالإِعْرَابُ المُتَقَدِّمُ",
+  "titleTranslit": "Al-Asālīb wa-l-Iʿrāb al-Mutaqaddim",
+  "weeks": [
+    {
+      "week": 18,
+      "title": "Unorthodox Verbs & The Relative Sentence (Jumlat al-Ṣilah)",
+      "chapters": [
+        {
+          "id": "m3-w18-ch32",
+          "chapter": 32,
+          "title": "Unorthodox & Invariable Verbs",
+          "textbookTitle": "Various Unorthodox Verbs",
+          "rydingReference": "Ryding Ch. 36 (Verbs of Being, Becoming, Seeming)",
+          "titleArabic": "أَفْعَالُ المَدْحِ وَالذَّمِّ وَالمُقَارَبَةِ",
+          "prerequisites": ["m2-w17-ch31"],
+          "classicalFocus": "Invariable verbs of praise and blame (niʿma, biʾsa), negative laysa, and verbs of appropinquation/hope (kāda, ʿasā).",
+          "coreRules": [
+            "Laysa governs like kāna (nominative ism, accusative khabar); kāda and ʿasā govern imperfect complements."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 59–60: rhetorical judgments and laysa/kāda clauses.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m3-w18-ch34",
+          "chapter": 34,
+          "title": "The Relative Sentence (Jumlat al-Ṣilah)",
+          "textbookTitle": "Relative Sentences",
+          "rydingReference": "Ryding Ch. 14 (Relative Pronouns and Relative Clauses)",
+          "titleArabic": "الجُمْلَةُ المَوْصُولَةُ",
+          "prerequisites": ["m3-w18-ch32"],
+          "classicalFocus": "Relative pronouns (al-mawṣūl: alladhī, allatī) for definite antecedents; asyndetic clauses for indefinite antecedents; returning resumptive pronoun (al-ʿāʾid).",
+          "coreRules": [
+            "Definite antecedents require a relative pronoun; indefinite antecedents omit it.",
+            "The resumptive pronoun (al-ʿāʾid) links the relative clause back to the antecedent."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 61–62: parsing relative clauses and resumptive pronouns in Qur'anic descriptions.",
+          "estimatedMinutes": 30,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "title": "Conditional Sentences (Al-Sharṭ wa-l-Jazāʾ)",
+      "chapters": [
+        {
+          "id": "m3-w19-ch35",
+          "chapter": 35,
+          "title": "Conditionals & The Apodosis Connector (Fa-)",
+          "textbookTitle": "Conditional Sentences",
+          "rydingReference": "Ryding Ch. 39 (Conditional and Optative Expressions, §§39.1–39.3)",
+          "titleArabic": "أُسْلُوبُ الشَّرْطِ",
+          "prerequisites": ["m3-w18-ch34"],
+          "classicalFocus": "Real conditions (in, idhā), counterfactual conditions (law, lawlā with la-), and fāʾ al-jazāʾ introducing non-verbal apodoses.",
+          "coreRules": [
+            "Use fāʾ al-jazāʾ when the result clause is nominal, imperative, negated, or introduced by qad, sa-, sawfa, or lan."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 63–64: identifying sharṭ, jazāʾ, and fāʾ al-jazāʾ in scriptural conditionals.",
+          "estimatedMinutes": 30,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "title": "The Classical Numeral System",
+      "chapters": [
+        {
+          "id": "m3-w20-ch36",
+          "chapter": 36,
+          "title": "Cardinal Numbers, Time & Dates",
+          "textbookTitle": "The Cardinal Numbers. Time. Dates",
+          "rydingReference": "Ryding Ch. 15 (Numerals and Numeral Phrases, §§15.1–15.4)",
+          "titleArabic": "الأَعْدَادُ الأَصْلِيَّةُ",
+          "prerequisites": ["m3-w19-ch35"],
+          "classicalFocus": "Chiastic gender polarity for 3–10; invariable compounds 11–19; decades 20–90; counted noun syntax (tamyīz al-ʿadad).",
+          "coreRules": [
+            "3–10 take plural genitive counted nouns with reverse gender; 11–99 take singular accusative; 100/1000 take singular genitive."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 65–66: writing out numbers in classical texts and historical dates.",
+          "estimatedMinutes": 30,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m3-w20-ch37",
+          "chapter": 37,
+          "title": "Ordinal Numbers & Fractions",
+          "textbookTitle": "The Ordinal Numbers. Fractions",
+          "rydingReference": "Ryding Ch. 15 (Ordinal Numerals and Fractions)",
+          "titleArabic": "الأَعْدَادُ التَّرْتِيبِيَّةُ وَالكُسُورُ",
+          "prerequisites": ["m3-w20-ch36"],
+          "classicalFocus": "Ordinal numbers (al-aʿdād al-tartībiyyah) behaving as descriptive adjectives, and classical fractions.",
+          "coreRules": [
+            "Ordinals agree with their noun in gender, case, and definiteness."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 67–68: ordinal sequences and fractions.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "title": "Noun Derivation, Locatives & Nominal Architecture",
+      "chapters": [
+        {
+          "id": "m3-w21-ch38",
+          "chapter": 38,
+          "title": "Structure of Arabic Noun Forms",
+          "textbookTitle": "The Structure of Arabic Noun Forms",
+          "rydingReference": "Ryding Ch. 5 (Arabic Noun Types, §§5.1–5.7)",
+          "titleArabic": "أَبْنِيَةُ الأَسْمَاءِ",
+          "prerequisites": ["m3-w20-ch37"],
+          "classicalFocus": "Primitive nouns (asmāʾ jāmidah) vs. derived substantives (mushtaqqāt); Form I maṣdar patterns (faʿl, fuʿūl, fiʿālah).",
+          "coreRules": [
+            "Form I maṣādir are lexical and must be learned by pattern/dictionary."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 69–70: classifying noun patterns and maṣādir.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m3-w21-ch39",
+          "chapter": 39,
+          "title": "Nouns of Place, Time, Instrument & Diminutives",
+          "textbookTitle": "Noun Forms. The Noun of Place and Time. The Noun of Instrument. The Diminutive",
+          "rydingReference": "Ryding Ch. 5 (Nouns of Place/Time, Instrument, Diminutive)",
+          "titleArabic": "اِسْمَا الزَّمَانِ وَالمَكَانِ وَالآلَةِ وَالتَّصْغِيرُ",
+          "prerequisites": ["m3-w21-ch38"],
+          "classicalFocus": "Mafʿal/mafʿil (place/time), mifʿāl/mifʿal/mifʿalah (instrument), and fuʿayl/fuʿayʿil (diminutive).",
+          "coreRules": [
+            "Nouns of place and time follow mafʿal or mafʿil according to imperfect vowel or weak root class."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 71–72: classifying nouns of place, instrument, and verbal nouns in Qur'anic passages.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "title": "Adjectival Derivations, Names & Exceptional Gender/Number",
+      "chapters": [
+        {
+          "id": "m3-w22-ch40",
+          "chapter": 40,
+          "title": "Relative Adjectives (Al-Nisbah) & Intensive Forms",
+          "textbookTitle": "The Relative Noun and Adjective. Various Adjectival Forms",
+          "rydingReference": "Ryding Ch. 5 (§5.7, Nouns of Intensity) & Ch. 10 (Part Two, Adjective Derivation)",
+          "titleArabic": "النِّسْبَةُ وَصِيَغُ المُبَالَغَةِ",
+          "prerequisites": ["m3-w21-ch39"],
+          "classicalFocus": "Nisbah adjectives (-īy) and intensive adjective patterns (ṣiyagh al-mubālaghah: faʿʿāl, faʿūl, miʿfāl) frequent in divine attributes.",
+          "coreRules": [
+            "Forming the nisbah removes tāʾ marbūṭah and suffixes -iyyun / -iyyatun."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 73–74: parsing al-Asmāʾ al-Ḥusnā and intensive patterns.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m3-w22-ch41",
+          "chapter": 41,
+          "title": "Abstract Nouns & Classical Proper Names",
+          "textbookTitle": "Abstract Nouns. Proper Names",
+          "rydingReference": "Ryding Ch. 5 (Abstract Nouns & Proper Names)",
+          "titleArabic": "المَصْدَرُ الصِّنَاعِيُّ وَالأَعْلَامُ",
+          "prerequisites": ["m3-w22-ch40"],
+          "classicalFocus": "Abstract nouns (-iyyah) and classical name structure (ism, kunya, nasab, laqab).",
+          "coreRules": [
+            "Classical biographical names distinguish ism, kunya (Abū/Umm), nasab (ibn/bint), and laqab."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 75–76: analyzing classical patronymics.",
+          "estimatedMinutes": 20,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m3-w22-ch42",
+          "chapter": 42,
+          "title": "Exceptional Gender Categories",
+          "textbookTitle": "The Feminine",
+          "rydingReference": "Ryding Ch. 6 (Gender)",
+          "titleArabic": "المُؤَنَّثُ السَّمَاعِيُّ",
+          "prerequisites": ["m3-w22-ch41"],
+          "classicalFocus": "Unmarked feminine nouns (paired body parts, elemental nouns, cities/tribes) and common-gender nouns.",
+          "coreRules": [
+            "Paired body parts and many elemental nouns (shams, nār, arḍ) are grammatically feminine without markers."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 77–78: identifying unmarked feminines.",
+          "estimatedMinutes": 20,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m3-w22-ch43",
+          "chapter": 43,
+          "title": "Plurals of Paucity, Multitude & Plural of Plurals",
+          "textbookTitle": "Number",
+          "rydingReference": "Ryding Ch. 6 (Number) & Ch. 7",
+          "titleArabic": "جُمُوعُ القِلَّةِ وَالكَثْرَةِ",
+          "prerequisites": ["m3-w22-ch42"],
+          "classicalFocus": "Plurals of paucity (jamʿ al-qillah, 3–10) vs. multitude (jamʿ al-kathrah), plural of plurals (jamʿ al-jamʿ), and collective nouns.",
+          "coreRules": [
+            "Four patterns (afʿul, afʿāl, afʿilah, fiʿlah) classically denote paucity (3–10)."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 79–80: classifying rare plurals.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "title": "Diptote Declension (Al-Mamnūʿ min al-Ṣarf)",
+      "chapters": [
+        {
+          "id": "m3-w23-ch44",
+          "chapter": 44,
+          "title": "Diptote Declension (Al-Mamnūʿ min al-Ṣarf)",
+          "textbookTitle": "Declension of Nouns",
+          "rydingReference": "Ryding Ch. 8 (§8.5, Diptotes: Al-Mamnūʿ min al-Ṣarf)",
+          "titleArabic": "المَمْنُوعُ مِنَ الصَّرْفِ",
+          "prerequisites": ["m3-w22-ch43"],
+          "classicalFocus": "Nouns barred from tanwīn taking two endings (-u nom., -a acc./gen.); causes (foreign names, feminine/alif-nūn names, afʿal, mafāʿil/mafāʿīl); reversion rule.",
+          "coreRules": [
+            "Diptotes revert to full three-case triptote declension (taking kasrah in the genitive) when prefixed by al- or serving as muḍāf."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 81–82: vocalizing diptotes in scriptural text.",
+          "estimatedMinutes": 30,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "title": "Comprehensive Accusative Syntax (Al-Manṣūbāt) & Apposition (Al-Badal)",
+      "chapters": [
+        {
+          "id": "m3-w24-ch45",
+          "chapter": 45,
+          "title": "Comprehensive Accusative Syntax (Al-Manṣūbāt)",
+          "textbookTitle": "The Use of the Cases",
+          "rydingReference": "Ryding Ch. 8 (§8.3, Accusative Functions) & Ch. 11 (Adverbial Accusatives)",
+          "titleArabic": "المَنْصُوبَاتُ",
+          "prerequisites": ["m3-w23-ch44"],
+          "classicalFocus": "Direct object (mafʿūl bihi), absolute cognate accusative (mafʿūl muṭlaq), circumstantial accusative (ḥāl), specification (tamyīz), and cause/purpose (mafʿūl li-ajlihi).",
+          "coreRules": [
+            "Ḥāl is an indefinite accusative participle/adjective describing the state of a definite antecedent during an action."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 83–84: identifying and vocalizing ḥāl, tamyīz, and mafʿūl muṭlaq in Qur'anic prose.",
+          "estimatedMinutes": 30,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m3-w24-ch46",
+          "chapter": 46,
+          "title": "The Permutative / Apposition (Al-Badal)",
+          "textbookTitle": "The Permutative",
+          "rydingReference": "Ryding Ch. 9 (§9.2, Apposition / Badal)",
+          "titleArabic": "البَدَلُ",
+          "prerequisites": ["m3-w24-ch45"],
+          "classicalFocus": "Apposition types: identical replacement, part-of-whole, and inclusive quality; case agreement.",
+          "coreRules": [
+            "The badal takes the exact same grammatical case as its antecedent."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 85–86: parsing classical titles and appositives.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "title": "Governing Particles, Corroboration (Inna) & Exception (Al-Istithnāʾ)",
+      "chapters": [
+        {
+          "id": "m3-w25-ch47",
+          "chapter": 47,
+          "title": "Prepositions & Locative Semi-Prepositions (Ẓurūf)",
+          "textbookTitle": "Particles. Prepositions",
+          "rydingReference": "Ryding Ch. 16 (Prepositions)",
+          "titleArabic": "حُرُوفُ الجَرِّ وَالظُّرُوفُ",
+          "prerequisites": ["m3-w24-ch46"],
+          "classicalFocus": "True prepositions (ḥurūf al-jarr) vs. locative/temporal semi-prepositions (ẓurūf); idiomatic verb–preposition pairs.",
+          "coreRules": [
+            "Prepositional choice can alter a verb's meaning (e.g., raghiba fī vs. raghiba ʿan)."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 87–88: parsing prepositional idioms.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m3-w25-ch48",
+          "chapter": 48,
+          "title": "Adverbial Usages & Inna wa-Akhawātuhā",
+          "textbookTitle": "Adverbial Usages, including miscellaneous quasi-adverbial particles",
+          "rydingReference": "Ryding Ch. 19 (Inna and Her Sisters)",
+          "titleArabic": "إِنَّ وَأَخَوَاتُهَا",
+          "prerequisites": ["m3-w25-ch47"],
+          "classicalFocus": "Corroborating particles (inna, anna, ka-anna, lākinna, layta, laʿalla) and al-lām al-muzahlaqah.",
+          "coreRules": [
+            "Inna induces its subject (ism inna) into the accusative while its predicate (khabar inna) remains nominative."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 89–90: parsing emphatic sentences introduced by inna.",
+          "estimatedMinutes": 30,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m3-w25-ch49",
+          "chapter": 49,
+          "title": "Coordinating Conjunctions (Ḥurūf al-ʿAṭf)",
+          "textbookTitle": "Particles. Conjunctions",
+          "rydingReference": "Ryding Ch. 18 (Conjunctions)",
+          "titleArabic": "حُرُوفُ العَطْفِ",
+          "prerequisites": ["m3-w25-ch48"],
+          "classicalFocus": "Semantic nuances of wa- (simple link), fa- (immediate consequence), thumma (delayed consequence), and bal (rectification).",
+          "coreRules": [
+            "Conjoined elements share the grammatical case or mood of their antecedent."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 91–92: conjunction nuances.",
+          "estimatedMinutes": 20,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m3-w25-ch50",
+          "chapter": 50,
+          "title": "Oaths & Interjections",
+          "textbookTitle": "Particles. Interjections",
+          "rydingReference": "Ryding Ch. 16 & Ch. 37",
+          "titleArabic": "حُرُوفُ القَسَمِ وَالنِّدَاءِ",
+          "prerequisites": ["m3-w25-ch49"],
+          "classicalFocus": "Oath particles (wāw, tāʾ, bāʾ al-qasam) governing the genitive; classical interjections.",
+          "coreRules": [
+            "Oath particles govern the object sworn by in the genitive case (e.g., wa-llāhi)."
+          ],
+          "practiceFocus": "Parsing classical oath formulas and interjections.",
+          "estimatedMinutes": 20,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m3-w25-ch51",
+          "chapter": 51,
+          "title": "Exception (Al-Istithnāʾ)",
+          "textbookTitle": "Exception",
+          "rydingReference": "Ryding Ch. 37 (Negation & Exception)",
+          "titleArabic": "الاِسْتِثْنَاءُ",
+          "prerequisites": ["m3-w25-ch50"],
+          "classicalFocus": "Syntax of illā across positive, complete negative, and defective negative clauses; ghayr and siwā.",
+          "coreRules": [
+            "After illā: positive clauses take accusative; defective negative clauses take the verb-governed case; ghayr/siwā govern the genitive."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 93–94: analyzing exceptions in theological covenants.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 26,
+      "title": "Classical Versification Metrics & Capstone Qur'anic Analysis",
+      "chapters": [
+        {
+          "id": "m3-w26-ch52",
+          "chapter": 52,
+          "title": "Classical Versification Metrics (Al-ʿArūḍ)",
+          "textbookTitle": "The Rules of Arabic Versification",
+          "rydingReference": "Ryding Appendix II (Glossary of Arabic Linguistic Terminology)",
+          "titleArabic": "عِلْمُ العَرُوضِ",
+          "prerequisites": ["m3-w25-ch51"],
+          "classicalFocus": "Metrical system of al-Khalīl ibn Aḥmad: cords (sabab), pegs (watad), and classical meters (al-Ṭawīl, al-Kāmil, al-Basīṭ, al-Wāfir).",
+          "coreRules": [
+            "Prosodic scansion maps long and short syllables into recurring feet (tafʿīlāt)."
+          ],
+          "practiceFocus": "Scanning classical hemistichs and vocalizing rhyme consonants.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m3-w26-supp",
+          "chapter": "supplement",
+          "title": "Capstone Qur'anic & Classical Literary Analysis",
+          "textbookTitle": "Supplement. (Specimens from Arabic Literature) & Appendix B",
+          "rydingReference": "Ryding Appendix II & Full Morphosyntactic Reference",
+          "titleArabic": "المُخْتَارَاتُ الأَدَبِيَّةُ وَالإِعْرَابُ",
+          "prerequisites": ["m3-w26-ch52"],
+          "classicalFocus": "Word-by-word iʿrāb of Sūrat al-Fātiḥah and Qur'anic selections; unvocalized readings from Ṣaḥīḥ al-Bukhārī, Kalīlah wa-Dimnah, and Ibn Baṭṭūṭah; Appendix B reference transition.",
+          "coreRules": [
+            "Apply the 3-step Iʿrāb Parsing Routine before translating, keeping grammatical analysis distinct from tafsīr."
+          ],
+          "practiceFocus": "Capstone reading and word-by-word syntactic analysis of authentic classical texts.",
+          "estimatedMinutes": 45,
+          "reviewStatus": "pending"
+        }
+      ]
+    }
+  ]
+}

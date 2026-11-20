@@ -1,0 +1,54 @@
+{
+  "id": "m1-w05-ch10",
+  "moduleId": "module-1",
+  "week": 5,
+  "chapter": 10,
+  "title": "Demonstrative Pronouns (Asmāʾ al-Ishārah)",
+  "titleArabic": "أَسْمَاءُ الإِشَارَةِ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 10; Ryding Ch. 13)",
+  "objectives": [
+    "Distinguish near demonstratives (هٰذَا, هٰذِهِ, هٰؤُلَاءِ) from distant demonstratives (ذٰلِكَ, تِلْكَ, أُولٰئِكَ).",
+    "Differentiate a demonstrative noun phrase (هٰذَا الكِتَابُ 'this book') from a complete nominal clause (هٰذَا كِتَابٌ 'this is a book').",
+    "Apply non-human plural agreement (هٰذِهِ / تِلْكَ) to broken plurals of objects."
+  ],
+  "recallPrompt": "From Chapter 2: How does definiteness distinguish a noun phrase from a complete nominal sentence?",
+  "glossaryTerms": ["ism", "mubtada", "khabar"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Near and Distant Demonstratives",
+      "body": "Arabic demonstratives distinguish proximity (near: 'this/these'; distant: 'that/those') and agree in gender and number. Singular and plural demonstratives are invariable (mabnī), while dual demonstratives inflect for case (-āni / -ayni)."
+    },
+    {
+      "type": "rule",
+      "label": "Demonstrative Phrase vs. Clause",
+      "arabicTerm": "المُشَارُ إِلَيْهِ",
+      "summary": "When a demonstrative is followed by a noun WITH أَلْ (هٰذَا الكِتَابُ), the two form a single noun phrase ('this book'), NOT a complete sentence. When followed by an INDEFINITE noun (هٰذَا كِتَابٌ), they form a complete equational sentence ('This is a book.')."
+    },
+    {
+      "type": "table",
+      "heading": "Core Demonstratives",
+      "headers": ["Reference", "Masc. Sg.", "Fem. Sg. (& Non-Human Pl.)", "Human Plural"],
+      "rows": [
+        ["Near ('this / these')", "هٰذَا (hādhā)", "هٰذِهِ (hādhihi)", "هٰؤُلَاءِ (hāʾulāʾi)"],
+        ["Distant ('that / those')", "ذٰلِكَ (dhālika)", "تِلْكَ (tilka)", "أُولٰئِكَ (ʾulāʾika)"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "هٰذَا الكِتَابُ مُفِيدٌ",
+      "transliteration": "hādhā l-kitābu mufīdun",
+      "translation": "This book is useful.",
+      "irab": "هٰذَا: اسْمُ إِشَارَةٍ مَبْنِيٌّ فِي مَحَلِّ رَفْعٍ مُبْتَدَأٌ | الكِتَابُ: بَدَلٌ مَرْفُوعٌ | مُفِيدٌ: خَبَرٌ مَرْفُوعٌ",
+      "notes": "هٰذَا الكِتَابُ is only the subject phrase ('this book'); the indefinite word مُفِيدٌ completes the sentence as the predicate.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Demonstratives with Iḍāfah",
+      "body": "If the noun is already definite by iḍāfah (e.g., 'this book of the student'), the demonstrative follows the entire construct: كِتَابُ الطَّالِبِ هٰذَا."
+    }
+  ]
+}

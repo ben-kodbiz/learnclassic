@@ -1,0 +1,38 @@
+:root {
+  --font-arabic: "Amiri", "Noto Naskh Arabic", "Scheherazade New", "Traditional Arabic", serif;
+}
+
+[lang="ar"] {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  unicode-bidi: isolate;
+}
+
+.brand-ar {
+  font-size: 1.2rem;
+  color: var(--accent);
+  line-height: 1.6;
+}
+
+.arabic-heading {
+  font-size: 1.45rem;
+  line-height: 2;
+  color: var(--accent-strong);
+  margin: 0.2rem 0 0;
+}
+
+.arabic-inline {
+  font-size: 1.15em;
+  line-height: 1.8;
+  padding-inline: 0.15em;
+}
+
+.arabic-example {
+  font-size: 1.55rem;
+  line-height: 2.15;
+  padding: 0.75rem 1rem;
+  background: var(--surface-muted);
+  border-inline-start: 4px solid var(--accent);
+  border-radius: 6px;
+  margin-block: 0.75rem;
+}

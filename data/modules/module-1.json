@@ -1,0 +1,287 @@
+{
+  "moduleId": "module-1",
+  "number": 1,
+  "title": "Foundational Classical Morphology & Nominal Syntax",
+  "titleArabic": "المَبَادِئُ وَالأَسْمَاءُ",
+  "titleTranslit": "Al-Mabādiʾ wa-l-Asmāʾ",
+  "weeks": [
+    {
+      "week": 1,
+      "title": "Orthography, Syllable Quantities & The Zero-Copula Nominal Clause",
+      "chapters": [
+        {
+          "id": "m1-w01-ch01",
+          "chapter": 1,
+          "title": "Orthography, Phonetics & Syllable Quantity",
+          "textbookTitle": "The Arabic Language. Orthography. Phonetics. Punctuation",
+          "rydingReference": "Ryding Ch. 2 (Phonology and Script, §§2.3–2.8)",
+          "titleArabic": "الخَطُّ وَالأَصْوَاتُ",
+          "prerequisites": [],
+          "classicalFocus": "The 28 consonants; long and short vowels; auxiliary signs (sukūn, shaddah, maddah); distinction between hamzat al-qaṭʿ (disjunctive) and hamzat al-waṣl (elidable) essential for Qur'anic reading.",
+          "coreRules": [
+            "Solar letters (ḥurūf shamsiyyah) assimilate the lām of al-; lunar letters (qamariyyah) retain it.",
+            "Hamzat al-waṣl elides in connected recitation while hamzat al-qaṭʿ is always pronounced."
+          ],
+          "practiceFocus": "Reading vowelled text and tracking hamzat al-waṣl across connected phrases.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m1-w01-ch02",
+          "chapter": 2,
+          "title": "The Definite Article & The Nominal Sentence",
+          "textbookTitle": "The Article. The Simple Nominal Sentence",
+          "rydingReference": "Ryding Ch. 4 (Sentence Structures, §§4.1–4.2)",
+          "titleArabic": "أَلْ التَّعْرِيفِ وَالجُمْلَةُ الاسْمِيَّةُ",
+          "prerequisites": ["m1-w01-ch01"],
+          "classicalFocus": "Structure of the equational nominal sentence (al-jumlah al-ismiyyah): Subject (al-mubtadaʾ) and Predicate (al-khabar); zero-copula syntax in the present tense.",
+          "coreRules": [
+            "Indefiniteness is marked by nunation (tanwīn); prefixing al- removes tanwīn.",
+            "The mubtadaʾ is typically definite and nominative; the khabar agrees in gender and number."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 1–2: parsing mubtadaʾ and khabar in simple equational clauses.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "title": "Gender, Cases & Grammatical Inflection (Iʿrāb)",
+      "chapters": [
+        {
+          "id": "m1-w02-ch03",
+          "chapter": 3,
+          "title": "Gender & Collective Nouns of Unity",
+          "textbookTitle": "Gender. The Feminine",
+          "rydingReference": "Ryding Ch. 6 (Gender and Number, §6.1)",
+          "titleArabic": "التَّذْكِيرُ وَالتَّأْنِيثُ",
+          "prerequisites": ["m1-w01-ch02"],
+          "classicalFocus": "Markers of the feminine (principally tāʾ marbūṭah ة); nouns feminine by meaning or convention; collective nouns (ism al-jins) and nouns of unity (ism al-waḥdah).",
+          "coreRules": [
+            "Adjectives and predicates agree in grammatical gender with feminine and collective nouns.",
+            "Interrogative particles a- and hal introduce yes/no questions."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 3–4: identifying inherent feminines and gender agreement.",
+          "estimatedMinutes": 20,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m1-w02-ch04",
+          "chapter": 4,
+          "title": "The Three Cases (Aḥwāl al-Iʿrāb)",
+          "textbookTitle": "Declension of Nouns. The Three Cases",
+          "rydingReference": "Ryding Ch. 3 (§3.9, Case and Mood) & Ch. 8 (The Case System, §§8.1–8.4)",
+          "titleArabic": "أَحْوَالُ الإِعْرَابِ",
+          "prerequisites": ["m1-w02-ch03"],
+          "classicalFocus": "Threefold declension: Nominative (rafʿ with ḍammah), Accusative (naṣb with fatḥah), and Genitive (jarr with kasrah); nunation (tanwīn) and accusative alif.",
+          "coreRules": [
+            "Indefinite accusative singular takes a trailing alif (ـًا), except on tāʾ marbūṭah and hamzah after alif.",
+            "Prepositions (ḥurūf al-jarr) govern the following noun in the genitive case."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 5–6: identifying case endings on definite and indefinite substantives and vocalizing governing prepositions.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "title": "Duals, Sound Plurals & Broken Plurals I",
+      "chapters": [
+        {
+          "id": "m1-w03-ch05",
+          "chapter": 5,
+          "title": "Number — Duals, Sound Plurals & Personal Pronouns",
+          "textbookTitle": "Number. The Sound Masculine and Feminine Plurals. Some Simple Verb Forms",
+          "rydingReference": "Ryding Ch. 6 (Gender and Number, §§6.2–6.4)",
+          "titleArabic": "المُثَنَّى وَالجَمْعُ السَّالِمُ",
+          "prerequisites": ["m1-w02-ch04"],
+          "classicalFocus": "Singular (mufrad), Dual (muthannā in -āni / -ayni), and Sound Plurals; inflection through letters (iʿrāb bi-l-ḥurūf) rather than short vowels.",
+          "coreRules": [
+            "Duals inflect by letter (-āni nom., -ayni acc./gen.).",
+            "Sound masculine plurals take -ūna / -īna; sound feminine plurals take -ātun / -ātin."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 7–8: inflecting duals and sound plurals across all three cases.",
+          "estimatedMinutes": 30,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m1-w03-ch06",
+          "chapter": 6,
+          "title": "The Triliteral Root System & Broken Plurals I",
+          "textbookTitle": "The Broken Plural",
+          "rydingReference": "Ryding Ch. 7 (The Broken Plural)",
+          "titleArabic": "جَمْعُ التَّكْسِيرِ (١)",
+          "prerequisites": ["m1-w03-ch05"],
+          "classicalFocus": "The radical root system (al-aṣl al-thulāthī) and the metric exemplar pattern f-ʿ-l (ف-ع-ل); broken plurals (jamʿ al-taksīr) and non-human plural agreement.",
+          "coreRules": [
+            "Non-human broken plurals are grammatically treated as feminine singular for adjective and verb agreement."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 9–10: root pattern deduction (wazn) and pairing broken plurals with feminine singular modifiers.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "title": "Advanced Broken Plurals & The Annexation Construct (Al-Iḍāfah)",
+      "chapters": [
+        {
+          "id": "m1-w04-ch07",
+          "chapter": 7,
+          "title": "Advanced Broken Plurals",
+          "textbookTitle": "The Broken Plural (continued)",
+          "rydingReference": "Ryding Ch. 7 (The Broken Plural, quadriliteral patterns)",
+          "titleArabic": "جَمْعُ التَّكْسِيرِ (٢)",
+          "prerequisites": ["m1-w03-ch06"],
+          "classicalFocus": "Advanced broken plural patterns including quadriliteral patterns (faʿālil, faʿālīl).",
+          "coreRules": [
+            "Quadriliteral plural patterns faʿālil and faʿālīl are diptotes (no tanwīn)."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 11–12: pattern recognition and root extraction.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m1-w04-ch08",
+          "chapter": 8,
+          "title": "The Genitive Construct (Al-Iḍāfah)",
+          "textbookTitle": "The Genitive (ʾIḍāfa)",
+          "rydingReference": "Ryding Ch. 9 (Construct Phrases / Iḍāfah, §§9.1–9.5)",
+          "titleArabic": "الإِضَافَةُ",
+          "prerequisites": ["m1-w04-ch07"],
+          "classicalFocus": "Al-muḍāf (stripped of tanwīn and al-) and al-muḍāf ilayh (strictly majrūr); multi-tiered construct chains; true vs. adjectival annexation.",
+          "coreRules": [
+            "The muḍāf never takes al- or tanwīn and drops the final nūn of duals and sound masculine plurals.",
+            "The muḍāf ilayh is always in the genitive case (majrūr)."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 13–14: parsing possessive chains in theological and Qur'anic phrases (e.g., Bayt Allāh, Yawm al-Dīn).",
+          "estimatedMinutes": 30,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "title": "Pronominal Enclitics & Demonstratives",
+      "chapters": [
+        {
+          "id": "m1-w05-ch09",
+          "chapter": 9,
+          "title": "The Attached Pronouns (Al-Ḍamāʾir al-Muttaṣilah)",
+          "textbookTitle": "The Attached Pronouns",
+          "rydingReference": "Ryding Ch. 12 (Personal Pronouns)",
+          "titleArabic": "الضَّمَائِرُ المُتَّصِلَةُ",
+          "prerequisites": ["m1-w04-ch08"],
+          "classicalFocus": "Attached enclitic pronouns suffixed to nouns (possession/genitive) and prepositions (pronominal objects); phonological vowel shifts.",
+          "coreRules": [
+            "Third-person suffixes (-hu / -hum) shift to -hi / -him following kasrah or yāʾ."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 15–16: parsing pronominal suffixes on prepositions and particles.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m1-w05-ch10",
+          "chapter": 10,
+          "title": "Demonstrative Pronouns (Asmāʾ al-Ishārah)",
+          "textbookTitle": "Demonstrative Pronouns",
+          "rydingReference": "Ryding Ch. 13 (Demonstrative Pronouns)",
+          "titleArabic": "أَسْمَاءُ الإِشَارَةِ",
+          "prerequisites": ["m1-w05-ch09"],
+          "classicalFocus": "Near demonstratives (hādhā / hādhihi) and distant demonstratives (dhālika / tilka); phrase vs. complete clause syntax.",
+          "coreRules": [
+            "Demonstrative + noun with al- forms a noun phrase (hādhā l-kitābu); demonstrative + indefinite noun forms a complete nominal sentence (hādhā kitābun)."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 17–18: distinguishing demonstrative phrases from equational clauses.",
+          "estimatedMinutes": 25,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "title": "Adjectival Concordance & Form I Past Verb",
+      "chapters": [
+        {
+          "id": "m1-w06-ch11",
+          "chapter": 11,
+          "title": "Adjectival Concordance & Elatives",
+          "textbookTitle": "Adjectives",
+          "rydingReference": "Ryding Ch. 10 (Adjectives: Function & Form)",
+          "titleArabic": "النَّعْتُ وَاسْمُ التَّفْضِيلِ",
+          "prerequisites": ["m1-w05-ch10"],
+          "classicalFocus": "Fourfold adjectival agreement (gender, number, case, definiteness); comparative and superlative patterns (ism al-tafḍīl on afʿal).",
+          "coreRules": [
+            "An attributive adjective follows its noun and matches it in gender, number, case, and definiteness."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 19–20: adjectival phrases and elative constructions.",
+          "estimatedMinutes": 30,
+          "reviewStatus": "pending"
+        },
+        {
+          "id": "m1-w06-ch12",
+          "chapter": 12,
+          "title": "The Verb — Form I Past Verb (Al-Fiʿl al-Māḍī)",
+          "textbookTitle": "The Verb",
+          "rydingReference": "Ryding Ch. 21–22 (Verb Inflection & Form I)",
+          "titleArabic": "الفِعْلُ المَاضِي",
+          "prerequisites": ["m1-w06-ch11"],
+          "classicalFocus": "Form I base verb (al-fiʿl al-mujarrad); stem vowel variations (faʿala, faʿila, faʿula); full 13-person paradigm; V-S-O verbal syntax.",
+          "coreRules": [
+            "A verb preceding an overt plural subject remains singular and agrees only in gender."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 21–22: conjugating sound Form I verbs and analyzing V-S-O word order.",
+          "estimatedMinutes": 30,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "title": "Pronominal Direct Objects & Auxiliary Copular Verbs (Kāna)",
+      "chapters": [
+        {
+          "id": "m1-w07-ch13",
+          "chapter": 13,
+          "title": "Pronominal Direct Objects & Kāna wa-Akhawātuhā",
+          "textbookTitle": "The Verb with Pronominal Object. The Verb \"to be\"",
+          "rydingReference": "Ryding Ch. 21 (§21.2, Verb Strings) & Ch. 36 (Verbs of Being: Kāna wa-Akhawātuhā)",
+          "titleArabic": "ضَمَائِرُ النَّصْبِ وَكَانَ وَأَخَوَاتُهَا",
+          "prerequisites": ["m1-w06-ch12"],
+          "classicalFocus": "Pronominal object clitics on verbs (-nī, -ka, -hu, -hā, -nā); defective auxiliary verb kāna and its grammatical governance.",
+          "coreRules": [
+            "Ism kāna remains nominative (marfūʿ), while khabar kāna is obligatorily inflected in the accusative (manṣūb)."
+          ],
+          "practiceFocus": "Haywood & Nahmad Exercises 23–24: identifying verb objects vs. noun suffixes and vocalizing kāna clauses.",
+          "estimatedMinutes": 30,
+          "reviewStatus": "pending"
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "title": "Consolidation of Module 1",
+      "chapters": [
+        {
+          "id": "m1-w08-cons",
+          "chapter": "consolidation-1",
+          "title": "Module 1 Consolidation & Early Supplement Iʿrāb",
+          "textbookTitle": "Review: Haywood Ch. 1–13 & Literary Supplement (p. 462)",
+          "rydingReference": "Ryding Ch. 1–10, 12–13, 21–22",
+          "titleArabic": "مُرَاجَعَةُ المَرْحَلَةِ الأُولَى",
+          "prerequisites": ["m1-w07-ch13"],
+          "classicalFocus": "Comprehensive synthesis of nominal syntax, case endings, iḍāfah, pronouns, and Form I past verbs.",
+          "coreRules": [
+            "Read aloud and parse the iʿrāb of unvocalized nominal and verbal sentences, naming every case ending and governing factor (ʿāmil)."
+          ],
+          "practiceFocus": "Synthesis exercise on early sections of Haywood & Nahmad Literary Supplement (p. 462).",
+          "estimatedMinutes": 35,
+          "reviewStatus": "pending"
+        }
+      ]
+    }
+  ]
+}

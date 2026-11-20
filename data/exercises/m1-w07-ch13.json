@@ -1,0 +1,57 @@
+{
+  "lessonId": "m1-w07-ch13",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m1-w07-ch13-001",
+      "lessonId": "m1-w07-ch13",
+      "type": "fill-in-blank",
+      "prompt": "Complete the past nominal clause governed by كَانَ: 'The house was large.'",
+      "arabic": "كَانَ البَيْتُ _____",
+      "choices": ["كَبِيرًا", "كَبِيرٌ", "كَبِيرٍ"],
+      "answer": "كَبِيرًا",
+      "explanation": "كَانَ keeps its subject (البَيْتُ) nominative and places its predicate (khabar kāna) in the accusative: كَبِيرًا.",
+      "feedback": {
+        "rule": "Ism kāna is nominative (marfūʿ); khabar kāna is accusative (manṣūb).",
+        "governor": "كَانَ",
+        "role": "Khabar kāna",
+        "caseOrMood": "Accusative (manṣūb) with trailing alif"
+      },
+      "skillTags": ["kana", "nasb"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w07-ch13-002",
+      "lessonId": "m1-w07-ch13",
+      "type": "multiple-choice",
+      "prompt": "Which suffix attaches to a verb to express 'me' (1st-person singular direct object, e.g., 'he taught me')?",
+      "choices": ["ـنِي (عَلَّمَنِي)", "ـِي (عَلَّمِي)", "ـنَا (عَلَّمَنَا)"],
+      "answer": "ـنِي (عَلَّمَنِي)",
+      "explanation": "Verbs take the protective nūn (nūn al-wiqāyah) before the 1st-person singular object pronoun: ـنِي.",
+      "feedback": {
+        "rule": "Nouns take ـِي ('my'); verbs take ـنِي ('me').",
+        "caseOrMood": "In the place of accusative (فِي مَحَلِّ نَصْبٍ)"
+      },
+      "skillTags": ["object-pronouns", "nasb"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w07-ch13-003",
+      "lessonId": "m1-w07-ch13",
+      "type": "true-false",
+      "prompt": "True or False: In كَانَ العِلْمُ نَافِعًا, the word العِلْمُ is accusative.",
+      "arabic": "كَانَ العِلْمُ نَافِعًا",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "False. العِلْمُ is ism kāna and remains nominative (marfūʿ); only khabar kāna (نَافِعًا) becomes accusative.",
+      "feedback": {
+        "rule": "كَانَ leaves its subject nominative and turns its predicate accusative."
+      },
+      "skillTags": ["kana", "raf"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

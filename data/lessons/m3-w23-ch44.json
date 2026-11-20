@@ -1,0 +1,65 @@
+{
+  "id": "m3-w23-ch44",
+  "moduleId": "module-3",
+  "week": 23,
+  "chapter": 44,
+  "title": "Diptote Declension (Al-Mamnūʿ min al-Ṣarf)",
+  "titleArabic": "المَمْنُوعُ مِنَ الصَّرْفِ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 44; Ryding Ch. 8 §8.5)",
+  "objectives": [
+    "Explain how diptotes differ from fully declinable triptotes in case endings and nunation.",
+    "Identify major morphological and semantic categories of diptotes (foreign names, afʿal adjectives, mafāʿil/mafāʿīl plurals).",
+    "Apply the reversion rule when a diptote takes أَلْ or serves as muḍāf in an iḍāfah."
+  ],
+  "recallPrompt": "From Chapter 4: What case ending does a regular indefinite singular noun take after a preposition such as فِي or إِلَى?",
+  "glossaryTerms": ["mamnu-min-al-sarf", "tanwin", "jarr", "idafah"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Triptotes vs. Diptotes",
+      "body": "Most Arabic nouns are triptotes (munṣarif): they take three distinct case endings (-u/-un, -a/-an, -i/-in) and accept tanwīn when indefinite. Diptotes (al-mamnūʿ min al-ṣarf) are barred from tanwīn and collapse the accusative and genitive into a single fatḥah (-a) when indefinite and unannexed."
+    },
+    {
+      "type": "rule",
+      "label": "The Diptote Reversion Rule",
+      "arabicTerm": "عَوْدَةُ المَمْنُوعِ مِنَ الصَّرْفِ إِلَى الجَرِّ بِالكَسْرَةِ",
+      "summary": "An indefinite diptote takes fatḥah in the genitive (e.g., فِي مَسَاجِدَ). However, if it is prefixed by أَلْ or functions as the muḍāf of an iḍāfah, it reverts to full triptote declension and takes kasrah in the genitive."
+    },
+    {
+      "type": "table",
+      "heading": "Common Diptote Categories",
+      "headers": ["Category", "Pattern / Criterion", "Example", "Genitive (Indefinite)"],
+      "rows": [
+        ["Non-Arabic proper names", "Foreign names > 3 letters", "إِبْرَاهِيمُ", "إِلَى إِبْرَاهِيمَ"],
+        ["Feminine proper names", "All feminine proper names", "فَاطِمَةُ", "عَنْ فَاطِمَةَ"],
+        ["Elative / color adjectives", "Pattern أَفْعَلُ", "أَكْبَرُ", "مِنْ أَكْبَرَ"],
+        ["Ultimate broken plurals", "مَفَاعِلُ / مَفَاعِيلُ", "مَسَاجِدُ", "فِي مَسَاجِدَ"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "صَلَّيْتُ فِي مَسَاجِدَ كَثِيرَةٍ",
+      "transliteration": "ṣallaytu fī masājida kathīratin",
+      "translation": "I prayed in many mosques.",
+      "irab": "فِي: حَرْفُ جَرٍّ | مَسَاجِدَ: اسْمٌ مَجْرُورٌ بِفِي وَعَلَامَةُ جَرِّهِ الفَتْحَةُ نِيَابَةً عَنِ الكَسْرَةِ",
+      "notes": "مَسَاجِدَ follows the pattern مَفَاعِلُ, so it is a diptote: governed by فِي in the genitive, yet marked with fatḥah instead of kasrah. Its adjective كَثِيرَةٍ is a regular triptote, so it takes kasrah with tanwīn.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "example",
+      "arabic": "صَلَّيْتُ فِي مَسَاجِدِ المَدِينَةِ",
+      "transliteration": "ṣallaytu fī masājidi l-madīnati",
+      "translation": "I prayed in the mosques of the city.",
+      "irab": "مَسَاجِدِ: اسْمٌ مَجْرُورٌ بِالكَسْرَةِ لِأَنَّهُ مُضَافٌ",
+      "notes": "Because مَسَاجِدِ is the muḍāf in an iḍāfah, it reverts to taking kasrah in the genitive.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Iʿrāb Precision",
+      "body": "When parsing an indefinite diptote after a preposition, remember that its grammatical case is still genitive (majrūr)—only the visible marker is fatḥah in place of kasrah (الفَتْحَةُ نِيَابَةً عَنِ الكَسْرَةِ)."
+    }
+  ]
+}

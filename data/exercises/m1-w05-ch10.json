@@ -1,0 +1,57 @@
+{
+  "lessonId": "m1-w05-ch10",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m1-w05-ch10-001",
+      "lessonId": "m1-w05-ch10",
+      "type": "multiple-choice",
+      "prompt": "What is the grammatical difference between هٰذَا كِتَابٌ and هٰذَا الكِتَابُ?",
+      "arabic": "هٰذَا كِتَابٌ / هٰذَا الكِتَابُ",
+      "choices": [
+        "هٰذَا كِتَابٌ is a complete sentence ('This is a book'); هٰذَا الكِتَابُ is a noun phrase ('this book')",
+        "Both are complete sentences",
+        "هٰذَا الكِتَابُ is a complete sentence; هٰذَا كِتَابٌ is a phrase"
+      ],
+      "answer": "هٰذَا كِتَابٌ is a complete sentence ('This is a book'); هٰذَا الكِتَابُ is a noun phrase ('this book')",
+      "explanation": "A demonstrative + noun with أَلْ forms a single noun phrase; a demonstrative + indefinite noun forms a complete nominal sentence.",
+      "feedback": {
+        "rule": "Demonstrative + definite noun = phrase; demonstrative + indefinite noun = sentence."
+      },
+      "skillTags": ["demonstratives", "nominal-sentence"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w05-ch10-002",
+      "lessonId": "m1-w05-ch10",
+      "type": "fill-in-blank",
+      "prompt": "Select the correct near demonstrative for a non-human broken plural ('these books').",
+      "arabic": "_____ الكُتُبُ",
+      "choices": ["هٰذِهِ", "هٰؤُلَاءِ", "هٰذَا"],
+      "answer": "هٰذِهِ",
+      "explanation": "Non-human plurals take feminine singular agreement, so use هٰذِهِ (not هٰؤُلَاءِ, which is for humans).",
+      "feedback": {
+        "rule": "Non-human plurals take feminine singular demonstratives (هٰذِهِ / تِلْكَ)."
+      },
+      "skillTags": ["demonstratives", "agreement"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w05-ch10-003",
+      "lessonId": "m1-w05-ch10",
+      "type": "word-ordering",
+      "prompt": "Arrange the words to form: 'This book is useful.'",
+      "tokens": ["مُفِيدٌ", "الكِتَابُ", "هٰذَا"],
+      "answer": ["هٰذَا", "الكِتَابُ", "مُفِيدٌ"],
+      "explanation": "هٰذَا الكِتَابُ forms the definite subject phrase, followed by the indefinite predicate مُفِيدٌ.",
+      "feedback": {
+        "rule": "Demonstrative phrase (subject) + indefinite khabar."
+      },
+      "skillTags": ["demonstratives", "word-order"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

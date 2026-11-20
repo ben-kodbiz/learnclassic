@@ -1,0 +1,56 @@
+{
+  "id": "m1-w06-ch11",
+  "moduleId": "module-1",
+  "week": 6,
+  "chapter": 11,
+  "title": "Adjectival Concordance & Elatives",
+  "titleArabic": "النَّعْتُ وَاسْمُ التَّفْضِيلِ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 11; Ryding Ch. 10)",
+  "objectives": [
+    "Apply fourfold adjectival concordance (gender, number, case, definiteness) between naʿt and manʿūt.",
+    "Form comparative clauses using the elative pattern أَفْعَلُ + مِنْ.",
+    "Form superlative constructs using أَفْعَلُ in an iḍāfah."
+  ],
+  "recallPrompt": "From Chapter 6: What agreement does an adjective take when modifying a non-human plural noun like الكُتُبُ?",
+  "glossaryTerms": ["ism", "idafah", "mamnu-min-al-sarf"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "The Fourfold Concordance Rule (Al-Naʿt wa-l-Manʿūt)",
+      "body": "In Classical Arabic, an attributive adjective (al-naʿt) follows the noun it modifies (al-manʿūt) and agrees with it in four respects: gender, number, grammatical case, and definiteness. (For non-human plurals, the adjective takes feminine singular.)"
+    },
+    {
+      "type": "rule",
+      "label": "Comparative & Superlative (Ism al-Tafḍīl)",
+      "arabicTerm": "أَفْعَلُ التَّفْضِيلِ",
+      "summary": "The elative pattern أَفْعَلُ (e.g., أَكْبَرُ 'greater/greatest', أَعْلَمُ 'more/most knowledgeable') is a diptote. Used with مِنْ, it stays masculine singular for comparisons ('greater than'). Placed as muḍāf before an indefinite singular or definite plural, it expresses the superlative ('the greatest of...')."
+    },
+    {
+      "type": "table",
+      "heading": "Adjectival & Elative Constructions",
+      "headers": ["Type", "Arabic", "Transliteration", "Meaning"],
+      "rows": [
+        ["Attributive (def.)", "العِلْمُ النَّافِعُ", "al-ʿilmu n-nāfiʿu", "the beneficial knowledge"],
+        ["Attributive (indef. gen.)", "فِي مَسْجِدٍ كَبِيرٍ", "fī masjidin kabīrin", "in a large mosque"],
+        ["Comparative", "العِلْمُ أَفْضَلُ مِنَ المَالِ", "al-ʿilmu ʾafḍalu mina l-māli", "Knowledge is better than wealth."],
+        ["Superlative (iḍāfah)", "أَعْلَمُ النَّاسِ", "ʾaʿlamu n-nāsi", "the most knowledgeable of people"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "القُرْآنُ أَعْظَمُ كِتَابٍ",
+      "transliteration": "al-qurʾānu ʾaʿẓamu kitābin",
+      "translation": "The Qur'an is the greatest book.",
+      "irab": "القُرْآنُ: مُبْتَدَأٌ مَرْفُوعٌ | أَعْظَمُ: خَبَرٌ مَرْفُوعٌ وَهُوَ مُضَافٌ | كِتَابٍ: مُضَافٌ إِلَيْهِ مَجْرُورٌ",
+      "notes": "أَعْظَمُ + indefinite singular genitive (كِتَابٍ) is the standard classical superlative construction ('the greatest of any book' = 'the greatest book').",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "heading": "Color & Defect Adjectives (أَفْعَلُ / فَعْلَاءُ)",
+      "body": "Adjectives of color and physical traits use أَفْعَلُ for masculine (أَبْيَضُ 'white') and فَعْلَاءُ for feminine (بَيْضَاءُ)—both are diptotes and take no tanwīn."
+    }
+  ]
+}

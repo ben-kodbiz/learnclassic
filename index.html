@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classical Arabic Grammar — 26-Week Curriculum</title>
+  <meta name="description" content="Self-paced Classical Arabic grammar curriculum in Ṣarf, Naḥw, and Iʿrāb.">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/arabic.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="#/" class="brand-link">
+          <span class="brand-title">Classical Arabic Grammar</span>
+          <span class="brand-ar" lang="ar" dir="rtl">النَّحْوُ وَالصَّرْفُ</span>
+        </a>
+        <p class="brand-subtitle">26-Week Curriculum in Ṣarf, Naḥw &amp; Iʿrāb</p>
+      </div>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#/" class="nav-link" data-nav="home">Curriculum Map</a>
+        <a href="#/module/module-1" class="nav-link" data-nav="module-1">Module 1</a>
+        <a href="#/module/module-2" class="nav-link" data-nav="module-2">Module 2</a>
+        <a href="#/module/module-3" class="nav-link" data-nav="module-3">Module 3</a>
+        <a href="#/glossary" class="nav-link" data-nav="glossary">Glossary</a>
+        <a href="#/progress" class="nav-link" data-nav="progress">Progress &amp; Review</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="container main-content" tabindex="-1">
+    <div id="app-root" aria-live="polite">
+      <p class="loading-state">Loading curriculum…</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>
+        Classical Arabic &amp; Qur’anic syntax curriculum synthesizing Haywood &amp; Nahmad’s
+        <em>A New Arabic Grammar</em> (1965) and Karin C. Ryding’s
+        <em>A Reference Grammar of Modern Standard Arabic</em> (2005). Original explanations and exercises.
+      </p>
+      <div class="footer-actions">
+        <button type="button" id="export-progress-btn" class="btn btn-secondary">Export Progress</button>
+        <label class="btn btn-secondary file-label">
+          Import Progress
+          <input type="file" id="import-progress-input" accept="application/json" hidden>
+        </label>
+        <button type="button" id="reset-progress-btn" class="btn btn-danger-outline">Reset Progress</button>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

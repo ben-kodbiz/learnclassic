@@ -1,0 +1,45 @@
+{
+  "id": "m1-w08-cons",
+  "moduleId": "module-1",
+  "week": 8,
+  "chapter": "consolidation-1",
+  "title": "Module 1 Consolidation & Early Supplement Iʿrāb",
+  "titleArabic": "مُرَاجَعَةُ المَرْحَلَةِ الأُولَى",
+  "reviewStatus": "pending",
+  "source": "Original synthesis lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 1–13 & Literary Supplement p. 462; Ryding Ch. 1–10, 12–13, 21–22)",
+  "objectives": [
+    "Apply the Daily 3-Step Textual Iʿrāb Routine to unvocalized nominal and verbal sentences.",
+    "Verify every case ending (rafʿ, naṣb, jarr) and name its governing factor (ʿāmil).",
+    "Consolidate Chapters 1–13 before transitioning to the imperfect verbal system in Module 2."
+  ],
+  "recallPrompt": "What are the three steps of the Daily Textual Iʿrāb Routine?",
+  "glossaryTerms": ["mubtada", "khabar", "fail", "maful", "idafah", "raf", "nasb", "jarr"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Transitioning Beyond Transliteration",
+      "body": "Chapters 1–13 establish the complete foundation of Arabic nominal syntax, case inflection, annexation, pronouns, and the Form I past verb. From Module 2 onward, phonetic transliteration is minimized so you read directly from fully vowelled Classical Arabic script."
+    },
+    {
+      "type": "rule",
+      "label": "Module 1 Iʿrāb Checklist",
+      "arabicTerm": "مُحَاسَبَةُ الإِعْرَابِ",
+      "summary": "For every clause: (1) Classify as Nominal (Ismiyyah) or Verbal (Fiʿliyyah); (2) Locate Mubtadaʾ + Khabar (checking for kāna) or Fiʿl + Fāʿil + Mafʿūl Bihi; (3) Justify every case ending via its ʿāmil (default rafʿ, preposition/iḍāfah → jarr, object/khabar kāna → naṣb)."
+    },
+    {
+      "type": "example",
+      "arabic": "قَرَأَ الطَّالِبُ كِتَابَ التَّارِيخِ فِي المَكْتَبَةِ",
+      "transliteration": "qaraʾa ṭ-ṭālibu kitāba t-tārīkhi fī l-maktabati",
+      "translation": "The student read the book of history in the library.",
+      "irab": "قَرَأَ: فِعْلٌ مَاضٍ | الطَّالِبُ: فَاعِلٌ مَرْفُوعٌ | كِتَابَ: مَفْعُولٌ بِهِ مَنْصُوبٌ وَهُوَ مُضَافٌ | التَّارِيخِ: مُضَافٌ إِلَيْهِ مَجْرُورٌ | فِي المَكْتَبَةِ: جَارٌّ وَمَجْرُورٌ",
+      "notes": "Notice how كِتَابَ is both the direct object (accusative) AND the muḍāf of an iḍāfah (no al-, no tanwīn).",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Module 1 Checkpoint",
+      "body": "Before starting Week 9 (The Imperfect System), make sure you can vocalize unvowelled nominal sentences, iḍāfah chains, and kāna predicates without guessing."
+    }
+  ]
+}

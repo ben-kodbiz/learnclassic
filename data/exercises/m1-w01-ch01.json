@@ -1,0 +1,67 @@
+{
+  "lessonId": "m1-w01-ch01",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m1-w01-ch01-001",
+      "lessonId": "m1-w01-ch01",
+      "type": "multiple-choice",
+      "prompt": "How is the definite article أَلْ pronounced in الشَّمْسُ?",
+      "arabic": "الشَّمْسُ",
+      "choices": [
+        "ash-shamsu (lām assimilates into shīn)",
+        "al-shamsu (lām is pronounced clearly)",
+        "a-shamsu (single shīn without doubling)"
+      ],
+      "answer": "ash-shamsu (lām assimilates into shīn)",
+      "explanation": "ش is a solar letter (ḥarf shamsī), so the lām of أَلْ assimilates completely into ش, which is pronounced doubled (shaddah): ash-shamsu.",
+      "feedback": {
+        "rule": "Solar letters assimilate the lām of أَلْ and take shaddah.",
+        "commonError": "Pronouncing the lām before a solar letter or omitting the shaddah."
+      },
+      "skillTags": ["phonetics", "solar-lunar"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w01-ch01-002",
+      "lessonId": "m1-w01-ch01",
+      "type": "true-false",
+      "prompt": "True or False: In الشَّمْسُ وَالقَمَرُ, the hamzat al-waṣl of القَمَرُ is pronounced as a glottal stop after وَ.",
+      "arabic": "الشَّمْسُ وَالقَمَرُ",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "False. Hamzat al-waṣl elides after a preceding vowel, so وَالقَمَرُ is read continuously as wa-l-qamaru.",
+      "feedback": {
+        "rule": "Hamzat al-waṣl drops in connected reading when preceded by a vowel.",
+        "commonError": "Pronouncing wa-ʾal-qamaru as if it were hamzat al-qaṭʿ."
+      },
+      "skillTags": ["hamzat-al-wasl", "phonetics"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w01-ch01-003",
+      "lessonId": "m1-w01-ch01",
+      "type": "matching",
+      "prompt": "Match each orthographic sign to its phonetic function.",
+      "pairs": [
+        { "left": "ـّ (Shaddah)", "right": "Doubles the consonant" },
+        { "left": "ـْ (Sukūn)", "right": "Marks a vowelless consonant" },
+        { "left": "آ (Maddah)", "right": "Long ā following hamzah" }
+      ],
+      "answer": {
+        "ـّ (Shaddah)": "Doubles the consonant",
+        "ـْ (Sukūn)": "Marks a vowelless consonant",
+        "آ (Maddah)": "Long ā following hamzah"
+      },
+      "explanation": "Shaddah doubles a consonant, sukūn marks absence of a vowel, and maddah marks long ā after hamzah.",
+      "feedback": {
+        "rule": "Arabic orthographic diacritics (ḥarakāt and ḍawābiṭ)"
+      },
+      "skillTags": ["orthography"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

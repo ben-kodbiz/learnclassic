@@ -1,0 +1,56 @@
+{
+  "id": "m1-w01-ch01",
+  "moduleId": "module-1",
+  "week": 1,
+  "chapter": 1,
+  "title": "Orthography, Phonetics & Syllable Quantity",
+  "titleArabic": "الخَطُّ وَالأَصْوَاتُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 1; Ryding Ch. 2 §§2.3–2.8)",
+  "objectives": [
+    "Identify short vowels (fatḥah, kasrah, ḍammah) and auxiliary signs (sukūn, shaddah, maddah).",
+    "Distinguish hamzat al-qaṭʿ (disjunctive) from hamzat al-waṣl (elidable) in connected reading.",
+    "Apply solar (shamsiyyah) and lunar (qamariyyah) assimilation rules with the definite article أَلْ."
+  ],
+  "recallPrompt": "Why does Classical Arabic require vocalizing short vowel endings rather than dropping them in pause?",
+  "glossaryTerms": ["harf", "tanwin"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Vowels, Auxiliary Signs & Syllable Weight",
+      "body": "Arabic script writes its 28 consonants explicitly, while short vowels are marked above or below letters with diacritics (ḥarakāt): fatḥah (ـَ /a/), kasrah (ـِ /i/), and ḍammah (ـُ /u/). Sukūn (ـْ) marks a vowelless consonant, shaddah (ـّ) doubles a consonant, and maddah (آ) represents a long /ā/ following hamzah."
+    },
+    {
+      "type": "rule",
+      "label": "Solar vs. Lunar Assimilation",
+      "arabicTerm": "الحُرُوفُ الشَّمْسِيَّةُ وَالقَمَرِيَّةُ",
+      "summary": "Before the 14 solar letters (ت ث د ذ ر ز س ش ص ض ط ظ ل ن), the lām of أَلْ assimilates completely into the following consonant, which takes shaddah. Before the 14 lunar letters, the lām is pronounced clearly with sukūn."
+    },
+    {
+      "type": "table",
+      "heading": "Solar, Lunar & Hamzah Signs",
+      "headers": ["Category", "Arabic", "Transliteration", "Phonetic Behavior"],
+      "rows": [
+        ["Lunar (Qamariyyah)", "القَمَرُ", "al-qamaru", "Lām is pronounced clearly with sukūn"],
+        ["Solar (Shamsiyyah)", "الشَّمْسُ", "ash-shamsu", "Lām is silent; ش doubles with shaddah"],
+        ["Hamzat al-Qaṭʿ", "أَمْرٌ", "ʾamrun", "Always pronounced, even mid-phrase"],
+        ["Hamzat al-Waṣl", "بِاسْمِ اللَّهِ", "bismi llāhi", "Elides after a preceding vowel in connected speech"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "الشَّمْسُ وَالقَمَرُ",
+      "transliteration": "ash-shamsu wa-l-qamaru",
+      "translation": "The sun and the moon.",
+      "irab": "الشَّمْسُ: لَامٌ شَمْسِيَّةٌ مُدْغَمَةٌ | وَالقَمَرُ: هَمْزَةُ وَصْلٍ تَسْقُطُ فِي الدَّرْجِ",
+      "notes": "In connected reading, the hamzat al-waṣl on القَمَرُ drops after وَ, linking directly: wa-l-qamaru.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Qur'anic Reading Habit",
+      "body": "Always read shaddah as two full consonant beats (e.g., أَلشَّمْسُ = ash-shamsu, not a-shamsu). Dropping a shaddah changes word meaning and root structure."
+    }
+  ]
+}

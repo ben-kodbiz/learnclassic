@@ -1,0 +1,55 @@
+{
+  "id": "m1-w07-ch13",
+  "moduleId": "module-1",
+  "week": 7,
+  "chapter": 13,
+  "title": "Pronominal Direct Objects & Kāna wa-Akhawātuhā",
+  "titleArabic": "ضَمَائِرُ النَّصْبِ وَكَانَ وَأَخَوَاتُهَا",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 13; Ryding Ch. 21 §21.2, Ch. 36)",
+  "objectives": [
+    "Attach pronominal direct object suffixes (ـنِي, ـكَ, ـهُ, ـهَا, ـنَا) to verbs.",
+    "Explain the case governance of kāna and its sisters (ism kāna nominative, khabar kāna accusative).",
+    "Conjugate kāna in the past tense and vocalize nominal clauses shifted into the past."
+  ],
+  "recallPrompt": "From Chapter 9: What suffix attaches to a noun for 'my' (e.g., كِتَابِي), and how does 'me' differ on a verb?",
+  "glossaryTerms": ["fil", "maful", "khabar", "raf", "nasb"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Object Pronouns on Verbs & The Verb Kāna",
+      "body": "When a direct object is a pronoun, it attaches directly to the verb. All object suffixes match the noun suffixes from Chapter 9 except the 1st-person singular: nouns take ـِي ('my'), whereas verbs take ـنِي ('me', e.g., عَلَّمَنِي 'he taught me'). In addition, the auxiliary verb كَانَ ('was') places an equational nominal sentence into the past."
+    },
+    {
+      "type": "rule",
+      "label": "Governance of Kāna wa-Akhawātuhā",
+      "arabicTerm": "كَانَ وَأَخَوَاتُهَا",
+      "summary": "When كَانَ (or a sister such as أَصْبَحَ 'became', لَيْسَ 'is not') enters a nominal sentence, its subject (ism kāna) remains NOMINATIVE (marfūʿ), while its predicate (khabar kāna) shifts to the ACCUSATIVE (manṣūb)."
+    },
+    {
+      "type": "table",
+      "heading": "Nominal Sentence Before and After Kāna",
+      "headers": ["Structure", "Arabic", "Transliteration", "Case of Predicate"],
+      "rows": [
+        ["Present (no verb)", "العِلْمُ نَافِعٌ", "al-ʿilmu nāfiʿun", "Nominative (نَافِعٌ)"],
+        ["Past with كَانَ", "كَانَ العِلْمُ نَافِعًا", "kāna l-ʿilmu nāfiʿan", "Accusative (نَافِعًا)"],
+        ["Verb + object suffix", "سَأَلَنِي المُعَلِّمُ", "saʾalanī l-muʿallimu", "ـنِي = object pronoun in naṣb"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "كَانَ البَيْتُ كَبِيرًا",
+      "transliteration": "kāna l-baytu kabīran",
+      "translation": "The house was large.",
+      "irab": "كَانَ: فِعْلٌ مَاضٍ نَاقِصٌ | البَيْتُ: اسْمُ كَانَ مَرْفُوعٌ بِالضَّمَّةِ | كَبِيرًا: خَبَرُ كَانَ مَنْصُوبٌ بِالفَتْحَةِ",
+      "notes": "Notice the trailing alif on the indefinite accusative predicate كَبِيرًا.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Hollow Stem Shortening in Kāna",
+      "body": "When consonant-initial suffixes attach to كَانَ (1st/2nd person), the long ā shortens to u: كُنْتُ ('I was'), كُنْتَ ('you were'), كُنَّا ('we were')."
+    }
+  ]
+}

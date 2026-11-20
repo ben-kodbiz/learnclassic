@@ -1,0 +1,83 @@
+{
+  "lessonId": "m2-w09-ch15",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m2-w09-ch15-001",
+      "lessonId": "m2-w09-ch15",
+      "type": "multiple-choice",
+      "prompt": "Identify the mood and inflectional sign of يَفْهَمَ in the sentence below.",
+      "arabic": "يَجْتَهِدُ الطَّالِبُ كَيْ يَفْهَمَ الدَّرْسَ",
+      "target": "يَفْهَمَ",
+      "choices": [
+        "Subjunctive (manṣūb) — marked by fatḥah",
+        "Indicative (marfūʿ) — marked by ḍammah",
+        "Jussive (majzūm) — marked by sukūn"
+      ],
+      "answer": "Subjunctive (manṣūb) — marked by fatḥah",
+      "explanation": "The purpose particle كَيْ governs the following imperfect verb in the subjunctive mood (manṣūb), marked by final fatḥah on sound singular stems.",
+      "feedback": {
+        "rule": "Subjunctive governing particles (ḥurūf al-naṣb) change final -u to -a on singular sound stems.",
+        "governor": "كَيْ (particle of purpose / ḥarf naṣb)",
+        "role": "Imperfect verb in subordinate purpose clause",
+        "caseOrMood": "Subjunctive (manṣūb) marked by fatḥah",
+        "commonError": "Do not mistake the fatḥah on a verb for accusative case—verbs take moods (rafʿ, naṣb, jazm), not nominal cases."
+      },
+      "skillTags": ["mood", "nasb", "subjunctive"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w09-ch15-002",
+      "lessonId": "m2-w09-ch15",
+      "type": "fill-in-blank",
+      "prompt": "Choose the correct subjunctive form after لَنْ for the 3rd person masculine plural ('They will never return').",
+      "arabic": "لَنْ _____ قَبْلَ الغُرُوبِ",
+      "choices": ["يَرْجِعُوا", "يَرْجِعُونَ", "يَرْجِعَ"],
+      "answer": "يَرْجِعُوا",
+      "explanation": "يَرْجِعُونَ belongs to al-afʿāl al-khamsah; in the subjunctive after لَنْ, final nūn is dropped (ḥadhf al-nūn) and alif al-fāriqah is written: يَرْجِعُوا.",
+      "feedback": {
+        "rule": "Al-afʿāl al-khamsah mark the subjunctive by dropping final nūn (ḥadhf al-nūn).",
+        "governor": "لَنْ (particle of emphatic future negation and naṣb)",
+        "caseOrMood": "Subjunctive (manṣūb) by deletion of nūn",
+        "commonError": "Retaining final nūn (يَرْجِعُونَ) leaves the verb in the indicative."
+      },
+      "skillTags": ["afal-al-khamsah", "subjunctive", "lan"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w09-ch15-003",
+      "lessonId": "m2-w09-ch15",
+      "type": "true-false",
+      "prompt": "True or False: Both أَنْ and أَنَّ govern imperfect verbs in the subjunctive mood.",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "False. أَنْ (with sukūn) governs imperfect verbs in the subjunctive, whereas أَنَّ (with shaddah) belongs to the sisters of إِنَّ and governs nominal clauses.",
+      "feedback": {
+        "rule": "Distinguish verbal subjunctive particle أَنْ from nominal corroborating particle أَنَّ.",
+        "commonError": "Confusing أَنْ + verb with أَنَّ + noun/pronoun."
+      },
+      "skillTags": ["particles", "an-vs-anna"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w09-ch15-004",
+      "lessonId": "m2-w09-ch15",
+      "type": "word-ordering",
+      "prompt": "Arrange the tokens to form: 'I want to write the letter.'",
+      "tokens": ["الرِّسَالَةَ", "أَكْتُبَ", "أَنْ", "أُرِيدُ"],
+      "answer": ["أُرِيدُ", "أَنْ", "أَكْتُبَ", "الرِّسَالَةَ"],
+      "explanation": "The main indicative verb أُرِيدُ precedes the subjunctive particle أَنْ, which governs أَكْتُبَ, followed by the accusative object الرِّسَالَةَ.",
+      "feedback": {
+        "rule": "Main verb + أَنْ + subjunctive verb + direct object.",
+        "governor": "أَنْ governs أَكْتُبَ in naṣb",
+        "caseOrMood": "أُرِيدُ (indicative) | أَكْتُبَ (subjunctive)"
+      },
+      "skillTags": ["word-order", "subjunctive"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

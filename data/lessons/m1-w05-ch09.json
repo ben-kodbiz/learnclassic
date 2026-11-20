@@ -1,0 +1,56 @@
+{
+  "id": "m1-w05-ch09",
+  "moduleId": "module-1",
+  "week": 5,
+  "chapter": 9,
+  "title": "The Attached Pronouns (Al-Ḍamāʾir al-Muttaṣilah)",
+  "titleArabic": "الضَّمَائِرُ المُتَّصِلَةُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 9; Ryding Ch. 12)",
+  "objectives": [
+    "Attach pronominal suffixes to nouns to express possession (functioning as muḍāf ilayh).",
+    "Attach pronominal suffixes to prepositions (e.g., لَهُ, مِنْهُ, فِيهِ).",
+    "Apply the vowel-harmony shift in 3rd-person suffixes (-hu / -hum → -hi / -him) after kasrah or yāʾ."
+  ],
+  "recallPrompt": "From Chapter 8: Why does a noun lose أَلْ and tanwīn when it serves as muḍāf?",
+  "glossaryTerms": ["idafah", "jarr", "harf"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Enclitic Pronouns on Nouns and Prepositions",
+      "body": "Arabic uses attached pronominal suffixes (al-ḍamāʾir al-muttaṣilah) rather than separate possessive adjectives ('my', 'his', 'their'). Attached to a noun, the suffix acts as the muḍāf ilayh—so the noun drops أَلْ and tanwīn. Attached to a preposition, the suffix serves as its genitive object."
+    },
+    {
+      "type": "rule",
+      "label": "3rd-Person Vowel Harmony",
+      "arabicTerm": "كَسْرُ هَاءِ الضَّمِيرِ",
+      "summary": "The 3rd-person suffixes ـهُ, ـهُمَا, ـهُمْ, ـهُنَّ shift their ḍammah to kasrah (ـهِ, ـهِمَا, ـهِمْ, ـهِنَّ) whenever immediately preceded by a kasrah (-i) or a yāʾ (يْ / ـِي)."
+    },
+    {
+      "type": "table",
+      "heading": "Common Attached Pronouns",
+      "headers": ["Person", "Suffix", "With Noun (كِتَابٌ)", "With Preposition (فِي)"],
+      "rows": [
+        ["1s (my / me)", "ـِي / ـنِي", "كِتَابِي (kitābī)", "فِيَّ (fīya)"],
+        ["2ms (your / you)", "ـكَ", "كِتَابُكَ (kitābuka)", "فِيكَ (fīka)"],
+        ["3ms (his / him)", "ـهُ / ـهِ", "كِتَابُهُ (kitābuhu)", "فِيهِ (fīhi — shifted!)"],
+        ["3mp (their / them)", "ـهُمْ / ـهِمْ", "كِتَابُهُمْ (kitābuhum)", "فِيهِمْ (fīhim — shifted!)"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "فِي بَيْتِهِ كُتُبٌ كَثِيرَةٌ",
+      "transliteration": "fī baytihi kutubun kathīratun",
+      "translation": "In his house are many books.",
+      "irab": "فِي: حَرْفُ جَرٍّ | بَيْتِ: اسْمٌ مَجْرُورٌ وَهُوَ مُضَافٌ | ـهِ: ضَمِيرٌ مُتَّصِلٌ فِي مَحَلِّ جَرٍّ مُضَافٌ إِلَيْهِ",
+      "notes": "بَيْتِ is genitive after فِي, so the attached pronoun ـهُ shifts to ـهِ (baytihi).",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "1st-Person Singular (ـِي) Overrides Case Vowels",
+      "body": "When ـِي ('my') attaches to a singular noun (كِتَابِي), it absorbs the short case vowel, so كِتَابِي looks identical in nominative, accusative, and genitive."
+    }
+  ]
+}

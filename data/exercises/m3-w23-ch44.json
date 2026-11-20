@@ -1,0 +1,91 @@
+{
+  "lessonId": "m3-w23-ch44",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w23-ch44-001",
+      "lessonId": "m3-w23-ch44",
+      "type": "multiple-choice",
+      "prompt": "Identify the grammatical case and marker of مَسَاجِدَ in the phrase below.",
+      "arabic": "صَلَّيْتُ فِي مَسَاجِدَ كَثِيرَةٍ",
+      "target": "مَسَاجِدَ",
+      "choices": [
+        "Genitive (majrūr) — marked by fatḥah in place of kasrah",
+        "Accusative (manṣūb) — marked by fatḥah",
+        "Genitive (majrūr) — marked by kasrah"
+      ],
+      "answer": "Genitive (majrūr) — marked by fatḥah in place of kasrah",
+      "explanation": "مَسَاجِدَ is governed by the preposition فِي (so its case is genitive), but because it is an indefinite diptote on the pattern مَفَاعِلُ, it takes fatḥah in place of kasrah.",
+      "feedback": {
+        "rule": "Indefinite, unannexed diptotes take fatḥah as their genitive marker (الفَتْحَةُ نِيَابَةً عَنِ الكَسْرَةِ).",
+        "governor": "فِي (preposition / ḥarf jarr)",
+        "role": "Object of preposition (ism majrūr)",
+        "caseOrMood": "Genitive (majrūr), marked by fatḥah",
+        "commonError": "Do not call مَسَاجِدَ accusative merely because it ends in fatḥah; the preposition فِي always governs the genitive."
+      },
+      "skillTags": ["diptote", "jarr", "irab"],
+      "difficulty": 3,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w23-ch44-002",
+      "lessonId": "m3-w23-ch44",
+      "type": "fill-in-blank",
+      "prompt": "Select the correct form of مَسَاجِد when it functions as the muḍāf in an iḍāfah ('in the mosques of the city').",
+      "arabic": "فِي _____ المَدِينَةِ",
+      "choices": ["مَسَاجِدِ", "مَسَاجِدَ", "مَسَاجِدٍ"],
+      "answer": "مَسَاجِدِ",
+      "explanation": "Under the diptote reversion rule, serving as the muḍāf of an iḍāfah restores regular genitive kasrah: مَسَاجِدِ.",
+      "feedback": {
+        "rule": "Diptotes revert to taking kasrah in the genitive when prefixed by أَلْ or when serving as muḍāf.",
+        "governor": "فِي (preposition) + iḍāfah annexation",
+        "caseOrMood": "Genitive (majrūr) marked by kasrah",
+        "commonError": "Leaving fatḥah (مَسَاجِدَ) when annexed violates the diptote reversion rule."
+      },
+      "skillTags": ["diptote", "idafah", "reversion"],
+      "difficulty": 3,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w23-ch44-003",
+      "lessonId": "m3-w23-ch44",
+      "type": "true-false",
+      "prompt": "True or False: Diptotes (al-mamnūʿ min al-ṣarf) accept tanwīn when indefinite.",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "False. 'Al-mamnūʿ min al-ṣarf' literally means barred from tanwīn (nunation) and full three-case inflection.",
+      "feedback": {
+        "rule": "Diptotes never take tanwīn.",
+        "commonError": "Adding -un or -in to patterns like مَسَاجِدُ or أَكْبَرُ."
+      },
+      "skillTags": ["diptote", "tanwin"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w23-ch44-004",
+      "lessonId": "m3-w23-ch44",
+      "type": "matching",
+      "prompt": "Match each diptote example to the morphological or semantic reason it is barred from tanwīn.",
+      "pairs": [
+        { "left": "إِبْرَاهِيمُ", "right": "Non-Arabic proper name (> 3 letters)" },
+        { "left": "فَاطِمَةُ", "right": "Feminine proper name" },
+        { "left": "أَكْبَرُ", "right": "Adjective on pattern أَفْعَلُ" },
+        { "left": "مَسَاجِدُ", "right": "Ultimate broken plural on مَفَاعِلُ" }
+      ],
+      "answer": {
+        "إِبْرَاهِيمُ": "Non-Arabic proper name (> 3 letters)",
+        "فَاطِمَةُ": "Feminine proper name",
+        "أَكْبَرُ": "Adjective on pattern أَفْعَلُ",
+        "مَسَاجِدُ": "Ultimate broken plural on مَفَاعِلُ"
+      },
+      "explanation": "These four represent the most frequent diptote categories in Classical Arabic.",
+      "feedback": {
+        "rule": "Diptote classification categories"
+      },
+      "skillTags": ["diptote", "classification"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

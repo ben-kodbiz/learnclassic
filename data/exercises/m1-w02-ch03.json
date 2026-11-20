@@ -1,0 +1,60 @@
+{
+  "lessonId": "m1-w02-ch03",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m1-w02-ch03-001",
+      "lessonId": "m1-w02-ch03",
+      "type": "fill-in-blank",
+      "prompt": "Choose the predicate that agrees with الأَرْضُ ('The earth is wide').",
+      "arabic": "الأَرْضُ _____",
+      "choices": ["وَاسِعَةٌ", "وَاسِعٌ", "وَاسِعَةٍ"],
+      "answer": "وَاسِعَةٌ",
+      "explanation": "الأَرْضُ is an unmarked feminine noun, so its nominative predicate takes the feminine marker tāʾ marbūṭah: وَاسِعَةٌ.",
+      "feedback": {
+        "rule": "Unmarked feminine nouns require feminine agreement on adjectives and predicates.",
+        "role": "Khabar (Predicate)",
+        "caseOrMood": "Nominative (marfūʿ)",
+        "commonError": "Assuming الأَرْضُ is masculine because it lacks ة."
+      },
+      "skillTags": ["gender", "agreement"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w02-ch03-002",
+      "lessonId": "m1-w02-ch03",
+      "type": "multiple-choice",
+      "prompt": "What is the grammatical difference between شَجَرٌ and شَجَرَةٌ?",
+      "arabic": "شَجَرٌ / شَجَرَةٌ",
+      "choices": [
+        "شَجَرٌ is a masculine collective noun ('trees'); شَجَرَةٌ is a feminine noun of unity ('a single tree')",
+        "شَجَرٌ is singular; شَجَرَةٌ is plural",
+        "Both are feminine singular"
+      ],
+      "answer": "شَجَرٌ is a masculine collective noun ('trees'); شَجَرَةٌ is a feminine noun of unity ('a single tree')",
+      "explanation": "Collective nouns (ism al-jins) are grammatically masculine singular; suffixing ة creates a feminine noun of unity (ism al-waḥdah).",
+      "feedback": {
+        "rule": "Ism al-jins (masc. sg.) + ة → Ism al-waḥdah (fem. sg.)."
+      },
+      "skillTags": ["collective-noun", "gender"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w02-ch03-003",
+      "lessonId": "m1-w02-ch03",
+      "type": "true-false",
+      "prompt": "True or False: Prefixing the interrogative particle أَ changes the case of the mubtadaʾ to accusative.",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "False. Interrogative particles أَ and هَلْ do not alter case endings.",
+      "feedback": {
+        "rule": "Interrogative particles أَ and هَلْ have no case-governing effect."
+      },
+      "skillTags": ["interrogative", "raf"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

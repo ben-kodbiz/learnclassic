@@ -1,0 +1,56 @@
+{
+  "id": "m1-w04-ch07",
+  "moduleId": "module-1",
+  "week": 4,
+  "chapter": 7,
+  "title": "Advanced Broken Plurals",
+  "titleArabic": "جَمْعُ التَّكْسِيرِ (٢)",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 7; Ryding Ch. 7)",
+  "objectives": [
+    "Recognize quadriliteral broken plural patterns (فَعَالِلُ and فَعَالِيلُ).",
+    "Identify additional triliteral plural patterns (فُعَلَاءُ, أَفْعِلَاءُ, فَوَاعِلُ).",
+    "Distinguish diptote broken plurals (no tanwīn) from triptote broken plurals."
+  ],
+  "recallPrompt": "From Chapter 6: What grammatical gender and number does a predicate take when its subject is a non-human broken plural?",
+  "glossaryTerms": ["ism", "tanwin", "mamnu-min-al-sarf"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Quadriliteral & Diptote Broken Plurals",
+      "body": "Nouns with four consonants (either four-letter roots or triliteral roots with a prefix like مَـ) form broken plurals on the patterns فَعَالِلُ (with a short vowel after the long ā) or فَعَالِيلُ (with a long ī after the long ā). These patterns—along with فُعَلَاءُ and أَفْعِلَاءُ—are diptotes: they never take tanwīn."
+    },
+    {
+      "type": "rule",
+      "label": "No Tanwīn on Ultimate Plurals",
+      "arabicTerm": "صِيغَةُ مُنْتَهَى الجُمُوعِ",
+      "summary": "Broken plurals with two letters after alif (مَفَاعِلُ, فَوَاعِلُ) or three letters with medial yāʾ (مَفَاعِيلُ) are diptotes: they end in single ḍammah (-u) in the nominative and single fatḥah (-a) when indefinite."
+    },
+    {
+      "type": "table",
+      "heading": "Advanced Broken Plural Patterns",
+      "headers": ["Pattern", "Singular", "Plural", "Diptote?"],
+      "rows": [
+        ["مَفَاعِلُ", "مَسْجِدٌ (mosque)", "مَسَاجِدُ", "Yes (no tanwīn)"],
+        ["مَفَاعِيلُ", "مِفْتَاحٌ (key)", "مَفَاتِيحُ", "Yes (no tanwīn)"],
+        ["فُعَلَاءُ", "عَالِمٌ (scholar)", "عُلَمَاءُ", "Yes (no tanwīn)"],
+        ["أَفْعِلَاءُ", "صَدِيقٌ (friend)", "أَصْدِقَاءُ", "Yes (no tanwīn)"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "العُلَمَاءُ أَصْدِقَاءُ الحَقِّ",
+      "transliteration": "al-ʿulamāʾu ʾaṣdiqāʾu l-ḥaqqi",
+      "translation": "The scholars are friends of the truth.",
+      "irab": "العُلَمَاءُ: مُبْتَدَأٌ مَرْفُوعٌ | أَصْدِقَاءُ: خَبَرٌ مَرْفُوعٌ (مُضَافٌ) | الحَقِّ: مُضَافٌ إِلَيْهِ مَجْرُورٌ",
+      "notes": "Both العُلَمَاءُ and أَصْدِقَاءُ are broken plurals of rational human beings, and أَصْدِقَاءُ takes a single ḍammah (no tanwīn).",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Human vs. Non-Human Plurals",
+      "body": "Unlike non-human plurals (treated as feminine singular), broken plurals of rational human beings (like عُلَمَاءُ 'scholars') take plural agreement."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "m1-w03-ch05",
+  "moduleId": "module-1",
+  "week": 3,
+  "chapter": 5,
+  "title": "Number — Duals, Sound Plurals & Personal Pronouns",
+  "titleArabic": "المُثَنَّى وَالجَمْعُ السَّالِمُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 5; Ryding Ch. 6 §§6.2–6.4)",
+  "objectives": [
+    "Inflect dual nouns (-āni / -ayni) across nominative, accusative, and genitive cases.",
+    "Inflect sound masculine plurals (-ūna / -īna) and sound feminine plurals (-ātun / -ātin).",
+    "Use independent personal pronouns (هُوَ, هِيَ, أَنْتَ, أَنَا, etc.) as subjects of nominal sentences."
+  ],
+  "recallPrompt": "From Chapter 4: Which short vowels mark nominative, accusative, and genitive on a regular singular noun?",
+  "glossaryTerms": ["ism", "raf", "nasb", "jarr"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Inflection by Letters (Al-Iʿrāb bi-l-Ḥurūf)",
+      "body": "Unlike singular nouns, which mark case with short vowels, duals and sound masculine plurals mark case through long-vowel letters. Both duals and sound plurals collapse the accusative and genitive into a single oblique ending."
+    },
+    {
+      "type": "rule",
+      "label": "Dual & Sound Plural Endings",
+      "arabicTerm": "إِعْرَابُ المُثَنَّى وَالجَمْعِ السَّالِمِ",
+      "summary": "Dual: -āni (nom.) / -ayni (acc./gen.). Sound Masculine Plural (for male rational beings): -ūna (nom.) / -īna (acc./gen.). Sound Feminine Plural: -ātun (nom.) / -ātin (acc./gen.—never takes fatḥah!)."
+    },
+    {
+      "type": "table",
+      "heading": "Dual & Sound Plural Declension",
+      "headers": ["Category", "Nominative", "Accusative / Genitive", "Notes"],
+      "rows": [
+        ["Dual (Muthannā)", "كِتَابَانِ", "كِتَابَيْنِ", "Alif in rafʿ; yāʾ with fatḥah before it in naṣb/jarr"],
+        ["Sound Masc. Plural", "مُعَلِّمُونَ", "مُعَلِّمِينَ", "Wāw in rafʿ; yāʾ with kasrah before it in naṣb/jarr"],
+        ["Sound Fem. Plural", "مُعَلِّمَاتٌ", "مُعَلِّمَاتٍ", "Takes kasrah even in the accusative!"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "هُمْ مُعَلِّمُونَ فِي المَدْرَسَةِ",
+      "transliteration": "hum muʿallimūna fī l-madrasati",
+      "translation": "They are teachers in the school.",
+      "irab": "هُمْ: ضَمِيرٌ مُنْفَصِلٌ مَبْنِيٌّ فِي مَحَلِّ رَفْعٍ مُبْتَدَأٌ | مُعَلِّمُونَ: خَبَرٌ مَرْفُوعٌ بِالوَاوِ لِأَنَّهُ جَمْعُ مُذَكَّرٍ سَالِمٌ",
+      "notes": "Independent pronouns are invariable (mabnī) and stand as the definite mubtadaʾ. مُعَلِّمُونَ is nominative, marked by wāw.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "heading": "Sound Feminine Plural Accusative",
+      "body": "A sound feminine plural (ending in ـَاتٌ) never takes fatḥah. Its accusative and genitive both end in kasrah: رَأَيْتُ المُعَلِّمَاتِ ('I saw the female teachers')."
+    }
+  ]
+}

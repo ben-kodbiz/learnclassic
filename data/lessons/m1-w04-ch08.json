@@ -1,0 +1,55 @@
+{
+  "id": "m1-w04-ch08",
+  "moduleId": "module-1",
+  "week": 4,
+  "chapter": 8,
+  "title": "The Genitive Construct (Al-Iḍāfah)",
+  "titleArabic": "الإِضَافَةُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 8; Ryding Ch. 9 §§9.1–9.5)",
+  "objectives": [
+    "Identify the two terms of an iḍāfah: al-muḍāf (possessed) and al-muḍāf ilayh (possessor).",
+    "Apply the three structural rules of iḍāfah (no al-, no tanwīn, drop dual/plural nūn on muḍāf; genitive case on muḍāf ilayh).",
+    "Parse multi-tiered construct chains in classical and Qur'anic phrases."
+  ],
+  "recallPrompt": "From Chapter 4: Which case does a noun take when governed by a preposition?",
+  "glossaryTerms": ["idafah", "jarr", "raf", "tanwin"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Annexation Without 'Of'",
+      "body": "Classical Arabic expresses possession and close association ('the X of Y') by placing two nouns side by side in a genitive construct called al-iḍāfah. The first noun is al-muḍāf (the annexed/possessed item), and the second noun is al-muḍāf ilayh (the possessor)."
+    },
+    {
+      "type": "rule",
+      "label": "Core Rules of Al-Iḍāfah",
+      "arabicTerm": "المُضَافُ وَالمُضَافُ إِلَيْهِ",
+      "summary": "1) The muḍāf NEVER takes أَلْ or tanwīn (and drops final nūn in duals and sound masculine plurals). 2) The muḍāf takes whatever case its role in the sentence demands. 3) The muḍāf ilayh is ALWAYS genitive (majrūr). 4) Definiteness of the whole construct is determined by the final muḍāf ilayh."
+    },
+    {
+      "type": "table",
+      "heading": "Iḍāfah Examples Across Cases",
+      "headers": ["Phrase", "Transliteration", "Meaning", "Grammatical Breakdown"],
+      "rows": [
+        ["بَيْتُ اللَّهِ", "baytu llāhi", "The House of God", "بَيْتُ (nom. muḍāf, no al-/tanwīn) + اللَّهِ (gen.)"],
+        ["يَوْمِ الدِّينِ", "yawmi d-dīni", "The Day of Judgment (gen.)", "يَوْمِ (gen. muḍāf) + الدِّينِ (gen.)"],
+        ["كِتَابَا الطَّالِبِ", "kitābā ṭ-ṭālibi", "The two books of the student", "Dual كِتَابَانِ drops final nūn → كِتَابَا"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "بَابُ المَسْجِدِ مَفْتُوحٌ",
+      "transliteration": "bābu l-masjidi maftūḥun",
+      "translation": "The door of the mosque is open.",
+      "irab": "بَابُ: مُبْتَدَأٌ مَرْفُوعٌ وَهُوَ مُضَافٌ | المَسْجِدِ: مُضَافٌ إِلَيْهِ مَجْرُورٌ بِالكَسْرَةِ | مَفْتُوحٌ: خَبَرٌ مَرْفُوعٌ",
+      "notes": "بَابُ has neither أَلْ nor tanwīn, yet the whole phrase بَابُ المَسْجِدِ is definite because المَسْجِدِ is definite. Therefore it serves cleanly as the mubtadaʾ.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "heading": "Never Insert an Adjective Between Muḍāf and Muḍāf Ilayh",
+      "body": "Nothing may separate the muḍāf from the muḍāf ilayh. Any adjective modifying either noun must come AFTER the entire iḍāfah (e.g., بَابُ المَسْجِدِ الكَبِيرُ)."
+    }
+  ]
+}
