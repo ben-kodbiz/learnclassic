@@ -1,0 +1,32 @@
+{
+  "lessonId": "m2-w14-ch24",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m2-w14-ch24-001",
+      "lessonId": "m2-w14-ch24",
+      "type": "fill-in-blank",
+      "prompt": "Select the 1st-person singular past of مَدَّ ('I extended'):",
+      "choices": ["مَدَدْتُ", "مَدَّتُ", "مَدْتُ"],
+      "answer": "مَدَدْتُ",
+      "explanation": "Before consonant-initial suffixes (ـْتُ), the doubled 2nd and 3rd radicals separate: مَدَدْتُ.",
+      "feedback": { "rule": "Idghām separates whenever C3 takes sukūn." },
+      "skillTags": ["doubled-verb", "conjugation"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w14-ch24-002",
+      "lessonId": "m2-w14-ch24",
+      "type": "true-false",
+      "prompt": "True or False: In يَمُدُّ (3ms imperfect), the identical radicals remain contracted with shaddah.",
+      "choices": ["True", "False"],
+      "answer": "True",
+      "explanation": "True. Because C3 carries a vowel (ḍammah -u), the two dāls stay contracted with shaddah.",
+      "feedback": { "rule": "Contract with shaddah whenever C3 is vowelled." },
+      "skillTags": ["doubled-verb"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

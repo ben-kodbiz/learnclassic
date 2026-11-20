@@ -1,0 +1,56 @@
+{
+  "id": "m2-w14-ch24",
+  "moduleId": "module-2",
+  "week": 14,
+  "chapter": 24,
+  "title": "Doubled / Geminate Verbs (Al-Fiʿl al-Muḍāʿaf)",
+  "titleArabic": "الفِعْلُ المُضَعَّفُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 24; Ryding Ch. 22 §22.3)",
+  "objectives": [
+    "Recognize doubled verbs whose 2nd and 3rd radicals are identical (e.g., مَدَّ, رَدَّ).",
+    "Apply the idghām contraction rule: contract with shaddah when C3 is vowelled, separate when C3 carries sukūn.",
+    "Conjugate doubled verbs across past, imperfect, and jussive."
+  ],
+  "recallPrompt": "From Chapter 23: Why do Form IX verbs (اِحْمَرَّ) separate their doubled final radical in اِحْمَرَرْتُ?",
+  "glossaryTerms": ["fil", "jazm"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Gemination (Idghām) vs. Uncontracted Stems",
+      "body": "A doubled (geminate) verb has identical second and third radicals (e.g., م-د-د → مَدَّ 'to stretch/extend', ر-د-د → رَدَّ 'to return'). When the third radical is followed by a vowel, the two identical consonants merge with shaddah (idghām). When a consonant-initial subject suffix attaches (requiring sukūn on the third radical), the two radicals separate."
+    },
+    {
+      "type": "rule",
+      "label": "The Idghām Separation Rule",
+      "arabicTerm": "فَكُّ الإِدْغَامِ",
+      "summary": "If C3 is vowelled → contract with shaddah (مَدَّ, مَدُّوا, يَمُدُّ). If C3 has sukūn (before ـْتُ, ـْتَ, ـْنَا, ـْنَ) → separate the radicals (مَدَدْتُ, مَدَدْنَا, يَمْدُدْنَ)."
+    },
+    {
+      "type": "table",
+      "heading": "Doubled Verb Paradigm (مَدَّ — م-د-د)",
+      "headers": ["Form", "Arabic", "Transliteration", "Contracted?"],
+      "rows": [
+        ["3ms Past", "مَدَّ", "madda", "Contracted (C3 has fatḥah)"],
+        ["1s Past", "مَدَدْتُ", "madadtu", "Separated (C3 has sukūn)"],
+        ["3ms Imperfect", "يَمُدُّ", "yamuddu", "Contracted (C3 has ḍammah)"],
+        ["3fp Imperfect", "يَمْدُدْنَ", "yamdudna", "Separated (C3 has sukūn)"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "رَدَدْتُ الكِتَابَ إِلَى المَكْتَبَةِ",
+      "transliteration": "radadtu l-kitāba ʾilā l-maktabati",
+      "translation": "I returned the book to the library.",
+      "irab": "رَدَدْتُ: فِعْلٌ مَاضٍ مَبْنِيٌّ عَلَى السُّكُونِ (فُكَّ إِدْغَامُهُ) | التَّاءُ: فَاعِلٌ | الكِتَابَ: مَفْعُولٌ بِهِ مَنْصُوبٌ",
+      "notes": "Because ـْتُ begins with a consonant, رَدَّ separates into رَدَدْتُ.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Jussive of Doubled Verbs",
+      "body": "In the 3ms jussive (لَمْ يَرُدَّ), Classical Arabic commonly keeps the shaddah with fatḥah or kasrah (to avoid a final double consonant), or separates it (لَمْ يَرْدُدْ)."
+    }
+  ]
+}

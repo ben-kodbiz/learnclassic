@@ -1,0 +1,32 @@
+{
+  "lessonId": "m2-w15-ch27",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m2-w15-ch27-001",
+      "lessonId": "m2-w15-ch27",
+      "type": "fill-in-blank",
+      "prompt": "Select the 3ms imperfect of وَصَلَ ('he arrives'):",
+      "choices": ["يَصِلُ", "يَوْصِلُ", "يَصُلُ"],
+      "answer": "يَصِلُ",
+      "explanation": "Initial و elides in Form I imperfects with kasrah on the middle radical: يَصِلُ.",
+      "feedback": { "rule": "Initial wāw drops in Form I imperfects with middle kasrah (يَصِلُ, يَجِدُ, يَقِفُ)." },
+      "skillTags": ["assimilated-verb", "imperfect"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w15-ch27-002",
+      "lessonId": "m2-w15-ch27",
+      "type": "multiple-choice",
+      "prompt": "What is the 2ms imperative of وَقَفَ ('stand / stop!')?",
+      "choices": ["قِفْ", "اِقِفْ", "اُوْقِفْ"],
+      "answer": "قِفْ",
+      "explanation": "Removing تَـ from تَقِفْ leaves قِفْ, which starts with a vowelled consonant and needs no prosthetic alif.",
+      "feedback": { "rule": "Assimilated imperatives drop و and need no prosthetic alif: صِلْ, جِدْ, قِفْ." },
+      "skillTags": ["assimilated-verb", "imperative"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

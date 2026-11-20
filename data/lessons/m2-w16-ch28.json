@@ -1,0 +1,55 @@
+{
+  "id": "m2-w16-ch28",
+  "moduleId": "module-2",
+  "week": 16,
+  "chapter": 28,
+  "title": "Hollow Verbs (Al-Fiʿl al-Ajwaf)",
+  "titleArabic": "الفِعْلُ الأَجْوَفُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 28; Ryding Ch. 22 §22.6)",
+  "objectives": [
+    "Identify hollow verbs with middle weak radical و or ي (قَالَ, بَاعَ, خَافَ).",
+    "Apply morphophonemic vowel shortening in closed syllables (قُلْتُ, بِعْتُ, لَمْ يَقُلْ).",
+    "Distinguish the three hollow stem classes by their imperfect vowel (يَقُولُ, يَبِيعُ, يَخَافُ)."
+  ],
+  "recallPrompt": "From Chapter 13: How does كَانَ shorten when ـْتُ attaches (كُنْتُ)?",
+  "glossaryTerms": ["fil", "jazm"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Middle Weak Radical (Wāw or Yāʾ)",
+      "body": "Hollow verbs (al-ajwaf) have و or ي as their middle radical. In the 3rd-person past, the weak radical appears as a long alif (قَالَ from ق-و-ل; بَاعَ from ب-ي-ع; خَافَ from خ-و-ف). In the imperfect, the original weak letter or long vowel reappears: يَقُولُ (ū), يَبِيعُ (ī), يَخَافُ (ā)."
+    },
+    {
+      "type": "rule",
+      "label": "Closed-Syllable Shortening",
+      "arabicTerm": "اِلْتِقَاءُ السَّاكِنَيْنِ فِي الأَجْوَفِ",
+      "summary": "Arabic forbids a long vowel followed by a vowelless consonant (C̄Cْ). Whenever the 3rd radical takes sukūn—either before consonant suffixes (قُلْتُ, بِعْتُ) or in the jussive/imperative (لَمْ يَقُلْ, قُلْ)—the long medial vowel shortens to its corresponding short vowel (u, i, or a)."
+    },
+    {
+      "type": "table",
+      "heading": "Hollow Verb Paradigms",
+      "headers": ["Root", "3ms Past", "1s Past", "3ms Imperfect", "3ms Jussive", "2ms Imperative"],
+      "rows": [
+        ["ق-و-ل ('say')", "قَالَ", "قُلْتُ", "يَقُولُ", "لَمْ يَقُلْ", "قُلْ"],
+        ["ب-ي-ع ('sell')", "بَاعَ", "بِعْتُ", "يَبِيعُ", "لَمْ يَبِعْ", "بِعْ"],
+        ["خ-و-ف ('fear')", "خَافَ", "خِفْتُ", "يَخَافُ", "لَمْ يَخَفْ", "خَفْ"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "لَمْ يَقُلْ إِلَّا الحَقَّ",
+      "transliteration": "lam yaqul ʾillā l-ḥaqqa",
+      "translation": "He did not say anything except the truth.",
+      "irab": "لَمْ: حَرْفُ نَفْيٍ وَجَزْمٍ | يَقُلْ: فِعْلٌ مُضَارِعٌ مَجْزُومٌ بِالسُّكُونِ (وَحُذِفَتِ الوَاوُ لِالْتِقَاءِ السَّاكِنَيْنِ)",
+      "notes": "In يَقُولُ, adding jussive sukūn on ل creates يَقُولْ; the long ū shortens to u → لَمْ يَقُلْ.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Notice What Returns in the Subjunctive",
+      "body": "In the subjunctive (لَنْ يَقُولَ), the final ل carries fatḥah, so the syllable is open and the long vowel stays: يَقُولَ."
+    }
+  ]
+}

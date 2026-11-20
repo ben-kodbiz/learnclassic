@@ -1,0 +1,33 @@
+{
+  "lessonId": "m2-w17-ch31",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m2-w17-ch31-001",
+      "lessonId": "m2-w17-ch31",
+      "type": "multiple-choice",
+      "prompt": "Which triliteral form conjugates with the same vowel pattern as a base quadriliteral verb (فَعْلَلَ / يُفَعْلِلُ)?",
+      "choices": ["Form II (فَعَّلَ / يُفَعِّلُ)", "Form I (فَعَلَ / يَفْعُلُ)", "Form VII (اِنْفَعَلَ / يَنْفَعِلُ)"],
+      "answer": "Form II (فَعَّلَ / يُفَعِّلُ)",
+      "explanation": "Base quadriliterals (فَعْلَلَ / يُفَعْلِلُ) take ḍammah on the imperfect prefix and kasrah before C4, mirroring Form II triliterals.",
+      "feedback": { "rule": "Quadriliteral QI parallels triliteral Form II; QII (تَفَعْلَلَ) parallels Form V." },
+      "skillTags": ["quadriliteral", "conjugation"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w17-ch31-002",
+      "lessonId": "m2-w17-ch31",
+      "type": "true-false",
+      "prompt": "True or False: The verb اِطْمَأَنَّ ('to feel tranquil') derives from the four-consonant root ط-م-أ-ن.",
+      "arabic": "اِطْمَأَنَّ",
+      "choices": ["True", "False"],
+      "answer": "True",
+      "explanation": "True. اِطْمَأَنَّ is a derived quadriliteral (pattern اِفْعَلَلَّ) from root ط-م-أ-ن.",
+      "feedback": { "rule": "Pattern اِفْعَلَلَّ is derived quadriliteral Form IV." },
+      "skillTags": ["quadriliteral", "root-extraction"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

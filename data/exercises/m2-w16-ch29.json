@@ -1,0 +1,37 @@
+{
+  "lessonId": "m2-w16-ch29",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m2-w16-ch29-001",
+      "lessonId": "m2-w16-ch29",
+      "type": "fill-in-blank",
+      "prompt": "Select the 3ms jussive of دَعَا after لَمْ ('he did not call'):",
+      "arabic": "لَمْ _____",
+      "choices": ["يَدْعُ", "يَدْعُو", "يَدْعُوَ"],
+      "answer": "يَدْعُ",
+      "explanation": "In the jussive, defective verbs delete the final weak radical completely, leaving only the short ḍammah: لَمْ يَدْعُ.",
+      "feedback": {
+        "rule": "Defective jussive deletes the final weak letter (ḥadhf ḥarf al-ʿillah).",
+        "governor": "لَمْ",
+        "caseOrMood": "Jussive (majzūm)"
+      },
+      "skillTags": ["defective-verb", "jussive"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w16-ch29-002",
+      "lessonId": "m2-w16-ch29",
+      "type": "multiple-choice",
+      "prompt": "Which form of the defective noun 'judge' (ق-ض-ي) is correct when indefinite nominative or genitive?",
+      "choices": ["قَاضٍ", "قَاضِي", "القَاضٍ"],
+      "answer": "قَاضٍ",
+      "explanation": "Indefinite defective nouns/participles drop the final ي in nominative and genitive and take tanwīn kasrah: قَاضٍ.",
+      "feedback": { "rule": "Indefinite defective noun in rafʿ/jarr: قَاضٍ; definite: القَاضِي." },
+      "skillTags": ["defective-noun", "tanwin"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

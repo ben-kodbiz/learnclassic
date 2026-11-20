@@ -1,0 +1,56 @@
+{
+  "id": "m2-w15-ch26",
+  "moduleId": "module-2",
+  "week": 15,
+  "chapter": 26,
+  "title": "Hamzated Verbs II — Middle & Final Hamza",
+  "titleArabic": "المَهْمُوزُ العَيْنِ وَاللَّامِ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 26; Ryding Ch. 2 §2.3.2, Ch. 22 §22.4)",
+  "objectives": [
+    "Conjugate verbs with hamza as middle radical (سَأَلَ) or final radical (قَرَأَ).",
+    "Apply the vowel-strength hierarchy (kasrah > ḍammah > fatḥah > sukūn) to choose the hamza seat (kursī).",
+    "Spell medial and final hamza forms accurately across tenses and moods."
+  ],
+  "recallPrompt": "From Chapter 25: Why does 1s imperfect of أَخَذَ write آخُذُ with maddah?",
+  "glossaryTerms": ["fil"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Choosing the Seat of Hamza (Kursī al-Hamzah)",
+      "body": "Medial and final hamzated verbs conjugate completely regularly in sound—only the written seat (kursī) of the hamza changes depending on the surrounding vowels: yāʾ without dots (ئـ), wāw (ؤ), alif (أ), or on the line (ء)."
+    },
+    {
+      "type": "rule",
+      "label": "Vowel-Strength Hierarchy",
+      "arabicTerm": "أَقْوَى الحَرَكَاتِ",
+      "summary": "Compare the vowel ON the hamza and the vowel BEFORE it; the stronger vowel determines the seat: Kasrah (ـِ → ئـ) > Ḍammah (ـُ → ؤ) > Fatḥah (ـَ → أ) > Sukūn (ـْ). At the end of a word, only the vowel BEFORE the hamza determines the seat."
+    },
+    {
+      "type": "table",
+      "heading": "Hamza Seat Examples",
+      "headers": ["Verb", "Form", "Arabic", "Why This Seat?"],
+      "rows": [
+        ["سَأَلَ (ask)", "3ms Past", "سَأَلَ", "Fatḥah + fatḥah → alif (أ)"],
+        ["سَأَلَ (ask)", "3ms Passive Past", "سُئِلَ", "Ḍammah + kasrah → kasrah wins → ئـ"],
+        ["قَرَأَ (read)", "3ms Imperfect", "يَقْرَأُ", "Final hamza preceded by fatḥah → أ"],
+        ["قَرَأَ (read)", "3mp Past", "قَرَؤُوا / قَرَأُوا", "Fatḥah before ḍammah → ؤ (or أ before و)"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "سُئِلَ العَالِمُ عَنِ المَسْأَلَةِ",
+      "transliteration": "suʾila l-ʿālimu ʿani l-masʾalati",
+      "translation": "The scholar was asked about the issue.",
+      "irab": "سُئِلَ: فِعْلٌ مَاضٍ مَبْنِيٌّ لِلْمَجْهُولِ | العَالِمُ: نَائِبُ فَاعِلٍ مَرْفُوعٌ",
+      "notes": "In سُئِلَ, the hamza carries kasrah after ḍammah; since kasrah is the strongest vowel, it sits on ئـ.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Final Hamza After Sukūn or Long Vowel",
+      "body": "When a final hamza is preceded by sukūn or a long vowel (e.g., شَيْءٌ, جَاءَ, مَقْرُوءٌ), it sits on the line (ء)."
+    }
+  ]
+}

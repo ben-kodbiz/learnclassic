@@ -470,7 +470,7 @@ For sourced passages, replace the source value with a precise bibliographic or c
 - [x] Build module/week/chapter views.
 - [x] Implement RTL/LTR content components.
 - [x] Add GitHub Pages deployment workflow.
-- [ ] Test deployment from a repository subpath.
+- [x] Test deployment from a repository subpath.
 
 **Exit condition:** A learner can open the GitHub Pages site and navigate the full curriculum map on desktop and mobile.
 

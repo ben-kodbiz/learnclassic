@@ -1,0 +1,56 @@
+{
+  "id": "m2-w15-ch27",
+  "moduleId": "module-2",
+  "week": 15,
+  "chapter": 27,
+  "title": "Assimilated Verbs (Al-Fiʿl al-Mithāl)",
+  "titleArabic": "الفِعْلُ المِثَالُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 27; Ryding Ch. 22 §22.5)",
+  "objectives": [
+    "Identify assimilated verbs with an initial weak radical و or ي (e.g., وَصَلَ, وَقَفَ, وَجَدَ).",
+    "Apply the elision of initial و in Form I imperfects with middle kasrah and in imperatives.",
+    "Distinguish Form I elision (يَصِلُ, صِلْ) from Form IV/VIII retention or assimilation."
+  ],
+  "recallPrompt": "From Chapter 22: What happens to initial و in Form VIII (e.g., و-ح-د)?",
+  "glossaryTerms": ["fil"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Initial Weak Radical Wāw or Yāʾ",
+      "body": "Assimilated verbs (al-mithāl) begin with و or ي. In the past tense they conjugate completely regularly (وَصَلَ, وَصَلْتُ). In the Form I imperfect, however, initial و drops whenever the middle radical takes kasrah—a pattern shared by most common و-initial verbs."
+    },
+    {
+      "type": "rule",
+      "label": "Elision of Initial Wāw",
+      "arabicTerm": "حَذْفُ الوَاوِ فِي المُضَارِعِ وَالأَمْرِ",
+      "summary": "When a و-initial Form I verb has kasrah on C2 in the imperfect (يَوْصِلُ → يَصِلُ), the و drops in all imperfect persons (أَصِلُ, تَصِلُ, يَصِلُ, نَصِلُ) AND in the imperative (صِلْ, صِلِي, صِلُوا—with no prosthetic alif needed!)."
+    },
+    {
+      "type": "table",
+      "heading": "Assimilated Verb Examples",
+      "headers": ["Root", "Past", "Imperfect", "Imperative", "Meaning"],
+      "rows": [
+        ["و-ص-ل", "وَصَلَ", "يَصِلُ", "صِلْ", "to arrive / connect"],
+        ["و-ج-د", "وَجَدَ", "يَجِدُ", "جِدْ", "to find"],
+        ["و-ق-ف", "وَقَفَ", "يَقِفُ", "قِفْ", "to stand / stop"],
+        ["و-ض-ع", "وَضَعَ", "يَضَعُ", "ضَعْ", "to place (drops و even with fatḥah)"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "وَجَدَ المُسَافِرُ الطَّرِيقَ",
+      "transliteration": "wajada l-musāfiru ṭ-ṭarīqa",
+      "translation": "The traveler found the road.",
+      "irab": "وَجَدَ: فِعْلٌ مَاضٍ (مِثَالٌ وَاوِيٌّ) | المُسَافِرُ: فَاعِلٌ مَرْفُوعٌ | الطَّرِيقَ: مَفْعُولٌ بِهِ مَنْصُوبٌ",
+      "notes": "In the past tense, و remains visible (وَجَدَ); in the imperfect (يَجِدُ) and imperative (جِدْ), the و drops.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Maṣdar Clue",
+      "body": "Many assimilated verbs form a feminine maṣdar ending in ة after dropping و: وَصَلَ → صِلَةٌ ('connection'), وَهَبَ → هِبَةٌ ('gift')."
+    }
+  ]
+}

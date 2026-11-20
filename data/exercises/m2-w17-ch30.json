@@ -1,0 +1,32 @@
+{
+  "lessonId": "m2-w17-ch30",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m2-w17-ch30-001",
+      "lessonId": "m2-w17-ch30",
+      "type": "multiple-choice",
+      "prompt": "What is the 2ms imperative of وَقَى ('protect!')?",
+      "choices": ["قِ", "اِقِي", "وَقِ"],
+      "answer": "قِ",
+      "explanation": "Initial و drops (like an assimilated verb) and final ي drops (like a defective imperative), leaving the single letter قِ.",
+      "feedback": { "rule": "Lafīf mafrūq combines assimilated C1 elision and defective C3 deletion." },
+      "skillTags": ["doubly-weak", "imperative"],
+      "difficulty": 3,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w17-ch30-002",
+      "lessonId": "m2-w17-ch30",
+      "type": "fill-in-blank",
+      "prompt": "Select the 3ms imperfect of رَأَى ('he sees'):",
+      "choices": ["يَرَى", "يَرْأَى", "يَرْئِي"],
+      "answer": "يَرَى",
+      "explanation": "رَأَى drops its medial hamza in the imperfect: يَرَى (jussive: لَمْ يَرَ).",
+      "feedback": { "rule": "رَأَى → imperfect يَرَى, jussive لَمْ يَرَ." },
+      "skillTags": ["doubly-weak", "imperfect"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

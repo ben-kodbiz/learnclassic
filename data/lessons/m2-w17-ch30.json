@@ -1,0 +1,55 @@
+{
+  "id": "m2-w17-ch30",
+  "moduleId": "module-2",
+  "week": 17,
+  "chapter": 30,
+  "title": "Doubly & Trebly Weak Verbs (Al-Lafīf)",
+  "titleArabic": "اللَّفِيفُ المَقْرُونُ وَالمَفْرُوقُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 30; Ryding Ch. 22 §22.8)",
+  "objectives": [
+    "Distinguish al-lafīf al-mafrūq (C1 & C3 weak, e.g., وَقَى) from al-lafīf al-maqrūn (C2 & C3 weak, e.g., حَيِيَ, رَوَى).",
+    "Conjugate high-frequency doubly weak verbs such as رَأَى ('to see') and وَقَى ('to protect').",
+    "Recognize single-letter imperatives like قِ ('protect!')."
+  ],
+  "recallPrompt": "From Chapters 27 & 29: What happens to initial و in يَصِلُ and final ي in لَمْ يَرْمِ?",
+  "glossaryTerms": ["fil", "jazm"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Combining Weak-Radical Rules",
+      "body": "Verbs with two weak radicals are called al-lafīf. When the two weak letters are separated by a sound consonant (C1 and C3 weak, e.g., وَقَى 'to protect'), it is lafīf mafrūq and combines assimilated + defective rules. When C2 and C3 are adjacent weak letters (e.g., حَيِيَ 'to live', رَوَى 'to narrate'), it is lafīf maqrūn and follows defective rules on C3 while keeping C2 sound."
+    },
+    {
+      "type": "rule",
+      "label": "Single-Letter Imperatives & The Verb رَأَى",
+      "arabicTerm": "رَأَى — يَرَى",
+      "summary": "In وَقَى (يَقِي), initial و drops (like an assimilated verb) and final ي drops in the imperative, leaving a single consonant + vowel: قِ ('protect!'). Similarly, رَأَى ('to see', hamza + defective) drops its medial hamza in the imperfect (يَرَى) and imperative (رَ)."
+    },
+    {
+      "type": "table",
+      "heading": "High-Frequency Doubly Weak Verbs",
+      "headers": ["Root", "3ms Past", "3ms Imperfect", "3ms Jussive", "2ms Imperative"],
+      "rows": [
+        ["و-ق-ي ('protect')", "وَقَى", "يَقِي", "لَمْ يَقِ", "قِ (qi)"],
+        ["ر-أ-ي ('see')", "رَأَى", "يَرَى", "لَمْ يَرَ", "رَ / رَهْ"],
+        ["ر-و-ي ('narrate')", "رَوَى", "يَرْوِي", "لَمْ يَرْوِ", "اِرْوِ"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "قِ نَفْسَكَ مِنَ الشَّرِّ",
+      "transliteration": "qi nafsaka mina sh-sharri",
+      "translation": "Protect yourself from evil.",
+      "irab": "قِ: فِعْلُ أَمْرٍ مَبْنِيٌّ عَلَى حَذْفِ حَرْفِ العِلَّةِ (مِنْ وَقَى) | نَفْسَكَ: مَفْعُولٌ بِهِ مَنْصُوبٌ",
+      "notes": "In قِ, only the middle radical ق with kasrah survives after initial و and final ي drop!",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Qur'anic Recognition",
+      "body": "In Sūrat al-Fātiḥah (1:6), اِهْدِنَا ('guide us') is a defective imperative from ه-د-ي (delete final ي + attach ـنَا)."
+    }
+  ]
+}

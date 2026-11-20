@@ -1,0 +1,56 @@
+{
+  "id": "m2-w16-ch33",
+  "moduleId": "module-2",
+  "week": 16,
+  "chapter": 33,
+  "title": "Root-Based Lexicography & Dictionary Mechanics",
+  "titleArabic": "اِسْتِخْدَامُ المَعَاجِمِ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 33; Ryding Appendix I)",
+  "objectives": [
+    "Strip augmented letters (ḥurūf al-ziyādah: س أ ل ت م و ن ي ه ا) to isolate the triliteral root.",
+    "Restore weak, doubled, and assimilated radicals before looking up words in Hans Wehr or Lane's Lexicon.",
+    "Navigate dictionary entries organized by Form I → Forms II–X → derived nouns."
+  ],
+  "recallPrompt": "From Chapter 22: Under which letter do you look up اِتَّقَى in a root-based Arabic dictionary?",
+  "glossaryTerms": ["ism", "fil"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "How Classical Arabic Dictionaries Are Organized",
+      "body": "Unlike English dictionaries (which alphabetize by spelling), classical and scholarly Arabic dictionaries—such as Hans Wehr, Lane's Arabic-English Lexicon, and Lisān al-ʿArab—arrange all words under their 3-consonant (or 4-consonant) root. To look up any word, you must first strip prefixes, infixes, and suffixes."
+    },
+    {
+      "type": "rule",
+      "label": "4-Step Root Extraction Method",
+      "arabicTerm": "تَجْرِيدُ الجَذْرِ",
+      "summary": "1) Strip inflectional prefixes/suffixes (أَلْ, بـ, تـ, ـون, ـات, ـة). 2) Strip derivational augments (حُرُوفُ الزِّيَادَةِ, mnemonic: سَأَلْتُمُونِيهَا). 3) If fewer than 3 consonants remain, restore an elided weak radical (و/ي), uncontract a shaddah, or check Form VIII تّ → و. 4) Look up the root in alphabetical order."
+    },
+    {
+      "type": "table",
+      "heading": "Root Extraction Practice",
+      "headers": ["Surface Word", "Stripped Augments", "Restored Root", "Dictionary Entry Meaning"],
+      "rows": [
+        ["مُتَعَلِّمُونَ", "مُـ, ـتَـ, ـُونَ, shaddah", "ع-ل-م", "learners / students"],
+        ["اِسْتِقْبَالٌ", "اِسْتِـ, ا", "ق-ب-ل", "reception / facing / future"],
+        ["صِلَةٌ", "ة (restore dropped و)", "و-ص-ل", "connection / relative clause"],
+        ["قُلْتُ", "تُ (restore hollow و)", "ق-و-ل", "I said"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "اِسْتِقَامَةٌ ← ق-و-م",
+      "transliteration": "istiqāmatun ← q-w-m",
+      "translation": "uprightness / steadfastness (from root ق-و-م)",
+      "irab": "اِسْتِقَامَةٌ: مَصْدَرُ العَاشِرِ مِنْ جَذْرِ (ق-و-م) أَصْلُهُ اِسْتِقْوَامٌ",
+      "notes": "Because ق-و-م is hollow, Form X maṣdar (اِسْتِفْعَالٌ) drops the wāw into long ā and adds ة: اِسْتِقَامَةٌ.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Try the Root & Pattern Explorer",
+      "body": "Practice stripping augmented letters interactively in Grammar Tools → Root & Pattern Explorer."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "lessonId": "m2-w16-ch28",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m2-w16-ch28-001",
+      "lessonId": "m2-w16-ch28",
+      "type": "fill-in-blank",
+      "prompt": "Select the 3ms jussive of قَالَ after لَمْ ('he did not say'):",
+      "arabic": "لَمْ _____",
+      "choices": ["يَقُلْ", "يَقُولْ", "يَقُولُ"],
+      "answer": "يَقُلْ",
+      "explanation": "Jussive sukūn closes the syllable, shortening long ū to u: لَمْ يَقُلْ.",
+      "feedback": {
+        "rule": "Hollow verbs shorten their long medial vowel whenever C3 takes sukūn.",
+        "governor": "لَمْ",
+        "caseOrMood": "Jussive (majzūm)"
+      },
+      "skillTags": ["hollow-verb", "jussive"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w16-ch28-002",
+      "lessonId": "m2-w16-ch28",
+      "type": "matching",
+      "prompt": "Match each hollow verb's 3ms past to its 1s past:",
+      "pairs": [
+        { "left": "قَالَ ('he said')", "right": "قُلْتُ ('I said')" },
+        { "left": "بَاعَ ('he sold')", "right": "بِعْتُ ('I sold')" },
+        { "left": "خَافَ ('he feared')", "right": "خِفْتُ ('I feared')" }
+      ],
+      "answer": {
+        "قَالَ ('he said')": "قُلْتُ ('I said')",
+        "بَاعَ ('he sold')": "بِعْتُ ('I sold')",
+        "خَافَ ('he feared')": "خِفْتُ ('I feared')"
+      },
+      "explanation": "In 1s past, hollow verbs shorten to u (قُلْتُ) or i (بِعْتُ, خِفْتُ).",
+      "feedback": { "rule": "Hollow 1s past vowel shortening" },
+      "skillTags": ["hollow-verb", "conjugation"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

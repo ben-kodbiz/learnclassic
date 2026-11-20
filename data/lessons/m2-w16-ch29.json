@@ -1,0 +1,56 @@
+{
+  "id": "m2-w16-ch29",
+  "moduleId": "module-2",
+  "week": 16,
+  "chapter": 29,
+  "title": "Defective Verbs (Al-Fiʿl al-Nāqiṣ)",
+  "titleArabic": "الفِعْلُ النَّاقِصُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 29; Ryding Ch. 22 §22.7)",
+  "objectives": [
+    "Identify defective verbs ending in weak radical و or ي (دَعَا, رَمَى, رَضِيَ).",
+    "Apply jussive/imperative apocopation (complete deletion of the final weak letter).",
+    "Decline defective nouns and active participles (قَاضٍ / القَاضِي)."
+  ],
+  "recallPrompt": "From Chapter 16: What are the three jussive signs across sound, afʿāl al-khamsah, and weak-final verbs?",
+  "glossaryTerms": ["fil", "jazm", "raf", "jarr"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Final Weak Radical (Wāw or Yāʾ)",
+      "body": "Defective verbs (al-nāqiṣ) end in و or ي. In the 3ms past, و-final verbs are written with tall alif (دَعَا 'he called' from د-ع-و), while ي-final verbs are written with alif maqṣūrah (رَمَى 'he threw' from ر-م-ي). In the imperfect, they end in a long vowel (يَدْعُو, يَرْمِي, يَرْضَى)."
+    },
+    {
+      "type": "rule",
+      "label": "Jussive Deletion (Ḥadhf Ḥarf al-ʿIllah)",
+      "arabicTerm": "حَذْفُ حَرْفِ العِلَّةِ",
+      "summary": "In the jussive (e.g., after لَمْ) and imperative, a defective verb DELETES its final weak letter completely, leaving only the preceding short vowel: لَمْ يَدْعُ (lam yadʿu), لَمْ يَرْمِ (lam yarmi), لَمْ يَرْضَ (lam yarḍa)."
+    },
+    {
+      "type": "table",
+      "heading": "Defective Verb & Noun Paradigms",
+      "headers": ["Root", "Past", "Imperfect", "Jussive", "Imperative"],
+      "rows": [
+        ["د-ع-و ('call')", "دَعَا", "يَدْعُو", "لَمْ يَدْعُ", "اُدْعُ"],
+        ["ر-م-ي ('throw')", "رَمَى", "يَرْمِي", "لَمْ يَرْمِ", "اِرْمِ"],
+        ["ر-ض-ي ('be pleased')", "رَضِيَ", "يَرْضَى", "لَمْ يَرْضَ", "اِرْضَ"],
+        ["Defective noun (ق-ض-ي)", "Indef. nom/gen: قَاضٍ", "Definite: القَاضِي", "Indef. acc: قَاضِيًا", "—"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "لَمْ يَرْمِ الرَّامِي السَّهْمَ",
+      "transliteration": "lam yarmi r-rāmī s-sahma",
+      "translation": "The archer did not shoot the arrow.",
+      "irab": "لَمْ: حَرْفُ نَفْيٍ وَجَزْمٍ | يَرْمِ: فِعْلٌ مُضَارِعٌ مَجْزُومٌ بِحَذْفِ حَرْفِ العِلَّةِ | الرَّامِي: فَاعِلٌ مَرْفُوعٌ بِضَمَّةٍ مُقَدَّرَةٍ",
+      "notes": "Notice both defective forms: يَرْمِ loses final ي in the jussive, while الرَّامِي has an estimated (muqaddarah) ḍammah on ي.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Subjunctive Keeps the Final Weak Letter",
+      "body": "In the subjunctive (لَنْ يَدْعُوَ, لَنْ يَرْمِيَ), the final و and ي stay and take a visible fatḥah!"
+    }
+  ]
+}

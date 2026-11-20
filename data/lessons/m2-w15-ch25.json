@@ -1,0 +1,56 @@
+{
+  "id": "m2-w15-ch25",
+  "moduleId": "module-2",
+  "week": 15,
+  "chapter": 25,
+  "title": "Hamzated Verbs I — Initial Hamza",
+  "titleArabic": "المَهْمُوزُ الفَاءِ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 25; Ryding Ch. 2 §2.3.2, Ch. 22 §22.4)",
+  "objectives": [
+    "Conjugate verbs with hamza as the first radical (e.g., أَخَذَ, أَكَلَ, أَمَرَ).",
+    "Apply the maddah spelling rule (آ) when hamza + fatḥah is followed by a vowelless hamza.",
+    "Form the irregular contracted imperatives خُذْ, كُلْ, and مُرْ."
+  ],
+  "recallPrompt": "From Chapter 1: What sound does maddah (آ) represent?",
+  "glossaryTerms": ["fil"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Initial Hamza & Maddah Contraction",
+      "body": "Hamza (ء) is a full consonant, not a weak vowel. However, two hamzas in the same syllable cannot stand together: when 1st-person singular imperfect أَ + initial radical ءْ meet (e.g., أَأْخُذُ), they merge into maddah: آخُذُ ('I take')."
+    },
+    {
+      "type": "rule",
+      "label": "Irregular Initial-Hamza Imperatives",
+      "arabicTerm": "خُذْ — كُلْ — مُرْ",
+      "summary": "Three high-frequency initial-hamza verbs drop both the prosthetic hamzat al-waṣl and the initial radical hamza in the imperative: أَخَذَ → خُذْ ('take!'), أَكَلَ → كُلْ ('eat!'), أَمَرَ → مُرْ ('command!')."
+    },
+    {
+      "type": "table",
+      "heading": "Initial-Hamza Paradigm (أَخَذَ — to take)",
+      "headers": ["Form", "Arabic", "Transliteration", "Orthographic Note"],
+      "rows": [
+        ["3ms Past", "أَخَذَ", "ʾakhadha", "Hamza on alif"],
+        ["3ms Imperfect", "يَأْخُذُ", "yaʾkhudhu", "Hamza on alif with sukūn"],
+        ["1s Imperfect", "آخُذُ", "ʾākhudhu", "أَأْ contracts into maddah (آ)"],
+        ["2ms Imperative", "خُذْ", "khudh", "Contracted irregular imperative"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "خُذِ الكِتَابَ بِقُوَّةٍ",
+      "transliteration": "khudhi l-kitāba bi-quwwatin",
+      "translation": "Take the book with strength.",
+      "irab": "خُذِ: فِعْلُ أَمْرٍ مَبْنِيٌّ عَلَى السُّكُونِ | الكِتَابَ: مَفْعُولٌ بِهِ مَنْصُوبٌ",
+      "notes": "Notice the helping kasrah on خُذِ before hamzat al-waṣl in الكِتَابَ.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Form III & IV with Initial Hamza",
+      "body": "In Form IV past tense (أَ + أْمَنَ → آمَنَ 'he believed'), the two hamzas also merge into maddah (آ), while the imperfect is يُؤْمِنُ (hamza on wāw after ḍammah)."
+    }
+  ]
+}

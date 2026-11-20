@@ -1,0 +1,56 @@
+{
+  "id": "m2-w17-ch31",
+  "moduleId": "module-2",
+  "week": 17,
+  "chapter": 31,
+  "title": "Quadriliteral Verbs & Module 2 Consolidation",
+  "titleArabic": "الفِعْلُ الرُّبَاعِيُّ وَمُرَاجَعَةُ الأَفْعَالِ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 31; Ryding Ch. 32)",
+  "objectives": [
+    "Conjugate base quadriliteral verbs (فَعْلَلَ, e.g., زَلْزَلَ, وَسْوَسَ, تَرْجَمَ).",
+    "Recognize derived quadriliteral Form II (تَفَعْلَلَ) and Form IV (اِفْعَلَلَّ, e.g., اِطْمَأَنَّ).",
+    "Consolidate all Module 2 verbal moods, derived forms, and weak-verb paradigms."
+  ],
+  "recallPrompt": "From Chapter 20: Which vowel marks the imperfect prefix of Form II triliterals (يُفَعِّلُ)?",
+  "glossaryTerms": ["fil", "ism"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Four-Radical Verbs (Al-Fiʿl al-Rubāʿī)",
+      "body": "A small but important group of Arabic verbs has four root consonants (فَعْلَلَ), often expressive or reduplicative (e.g., زَلْزَلَ 'to shake', وَسْوَسَ 'to whisper', تَرْجَمَ 'to translate'). Base quadriliterals conjugate identically to Form II triliterals, taking يُـ on the imperfect prefix (يُزَلْزِلُ, يُتَرْجِمُ)."
+    },
+    {
+      "type": "rule",
+      "label": "Quadriliteral Patterns",
+      "arabicTerm": "فَعْلَلَ — تَفَعْلَلَ — اِفْعَلَلَّ",
+      "summary": "Base Form I: فَعْلَلَ / يُفَعْلِلُ (maṣdar: فَعْلَلَةٌ). Derived Form II (reflexive): تَفَعْلَلَ / يَتَفَعْلَلُ (parallels Form V triliteral). Derived Form IV: اِفْعَلَلَّ / يَفْعَلِلُّ (e.g., اِطْمَأَنَّ 'to be tranquil')."
+    },
+    {
+      "type": "table",
+      "heading": "Quadriliteral Paradigms",
+      "headers": ["Pattern", "Past", "Imperfect", "Maṣdar", "Meaning"],
+      "rows": [
+        ["فَعْلَلَ (QI)", "زَلْزَلَ", "يُزَلْزِلُ", "زَلْزَلَةٌ / زِلْزَالٌ", "to shake violently"],
+        ["فَعْلَلَ (QI)", "وَسْوَسَ", "يُوَسْوِسُ", "وَسْوَسَةٌ / وِسْوَاسٌ", "to whisper"],
+        ["تَفَعْلَلَ (QII)", "تَزَلْزَلَ", "يَتَزَلْزَلُ", "تَزَلْزُلٌ", "to be shaken / quake"],
+        ["اِفْعَلَلَّ (QIV)", "اِطْمَأَنَّ", "يَطْمَئِنُّ", "اِطْمِئْنَانٌ", "to feel tranquil / assured"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "اِطْمَأَنَّ القَلْبُ بِذِكْرِ اللَّهِ",
+      "transliteration": "iṭmaʾanna l-qalbu bi-dhikri llāhi",
+      "translation": "The heart became tranquil through the remembrance of God.",
+      "irab": "اِطْمَأَنَّ: فِعْلٌ مَاضٍ رُبَاعِيٌّ مَزِيدٌ (جَذْرُ ط-م-أ-ن) | القَلْبُ: فَاعِلٌ مَرْفُوعٌ",
+      "notes": "اِطْمَأَنَّ derives from the four-letter root ط-م-أ-ن on the pattern اِفْعَلَلَّ.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Module 2 Milestone Complete",
+      "body": "You have now covered the complete Classical Arabic verbal system (moods, passive, Forms I–X, doubled, hamzated, weak, and quadriliteral verbs). Use Grammar Tools → Conjugation Practice before moving to Module 3!"
+    }
+  ]
+}

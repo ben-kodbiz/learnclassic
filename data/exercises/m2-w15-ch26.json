@@ -1,0 +1,37 @@
+{
+  "lessonId": "m2-w15-ch26",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m2-w15-ch26-001",
+      "lessonId": "m2-w15-ch26",
+      "type": "multiple-choice",
+      "prompt": "In the passive past سُئِلَ ('he was asked'), why is the medial hamza written on ئـ?",
+      "arabic": "سُئِلَ",
+      "choices": [
+        "Because kasrah on the hamza is stronger than the preceding ḍammah",
+        "Because ḍammah is stronger than kasrah",
+        "Because hamza always sits on ئـ in passive verbs"
+      ],
+      "answer": "Because kasrah on the hamza is stronger than the preceding ḍammah",
+      "explanation": "The vowel-strength hierarchy is kasrah > ḍammah > fatḥah > sukūn; kasrah wins and requires seat ئـ.",
+      "feedback": { "rule": "Kasrah > Ḍammah > Fatḥah > Sukūn." },
+      "skillTags": ["hamza-seat", "orthography"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w15-ch26-002",
+      "lessonId": "m2-w15-ch26",
+      "type": "fill-in-blank",
+      "prompt": "Select the correct seat for final hamza after a long vowel in جَاءَ ('he came'):",
+      "choices": ["جَاءَ (on the line)", "جَاءَأ", "جَائَ"],
+      "answer": "جَاءَ (on the line)",
+      "explanation": "Final hamza preceded by a long vowel or sukūn is written on the line (ء).",
+      "feedback": { "rule": "Final hamza after long vowel/sukūn sits on the line." },
+      "skillTags": ["hamza-seat"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "lessonId": "m2-w16-ch33",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m2-w16-ch33-001",
+      "lessonId": "m2-w16-ch33",
+      "type": "multiple-choice",
+      "prompt": "Under which root should you look up اِسْتِقَامَةٌ ('uprightness') in a root-based Arabic dictionary?",
+      "arabic": "اِسْتِقَامَةٌ",
+      "choices": ["ق-و-م", "س-ت-ق", "ق-ا-م"],
+      "answer": "ق-و-م",
+      "explanation": "Strip Form X prefix اِسْتِـ and suffix ـة; the long ā in the middle restores to hollow radical و: ق-و-م.",
+      "feedback": { "rule": "Strip augmented letters (سَأَلْتُمُونِيهَا) and restore weak radicals." },
+      "skillTags": ["lexicography", "root-extraction"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w16-ch33-002",
+      "lessonId": "m2-w16-ch33",
+      "type": "matching",
+      "prompt": "Match each derived word to its dictionary root:",
+      "pairs": [
+        { "left": "مُتَعَلِّمُونَ ('learners')", "right": "ع-ل-م" },
+        { "left": "صِلَةٌ ('connection')", "right": "و-ص-ل" },
+        { "left": "اِتِّحَادٌ ('unity')", "right": "و-ح-د" }
+      ],
+      "answer": {
+        "مُتَعَلِّمُونَ ('learners')": "ع-ل-م",
+        "صِلَةٌ ('connection')": "و-ص-ل",
+        "اِتِّحَادٌ ('unity')": "و-ح-د"
+      },
+      "explanation": "Restoring elided و in صِلَةٌ (و-ص-ل) and assimilated و in اِتِّحَادٌ (و-ح-د) is essential for dictionary lookup.",
+      "feedback": { "rule": "Root restoration for assimilated and Form VIII words" },
+      "skillTags": ["lexicography", "root-extraction"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

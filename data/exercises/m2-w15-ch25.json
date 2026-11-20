@@ -1,0 +1,32 @@
+{
+  "lessonId": "m2-w15-ch25",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m2-w15-ch25-001",
+      "lessonId": "m2-w15-ch25",
+      "type": "fill-in-blank",
+      "prompt": "Select the irregular contracted imperative of أَخَذَ ('take!'):",
+      "choices": ["خُذْ", "اُؤْخُذْ", "أَخِذْ"],
+      "answer": "خُذْ",
+      "explanation": "أَخَذَ, أَكَلَ, and أَمَرَ drop both prosthetic alif and initial hamza in the imperative: خُذْ, كُلْ, مُرْ.",
+      "feedback": { "rule": "Irregular imperatives of initial-hamza verbs: خُذْ, كُلْ, مُرْ." },
+      "skillTags": ["hamzated-verb", "imperative"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w15-ch25-002",
+      "lessonId": "m2-w15-ch25",
+      "type": "multiple-choice",
+      "prompt": "How is the 1st-person singular imperfect ('I take') of أَخَذَ spelled?",
+      "choices": ["آخُذُ (with maddah)", "أَأْخُذُ", "أَخُذُ"],
+      "answer": "آخُذُ (with maddah)",
+      "explanation": "Two hamzas in the same syllable (أَأْ) contract into maddah (آ): آخُذُ.",
+      "feedback": { "rule": "أَ + ءْ → آ (maddah)." },
+      "skillTags": ["hamzated-verb", "orthography"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}
