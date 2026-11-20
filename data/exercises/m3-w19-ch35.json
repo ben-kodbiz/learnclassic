@@ -1,0 +1,37 @@
+{
+  "lessonId": "m3-w19-ch35",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w19-ch35-001",
+      "lessonId": "m3-w19-ch35",
+      "type": "fill-in-blank",
+      "prompt": "Complete the conditional sentence whose result clause is nominal ('If you are patient, then God is with you'):",
+      "arabic": "إِنْ تَصْبِرُوا _____ اللَّهُ مَعَكُمْ",
+      "choices": ["فَـ (فَاللَّهُ)", "لَـ (لَاللَّهُ)", "(no connector)"],
+      "answer": "فَـ (فَاللَّهُ)",
+      "explanation": "When the apodosis (jazāʾ) of a conditional sentence is a nominal clause, fāʾ al-jazāʾ (فَـ) is mandatory.",
+      "feedback": { "rule": "Fāʾ al-jazāʾ is mandatory before nominal, imperative, negated, or particle-introduced apodoses." },
+      "skillTags": ["conditionals", "fa-al-jaza"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w19-ch35-002",
+      "lessonId": "m3-w19-ch35",
+      "type": "multiple-choice",
+      "prompt": "Which mood does إِنْ ('if') govern on both the protasis and apodosis verbs in إِنْ تَجْتَهِدْ تَنْجَحْ?",
+      "arabic": "إِنْ تَجْتَهِدْ تَنْجَحْ",
+      "choices": ["Jussive (majzūm)", "Subjunctive (manṣūb)", "Indicative (marfūʿ)"],
+      "answer": "Jussive (majzūm)",
+      "explanation": "إِنْ is a jussive conditional particle governing both the condition verb (تَجْتَهِدْ) and the result verb (تَنْجَحْ) in jazm.",
+      "feedback": {
+        "rule": "إِنْ governs two jussive verbs (fiʿl al-sharṭ and jawāb al-sharṭ).",
+        "governor": "إِنْ"
+      },
+      "skillTags": ["conditionals", "jussive"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "lessonId": "m3-w18-ch32",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w18-ch32-001",
+      "lessonId": "m3-w18-ch32",
+      "type": "fill-in-blank",
+      "prompt": "Complete the negative clause with the accusative predicate of لَيْسَ: 'Lying is not beneficial.'",
+      "arabic": "لَيْسَ الكَذِبُ _____",
+      "choices": ["نَافِعًا", "نَافِعٌ", "نَافِعٍ"],
+      "answer": "نَافِعًا",
+      "explanation": "لَيْسَ governs like كَانَ: its subject (الكَذِبُ) is nominative, and its predicate (نَافِعًا) is accusative.",
+      "feedback": {
+        "rule": "Ism laysa is marfūʿ; khabar laysa is manṣūb.",
+        "governor": "لَيْسَ",
+        "caseOrMood": "Accusative (manṣūb)"
+      },
+      "skillTags": ["laysa", "nasb"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w18-ch32-002",
+      "lessonId": "m3-w18-ch32",
+      "type": "true-false",
+      "prompt": "True or False: The verb نِعْمَ ('how excellent is...') conjugates across all 13 persons and tenses.",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "False. نِعْمَ and بِئْسَ are invariable (jāmid) verbs frozen in the past form.",
+      "feedback": { "rule": "نِعْمَ and بِئْسَ are invariable verbs of praise and blame." },
+      "skillTags": ["invariable-verbs"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

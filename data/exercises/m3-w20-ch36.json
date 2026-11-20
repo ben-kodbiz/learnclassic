@@ -1,0 +1,35 @@
+{
+  "lessonId": "m3-w20-ch36",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w20-ch36-001",
+      "lessonId": "m3-w20-ch36",
+      "type": "fill-in-blank",
+      "prompt": "Select the correct phrase for 'four books' (كِتَابٌ is masculine):",
+      "choices": ["أَرْبَعَةُ كُتُبٍ", "أَرْبَعُ كُتُبٍ", "أَرْبَعَةُ كُتُبًا"],
+      "answer": "أَرْبَعَةُ كُتُبٍ",
+      "explanation": "Numbers 3–10 take the opposite gender of the singular noun (كِتَابٌ masc. → أَرْبَعَةُ fem.) and a plural genitive counted noun (كُتُبٍ).",
+      "feedback": {
+        "rule": "3–10: reverse gender + plural genitive counted noun.",
+        "caseOrMood": "كُتُبٍ is genitive (muḍāf ilayh)"
+      },
+      "skillTags": ["numerals", "gender-polarity"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w20-ch36-002",
+      "lessonId": "m3-w20-ch36",
+      "type": "multiple-choice",
+      "prompt": "What case and number does the counted noun take after numbers 11–99 (e.g., عِشْرُونَ _____)?",
+      "choices": ["Singular Accusative (e.g., يَوْمًا)", "Plural Genitive (e.g., أَيَّامٍ)", "Singular Genitive (e.g., يَوْمٍ)"],
+      "answer": "Singular Accusative (e.g., يَوْمًا)",
+      "explanation": "All numbers from 11 to 99 govern a singular accusative counted noun (tamyīz).",
+      "feedback": { "rule": "11–99 take singular accusative; 3–10 take plural genitive; 100/1000 take singular genitive." },
+      "skillTags": ["numerals", "tamyiz"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

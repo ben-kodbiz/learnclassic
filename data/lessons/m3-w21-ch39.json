@@ -1,0 +1,56 @@
+{
+  "id": "m3-w21-ch39",
+  "moduleId": "module-3",
+  "week": 21,
+  "chapter": 39,
+  "title": "Nouns of Place, Time, Instrument & Diminutives",
+  "titleArabic": "اِسْمَا الزَّمَانِ وَالمَكَانِ وَالآلَةِ وَالتَّصْغِيرُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 39; Ryding Ch. 5)",
+  "objectives": [
+    "Derive nouns of place and time (مَفْعَلٌ / مَفْعِلٌ) from triliteral roots.",
+    "Recognize nouns of instrument (مِفْعَالٌ, مِفْعَلٌ, مِفْعَلَةٌ).",
+    "Form diminutives (فُعَيْلٌ / فُعَيْعِلٌ) used for smallness, endearment, or rhetorical nuance."
+  ],
+  "recallPrompt": "From Chapter 7: What broken plural pattern do nouns like مَسْجِدٌ and مِفْتَاحٌ form?",
+  "glossaryTerms": ["ism"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Locative, Instrumental & Diminutive Morphology",
+      "body": "Prefixing مَـ to a triliteral root creates a noun of place or time (ism makān wa-zamān); prefixing مِـ creates a noun of instrument (ism al-ālah); and inserting ـيْـ after C2 with ḍammah on C1 creates a diminutive (ism al-taṣghīr)."
+    },
+    {
+      "type": "rule",
+      "label": "Derived Noun Patterns",
+      "arabicTerm": "مَفْعَلٌ — مِفْعَالٌ — فُعَيْلٌ",
+      "summary": "Place/Time: مَفْعِلٌ if the Form I imperfect has kasrah (يَجْلِسُ → مَجْلِسٌ) or is assimilated (و-ق-ف → مَوْقِفٌ); otherwise مَفْعَلٌ (يَكْتُبُ → مَكْتَبٌ). Instrument: مِفْعَالٌ (مِفْتَاحٌ), مِفْعَلٌ (مِبْرَدٌ), مِفْعَلَةٌ (مِكْنَسَةٌ). Diminutive: فُعَيْلٌ (كُتَيِّبٌ, بُنَيٌّ)."
+    },
+    {
+      "type": "table",
+      "heading": "Derived Noun Examples",
+      "headers": ["Category", "Pattern", "Example", "Root & Meaning"],
+      "rows": [
+        ["Place/Time", "مَفْعِلٌ", "مَسْجِدٌ / مَجْلِسٌ", "س-ج-د ('mosque') / ج-ل-س ('assembly')"],
+        ["Place/Time", "مَفْعَلٌ", "مَكْتَبٌ / مَدْخَلٌ", "ك-ت-ب ('desk/office') / د-خ-ل ('entrance')"],
+        ["Instrument", "مِفْعَالٌ", "مِفْتَاحٌ / مِيزَانٌ", "ف-ت-ح ('key') / و-ز-ن ('scale')"],
+        ["Diminutive", "فُعَيْلٌ", "بُنَيٌّ / عُبَيْدٌ", "ب-ن-ي ('little son') / ع-ب-د ('little servant')"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "يَا بُنَيَّ، اُدْخُلِ المَسْجِدَ",
+      "transliteration": "yā bunayya, udkhuli l-masjida",
+      "translation": "O my dear little son, enter the mosque.",
+      "irab": "يَا: حَرْفُ نِدَاءٍ | بُنَيَّ: مُنَادًى مُضَافٌ مَنْصُوبٌ (تَصْغِيرُ ابْنٍ) | المَسْجِدَ: مَفْعُولٌ بِهِ مَنْصُوبٌ",
+      "notes": "بُنَيَّ is the diminutive of ابْنٌ ('son') + 1s suffix ـي, expressing tender affection in classical prose and scripture.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Distinguish مَـ (Place) from مِـ (Instrument)",
+      "body": "Nouns of place/time start with fatḥah (مَـ: مَسْجِدٌ, مَكْتَبٌ); nouns of instrument start with kasrah (مِـ: مِفْتَاحٌ, مِيزَانٌ)."
+    }
+  ]
+}

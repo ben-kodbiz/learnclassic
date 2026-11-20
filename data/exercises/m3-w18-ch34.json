@@ -1,0 +1,41 @@
+{
+  "lessonId": "m3-w18-ch34",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w18-ch34-001",
+      "lessonId": "m3-w18-ch34",
+      "type": "fill-in-blank",
+      "prompt": "Select the correct relative clause for an INDEFINITE antecedent ('a book that I read'):",
+      "choices": ["كِتَابٌ قَرَأْتُهُ", "كِتَابٌ الَّذِي قَرَأْتُهُ", "كِتَابٌ الَّذِي قَرَأْتُ"],
+      "answer": "كِتَابٌ قَرَأْتُهُ",
+      "explanation": "Indefinite antecedents omit the relative pronoun الَّذِي while retaining the resumptive pronoun ـهُ (al-ʿāʾid).",
+      "feedback": {
+        "rule": "Definite antecedent → uses الَّذِي; indefinite antecedent → omits الَّذِي.",
+        "commonError": "Inserting الَّذِي after an indefinite noun."
+      },
+      "skillTags": ["relative-clause", "al-aid"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w18-ch34-002",
+      "lessonId": "m3-w18-ch34",
+      "type": "multiple-choice",
+      "prompt": "What is the grammatical function of ـهِ in البَيْتُ الَّذِي سَكَنْتُ فِيهِ?",
+      "arabic": "البَيْتُ الَّذِي سَكَنْتُ فِيهِ",
+      "target": "ـهِ",
+      "choices": [
+        "Al-ʿāʾid (returning resumptive pronoun referring back to البَيْتُ)",
+        "Ism kāna",
+        "Muḍāf"
+      ],
+      "answer": "Al-ʿāʾid (returning resumptive pronoun referring back to البَيْتُ)",
+      "explanation": "Al-ʿāʾid links the relative clause back to the antecedent noun in agreement with its gender and number.",
+      "feedback": { "rule": "A relative clause requires a returning pronoun (al-ʿāʾid) when the antecedent is an object or prepositional object." },
+      "skillTags": ["relative-clause", "al-aid"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

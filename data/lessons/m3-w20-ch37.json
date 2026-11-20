@@ -1,0 +1,56 @@
+{
+  "id": "m3-w20-ch37",
+  "moduleId": "module-3",
+  "week": 20,
+  "chapter": 37,
+  "title": "Ordinal Numbers & Fractions",
+  "titleArabic": "الأَعْدَادُ التَّرْتِيبِيَّةُ وَالكُسُورُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 37; Ryding Ch. 15)",
+  "objectives": [
+    "Form and agree ordinal numbers 1st–10th (أَوَّلُ / أُولَى, ثَانٍ, ثَالِثٌ ... عَاشِرٌ).",
+    "Form classical fractions on the pattern فُعْلٌ (ثُلُثٌ, رُبْعٌ, خُمْسٌ).",
+    "Read classical dates and fractional expressions."
+  ],
+  "recallPrompt": "From Chapter 11: What are the four categories of adjectival concordance?",
+  "glossaryTerms": ["ism", "raf"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Ordinals Behave as Adjectives",
+      "body": "Unlike cardinal numbers 3–10 (which show reverse gender), ordinal numbers ('first, second, third...') behave as normal descriptive adjectives: they follow the noun and agree with it in gender, case, and definiteness."
+    },
+    {
+      "type": "rule",
+      "label": "Ordinal & Fraction Patterns",
+      "arabicTerm": "فَاعِلٌ وَفُعْلٌ",
+      "summary": "Ordinals 2nd–10th follow the active participle pattern فَاعِلٌ (fem. فَاعِلَةٌ), while 'first' is أَوَّلُ (fem. أُولَى). Fractions from 1/3 to 1/10 follow فُعْلٌ (e.g., ثُلُثٌ 'one third', رُبْعٌ 'one quarter'); 'half' is نِصْفٌ."
+    },
+    {
+      "type": "table",
+      "heading": "Selected Ordinals & Fractions",
+      "headers": ["Value", "Masc. Ordinal", "Fem. Ordinal", "Fraction"],
+      "rows": [
+        ["1st / 1/2", "الأَوَّلُ", "الأُولَى", "نِصْفٌ (half)"],
+        ["2nd / —", "الثَّانِي (indef. ثَانٍ)", "الثَّانِيَةُ", "—"],
+        ["3rd / 1/3", "الثَّالِثُ", "الثَّالِثَةُ", "ثُلُثٌ (plural أَثْلَاثٌ)"],
+        ["4th / 1/4", "الرَّابِعُ", "الرَّابِعَةُ", "رُبْعٌ (plural أَرْبَاعٌ)"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "فِي اليَوْمِ الثَّالِثِ",
+      "transliteration": "fī l-yawmi th-thālithi",
+      "translation": "On the third day.",
+      "irab": "فِي: حَرْفُ جَرٍّ | اليَوْمِ: اسْمٌ مَجْرُورٌ | الثَّالِثِ: نَعْتٌ مَجْرُورٌ بِالكَسْرَةِ",
+      "notes": "الثَّالِثِ agrees with اليَوْمِ in gender (masc.), definiteness (أَلْ), and case (genitive).",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Defective Ordinal 'Second' (ثَانٍ)",
+      "body": "When indefinite nominative or genitive, 'second' drops its yāʾ like قَاضٍ: يَوْمٌ ثَانٍ ('a second day'), but definite is اليَوْمُ الثَّانِي."
+    }
+  ]
+}

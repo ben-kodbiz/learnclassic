@@ -1,0 +1,56 @@
+{
+  "id": "m3-w21-ch38",
+  "moduleId": "module-3",
+  "week": 21,
+  "chapter": 38,
+  "title": "Structure of Arabic Noun Forms",
+  "titleArabic": "أَبْنِيَةُ الأَسْمَاءِ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 38; Ryding Ch. 5 §§5.1–5.7)",
+  "objectives": [
+    "Distinguish primitive nouns (asmāʾ jāmidah) from derived nouns (mushtaqqāt).",
+    "Recognize common Form I maṣdar patterns (فَعْلٌ, فُعُولٌ, فِعَالَةٌ, فَعَالَةٌ).",
+    "Understand the nominal architecture of triliteral roots."
+  ],
+  "recallPrompt": "From Chapter 20: Why are Form II–X maṣādir predictable while Form I maṣādir are lexical?",
+  "glossaryTerms": ["ism"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Primitive vs. Derived Nouns",
+      "body": "Classical Arabic grammarians divide nouns into primitive/underived nouns (asmāʾ jāmidah, such as رَجُلٌ 'man', شَمْسٌ 'sun', فَرَسٌ 'horse') and derived nouns (mushtaqqāt, such as participles, adjectives, and nouns of place/instrument) built on systematic morphological patterns."
+    },
+    {
+      "type": "rule",
+      "label": "Common Form I Maṣdar Patterns",
+      "arabicTerm": "مَصَادِرُ الثُّلَاثِيِّ",
+      "summary": "While Form I maṣādir must be verified in a dictionary, strong tendencies exist: فَعْلٌ (transitive verbs like ضَرْبٌ, فَتْحٌ), فُعُولٌ (intransitive motion like دُخُولٌ, خُرُوجٌ), and فِعَالَةٌ (crafts/professions like كِتَابَةٌ, تِجَارَةٌ)."
+    },
+    {
+      "type": "table",
+      "heading": "Common Form I Maṣdar Patterns",
+      "headers": ["Pattern", "Verb", "Maṣdar", "Meaning"],
+      "rows": [
+        ["فَعْلٌ", "فَتَحَ", "فَتْحٌ", "opening / victory"],
+        ["فُعُولٌ", "دَخَلَ", "دُخُولٌ", "entering"],
+        ["فِعَالَةٌ", "كَتَبَ", "كِتَابَةٌ", "writing"],
+        ["فِعْلٌ", "عَلِمَ", "عِلْمٌ", "knowledge"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "طَلَبُ العِلْمِ فَرِيضَةٌ",
+      "transliteration": "ṭalabu l-ʿilmi farīḍatun",
+      "translation": "Seeking knowledge is an obligation.",
+      "irab": "طَلَبُ: مُبْتَدَأٌ مَرْفُوعٌ (مَصْدَرٌ وَهُوَ مُضَافٌ) | العِلْمِ: مُضَافٌ إِلَيْهِ مَجْرُورٌ | فَرِيضَةٌ: خَبَرٌ مَرْفُوعٌ",
+      "notes": "Notice how the maṣdar طَلَبُ functions as a noun ('the seeking of...').",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Maṣādir Can Govern Objects",
+      "body": "In Classical Arabic, a maṣdar frequently takes a genitive muḍāf ilayh representing its logical object (طَلَبُ العِلْمِ 'seeking knowledge')."
+    }
+  ]
+}

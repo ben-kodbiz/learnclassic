@@ -1,0 +1,40 @@
+{
+  "lessonId": "m3-w21-ch38",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w21-ch38-001",
+      "lessonId": "m3-w21-ch38",
+      "type": "multiple-choice",
+      "prompt": "Which noun is an underived primitive noun (ism jāmid)?",
+      "choices": ["شَمْسٌ ('sun')", "مُعَلِّمٌ ('teacher')", "مَكْتُوبٌ ('written')"],
+      "answer": "شَمْسٌ ('sun')",
+      "explanation": "شَمْسٌ is a primitive noun (ism jāmid), whereas مُعَلِّمٌ and مَكْتُوبٌ are derived participles (mushtaqqāt).",
+      "feedback": { "rule": "Primitive nouns (jāmid) are not derived from verbal roots via participial patterns." },
+      "skillTags": ["noun-forms"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w21-ch38-002",
+      "lessonId": "m3-w21-ch38",
+      "type": "matching",
+      "prompt": "Match each Form I maṣdar to its typical semantic tendency:",
+      "pairs": [
+        { "left": "دُخُولٌ (فُعُولٌ)", "right": "Intransitive motion" },
+        { "left": "كِتَابَةٌ (فِعَالَةٌ)", "right": "Craft or profession" },
+        { "left": "فَتْحٌ (فَعْلٌ)", "right": "Transitive action" }
+      ],
+      "answer": {
+        "دُخُولٌ (فُعُولٌ)": "Intransitive motion",
+        "كِتَابَةٌ (فِعَالَةٌ)": "Craft or profession",
+        "فَتْحٌ (فَعْلٌ)": "Transitive action"
+      },
+      "explanation": "Form I maṣādir are lexical, though فُعُولٌ, فِعَالَةٌ, and فَعْلٌ show clear semantic tendencies.",
+      "feedback": { "rule": "Form I maṣdar tendencies" },
+      "skillTags": ["masdar", "noun-forms"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "m3-w20-ch36",
+  "moduleId": "module-3",
+  "week": 20,
+  "chapter": 36,
+  "title": "Cardinal Numbers, Time & Dates",
+  "titleArabic": "الأَعْدَادُ الأَصْلِيَّةُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 36; Ryding Ch. 15 §§15.1–15.4)",
+  "objectives": [
+    "Apply chiastic gender polarity for cardinal numbers 3–10.",
+    "Inflect compound numbers 11–19 (invariable fatḥah, except 12) and decades 20–90.",
+    "Assign the correct case and number to the counted noun (tamyīz al-ʿadad)."
+  ],
+  "recallPrompt": "From Chapter 5: How do sound masculine plurals inflect across nominative, accusative, and genitive?",
+  "glossaryTerms": ["ism", "jarr", "nasb"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Gender Polarity & Counted-Noun Syntax",
+      "body": "Classical Arabic cardinal numbers follow two interlocking rules: (1) gender agreement (3–10 take the OPPOSITE gender of the singular counted noun) and (2) the case and number of the counted noun (tamyīz al-ʿadad), which shifts across number bands."
+    },
+    {
+      "type": "rule",
+      "label": "The Three Counted-Noun Bands",
+      "arabicTerm": "تَمْيِيزُ العَدَدِ",
+      "summary": "3–10: plural genitive (e.g., ثَلَاثَةُ كُتُبٍ, reverse gender). 11–99: singular accusative (e.g., أَحَدَ عَشَرَ كَوْكَبًا, عِشْرُونَ طَالِبًا). 100 & 1000: singular genitive (e.g., مِائَةُ رَجُلٍ)."
+    },
+    {
+      "type": "table",
+      "heading": "Classical Cardinal Number Rules",
+      "headers": ["Range", "Number Behavior", "Counted Noun", "Example"],
+      "rows": [
+        ["1–2", "Adjectives agreeing in gender/case", "Omitted or singular/dual", "كِتَابٌ وَاحِدٌ / كِتَابَانِ اثْنَانِ"],
+        ["3–10", "Reverse gender of singular noun", "Plural Genitive", "ثَلَاثَةُ أَيَّامٍ ('three days')"],
+        ["11–19", "Both parts invariable on fatḥah (except 12)", "Singular Accusative", "خَمْسَةَ عَشَرَ كِتَابًا ('15 books')"],
+        ["20–90", "Sound masc. plural (-ūna / -īna)", "Singular Accusative", "ثَلَاثُونَ يَوْمًا ('30 days')"],
+        ["100 / 1000", "Invariable gender; inflects for case", "Singular Genitive", "أَلْفُ سَنَةٍ ('a thousand years')"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "قَرَأْتُ أَرْبَعَةَ كُتُبٍ فِي عِشْرِينَ يَوْمًا",
+      "transliteration": "qaraʾtu ʾarbaʿata kutubin fī ʿishrīna yawman",
+      "translation": "I read four books in twenty days.",
+      "irab": "أَرْبَعَةَ: مَفْعُولٌ بِهِ مَنْصُوبٌ (مُضَافٌ) | كُتُبٍ: مُضَافٌ إِلَيْهِ جَمْعٌ مَجْرُورٌ | عِشْرِينَ: مَجْرُورٌ بِاليَاءِ | يَوْمًا: تَمْيِيزٌ مُفْرَدٌ مَنْصُوبٌ",
+      "notes": "Because كِتَابٌ is masculine, 'four' takes feminine ة (أَرْبَعَةَ) + plural genitive كُتُبٍ. After عِشْرِينَ, يَوْمًا is singular accusative.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "heading": "Always Check the Singular Gender for 3–10",
+      "body": "Determine gender polarity from the SINGULAR of the counted noun, not its plural (e.g., أَيَّامٌ 'days' has singular يَوْمٌ masc., so 'three days' is ثَلَاثَةُ أَيَّامٍ)."
+    }
+  ]
+}

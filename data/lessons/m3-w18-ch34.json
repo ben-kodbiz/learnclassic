@@ -1,0 +1,56 @@
+{
+  "id": "m3-w18-ch34",
+  "moduleId": "module-3",
+  "week": 18,
+  "chapter": 34,
+  "title": "The Relative Sentence (Jumlat al-Ṣilah)",
+  "titleArabic": "الجُمْلَةُ المَوْصُولَةُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 34; Ryding Ch. 14)",
+  "objectives": [
+    "Select the correct relative pronoun (الَّذِي, الَّتِي, الَّذِينَ, اللَّاتِي) for definite antecedents.",
+    "Form asyndetic relative clauses (omitting the relative pronoun) after indefinite antecedents.",
+    "Identify the returning resumptive pronoun (al-ʿāʾid) linking the relative clause back to the antecedent."
+  ],
+  "recallPrompt": "From Chapter 11: Why must an attributive modifier match its noun in definiteness?",
+  "glossaryTerms": ["ism", "maful"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Definite vs. Indefinite Relative Clauses",
+      "body": "Arabic relative clauses follow a strict definiteness rule: if the antecedent noun is DEFINITE, you must use a relative pronoun (al-ism al-mawṣūl: الَّذِي, الَّتِي, etc.). If the antecedent is INDEFINITE, you MUST omit the relative pronoun completely—the modifying clause follows directly."
+    },
+    {
+      "type": "rule",
+      "label": "The Returning Pronoun (Al-ʿĀʾid)",
+      "arabicTerm": "الضَّمِيرُ العَائِدُ",
+      "summary": "When the antecedent functions as the direct object or object of a preposition inside the relative clause, Arabic inserts a resumptive pronoun (al-ʿāʾid) agreeing with the antecedent (e.g., الكِتَابُ الَّذِي قَرَأْتُهُ 'the book which I read [it]')."
+    },
+    {
+      "type": "table",
+      "heading": "Relative Clause Patterns",
+      "headers": ["Antecedent", "Arabic", "Transliteration", "Rule Applied"],
+      "rows": [
+        ["Definite (subject role)", "الطَّالِبُ الَّذِي جَاءَ", "aṭ-ṭālibu lladhī jāʾa", "Definite → uses الَّذِي"],
+        ["Definite (object role)", "الكِتَابُ الَّذِي قَرَأْتُهُ", "al-kitābu lladhī qaraʾtuhu", "Uses الَّذِي + resumptive ـهُ"],
+        ["Indefinite (object role)", "كِتَابٌ قَرَأْتُهُ", "kitābun qaraʾtuhu", "Indefinite → NO الَّذِي; keeps ـهُ"],
+        ["General ('whoever/whatever')", "مَنْ يَجْتَهِدْ / مَا تَفْعَلْ", "man yajtahid / mā tafʿal", "Invariable مَنْ (human) / مَا (non-human)"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "هٰذَا هُوَ البَيْتُ الَّذِي سَكَنْتُ فِيهِ",
+      "transliteration": "hādhā huwa l-baytu lladhī sakantu fīhi",
+      "translation": "This is the house in which I lived.",
+      "irab": "البَيْتُ: خَبَرٌ مَرْفُوعٌ | الَّذِي: اسْمٌ مَوْصُولٌ نَعْتٌ | سَكَنْتُ فِيهِ: جُمْلَةُ الصِّلَةِ، وَالضَّمِيرُ (ـهِ) عَائِدٌ",
+      "notes": "Because البَيْتُ is definite, الَّذِي is required, and ـهِ in فِيهِ acts as the returning pronoun ('in it').",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "heading": "Never Use الَّذِي After an Indefinite Noun",
+      "body": "Writing رَجُلٌ الَّذِي جَاءَ is ungrammatical in Arabic. For an indefinite noun ('a man who came'), omit the pronoun: رَجُلٌ جَاءَ."
+    }
+  ]
+}

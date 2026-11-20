@@ -1,0 +1,56 @@
+{
+  "id": "m3-w19-ch35",
+  "moduleId": "module-3",
+  "week": 19,
+  "chapter": 35,
+  "title": "Conditionals & The Apodosis Connector (Fa-)",
+  "titleArabic": "أُسْلُوبُ الشَّرْطِ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 35; Ryding Ch. 39 §§39.1–39.3)",
+  "objectives": [
+    "Distinguish real/possible conditions (إِنْ, إِذَا) from contrary-to-fact conditions (لَوْ, لَوْلَا).",
+    "Apply jussive governance in both protasis (sharṭ) and apodosis (jazāʾ) with إِنْ.",
+    "Apply fāʾ al-jazāʾ (فَـ) before non-verbal, imperative, negated, or particle-introduced result clauses."
+  ],
+  "recallPrompt": "From Chapter 16: What happens to sound, afʿāl al-khamsah, and defective verbs in the jussive mood?",
+  "glossaryTerms": ["harf", "jazm"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Protasis (Al-Sharṭ) & Apodosis (Al-Jazāʾ)",
+      "body": "Classical Arabic conditional sentences consist of a conditional particle, a condition clause (al-sharṭ), and a result clause (al-jazāʾ). Real or possible conditions use إِنْ ('if' — governing two jussives or two past verbs) and إِذَا ('when/if' — typically taking a past verb with present/future meaning). Hypothetical/counterfactual conditions use لَوْ ('if [it were/had been]') with past verbs and لَـ on the result."
+    },
+    {
+      "type": "rule",
+      "label": "Mandatory Fāʾ al-Jazāʾ Environments",
+      "arabicTerm": "فَاءُ الجَزَاءِ",
+      "summary": "The result clause MUST be introduced by فَـ (fāʾ al-jazāʾ) whenever the result is: (1) a nominal sentence, (2) an imperative or prohibition, (3) negated by لَنْ or مَا, or (4) introduced by قَدْ, سَـ, or سَوْفَ."
+    },
+    {
+      "type": "table",
+      "heading": "Conditional Particles & Structures",
+      "headers": ["Particle", "Type", "Example", "Translation"],
+      "rows": [
+        ["إِنْ", "Possible (jussive)", "إِنْ تَجْتَهِدْ تَنْجَحْ", "If you strive, you will succeed."],
+        ["إِنْ + فَـ", "Nominal/imperative result", "إِنْ سَأَلَكَ فَأَجِبْهُ", "If he asks you, then answer him."],
+        ["إِذَا", "Expected / temporal", "إِذَا جَاءَ الصَّيْفُ سَافَرْنَا", "When summer comes, we travel."],
+        ["لَوْ", "Counterfactual", "لَوْ دَرَسَ لَنَجَحَ", "Had he studied, he would have succeeded."]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "إِنْ تَصْبِرُوا فَاللَّهُ مَعَكُمْ",
+      "transliteration": "ʾin taṣbirū fa-llāhu maʿakum",
+      "translation": "If you are patient, then God is with you.",
+      "irab": "إِنْ: حَرْفُ شَرْطٍ جَازِمٌ | تَصْبِرُوا: فِعْلُ الشَّرْطِ مَجْزُومٌ بِحَذْفِ النُّونِ | فَاللَّهُ مَعَكُمْ: جُمْلَةٌ اسْمِيَّةٌ فِي مَحَلِّ جَزْمٍ جَوَابُ الشَّرْطِ",
+      "notes": "Because the result clause (اللَّهُ مَعَكُمْ) is a nominal sentence, fāʾ al-jazāʾ (فَـ) is obligatory.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Conditional Pronouns",
+      "body": "مَنْ ('whoever'), مَا ('whatever'), and مَتَى ('whenever') also govern two jussives just like إِنْ (e.g., مَنْ يَزْرَعْ يَحْصُدْ 'Whoever sows, reaps')."
+    }
+  ]
+}

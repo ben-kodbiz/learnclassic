@@ -1,0 +1,40 @@
+{
+  "lessonId": "m3-w21-ch39",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w21-ch39-001",
+      "lessonId": "m3-w21-ch39",
+      "type": "matching",
+      "prompt": "Match each derived noun to its morphological category:",
+      "pairs": [
+        { "left": "مَسْجِدٌ (مَفْعِلٌ)", "right": "Noun of Place" },
+        { "left": "مِفْتَاحٌ (مِفْعَالٌ)", "right": "Noun of Instrument" },
+        { "left": "بُنَيٌّ (فُعَيْلٌ)", "right": "Diminutive" }
+      ],
+      "answer": {
+        "مَسْجِدٌ (مَفْعِلٌ)": "Noun of Place",
+        "مِفْتَاحٌ (مِفْعَالٌ)": "Noun of Instrument",
+        "بُنَيٌّ (فُعَيْلٌ)": "Diminutive"
+      },
+      "explanation": "Place/time nouns begin with مَـ (مَفْعِلٌ/مَفْعَلٌ), instruments with مِـ (مِفْعَالٌ), and diminutives use فُعَيْلٌ.",
+      "feedback": { "rule": "Derived nominal patterns: مَفْعِلٌ, مِفْعَالٌ, فُعَيْلٌ." },
+      "skillTags": ["noun-forms", "diminutive"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w21-ch39-002",
+      "lessonId": "m3-w21-ch39",
+      "type": "true-false",
+      "prompt": "True or False: Nouns of instrument typically begin with the prefix مَـ (fatḥah), while nouns of place begin with مِـ (kasrah).",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "False—it is the reverse: nouns of place/time begin with مَـ (مَسْجِدٌ, مَكْتَبٌ) and nouns of instrument begin with مِـ (مِفْتَاحٌ, مِيزَانٌ).",
+      "feedback": { "rule": "مَـ = place/time; مِـ = instrument." },
+      "skillTags": ["noun-forms"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

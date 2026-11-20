@@ -1,0 +1,56 @@
+{
+  "id": "m3-w18-ch32",
+  "moduleId": "module-3",
+  "week": 18,
+  "chapter": 32,
+  "title": "Unorthodox & Invariable Verbs",
+  "titleArabic": "أَفْعَالُ المَدْحِ وَالذَّمِّ وَالمُقَارَبَةِ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 32; Ryding Ch. 36)",
+  "objectives": [
+    "Use the invariable verbs of praise and blame (نِعْمَ and بِئْسَ).",
+    "Conjugate and parse the negative copular verb لَيْسَ (governed like كَانَ).",
+    "Use verbs of appropinquation and hope (كَادَ, عَسَى) with imperfect complements."
+  ],
+  "recallPrompt": "From Chapter 13: What case does كَانَ assign to its subject (ism) and predicate (khabar)?",
+  "glossaryTerms": ["fil", "raf", "nasb"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Invariable & Special Verbs",
+      "body": "Classical Arabic has several special verbs that do not form full tense paradigms. Verbs of praise and blame—نِعْمَ ('how excellent is...') and بِئْسَ ('how evil is...')—remain frozen in the 3ms/3fs past. لَيْسَ ('is not') conjugates only in the past form with present negative meaning. Verbs of nearness and hope—كَادَ ('almost') and عَسَى ('perhaps/may')—take imperfect complements."
+    },
+    {
+      "type": "rule",
+      "label": "Governance of لَيْسَ, نِعْمَ, and عَسَى",
+      "arabicTerm": "لَيْسَ — نِعْمَ — عَسَى",
+      "summary": "لَيْسَ governs like كَانَ (nominative ism, accusative khabar). نِعْمَ/بِئْسَ take a definite nominative subject followed by the praised/blamed noun in the nominative. عَسَى typically takes أَنْ + subjunctive imperfect."
+    },
+    {
+      "type": "table",
+      "heading": "Special Verb Constructions",
+      "headers": ["Verb", "Arabic Example", "Meaning"],
+      "rows": [
+        ["لَيْسَ", "لَيْسَ الكَذِبُ نَافِعًا", "Lying is not beneficial (نَافِعًا = khabar laysa, manṣūb)"],
+        ["نِعْمَ", "نِعْمَ العَبْدُ الصَّادِقُ", "How excellent is the truthful servant!"],
+        ["كَادَ", "كَادَ الطَّالِبُ يَنْسَى", "The student almost forgot (imperfect without أَنْ)"],
+        ["عَسَى", "عَسَى اللَّهُ أَنْ يَرْحَمَنَا", "May God have mercy on us (أَنْ + subjunctive)"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "لَيْسَ البِرُّ بِالكَلَامِ فَقَطْ",
+      "transliteration": "laysa l-birru bi-l-kalāmi faqaṭ",
+      "translation": "Righteousness is not by speech alone.",
+      "irab": "لَيْسَ: فِعْلٌ مَاضٍ نَاقِصٌ | البِرُّ: اسْمُ لَيْسَ مَرْفُوعٌ | بِالكَلَامِ: خَبَرُ لَيْسَ فِي مَحَلِّ نَصْبٍ",
+      "notes": "In Classical Arabic, the predicate of لَيْسَ frequently takes the emphatic preposition بِـ (e.g., لَيْسَ بِعَالِمٍ 'he is not a scholar').",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "لَيْسَ Conjugation",
+      "body": "لَيْسَ drops its yāʾ before consonant suffixes: لَسْتُ ('I am not'), لَسْتَ ('you are not'), لَسْنَا ('we are not')."
+    }
+  ]
+}

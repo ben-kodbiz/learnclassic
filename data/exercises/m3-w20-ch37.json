@@ -1,0 +1,41 @@
+{
+  "lessonId": "m3-w20-ch37",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w20-ch37-001",
+      "lessonId": "m3-w20-ch37",
+      "type": "fill-in-blank",
+      "prompt": "Complete the phrase with the agreeing ordinal adjective: 'on the third day'.",
+      "arabic": "فِي اليَوْمِ _____",
+      "choices": ["الثَّالِثِ", "ثَالِثٌ", "الثَّالِثَةُ"],
+      "answer": "الثَّالِثِ",
+      "explanation": "Ordinal numbers behave as descriptive adjectives and agree in gender, case, and definiteness: الثَّالِثِ.",
+      "feedback": { "rule": "Ordinals agree with their noun like regular adjectives." },
+      "skillTags": ["ordinals", "agreement"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w20-ch37-002",
+      "lessonId": "m3-w20-ch37",
+      "type": "matching",
+      "prompt": "Match each Arabic fraction to its value:",
+      "pairs": [
+        { "left": "نِصْفٌ", "right": "1/2 (one half)" },
+        { "left": "ثُلُثٌ", "right": "1/3 (one third)" },
+        { "left": "رُبْعٌ", "right": "1/4 (one quarter)" }
+      ],
+      "answer": {
+        "نِصْفٌ": "1/2 (one half)",
+        "ثُلُثٌ": "1/3 (one third)",
+        "رُبْعٌ": "1/4 (one quarter)"
+      },
+      "explanation": "Fractions from 1/3 to 1/10 follow the pattern فُعْلٌ; 1/2 is نِصْفٌ.",
+      "feedback": { "rule": "Classical fraction pattern فُعْلٌ" },
+      "skillTags": ["fractions"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}
