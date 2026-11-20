@@ -1,0 +1,252 @@
+{
+  "schemaVersion": "1.0.0",
+  "reviewStatus": "pending",
+  "verbForms": [
+    {
+      "form": "I",
+      "arabicName": "فَعَلَ / يَفْعُلُ",
+      "perfect": "فَعَلَ",
+      "imperfect": "يَفْعُلُ / يَفْعِلُ / يَفْعَلُ",
+      "masdar": "lexical (e.g. كِتَابَةٌ، عِلْمٌ)",
+      "activeParticiple": "فَاعِلٌ",
+      "passiveParticiple": "مَفْعُولٌ",
+      "semantics": "Base triliteral meaning (active, stative, or intransitive).",
+      "example": { "arabic": "كَتَبَ — يَكْتُبُ", "meaning": "to write", "root": "ك-ت-ب" }
+    },
+    {
+      "form": "II",
+      "arabicName": "فَعَّلَ / يُفَعِّلُ",
+      "perfect": "فَعَّلَ",
+      "imperfect": "يُفَعِّلُ",
+      "masdar": "تَفْعِيلٌ",
+      "activeParticiple": "مُفَعِّلٌ",
+      "passiveParticiple": "مُفَعَّلٌ",
+      "semantics": "Causative, intensive, or declarative (e.g., عَلِمَ 'know' → عَلَّمَ 'teach').",
+      "example": { "arabic": "عَلَّمَ — يُعَلِّمُ — تَعْلِيمٌ", "meaning": "to teach", "root": "ع-ل-م" }
+    },
+    {
+      "form": "III",
+      "arabicName": "فَاعَلَ / يُفَاعِلُ",
+      "perfect": "فَاعَلَ",
+      "imperfect": "يُفَاعِلُ",
+      "masdar": "مُفَاعَلَةٌ / فِعَالٌ",
+      "activeParticiple": "مُفَاعِلٌ",
+      "passiveParticiple": "مُفَاعَلٌ",
+      "semantics": "Associative or directed action toward another person.",
+      "example": { "arabic": "جَاهَدَ — يُجَاهِدُ — جِهَادٌ", "meaning": "to strive", "root": "ج-ه-د" }
+    },
+    {
+      "form": "IV",
+      "arabicName": "أَفْعَلَ / يُفْعِلُ",
+      "perfect": "أَفْعَلَ",
+      "imperfect": "يُفْعِلُ",
+      "masdar": "إِفْعَالٌ",
+      "activeParticiple": "مُفْعِلٌ",
+      "passiveParticiple": "مُفْعَلٌ",
+      "semantics": "Causative or transitive ('to cause to do' or enter a state).",
+      "example": { "arabic": "أَنْزَلَ — يُنْزِلُ — إِنْزَالٌ", "meaning": "to send down", "root": "ن-ز-ل" }
+    },
+    {
+      "form": "V",
+      "arabicName": "تَفَعَّلَ / يَتَفَعَّلُ",
+      "perfect": "تَفَعَّلَ",
+      "imperfect": "يَتَفَعَّلُ",
+      "masdar": "تَفَعُّلٌ",
+      "activeParticiple": "مُتَفَعِّلٌ",
+      "passiveParticiple": "مُتَفَعَّلٌ",
+      "semantics": "Reflexive or resultative of Form II; taking on a quality.",
+      "example": { "arabic": "تَعَلَّمَ — يَتَعَلَّمُ — تَعَلُّمٌ", "meaning": "to learn", "root": "ع-ل-م" }
+    },
+    {
+      "form": "VI",
+      "arabicName": "تَفَاعَلَ / يَتَفَاعَلُ",
+      "perfect": "تَفَاعَلَ",
+      "imperfect": "يَتَفَاعَلُ",
+      "masdar": "تَفَاعُلٌ",
+      "activeParticiple": "مُتَفَاعِلٌ",
+      "passiveParticiple": "مُتَفَاعَلٌ",
+      "semantics": "Mutual or reciprocal action among multiple subjects.",
+      "example": { "arabic": "تَعَاوَنَ — يَتَعَاوَنُ — تَعَاوُنٌ", "meaning": "to cooperate", "root": "ع-و-ن" }
+    },
+    {
+      "form": "VII",
+      "arabicName": "اِنْفَعَلَ / يَنْفَعِلُ",
+      "perfect": "اِنْفَعَلَ",
+      "imperfect": "يَنْفَعِلُ",
+      "masdar": "اِنْفِعَالٌ",
+      "activeParticiple": "مُنْفَعِلٌ",
+      "passiveParticiple": "— (intransitive)",
+      "semantics": "Intrinsic passive / unaccusative ('to become broken/opened').",
+      "example": { "arabic": "اِنْكَسَرَ — يَنْكَسِرُ — اِنْكِسَارٌ", "meaning": "to break (intrans.)", "root": "ك-س-ر" }
+    },
+    {
+      "form": "VIII",
+      "arabicName": "اِفْتَعَلَ / يَفْتَعِلُ",
+      "perfect": "اِفْتَعَلَ",
+      "imperfect": "يَفْتَعِلُ",
+      "masdar": "اِفْتِعَالٌ",
+      "activeParticiple": "مُفْتَعِلٌ",
+      "passiveParticiple": "مُفْتَعَلٌ",
+      "semantics": "Participatory or reflexive acquisition; infixed -t- assimilates after emphatics/wāw.",
+      "example": { "arabic": "اِتَّقَى — يَتَّقِي — اِتِّقَاءٌ", "meaning": "to be mindful / pious", "root": "و-ق-ي" }
+    },
+    {
+      "form": "IX",
+      "arabicName": "اِفْعَلَّ / يَفْعَلُّ",
+      "perfect": "اِفْعَلَّ",
+      "imperfect": "يَفْعَلُّ",
+      "masdar": "اِفْعِلَالٌ",
+      "activeParticiple": "مُفْعَلٌّ",
+      "passiveParticiple": "— (intransitive)",
+      "semantics": "Colors and fixed physical traits.",
+      "example": { "arabic": "اِحْمَرَّ — يَحْمَرُّ — اِحْمِرَارٌ", "meaning": "to turn red", "root": "ح-م-ر" }
+    },
+    {
+      "form": "X",
+      "arabicName": "اِسْتَفْعَلَ / يَسْتَفْعِلُ",
+      "perfect": "اِسْتَفْعَلَ",
+      "imperfect": "يَسْتَفْعِلُ",
+      "masdar": "اِسْتِفْعَالٌ",
+      "activeParticiple": "مُسْتَفْعِلٌ",
+      "passiveParticiple": "مُسْتَفْعَلٌ",
+      "semantics": "Seeking, requesting, or considering something to have a quality.",
+      "example": { "arabic": "اِسْتَغْفَرَ — يَسْتَغْفِرُ — اِسْتِغْفَارٌ", "meaning": "to seek forgiveness", "root": "غ-ف-ر" }
+    }
+  ],
+  "conjugationDrills": [
+    {
+      "id": "conj-sound",
+      "verbClass": "Sound (Sālim)",
+      "root": "ك-ت-ب",
+      "lemma": "كَتَبَ",
+      "meaning": "to write",
+      "prompt": "Enter the 1st-person singular past ('I wrote') for كَتَبَ:",
+      "choices": ["كَتَبْتُ", "كَتَبْتَ", "كَتَبُوا"],
+      "answer": "كَتَبْتُ",
+      "explanation": "Sound Form I verbs attach ـْتُ for 1st-person singular past: كَتَبْتُ."
+    },
+    {
+      "id": "conj-doubled",
+      "verbClass": "Doubled (Muḍāʿaf)",
+      "root": "م-د-د",
+      "lemma": "مَدَّ",
+      "meaning": "to extend",
+      "prompt": "Select the 1st-person singular past ('I extended') where idghām separates:",
+      "choices": ["مَدَدْتُ", "مَدَّتُ", "مَدْتُ"],
+      "answer": "مَدَدْتُ",
+      "explanation": "Before consonant-initial suffixes (ـْتُ), the doubled 2nd and 3rd radicals separate: مَدَدْتُ."
+    },
+    {
+      "id": "conj-assimilated",
+      "verbClass": "Assimilated (Mithāl)",
+      "root": "و-ص-ل",
+      "lemma": "وَصَلَ",
+      "meaning": "to arrive",
+      "prompt": "Select the 3ms imperfect ('he arrives') showing wāw elision:",
+      "choices": ["يَصِلُ", "يَوْصِلُ", "يَصُلُ"],
+      "answer": "يَصِلُ",
+      "explanation": "Initial wāw drops in Form I imperfects with kasrah on the middle radical: يَصِلُ."
+    },
+    {
+      "id": "conj-hollow",
+      "verbClass": "Hollow (Ajwaf)",
+      "root": "ق-و-ل",
+      "lemma": "قَالَ",
+      "meaning": "to say",
+      "prompt": "Select the 3ms jussive after لَمْ ('he did not say'):",
+      "choices": ["لَمْ يَقُلْ", "لَمْ يَقُولْ", "لَمْ يَقُولُ"],
+      "answer": "لَمْ يَقُلْ",
+      "explanation": "In the jussive, the final sukūn closes the syllable and shortens the long medial ū to u: لَمْ يَقُلْ."
+    },
+    {
+      "id": "conj-defective",
+      "verbClass": "Defective (Nāqiṣ)",
+      "root": "د-ع-و",
+      "lemma": "دَعَا",
+      "meaning": "to call / supplicate",
+      "prompt": "Select the 3ms jussive after لَمْ ('he did not call'):",
+      "choices": ["لَمْ يَدْعُ", "لَمْ يَدْعُو", "لَمْ يَدْعُوَ"],
+      "answer": "لَمْ يَدْعُ",
+      "explanation": "In the jussive, defective verbs delete the final weak radical completely, leaving only the short ḍammah: لَمْ يَدْعُ."
+    }
+  ],
+  "rootPatterns": [
+    {
+      "word": "مَسْجِدٌ",
+      "root": "س-ج-د",
+      "pattern": "مَفْعِلٌ",
+      "category": "Noun of Place (Ism Makān)",
+      "note": "Prefix مَـ marks place of prostration (سَجَدَ)."
+    },
+    {
+      "word": "مِفْتَاحٌ",
+      "root": "ف-ت-ح",
+      "pattern": "مِفْعَالٌ",
+      "category": "Noun of Instrument (Ism al-Ālah)",
+      "note": "Prefix مِـ + long ā marks an instrument for opening (فَتَحَ)."
+    },
+    {
+      "word": "اِسْتِغْفَارٌ",
+      "root": "غ-ف-ر",
+      "pattern": "اِسْتِفْعَالٌ",
+      "category": "Form X Maṣdar",
+      "note": "Strip augmented اِسْتَـ and ا to recover root غ-ف-ر."
+    },
+    {
+      "word": "اِتِّحَادٌ",
+      "root": "و-ح-د",
+      "pattern": "اِفْتِعَالٌ",
+      "category": "Form VIII Maṣdar (Assimilated)",
+      "note": "Initial wāw assimilated into infixed -t- (تّ); underlying root is و-ح-د."
+    },
+    {
+      "word": "عُلَمَاءُ",
+      "root": "ع-ل-م",
+      "pattern": "فُعَلَاءُ",
+      "category": "Diptote Broken Plural",
+      "note": "Strip trailing اءُ to recover root ع-ل-م ('scholars')."
+    }
+  ],
+  "irabLab": [
+    {
+      "id": "irab-1",
+      "sentence": "كَتَبَ الطَّالِبُ الدَّرْسَ",
+      "translation": "The student wrote the lesson.",
+      "sentenceType": "Verbal (Jumla Fiʿliyyah)",
+      "words": [
+        { "word": "كَتَبَ", "role": "Fiʿl Māḍī", "caseOrMood": "Mabnī (fatha)", "governor": "None" },
+        { "word": "الطَّالِبُ", "role": "Fāʿil (Agent)", "caseOrMood": "Marfūʿ (ḍammah)", "governor": "كَتَبَ" },
+        { "word": "الدَّرْسَ", "role": "Mafʿūl Bihi (Object)", "caseOrMood": "Manṣūb (fatḥah)", "governor": "كَتَبَ" }
+      ]
+    },
+    {
+      "id": "irab-2",
+      "sentence": "إِنَّ اللَّهَ غَفُورٌ",
+      "translation": "Indeed, God is Forgiving.",
+      "sentenceType": "Nominal (Jumla Ismiyyah with Inna)",
+      "words": [
+        { "word": "إِنَّ", "role": "Ḥarf Tawkīd (Corroboration)", "caseOrMood": "Mabnī", "governor": "Governs ism in naṣb, khabar in rafʿ" },
+        { "word": "اللَّهَ", "role": "Ism Inna", "caseOrMood": "Manṣūb (fatḥah)", "governor": "إِنَّ" },
+        { "word": "غَفُورٌ", "role": "Khabar Inna", "caseOrMood": "Marfūʿ (ḍammah)", "governor": "إِنَّ" }
+      ]
+    }
+  ],
+  "classicalReadings": [
+    {
+      "id": "fatihah-1-2",
+      "title": "Sūrat al-Fātiḥah (1:1–2)",
+      "source": "Qur'an 1:1–2 (grammatical analysis only; distinct from tafsīr)",
+      "reviewStatus": "pending",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ۝ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "translation": "In the name of God, the Entirely Merciful, the Especially Merciful. All praise is due to God, Lord of the worlds.",
+      "tokens": [
+        { "word": "بِسْمِ", "analysis": "بِـ (ḥarf jarr) + اسْمِ (ism majrūr, muḍāf; hamzat al-waṣl elided in writing)" },
+        { "word": "اللَّهِ", "analysis": "Lafẓ al-jalālah, muḍāf ilayh majrūr bi-l-kasrah" },
+        { "word": "الرَّحْمَٰنِ الرَّحِيمِ", "analysis": "Naʿt (attributive adjectives) majrūr agreeing with اللَّهِ" },
+        { "word": "الْحَمْدُ", "analysis": "Mubtadaʾ marfūʿ bi-ḍ-ḍammah" },
+        { "word": "لِلَّهِ", "analysis": "Jārr wa-majrūr (لِـ + اللَّهِ) in the place of khabar" },
+        { "word": "رَبِّ الْعَالَمِينَ", "analysis": "Naʿt/Badal majrūr (muḍāf) + muḍāf ilayh majrūr bi-l-yāʾ" }
+      ]
+    }
+  ]
+}

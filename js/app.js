@@ -8,6 +8,7 @@ import { loadGlossary, renderGlossaryView } from "./glossary.js";
 import { bindLessonRevealEvents, loadLesson, renderLessonBody } from "./lesson-renderer.js";
 import { renderProgressDashboard } from "./progress.js";
 import { startRouter } from "./router.js";
+import { bindToolsEvents, loadToolsData, renderToolsView } from "./tools.js";
 import {
   STATUS_LABELS,
   exportProgressJson,
@@ -21,11 +22,19 @@ import {
 
 let curriculum = null;
 let glossary = null;
+let toolsData = null;
 let currentRoute = { view: "home" };
 let searchQuery = "";
 let glossaryQuery = "";
 let statusFilter = "all";
 const exerciseStates = new Map();
+const toolsState = {
+  tab: "forms",
+  conjAnswers: {},
+  conjChecked: {},
+  rootQuery: "",
+  irabSelected: {},
+};
 
 function getExerciseState(lessonId) {
   if (!exerciseStates.has(lessonId)) {
@@ -422,7 +431,9 @@ function updateNavHighlight(route) {
         ? "glossary"
         : route.view === "progress"
           ? "progress"
-          : route.view === "module"
+          : route.view === "tools"
+            ? "tools"
+            : route.view === "module"
           ? route.moduleId
           : route.view === "chapter"
             ? curriculum.chaptersById.get(route.chapterId)?.moduleId || ""
@@ -445,6 +456,9 @@ async function render() {
     root.innerHTML = renderGlossaryView(glossary, curriculum, glossaryQuery, esc);
   } else if (currentRoute.view === "progress") {
     root.innerHTML = renderProgressDashboard(curriculum, renderProgressBar, esc);
+  } else if (currentRoute.view === "tools") {
+    root.innerHTML = renderToolsView(toolsData, toolsState, esc);
+    bindToolsEvents(root, toolsData, toolsState, render);
   } else if (currentRoute.view === "module") {
     root.innerHTML = renderModule(currentRoute.moduleId);
   } else if (currentRoute.view === "chapter") {
@@ -554,7 +568,11 @@ async function init() {
   bindFooterActions();
 
   try {
-    [curriculum, glossary] = await Promise.all([loadCurriculum(), loadGlossary()]);
+    [curriculum, glossary, toolsData] = await Promise.all([
+      loadCurriculum(),
+      loadGlossary(),
+      loadToolsData(),
+    ]);
     startRouter((route) => {
       currentRoute = route;
       render();

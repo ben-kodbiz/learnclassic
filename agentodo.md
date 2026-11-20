@@ -519,11 +519,11 @@ For sourced passages, replace the source value with a precise bibliographic or c
 
 ## Phase 6 — Advanced grammar tools
 
-- [ ] Build verb-form explorer.
-- [ ] Build conjugation practice for regular and irregular verbs.
-- [ ] Build root and pattern explorer.
-- [ ] Build interactive iʿrāb parser.
-- [ ] Build guided classical-text reading mode.
+- [x] Build verb-form explorer.
+- [x] Build conjugation practice for regular and irregular verbs.
+- [x] Build root and pattern explorer.
+- [x] Build interactive iʿrāb parser.
+- [x] Build guided classical-text reading mode.
 - [ ] Add PWA/offline support only after core content and progress are stable.
 
 ---

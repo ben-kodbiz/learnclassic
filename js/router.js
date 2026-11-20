@@ -16,6 +16,9 @@ export function parseRoute(hash = window.location.hash) {
   if (parts[0] === "progress") {
     return { view: "progress" };
   }
+  if (parts[0] === "tools") {
+    return { view: "tools" };
+  }
   if (parts[0] === "module" && parts[1]) {
     return { view: "module", moduleId: decodeURIComponent(parts[1]) };
   }
