@@ -1,0 +1,36 @@
+{
+  "lessonId": "m2-w13-ch22",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m2-w13-ch22-001",
+      "lessonId": "m2-w13-ch22",
+      "type": "multiple-choice",
+      "prompt": "What is the underlying triliteral root of the Form VIII verb اِتَّقَى ('to be mindful/pious')?",
+      "arabic": "اِتَّقَى",
+      "choices": ["و-ق-ي", "ت-ق-ي", "أ-ت-ق"],
+      "answer": "و-ق-ي",
+      "explanation": "Initial wāw assimilates into the infixed -t- of Form VIII, producing doubled تّ (اِتَّقَى from و-ق-ي).",
+      "feedback": {
+        "rule": "Form VIII initial wāw/yāʾ assimilates into infixed -t- → تّ.",
+        "commonError": "Looking up اِتَّقَى under ت in an Arabic dictionary."
+      },
+      "skillTags": ["form-8", "assimilation", "root-extraction"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w13-ch22-002",
+      "lessonId": "m2-w13-ch22",
+      "type": "fill-in-blank",
+      "prompt": "In Form VIII from root ص-ف-و, what does infixed ت become after the emphatic ص?",
+      "choices": ["اِصْطَفَى (becomes emphatic ط)", "اِصْتَفَى (stays ت)", "اِصْدَفَى (becomes د)"],
+      "answer": "اِصْطَفَى (becomes emphatic ط)",
+      "explanation": "After emphatic consonants (ص ض ط ظ), Form VIII infixed -t- shifts to emphatic ط: اِصْطَفَى.",
+      "feedback": { "rule": "Emphatic assimilation in Form VIII: ص + ت → صط." },
+      "skillTags": ["form-8", "assimilation"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

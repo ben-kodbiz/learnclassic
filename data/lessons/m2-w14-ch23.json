@@ -1,0 +1,54 @@
+{
+  "id": "m2-w14-ch23",
+  "moduleId": "module-2",
+  "week": 14,
+  "chapter": 23,
+  "title": "Forms IX (ifʿalla) & X (istafʿala)",
+  "titleArabic": "الوَزْنَانِ التَّاسِعُ وَالعَاشِرُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 23; Ryding Ch. 30–31)",
+  "objectives": [
+    "Recognize Form IX (اِفْعَلَّ) for colors and fixed physical characteristics.",
+    "Conjugate Form X (اِسْتَفْعَلَ) and identify its seeking/requesting/considering semantics.",
+    "Form Form X maṣādir (اِسْتِفْعَالٌ) and active/passive participles (مُسْتَفْعِلٌ / مُسْتَفْعَلٌ)."
+  ],
+  "recallPrompt": "From Chapter 22: What underlying root hides behind a Form VIII verb beginning with اِتَّـ?",
+  "glossaryTerms": ["fil", "ism"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Colors/Traits (Form IX) & Seeking/Requesting (Form X)",
+      "body": "Form IX (اِفْعَلَّ) doubles the final radical and is restricted to colors and bodily traits (e.g., اِحْمَرَّ 'to turn red'). Form X (اِسْتَفْعَلَ) prefixes اِسْتَـ and is one of the most productive stems in Classical Arabic, expressing seeking, asking for, or deeming something to possess a quality."
+    },
+    {
+      "type": "rule",
+      "label": "Form X Semantics & Morphology",
+      "arabicTerm": "اِسْتَفْعَلَ — يَسْتَفْعِلُ — اِسْتِفْعَالٌ",
+      "summary": "Form X adds اِسْتَـ to the root (e.g., غ-ف-ر 'forgive' → اِسْتَغْفَرَ 'seek forgiveness'). Like doubled verbs, Form IX separates its doubled C3 before consonant suffixes (اِحْمَرَرْتُ)."
+    },
+    {
+      "type": "table",
+      "heading": "Forms IX & X Paradigms",
+      "headers": ["Form", "Past", "Imperfect", "Maṣdar", "Example"],
+      "rows": [
+        ["IX", "اِفْعَلَّ", "يَفْعَلُّ", "اِفْعِلَالٌ", "اِحْمَرَّ — يَحْمَرُّ — اِحْمِرَارٌ ('turn red')"],
+        ["X", "اِسْتَفْعَلَ", "يَسْتَفْعِلُ", "اِسْتِفْعَالٌ", "اِسْتَغْفَرَ — يَسْتَغْفِرُ — اِسْتِغْفَارٌ ('seek forgiveness')"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "اِسْتَغْفَرَ المُؤْمِنُ رَبَّهُ",
+      "transliteration": "istaghfara l-muʾminu rabbahu",
+      "translation": "The believer sought forgiveness from his Lord.",
+      "irab": "اِسْتَغْفَرَ: فِعْلٌ مَاضٍ (وَزْنُ اِسْتَفْعَلَ، جَذْرُ غ-ف-ر) | المُؤْمِنُ: فَاعِلٌ مَرْفُوعٌ | رَبَّهُ: مَفْعُولٌ بِهِ مَنْصُوبٌ",
+      "notes": "Strip اِسْتَـ from اِسْتَغْفَرَ to recover the root غ-ف-ر.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Active Participle of Form X",
+      "body": "Replacing يَـ with مُـ and placing kasrah before the final radical yields مُسْتَغْفِرٌ ('one seeking forgiveness')."
+    }
+  ]
+}

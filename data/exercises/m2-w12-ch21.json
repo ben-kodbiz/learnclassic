@@ -1,0 +1,36 @@
+{
+  "lessonId": "m2-w12-ch21",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m2-w12-ch21-001",
+      "lessonId": "m2-w12-ch21",
+      "type": "fill-in-blank",
+      "prompt": "Select the correct Form V maṣdar of تَعَلَّمَ ('learning').",
+      "choices": ["تَعَلُّمٌ", "تَعْلِيمٌ", "تَعَالُمٌ"],
+      "answer": "تَعَلُّمٌ",
+      "explanation": "Form V maṣādir follow تَفَعُّلٌ with a ḍammah before the final radical: تَعَلُّمٌ.",
+      "feedback": { "rule": "Form V maṣdar: تَفَعُّلٌ (tafaʿʿul); Form VI maṣdar: تَفَاعُلٌ (tafāʿul)." },
+      "skillTags": ["form-5", "masdar"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w12-ch21-002",
+      "lessonId": "m2-w12-ch21",
+      "type": "multiple-choice",
+      "prompt": "Which semantic nuance is characteristic of Form VI (تَفَاعَلَ, e.g., تَعَاوَنَ)?",
+      "choices": [
+        "Mutual or reciprocal action among multiple participants",
+        "Causing someone else to perform an action",
+        "Bodily colors and defects"
+      ],
+      "answer": "Mutual or reciprocal action among multiple participants",
+      "explanation": "Form VI typically expresses reciprocal action (e.g., تَعَاوَنَ 'to cooperate with one another').",
+      "feedback": { "rule": "Form VI = reciprocal / mutual counterpart of Form III." },
+      "skillTags": ["form-6", "semantics"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

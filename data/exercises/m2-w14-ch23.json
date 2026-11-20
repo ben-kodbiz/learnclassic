@@ -1,0 +1,37 @@
+{
+  "lessonId": "m2-w14-ch23",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m2-w14-ch23-001",
+      "lessonId": "m2-w14-ch23",
+      "type": "multiple-choice",
+      "prompt": "What is the triliteral root and semantic force of اِسْتَغْفَرَ?",
+      "arabic": "اِسْتَغْفَرَ",
+      "choices": [
+        "Root غ-ف-ر — Form X ('to seek forgiveness')",
+        "Root س-ت-غ — Form I",
+        "Root غ-ف-ر — Form IV ('to forgive')"
+      ],
+      "answer": "Root غ-ف-ر — Form X ('to seek forgiveness')",
+      "explanation": "Form X (اِسْتَفْعَلَ) prefixes اِسْتَـ to express seeking or requesting the root action (غ-ف-ر 'forgive' → 'seek forgiveness').",
+      "feedback": { "rule": "Form X (اِسْتَفْعَلَ) = seeking, requesting, or deeming." },
+      "skillTags": ["form-10", "root-extraction"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w14-ch23-002",
+      "lessonId": "m2-w14-ch23",
+      "type": "true-false",
+      "prompt": "True or False: Form IX (اِفْعَلَّ, e.g., اِحْمَرَّ) is primarily used for colors and physical traits.",
+      "choices": ["True", "False"],
+      "answer": "True",
+      "explanation": "True. Form IX is specialized for colors and fixed physical characteristics.",
+      "feedback": { "rule": "Form IX = colors and bodily traits." },
+      "skillTags": ["form-9", "semantics"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

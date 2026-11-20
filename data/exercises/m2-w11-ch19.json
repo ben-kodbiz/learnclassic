@@ -1,0 +1,46 @@
+{
+  "lessonId": "m2-w11-ch19",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m2-w11-ch19-001",
+      "lessonId": "m2-w11-ch19",
+      "type": "multiple-choice",
+      "prompt": "How are active and passive participles distinguished in ALL derived verb forms (II–X)?",
+      "choices": [
+        "Prefix مُـ with kasrah before C3 (active) vs. fatḥah before C3 (passive)",
+        "Prefix مَـ with wāw (مَفْعُولٌ) for all forms",
+        "Suffix ـِيٌّ for active vs. ـَةٌ for passive"
+      ],
+      "answer": "Prefix مُـ with kasrah before C3 (active) vs. fatḥah before C3 (passive)",
+      "explanation": "Forms II–X all use مُـ; kasrah before the last radical marks the active participle (مُعَلِّمٌ), and fatḥah marks the passive participle (مُعَلَّمٌ).",
+      "feedback": {
+        "rule": "Derived participles (II–X): مُـ ... ـِـ (active) vs. مُـ ... ـَـ (passive)."
+      },
+      "skillTags": ["derived-forms", "participles"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w11-ch19-002",
+      "lessonId": "m2-w11-ch19",
+      "type": "matching",
+      "prompt": "Match each verb from root ع-ل-م to its derived form.",
+      "pairs": [
+        { "left": "عَلِمَ ('knew')", "right": "Form I (Base)" },
+        { "left": "عَلَّمَ ('taught')", "right": "Form II (Causative)" },
+        { "left": "تَعَلَّمَ ('learned')", "right": "Form V (Reflexive)" }
+      ],
+      "answer": {
+        "عَلِمَ ('knew')": "Form I (Base)",
+        "عَلَّمَ ('taught')": "Form II (Causative)",
+        "تَعَلَّمَ ('learned')": "Form V (Reflexive)"
+      },
+      "explanation": "Root ع-ل-م demonstrates how augmentation shifts base meaning across Forms I, II, and V.",
+      "feedback": { "rule": "Semantic shifts across derived stems" },
+      "skillTags": ["derived-forms", "root-extraction"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

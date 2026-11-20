@@ -1,0 +1,34 @@
+{
+  "lessonId": "m2-w10-ch17",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m2-w10-ch17-001",
+      "lessonId": "m2-w10-ch17",
+      "type": "fill-in-blank",
+      "prompt": "Select the correct 2ms imperative derived from تَجْلِسْ ('sit!').",
+      "choices": ["اِجْلِسْ", "اُجْلِسْ", "أَجْلِسْ"],
+      "answer": "اِجْلِسْ",
+      "explanation": "Because the middle radical vowel of تَجْلِسْ is kasrah (-i-), the prosthetic hamzat al-waṣl takes kasrah: اِجْلِسْ.",
+      "feedback": {
+        "rule": "Prosthetic hamzat al-waṣl takes ḍammah only when the middle radical has ḍammah; otherwise it takes kasrah."
+      },
+      "skillTags": ["imperative", "hamzat-al-wasl"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w10-ch17-002",
+      "lessonId": "m2-w10-ch17",
+      "type": "true-false",
+      "prompt": "True or False: In Form I imperatives like اُكْتُبْ, the initial alif is hamzat al-qaṭʿ and is always pronounced even after وَ.",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "False. Form I imperatives begin with hamzat al-waṣl, which elides after وَ (وَاكْتُبْ = wa-ktub).",
+      "feedback": { "rule": "Form I imperatives carry hamzat al-waṣl." },
+      "skillTags": ["imperative", "hamzat-al-wasl"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

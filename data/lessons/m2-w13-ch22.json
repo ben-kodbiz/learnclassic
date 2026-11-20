@@ -1,0 +1,56 @@
+{
+  "id": "m2-w13-ch22",
+  "moduleId": "module-2",
+  "week": 13,
+  "chapter": 22,
+  "title": "Forms VII (infaʿala) & VIII (iftaʿala)",
+  "titleArabic": "الوَزْنَانِ السَّابِعُ وَالثَّامِنُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 22; Ryding Ch. 28–29)",
+  "objectives": [
+    "Recognize Form VII (اِنْفَعَلَ) as an intrinsic passive / unaccusative stem.",
+    "Recognize Form VIII (اِفْتَعَلَ) by its infixed ـتَـ after the first radical.",
+    "Recover underlying roots from Form VIII dental/emphatic/wāw assimilations (e.g., اِتَّحَدَ from و-ح-د)."
+  ],
+  "recallPrompt": "From Chapter 21: Which vowel marks the imperfect prefix of Forms V and VI?",
+  "glossaryTerms": ["fil", "ism"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Prefix اِنْـ (VII) and Infix ـتَـ (VIII)",
+      "body": "Form VII (اِنْفَعَلَ) prefixes نْـ (with hamzat al-waṣl) and is always intransitive/medio-passive ('to become broken, opened'). Form VIII (اِفْتَعَلَ) infixes ـتَـ directly after the first radical and often expresses reflexive participation or personal effort."
+    },
+    {
+      "type": "rule",
+      "label": "Form VIII Phonotactic Assimilation",
+      "arabicTerm": "إِبْدَالُ تَاءِ الاِفْتِعَالِ",
+      "summary": "In Form VIII, infixed ـتَـ changes when C1 is: (1) و/ي → assimilates to تّ (و-ح-د → اِتَّحَدَ); (2) د/ذ/ز → becomes د (ذ-ك-ر → اِذَّكَرَ / ز-ح-م → اِزْدَحَمَ); (3) ص/ض/ط/ظ → becomes emphatic ط (ص-ب-ر → اِصْطَبَرَ)."
+    },
+    {
+      "type": "table",
+      "heading": "Form VII & Form VIII Assimilation Examples",
+      "headers": ["Form", "Surface Verb", "Underlying Root", "Phonetic Rule"],
+      "rows": [
+        ["VII", "اِنْكَسَرَ — يَنْكَسِرُ", "ك-س-ر", "Unaccusative ('it broke')"],
+        ["VIII (regular)", "اِجْتَمَعَ — يَجْتَمِعُ", "ج-م-ع", "Infixed ـتَـ after ج"],
+        ["VIII (wāw → t)", "اِتَّقَى — يَتَّقِي", "و-ق-ي", "Initial و assimilates into تّ"],
+        ["VIII (emphatic)", "اِصْطَفَى — يَصْطَفِي", "ص-ف-و", "Infixed ت becomes ط after ص"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "اِجْتَمَعَ الطُّلَّابُ فِي القَاعَةِ",
+      "transliteration": "ijtamaʿa ṭ-ṭullābu fī l-qāʿati",
+      "translation": "The students gathered in the hall.",
+      "irab": "اِجْتَمَعَ: فِعْلٌ مَاضٍ (وَزْنُ اِفْتَعَلَ، جَذْرُ ج-م-ع) | الطُّلَّابُ: فَاعِلٌ مَرْفُوعٌ",
+      "notes": "Strip the initial hamzat al-waṣl (اِ) and the infixed ـتَـ to isolate the triliteral root ج-م-ع.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "heading": "Dictionary Lookup Trap",
+      "body": "Never look up اِتَّقَى or اِتَّحَدَ under the letter ت! Doubled تّ at the start of a Form VIII verb almost always hides an initial و (و-ق-ي, و-ح-د)."
+    }
+  ]
+}

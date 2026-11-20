@@ -1,0 +1,41 @@
+{
+  "lessonId": "m2-w10-ch18",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m2-w10-ch18-001",
+      "lessonId": "m2-w10-ch18",
+      "type": "multiple-choice",
+      "prompt": "Identify the grammatical role and case of الرِّسَالَةُ in كُتِبَتِ الرِّسَالَةُ.",
+      "arabic": "كُتِبَتِ الرِّسَالَةُ",
+      "target": "الرِّسَالَةُ",
+      "choices": [
+        "Nāʾib al-fāʿil (deputy agent) — Nominative (marfūʿ)",
+        "Mafʿūl bihi (direct object) — Accusative (manṣūb)",
+        "Fāʿil (active agent) — Nominative (marfūʿ)"
+      ],
+      "answer": "Nāʾib al-fāʿil (deputy agent) — Nominative (marfūʿ)",
+      "explanation": "In a passive clause (كُتِبَتْ), the direct object is promoted to nāʾib al-fāʿil and takes the nominative case.",
+      "feedback": {
+        "rule": "Passive verbs take a nominative nāʾib al-fāʿil instead of an active fāʿil.",
+        "caseOrMood": "Nominative (marfūʿ) marked by ḍammah"
+      },
+      "skillTags": ["passive", "naib-al-fail", "raf"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w10-ch18-002",
+      "lessonId": "m2-w10-ch18",
+      "type": "fill-in-blank",
+      "prompt": "Select the passive past tense of فَتَحَ ('it was opened').",
+      "choices": ["فُتِحَ", "يَفْتَحُ", "فَتَحَ"],
+      "answer": "فُتِحَ",
+      "explanation": "Form I past passive follows the vowel melody فُعِلَ (u–i–a): فُتِحَ.",
+      "feedback": { "rule": "Past passive melody: ḍammah + kasrah (فُعِلَ)." },
+      "skillTags": ["passive", "past-tense"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

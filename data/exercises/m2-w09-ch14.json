@@ -1,0 +1,36 @@
+{
+  "lessonId": "m2-w09-ch14",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m2-w09-ch14-001",
+      "lessonId": "m2-w09-ch14",
+      "type": "multiple-choice",
+      "prompt": "What marks the indicative mood on يَكْتُبُونَ (3mp)?",
+      "arabic": "يَكْتُبُونَ",
+      "choices": ["Retained final nūn (ثُبُوتُ النُّونِ)", "Final ḍammah", "Final sukūn"],
+      "answer": "Retained final nūn (ثُبُوتُ النُّونِ)",
+      "explanation": "يَكْتُبُونَ belongs to al-afʿāl al-khamsah; its indicative sign is the retention of final nūn.",
+      "feedback": {
+        "rule": "Al-afʿāl al-khamsah mark rafʿ by retaining final nūn.",
+        "caseOrMood": "Indicative (marfūʿ)"
+      },
+      "skillTags": ["imperfect", "raf", "afal-al-khamsah"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w09-ch14-002",
+      "lessonId": "m2-w09-ch14",
+      "type": "true-false",
+      "prompt": "True or False: Prefixing the future particle سَـ changes the imperfect verb from indicative to subjunctive.",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "False. Future particles سَـ and سَوْفَ do not alter the indicative mood of the imperfect verb.",
+      "feedback": { "rule": "سَـ and سَوْفَ have no mood-governing effect." },
+      "skillTags": ["imperfect", "future"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

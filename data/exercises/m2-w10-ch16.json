@@ -1,0 +1,40 @@
+{
+  "lessonId": "m2-w10-ch16",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m2-w10-ch16-001",
+      "lessonId": "m2-w10-ch16",
+      "type": "fill-in-blank",
+      "prompt": "Complete the past negation with لَمْ: 'They did not write.'",
+      "arabic": "لَمْ _____",
+      "choices": ["يَكْتُبُوا", "يَكْتُبُونَ", "كَتَبُوا"],
+      "answer": "يَكْتُبُوا",
+      "explanation": "لَمْ governs the imperfect in the jussive mood, dropping final nūn: يَكْتُبُوا.",
+      "feedback": {
+        "rule": "لَمْ + jussive (drops final nūn in al-afʿāl al-khamsah).",
+        "governor": "لَمْ",
+        "caseOrMood": "Jussive (majzūm)"
+      },
+      "skillTags": ["jussive", "lam", "jazm"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w10-ch16-002",
+      "lessonId": "m2-w10-ch16",
+      "type": "multiple-choice",
+      "prompt": "Which sentence expresses a prohibition ('Do not write!')?",
+      "choices": ["لَا تَكْتُبْ", "لَا تَكْتُبُ", "لَمْ تَكْتُبُ"],
+      "answer": "لَا تَكْتُبْ",
+      "explanation": "Prohibitive لَا (lā al-nāhiyah) governs the 2nd-person imperfect in the jussive (sukūn): لَا تَكْتُبْ.",
+      "feedback": {
+        "rule": "لَا النَّاهِيَةُ + jussive = prohibition; لَا النَّافِيَةُ + indicative = statement.",
+        "governor": "لَا النَّاهِيَةُ"
+      },
+      "skillTags": ["jussive", "prohibition"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

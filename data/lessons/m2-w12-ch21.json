@@ -1,0 +1,54 @@
+{
+  "id": "m2-w12-ch21",
+  "moduleId": "module-2",
+  "week": 12,
+  "chapter": 21,
+  "title": "Forms V (tafaʿʿala) & VI (tafāʿala)",
+  "titleArabic": "الوَزْنَانِ الخَامِسُ وَالسَّادِسُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 21; Ryding Ch. 26–27)",
+  "objectives": [
+    "Recognize Form V (تَفَعَّلَ) as the reflexive/resultative counterpart of Form II.",
+    "Recognize Form VI (تَفَاعَلَ) as the mutual/reciprocal counterpart of Form III.",
+    "Identify the distinctive ḍammah before the final radical in Form V/VI maṣādir (تَفَعُّلٌ, تَفَاعُلٌ)."
+  ],
+  "recallPrompt": "From Chapter 20: What is the maṣdar pattern of Form II (فَعَّلَ)?",
+  "glossaryTerms": ["fil", "ism"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Prefixing تَـ to Forms II and III",
+      "body": "Form V (تَفَعَّلَ) adds تَـ to Form II, turning a causative action into a reflexive or internal process (عَلَّمَ 'teach' → تَعَلَّمَ 'learn'). Form VI (تَفَاعَلَ) adds تَـ to Form III, expressing mutual or reciprocal action among two or more participants (تَعَاوَنَ 'cooperate')."
+    },
+    {
+      "type": "rule",
+      "label": "Distinctive Ḍammah in V & VI Maṣādir",
+      "arabicTerm": "مَصْدَرُ الخَامِسِ وَالسَّادِسِ",
+      "summary": "Unlike the past stems (which take fatḥah throughout: تَفَعَّلَ, تَفَاعَلَ), the verbal nouns (maṣādir) of Forms V and VI take ḍammah on the second-to-last radical: تَفَعُّلٌ (tafaʿʿul) and تَفَاعُلٌ (tafāʿul)."
+    },
+    {
+      "type": "table",
+      "heading": "Forms V & VI Paradigms",
+      "headers": ["Form", "Past", "Imperfect", "Maṣdar", "Example"],
+      "rows": [
+        ["V", "تَفَعَّلَ", "يَتَفَعَّلُ", "تَفَعُّلٌ", "تَذَكَّرَ — يَتَذَكَّرُ — تَذَكُّرٌ ('reflect/remember')"],
+        ["VI", "تَفَاعَلَ", "يَتَفَاعَلُ", "تَفَاعُلٌ", "تَعَاوَنَ — يَتَعَاوَنُ — تَعَاوُنٌ ('cooperate')"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "تَعَاوَنَ الطُّلَّابُ فِي تَعَلُّمِ النَّحْوِ",
+      "transliteration": "taʿāwana ṭ-ṭullābu fī taʿallumi n-naḥwi",
+      "translation": "The students cooperated in learning syntax.",
+      "irab": "تَعَاوَنَ: فِعْلٌ مَاضٍ (وَزْنُ تَفَاعَلَ) | الطُّلَّابُ: فَاعِلٌ مَرْفُوعٌ | تَعَلُّمِ: مَصْدَرُ الخَامِسِ مَجْرُورٌ بِفِي",
+      "notes": "Notice how تَعَاوَنَ (Form VI) expresses mutual cooperation, while تَعَلُّمِ (Form V maṣdar) shows the characteristic ḍammah on the doubled lām.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Imperfect Vowels in Forms V & VI",
+      "body": "Forms V and VI keep fatḥah on the imperfect prefix AND on the middle radical: يَتَفَعَّلُ, يَتَفَاعَلُ (not kasrah!)."
+    }
+  ]
+}

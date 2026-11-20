@@ -1,0 +1,57 @@
+{
+  "id": "m2-w11-ch19",
+  "moduleId": "module-2",
+  "week": 11,
+  "chapter": 19,
+  "title": "Morphological Principles of Augmentation (Al-Mazīd)",
+  "titleArabic": "أَوْزَانُ الفِعْلِ المَزِيدِ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 19; Ryding Ch. 20 §§20.1–20.2)",
+  "objectives": [
+    "Understand how prefixation, infixation, and gemination modify triliteral root meanings.",
+    "Identify the predictable participle prefixes (مُـ) for derived Forms II–X.",
+    "Navigate the 10-form derived verb system."
+  ],
+  "recallPrompt": "From Chapter 6: What three consonants represent the schematic triliteral root?",
+  "glossaryTerms": ["fil", "ism"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Systematic Root Augmentation",
+      "body": "From a single triliteral root (Form I), Arabic derives up to nine common augmented stems (Forms II–X) by doubling a radical, lengthening a vowel, or adding prefixes/infixes. Each form carries characteristic semantic tendencies (causative, reflexive, reciprocal, passive, or desiderative) and has completely predictable maṣādir and participles."
+    },
+    {
+      "type": "rule",
+      "label": "Derived Participles Rule",
+      "arabicTerm": "اِسْمُ الفَاعِلِ وَاسْمُ المَفْعُولِ",
+      "summary": "For ALL derived forms (II–X), replace the imperfect prefix with مُـ: kasrah before the final radical forms the Active Participle (مُعَلِّمٌ 'teacher'), and fatḥah before the final radical forms the Passive Participle (مُعَلَّمٌ 'taught')."
+    },
+    {
+      "type": "table",
+      "heading": "Overview of Augmentation Mechanisms",
+      "headers": ["Forms", "Augmentation Mechanism", "Typical Semantic Shift"],
+      "rows": [
+        ["II & III", "Doubling C2 / lengthening V1", "Causative, intensive, or associative"],
+        ["IV", "Prefix أَـ", "Causative / transitive"],
+        ["V & VI", "Prefix تَـ on II & III", "Reflexive / reciprocal"],
+        ["VII & VIII", "Prefix اِنْـ / infix ـتَـ", "Medio-passive / participatory"],
+        ["IX & X", "Doubling C3 / prefix اِسْتَـ", "Colors/traits & seeking/requesting"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "عَلِمَ ← عَلَّمَ ← تَعَلَّمَ",
+      "transliteration": "ʿalima → ʿallama → taʿallama",
+      "translation": "he knew → he taught → he learned",
+      "irab": "الجَذْرُ: ع-ل-م | عَلِمَ (١) | عَلَّمَ (٢: تَعْدِيَةٌ) | تَعَلَّمَ (٥: مُطَاوَعَةٌ)",
+      "notes": "One root (ع-ل-م) yields 'to know' (Form I), 'to cause to know / teach' (Form II), and 'to learn' (Form V).",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Use the Verb-Form Explorer",
+      "body": "You can compare all ten forms side-by-side anytime in Grammar Tools → Verb Forms I–X."
+    }
+  ]
+}

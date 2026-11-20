@@ -1,0 +1,40 @@
+{
+  "lessonId": "m2-w11-ch20",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m2-w11-ch20-001",
+      "lessonId": "m2-w11-ch20",
+      "type": "matching",
+      "prompt": "Match each derived verb to its Form and maṣdar pattern.",
+      "pairs": [
+        { "left": "عَلَّمَ — يُعَلِّمُ", "right": "Form II (تَفْعِيلٌ)" },
+        { "left": "جَاهَدَ — يُجَاهِدُ", "right": "Form III (مُفَاعَلَةٌ / فِعَالٌ)" },
+        { "left": "أَنْزَلَ — يُنْزِلُ", "right": "Form IV (إِفْعَالٌ)" }
+      ],
+      "answer": {
+        "عَلَّمَ — يُعَلِّمُ": "Form II (تَفْعِيلٌ)",
+        "جَاهَدَ — يُجَاهِدُ": "Form III (مُفَاعَلَةٌ / فِعَالٌ)",
+        "أَنْزَلَ — يُنْزِلُ": "Form IV (إِفْعَالٌ)"
+      },
+      "explanation": "Forms II, III, and IV all take ḍammah on the imperfect prefix (يُـ) and have distinct maṣdar patterns.",
+      "feedback": { "rule": "Forms II, III, IV imperfects and maṣādir" },
+      "skillTags": ["forms-2-4", "masdar"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m2-w11-ch20-002",
+      "lessonId": "m2-w11-ch20",
+      "type": "true-false",
+      "prompt": "True or False: The initial hamzah of Form IV (أَفْعَلَ, إِفْعَالٌ) is hamzat al-waṣl and drops after وَ.",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "False. Form IV always carries disjunctive hamzat al-qaṭʿ (وَأَنْزَلَ = wa-ʾanzala).",
+      "feedback": { "rule": "Form IV uses hamzat al-qaṭʿ, never hamzat al-waṣl." },
+      "skillTags": ["form-4", "hamzat-al-qat"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

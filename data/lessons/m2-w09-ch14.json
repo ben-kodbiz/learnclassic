@@ -1,0 +1,57 @@
+{
+  "id": "m2-w09-ch14",
+  "moduleId": "module-2",
+  "week": 9,
+  "chapter": 14,
+  "title": "The Imperfect Tense (Al-Muḍāriʿ al-Marfūʿ)",
+  "titleArabic": "الفِعْلُ المُضَارِعُ المَرْفُوعُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 14; Ryding Ch. 21 §21.1, Ch. 34)",
+  "objectives": [
+    "Recognize the four imperfect prefixes (أَ, تَـ, يَـ, نَـ) and person/number suffixes.",
+    "Identify indicative mood markers (ḍammah on singulars, retained nūn on al-afʿāl al-khamsah).",
+    "Negate imperfect verbs with لَا and express future tense with سَـ and سَوْفَ."
+  ],
+  "recallPrompt": "From Chapter 12: What suffixes mark the 1st, 2nd, and 3rd person in the past tense (al-māḍī)?",
+  "glossaryTerms": ["fil", "raf"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Imperfect Prefixes & Indicative Mood",
+      "body": "The imperfect (al-muḍāriʿ) expresses ongoing, habitual, or future actions. Unlike the past tense (which uses suffixes only), the imperfect uses a prefix from أَنَيْتُ (أَ 'I', تَـ 'you/she', يَـ 'he/they', نَـ 'we') plus suffixes for dual, plural, and 2nd-person feminine singular."
+    },
+    {
+      "type": "rule",
+      "label": "Indicative Mood Markers (Al-Rafʿ)",
+      "arabicTerm": "المُضَارِعُ المَرْفُوعُ",
+      "summary": "With no governing particle preceding it, the imperfect is indicative (marfūʿ): sound singulars end in ḍammah (-u), while the five dual/plural forms (al-afʿāl al-khamsah: يَفْعَلَانِ, تَفْعَلَانِ, يَفْعَلُونَ, تَفْعَلُونَ, تَفْعَلِينَ) retain their final nūn."
+    },
+    {
+      "type": "table",
+      "heading": "Form I Imperfect Indicative (يَكْتُبُ — he writes)",
+      "headers": ["Person", "Arabic", "Indicative Marker"],
+      "rows": [
+        ["3ms (he)", "يَكْتُبُ", "Final ḍammah (-u)"],
+        ["3fs (she)", "تَكْتُبُ", "Final ḍammah (-u)"],
+        ["2fs (you f. sg.)", "تَكْتُبِينَ", "Retained nūn (afʿāl al-khamsah)"],
+        ["3mp (they m.)", "يَكْتُبُونَ", "Retained nūn (afʿāl al-khamsah)"],
+        ["1p (we)", "نَكْتُبُ", "Final ḍammah (-u)"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "سَيَكْتُبُ الطَّالِبُ الدَّرْسَ",
+      "transliteration": "sayaktubu ṭ-ṭālibu d-darsa",
+      "translation": "The student will write the lesson.",
+      "irab": "سَـ: حَرْفُ اسْتِقْبَالٍ | يَكْتُبُ: فِعْلٌ مُضَارِعٌ مَرْفُوعٌ بِالضَّمَّةِ | الطَّالِبُ: فَاعِلٌ مَرْفُوعٌ",
+      "notes": "Future particles سَـ (near future) and سَوْفَ do not alter the indicative mood of the verb.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Negating Past vs. Present",
+      "body": "Use مَا before a past-tense verb (مَا كَتَبَ 'he did not write') and لَا before an imperfect indicative verb (لَا يَكْتُبُ 'he does not write')."
+    }
+  ]
+}

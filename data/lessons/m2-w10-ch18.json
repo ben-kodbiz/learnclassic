@@ -1,0 +1,54 @@
+{
+  "id": "m2-w10-ch18",
+  "moduleId": "module-2",
+  "week": 10,
+  "chapter": 18,
+  "title": "The Internal Passive (Al-Fiʿl al-Majhūl)",
+  "titleArabic": "الفِعْلُ المَجْهُولُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 18; Ryding Ch. 38)",
+  "objectives": [
+    "Form the internal passive in the past (فُعِلَ) and imperfect (يُفْعَلُ).",
+    "Promote the direct object of an active clause to deputy agent (nāʾib al-fāʿil) in the nominative case.",
+    "Distinguish active and passive verbs by their internal vowel melody."
+  ],
+  "recallPrompt": "From Chapter 12: In an active verbal sentence, what case does the direct object (mafʿūl bihi) take?",
+  "glossaryTerms": ["fil", "fail", "maful", "raf"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Internal Vowel Melodies for the Passive",
+      "body": "Arabic forms the passive voice (al-mabnī li-l-majhūl) internally by changing the vowel melody—without needing an auxiliary verb like 'was'. When a verb is made passive, the original agent (fāʿil) is omitted and the direct object becomes the deputy agent (nāʾib al-fāʿil)."
+    },
+    {
+      "type": "rule",
+      "label": "Passive Vowel Melody & Nāʾib al-Fāʿil",
+      "arabicTerm": "نَائِبُ الفَاعِلِ",
+      "summary": "Past passive: ḍammah on the first vowel and kasrah before the final radical (فُعِلَ). Imperfect passive: ḍammah on the prefix and fatḥah before the final radical (يُفْعَلُ). The deputy agent (nāʾib al-fāʿil) takes the NOMINATIVE case (rafʿ)."
+    },
+    {
+      "type": "table",
+      "heading": "Active vs. Passive Voice",
+      "headers": ["Voice", "Past", "Imperfect", "Sentence Example"],
+      "rows": [
+        ["Active (Maʿlūm)", "فَتَحَ", "يَفْتَحُ", "فَتَحَ الرَّجُلُ البَابَ ('The man opened the door')"],
+        ["Passive (Majhūl)", "فُتِحَ", "يُفْتَحُ", "فُتِحَ البَابُ ('The door was opened')"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "كُتِبَتِ الرِّسَالَةُ",
+      "transliteration": "kutibati r-risālatu",
+      "translation": "The letter was written.",
+      "irab": "كُتِبَتِ: فِعْلٌ مَاضٍ مَبْنِيٌّ لِلْمَجْهُولِ | الرِّسَالَةُ: نَائِبُ فَاعِلٍ مَرْفُوعٌ بِالضَّمَّةِ",
+      "notes": "Because الرِّسَالَةُ (nāʾib al-fāʿil) is feminine, the passive verb takes the feminine ending ـَتْ.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "heading": "Classical Arabic Omits the Agent",
+      "body": "In pure Classical Arabic, the passive is used specifically when the agent is unknown or unmentioned; avoid translating English 'by X' literally with مِنْ قِبَلِ in classical style."
+    }
+  ]
+}

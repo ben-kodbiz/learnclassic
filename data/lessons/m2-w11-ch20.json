@@ -1,0 +1,55 @@
+{
+  "id": "m2-w11-ch20",
+  "moduleId": "module-2",
+  "week": 11,
+  "chapter": 20,
+  "title": "Forms II, III, and IV",
+  "titleArabic": "الأَوْزَانُ الثَّانِي وَالثَّالِثُ وَالرَّابِعُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 20; Ryding Ch. 23–25)",
+  "objectives": [
+    "Conjugate Forms II (فَعَّلَ), III (فَاعَلَ), and IV (أَفْعَلَ) in past and imperfect.",
+    "Identify the characteristic ḍammah on imperfect prefixes (يُـ) in Forms II–IV.",
+    "Recognize the standard maṣdar patterns: تَفْعِيلٌ, مُفَاعَلَةٌ / فِعَالٌ, and إِفْعَالٌ."
+  ],
+  "recallPrompt": "From Chapter 19: What prefix do ALL derived participles (Forms II–X) share?",
+  "glossaryTerms": ["fil", "ism"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "The Causative & Associative Stems",
+      "body": "Forms II, III, and IV are the only derived forms whose imperfect prefix takes ḍammah (يُفَعِّلُ, يُفَاعِلُ, يُفْعِلُ). Form II (doubled C2) expresses causativity or intensity; Form III (long ā after C1) expresses directed or associative effort; Form IV (prefixed أَـ) expresses causativity or entering a state/time."
+    },
+    {
+      "type": "rule",
+      "label": "Hamzat al-Qaṭʿ in Form IV",
+      "arabicTerm": "هَمْزَةُ القَطْعِ فِي الرُّبَاعِيِّ",
+      "summary": "Unlike Forms VII–X (which begin with elidable hamzat al-waṣl), Form IV past, imperative, and maṣdar (أَفْعَلَ, أَفْعِلْ, إِفْعَالٌ) ALWAYS begin with disjunctive hamzat al-qaṭʿ."
+    },
+    {
+      "type": "table",
+      "heading": "Forms II, III, IV Paradigms",
+      "headers": ["Form", "Past", "Imperfect", "Maṣdar", "Example"],
+      "rows": [
+        ["II", "فَعَّلَ", "يُفَعِّلُ", "تَفْعِيلٌ", "عَلَّمَ — يُعَلِّمُ — تَعْلِيمٌ ('teach')"],
+        ["III", "فَاعَلَ", "يُفَاعِلُ", "مُفَاعَلَةٌ / فِعَالٌ", "جَاهَدَ — يُجَاهِدُ — جِهَادٌ ('strive')"],
+        ["IV", "أَفْعَلَ", "يُفْعِلُ", "إِفْعَالٌ", "أَنْزَلَ — يُنْزِلُ — إِنْزَالٌ ('send down')"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "عَلَّمَ المُعَلِّمُ التَّلَامِيذَ العَرَبِيَّةَ",
+      "transliteration": "ʿallama l-muʿallimu t-talāmīdha l-ʿarabiyyata",
+      "translation": "The teacher taught the pupils Arabic.",
+      "irab": "عَلَّمَ: فِعْلٌ مَاضٍ (وَزْنُ فَعَّلَ) | المُعَلِّمُ: فَاعِلٌ مَرْفُوعٌ | التَّلَامِيذَ: مَفْعُولٌ بِهِ أَوَّلُ | العَرَبِيَّةَ: مَفْعُولٌ بِهِ ثَانٍ",
+      "notes": "Because Form II (عَلَّمَ) is causative of Form I (عَلِمَ 'knew'), it takes two direct objects ('taught [someone] [something]').",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Spotting Form IV in Imperfect",
+      "body": "In the imperfect of Form IV (يُنْزِلُ), the initial أَ disappears, leaving only the ḍammah on the prefix (يُـ) and sukūn on the first radical."
+    }
+  ]
+}

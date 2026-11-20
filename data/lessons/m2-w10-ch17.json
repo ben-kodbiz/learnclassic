@@ -1,0 +1,55 @@
+{
+  "id": "m2-w10-ch17",
+  "moduleId": "module-2",
+  "week": 10,
+  "chapter": 17,
+  "title": "The Imperative (Fiʿl al-Amr)",
+  "titleArabic": "فِعْلُ الأَمْرِ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 17; Ryding Ch. 35)",
+  "objectives": [
+    "Derive the positive 2nd-person imperative from the jussive stem.",
+    "Determine the vowel of prosthetic hamzat al-waṣl (ḍammah vs. kasrah) from the middle radical.",
+    "Pair positive imperatives with negative prohibitions (لَا + jussive)."
+  ],
+  "recallPrompt": "From Chapter 16: How do you form a negative command ('Do not write!')?",
+  "glossaryTerms": ["fil", "jazm"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Deriving the Imperative from the Jussive",
+      "body": "Form the 2nd-person imperative (fiʿl al-amr) in two steps from the 2nd-person jussive: (1) remove the imperfect prefix تَـ; (2) if the resulting stem begins with a vowelless consonant (two consonants in a row), prefix a prosthetic hamzat al-waṣl (ا)."
+    },
+    {
+      "type": "rule",
+      "label": "Prosthetic Vowel Rule",
+      "arabicTerm": "هَمْزَةُ الوَصْلِ فِي الأَمْرِ",
+      "summary": "In Form I imperatives, prosthetic hamzat al-waṣl takes ḍammah (اُ) if the middle radical vowel is ḍammah (e.g., تَكْتُبْ → اُكْتُبْ), and kasrah (اِ) if the middle radical vowel is fatḥah or kasrah (e.g., تَذْهَبْ → اِذْهَبْ، تَجْلِسْ → اِجْلِسْ)."
+    },
+    {
+      "type": "table",
+      "heading": "Form I Imperative Examples",
+      "headers": ["Imperfect Jussive", "Middle Vowel", "Imperative (2ms)", "Imperative (2mp)"],
+      "rows": [
+        ["تَكْتُبْ", "u (ḍammah)", "اُكْتُبْ (uktub)", "اُكْتُبُوا (uktubū)"],
+        ["تَجْلِسْ", "i (kasrah)", "اِجْلِسْ (ijlis)", "اِجْلِسُوا (ijlisū)"],
+        ["تَفْتَحْ", "a (fatḥah)", "اِفْتَحْ (iftaḥ)", "اِفْتَحُوا (iftaḥū)"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "اُكْتُبِ الدَّرْسَ وَلَا تَلْعَبْ",
+      "transliteration": "uktubi d-darsa wa-lā talʿab",
+      "translation": "Write the lesson and do not play.",
+      "irab": "اُكْتُبِ: فِعْلُ أَمْرٍ مَبْنِيٌّ عَلَى السُّكُونِ | وَلَا تَلْعَبْ: لَا نَاهِيَةٌ، تَلْعَبْ مَجْزُومٌ بِالسُّكُونِ",
+      "notes": "Positive commands use fiʿl al-amr; negative commands always use لَا + jussive.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Connected Reading",
+      "body": "Because the initial alif of a Form I imperative is hamzat al-waṣl, it elides after a preceding vowel: وَاقْرَأْ is read wa-qraʾ."
+    }
+  ]
+}

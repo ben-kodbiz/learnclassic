@@ -1,0 +1,55 @@
+{
+  "id": "m2-w10-ch16",
+  "moduleId": "module-2",
+  "week": 10,
+  "chapter": 16,
+  "title": "The Jussive Mood (Al-Muḍāriʿ al-Majzūm)",
+  "titleArabic": "الفِعْلُ المُضَارِعُ المَجْزُومُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 16; Ryding Ch. 35)",
+  "objectives": [
+    "Identify jussive governing particles: لَمْ (past negation), لَا النَّاهِيَةُ (prohibition), and conditional إِنْ.",
+    "Apply jussive signs: sukūn on sound singulars and deletion of nūn (ḥadhf al-nūn) on al-afʿāl al-khamsah.",
+    "Contrast مَا + past tense with لَمْ + jussive."
+  ],
+  "recallPrompt": "From Chapter 15: How do al-afʿāl al-khamsah mark the subjunctive mood?",
+  "glossaryTerms": ["fil", "harf", "jazm"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "What Triggers the Jussive (Al-Jazm)?",
+      "body": "The jussive (al-muḍāriʿ al-majzūm) is a verb-only mood triggered by particles such as لَمْ ('did not' — negating the past using an imperfect stem!), prohibitive لَا ('do not!'), and conditional particles like إِنْ ('if')."
+    },
+    {
+      "type": "rule",
+      "label": "Jussive Markers",
+      "arabicTerm": "عَلَامَاتُ الجَزْمِ",
+      "summary": "Sound singular stems take sukūn (ـْ) in the jussive; al-afʿāl al-khamsah drop their final nūn; and verbs ending in a weak radical (Chapter 29) delete their final weak letter."
+    },
+    {
+      "type": "table",
+      "heading": "Indicative vs. Jussive",
+      "headers": ["Person", "Indicative", "Jussive (with لَمْ)", "Marker"],
+      "rows": [
+        ["3ms", "يَكْتُبُ", "لَمْ يَكْتُبْ", "Sukūn (ـْ)"],
+        ["3mp", "يَكْتُبُونَ", "لَمْ يَكْتُبُوا", "Deletion of nūn (ḥadhf al-nūn)"],
+        ["2ms prohibition", "تَكْتُبُ", "لَا تَكْتُبْ", "Sukūn after لَا النَّاهِيَةُ"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "لَمْ يَخْرُجِ الطَّالِبُ مِنَ المَسْجِدِ",
+      "transliteration": "lam yakhruji ṭ-ṭālibu mina l-masjidi",
+      "translation": "The student did not leave the mosque.",
+      "irab": "لَمْ: حَرْفُ نَفْيٍ وَجَزْمٍ | يَخْرُجِ: فِعْلٌ مُضَارِعٌ مَجْزُومٌ بِالسُّكُونِ (وَحُرِّكَ بِالكَسْرِ لِالْتِقَاءِ السَّاكِنَيْنِ)",
+      "notes": "Notice the helping kasrah on يَخْرُجِ before hamzat al-waṣl in الطَّالِبُ to avoid two consecutive vowelless consonants.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "heading": "Prohibitive لَا vs. Negating لَا",
+      "body": "لَا تَكْتُبُ (indicative -u) means 'you are not writing'; لَا تَكْتُبْ (jussive sukūn) means 'do not write!'."
+    }
+  ]
+}
