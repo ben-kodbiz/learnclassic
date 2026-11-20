@@ -1,0 +1,51 @@
+{
+  "lessonId": "m3-w26-supp",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w26-supp-001",
+      "lessonId": "m3-w26-supp",
+      "type": "multiple-choice",
+      "prompt": "In Qur'an 1:5 (إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ), what is the verb form and root of نَسْتَعِينُ?",
+      "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "target": "نَسْتَعِينُ",
+      "choices": [
+        "Form X hollow verb (اِسْتَفْعَلَ) from root ع-و-ن",
+        "Form I sound verb from root س-ت-ع",
+        "Form IV verb from root ع-ي-ن"
+      ],
+      "answer": "Form X hollow verb (اِسْتَفْعَلَ) from root ع-و-ن",
+      "explanation": "Strip imperfect نَـ and Form X ـسْتَـ to recover the hollow root ع-و-ن ('help' → Form X 'seek help').",
+      "feedback": {
+        "rule": "Form X (اِسْتَفْعَلَ) expresses seeking/requesting; hollow و shifts to ī in يَسْتَعِينُ.",
+        "caseOrMood": "Indicative (marfūʿ) marked by ḍammah"
+      },
+      "skillTags": ["capstone", "form-10", "hollow-verb"],
+      "difficulty": 3,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w26-supp-002",
+      "lessonId": "m3-w26-supp",
+      "type": "matching",
+      "prompt": "Match each phrase from Sūrat al-Fātiḥah (1:1–2) to its grammatical analysis:",
+      "pairs": [
+        { "left": "بِسْمِ", "right": "Preposition بِـ + genitive muḍāf (اِسْمِ)" },
+        { "left": "اللَّهِ (in بِسْمِ اللَّهِ)", "right": "Muḍāf ilayh majrūr" },
+        { "left": "الْحَمْدُ", "right": "Mubtadaʾ marfūʿ" },
+        { "left": "لِلَّهِ", "right": "Prepositional phrase in place of khabar" }
+      ],
+      "answer": {
+        "بِسْمِ": "Preposition بِـ + genitive muḍāf (اِسْمِ)",
+        "اللَّهِ (in بِسْمِ اللَّهِ)": "Muḍāf ilayh majrūr",
+        "الْحَمْدُ": "Mubtadaʾ marfūʿ",
+        "لِلَّهِ": "Prepositional phrase in place of khabar"
+      },
+      "explanation": "Word-by-word iʿrāb reveals the exact syntactic structure before translation.",
+      "feedback": { "rule": "Capstone iʿrāb analysis of Sūrat al-Fātiḥah (grammatical analysis only)" },
+      "skillTags": ["capstone", "irab"],
+      "difficulty": 3,
+      "reviewStatus": "pending"
+    }
+  ]
+}

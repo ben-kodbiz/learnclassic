@@ -1,0 +1,43 @@
+{
+  "lessonId": "m3-w25-ch49",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w25-ch49-001",
+      "lessonId": "m3-w25-ch49",
+      "type": "matching",
+      "prompt": "Match each coordinating conjunction to its semantic nuance:",
+      "pairs": [
+        { "left": "وَ", "right": "Simple association (no order implied)" },
+        { "left": "فَـ", "right": "Immediate succession / consequence" },
+        { "left": "ثُمَّ", "right": "Succession after a delay" },
+        { "left": "بَلْ", "right": "Rectification ('rather / on the contrary')" }
+      ],
+      "answer": {
+        "وَ": "Simple association (no order implied)",
+        "فَـ": "Immediate succession / consequence",
+        "ثُمَّ": "Succession after a delay",
+        "بَلْ": "Rectification ('rather / on the contrary')"
+      },
+      "explanation": "Arabic conjunctions encode precise temporal and logical relations.",
+      "feedback": { "rule": "Semantic nuances of ḥurūf al-ʿaṭf" },
+      "skillTags": ["conjunctions"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w25-ch49-002",
+      "lessonId": "m3-w25-ch49",
+      "type": "fill-in-blank",
+      "prompt": "Select the case-agreeing conjoined noun: 'I recited al-Fātiḥah and then the sūrah.'",
+      "arabic": "قَرَأْتُ الفَاتِحَةَ ثُمَّ _____",
+      "choices": ["السُّورَةَ", "السُّورَةُ", "السُّورَةِ"],
+      "answer": "السُّورَةَ",
+      "explanation": "الفَاتِحَةَ is accusative (direct object), so the conjoined noun السُّورَةَ must also be accusative.",
+      "feedback": { "rule": "Al-maʿṭūf shares the case of al-maʿṭūf ʿalayh." },
+      "skillTags": ["conjunctions", "nasb"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "m3-w24-ch45",
+  "moduleId": "module-3",
+  "week": 24,
+  "chapter": 45,
+  "title": "Comprehensive Accusative Syntax (Al-Manṣūbāt)",
+  "titleArabic": "المَنْصُوبَاتُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 45; Ryding Ch. 8 §8.3, Ch. 11)",
+  "objectives": [
+    "Distinguish five major accusative functions: mafʿūl bihi, mafʿūl muṭlaq, ḥāl, tamyīz, and mafʿūl li-ajlihi.",
+    "Identify circumstantial ḥāl (indefinite accusative participle describing a definite antecedent's state).",
+    "Parse cognate accusative (mafʿūl muṭlaq) used for emphasis or qualification."
+  ],
+  "recallPrompt": "From Chapter 4: Which case marks direct objects and adverbial modifiers in Arabic?",
+  "glossaryTerms": ["nasb", "maful"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "The Five Key Accusatives (Al-Manṣūbāt)",
+      "body": "Beyond the direct object (al-mafʿūl bihi), Classical Arabic uses the accusative case for a rich set of adverbial and qualifying functions: the cognate accusative (al-mafʿūl al-muṭlaq), the circumstantial accusative of manner (al-ḥāl), specification (al-tamyīz), and cause/purpose (al-mafʿūl li-ajlihi)."
+    },
+    {
+      "type": "rule",
+      "label": "Ḥāl & Mafʿūl Muṭlaq Rules",
+      "arabicTerm": "الحَالُ وَالمَفْعُولُ المُطْلَقُ",
+      "summary": "Al-ḥāl is an INDEFINITE accusative participle/adjective describing the state of a DEFINITE noun during the action (دَخَلَ ضَاحِكًا 'he entered laughing'). Al-mafʿūl al-muṭlaq repeats the verb's own maṣdar in the accusative for emphasis or description (فَرِحَ فَرَحًا شَدِيدًا)."
+    },
+    {
+      "type": "table",
+      "heading": "Major Accusative Functions",
+      "headers": ["Function", "Arabic Term", "Example", "Translation"],
+      "rows": [
+        ["Direct object", "مَفْعُولٌ بِهِ", "قَرَأْتُ الكِتَابَ", "I read the book."],
+        ["Cognate accusative", "مَفْعُولٌ مُطْلَقٌ", "ذَكَرْتُهُ ذِكْرًا كَثِيرًا", "I remembered him abundantly."],
+        ["Circumstantial (manner)", "حَالٌ", "جَاءَ الطَّالِبُ مُبْتَسِمًا", "The student came smiling."],
+        ["Specification", "تَمْيِيزٌ", "اِزْدَادَ عِلْمًا", "He increased in knowledge."],
+        ["Cause / purpose", "مَفْعُولٌ لِأَجْلِهِ", "قُمْتُ احْتِرَامًا لِلْمُعَلِّمِ", "I stood out of respect for the teacher."]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "خَرَجَ الرَّجُلُ مُسْرِعًا",
+      "transliteration": "kharaja r-rajulu musriʿan",
+      "translation": "The man went out hurrying.",
+      "irab": "خَرَجَ: فِعْلٌ مَاضٍ | الرَّجُلُ: فَاعِلٌ مَرْفُوعٌ | مُسْرِعًا: حَالٌ مَنْصُوبٌ بِالفَتْحَةِ",
+      "notes": "الرَّجُلُ is definite while مُسْرِعًا is an indefinite accusative participle—the classic signature of al-ḥāl.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Ḥāl vs. Naʿt (Adjective)",
+      "body": "If both noun and adjective are definite (الرَّجُلُ المُسْرِعُ), it is an adjective ('the hurrying man'). If the noun is definite and the participle is indefinite accusative (الرَّجُلُ ... مُسْرِعًا), it is ḥāl ('hurrying')."
+    }
+  ]
+}

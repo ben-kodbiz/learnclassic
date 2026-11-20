@@ -1,0 +1,56 @@
+{
+  "id": "m3-w25-ch50",
+  "moduleId": "module-3",
+  "week": 25,
+  "chapter": 50,
+  "title": "Oaths & Interjections",
+  "titleArabic": "حُرُوفُ القَسَمِ وَالنِّدَاءِ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 50; Ryding Ch. 16, Ch. 37)",
+  "objectives": [
+    "Identify oath particles (وَاوُ القَسَمِ, تَاءُ القَسَمِ, بَاءُ القَسَمِ) governing the genitive case.",
+    "Parse vocative constructions (يَا, أَيُّهَا / أَيَّتُهَا) across singular, muḍāf, and definite nouns."
+  ],
+  "recallPrompt": "From Chapter 47: Which case do prepositions and oath particles govern?",
+  "glossaryTerms": ["harf", "jarr", "nasb"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Classical Oaths & Vocatives",
+      "body": "Classical prose and the Qur'an frequently open statements with oath particles (وَ, تَـ, بِـ — 'by...'), all of which are prepositions governing the genitive case. Separately, the vocative particle يَا ('O...') governs nouns in either a nominative-like invariable form (single definite/addressed noun) or the accusative (when annexed as muḍāf)."
+    },
+    {
+      "type": "rule",
+      "label": "Oath Governance & Vocative Rules",
+      "arabicTerm": "القَسَمُ وَالنِّدَاءُ",
+      "summary": "1) Oath particles وَ, تَـ (restricted to اللَّهِ), and بِـ govern the sworn object in the GENITIVE (وَالعَصْرِ, تَاللَّهِ, وَاللَّهِ). 2) After يَا: a single addressed name takes single ḍammah without tanwīn (يَا زَيْدُ); an annexed muḍāf takes ACCUSATIVE (يَا رَسُولَ اللَّهِ); a noun with أَلْ requires أَيُّهَا / أَيَّتُهَا (يَا أَيُّهَا النَّاسُ)."
+    },
+    {
+      "type": "table",
+      "heading": "Oaths & Vocatives",
+      "headers": ["Construction", "Arabic", "Transliteration", "Grammatical Rule"],
+      "rows": [
+        ["Oath with وَ", "وَاللَّهِ", "wa-llāhi", "Genitive after wāw al-qasam"],
+        ["Oath with تَـ", "تَاللَّهِ", "ta-llāhi", "Genitive; تَـ used only with اللَّهِ"],
+        ["Single-word vocative", "يَا طَالِبُ", "yā ṭālibu", "Single ḍammah without tanwīn"],
+        ["Muḍāf vocative", "يَا طَالِبَ العِلْمِ", "yā ṭāliba l-ʿilmi", "Accusative muḍāf (fatḥah)"],
+        ["Definite noun with أَلْ", "يَا أَيُّهَا الإِنْسَانُ", "yā ʾayyuhā l-ʾinsānu", "Requires أَيُّهَا before أَلْ"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "يَا طَالِبَ العِلْمِ، اِجْتَهِدْ",
+      "transliteration": "yā ṭāliba l-ʿilmi, ijtahid",
+      "translation": "O seeker of knowledge, strive!",
+      "irab": "يَا: حَرْفُ نِدَاءٍ | طَالِبَ: مُنَادًى مُضَافٌ مَنْصُوبٌ بِالفَتْحَةِ | العِلْمِ: مُضَافٌ إِلَيْهِ مَجْرُورٌ",
+      "notes": "Because طَالِبَ is muḍāf, it takes accusative fatḥah after يَا.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Lām of the Oath Complement",
+      "body": "Affirmative statements answering an oath are typically introduced by لَـ or إِنَّ / لَقَدْ (e.g., وَاللَّهِ لَقَدْ صَدَقَ)."
+    }
+  ]
+}

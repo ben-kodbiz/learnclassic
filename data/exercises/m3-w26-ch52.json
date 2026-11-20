@@ -1,0 +1,36 @@
+{
+  "lessonId": "m3-w26-ch52",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w26-ch52-001",
+      "lessonId": "m3-w26-ch52",
+      "type": "multiple-choice",
+      "prompt": "In Classical Arabic prosody (al-ʿarūḍ), how is a doubled consonant (shaddah) treated during scansion?",
+      "choices": [
+        "Written as two consonants: first vowelless (sukūn), second vowelled",
+        "Counted as a single short syllable",
+        "Ignored completely"
+      ],
+      "answer": "Written as two consonants: first vowelless (sukūn), second vowelled",
+      "explanation": "Prosodic writing (al-kitābah al-ʿarūḍiyyah) expands every shaddah into Cْ + Cَ so syllable length is measured accurately.",
+      "feedback": { "rule": "Prosodic scansion writes all pronounced sounds: shaddah → CْCَ, tanwīn → نْ." },
+      "skillTags": ["prosody", "arud"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w26-ch52-002",
+      "lessonId": "m3-w26-ch52",
+      "type": "true-false",
+      "prompt": "True or False: The classical meter al-Ṭawīl scans as فَعُولُنْ مَفَاعِيلُنْ فَعُولُنْ مَفَاعِيلُنْ in each hemistich.",
+      "choices": ["True", "False"],
+      "answer": "True",
+      "explanation": "True. Al-Ṭawīl alternates the 5-letter foot فَعُولُنْ with the 7-letter foot مَفَاعِيلُنْ.",
+      "feedback": { "rule": "Al-Ṭawīl = فَعُولُنْ مَفَاعِيلُنْ (×2)." },
+      "skillTags": ["prosody", "arud"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

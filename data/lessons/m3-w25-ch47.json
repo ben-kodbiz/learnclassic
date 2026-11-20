@@ -1,0 +1,55 @@
+{
+  "id": "m3-w25-ch47",
+  "moduleId": "module-3",
+  "week": 25,
+  "chapter": 47,
+  "title": "Prepositions & Locative Semi-Prepositions (Ẓurūf)",
+  "titleArabic": "حُرُوفُ الجَرِّ وَالظُّرُوفُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 47; Ryding Ch. 16)",
+  "objectives": [
+    "Distinguish true prepositions (حُرُوفُ الجَرِّ: فِي, مِنْ, إِلَى, عَلَى, عَنْ, بِـ, لِـ) from locative/temporal nouns (ظُرُوفٌ: قَبْلَ, بَعْدَ, أَمَامَ, خَلْفَ).",
+    "Recognize idiomatic verb–preposition pairs whose meaning shifts with the preposition.",
+    "Parse prepositional phrases (جَارٌّ وَمَجْرُورٌ) and adverbial ẓurūf + iḍāfah."
+  ],
+  "recallPrompt": "From Chapter 4: Which case do true prepositions govern on the following noun?",
+  "glossaryTerms": ["harf", "jarr", "idafah"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "True Prepositions vs. Ẓurūf",
+      "body": "True prepositions (ḥurūf al-jarr) are invariable particles that govern a noun in the genitive case. Semi-prepositions (ẓurūf, such as قَبْلَ 'before', بَعْدَ 'after', عِنْدَ 'at/with', فَوْقَ 'above', تَحْتَ 'under') are actually nouns of time or place in the adverbial accusative acting as muḍāf before a genitive muḍāf ilayh."
+    },
+    {
+      "type": "rule",
+      "label": "Idiomatic Verb–Preposition Shifts",
+      "arabicTerm": "تَعَدِّي الفِعْلِ بِالحَرْفِ",
+      "summary": "Changing the preposition after a verb can completely reverse its meaning: رَغِبَ فِي ('to desire') vs. رَغِبَ عَنْ ('to turn away from / dislike'); دَعَا لِـ ('to pray for') vs. دَعَا عَلَى ('to invoke against')."
+    },
+    {
+      "type": "table",
+      "heading": "True Prepositions vs. Ẓurūf",
+      "headers": ["Type", "Examples", "Case of Following Noun"],
+      "rows": [
+        ["True Prepositions (Ḥurūf al-Jarr)", "فِي, مِنْ, إِلَى, عَلَى, عَنْ, بِـ, لِـ, كَـ", "Genitive (majrūr)"],
+        ["Ẓurūf (Accusative + Iḍāfah)", "قَبْلَ, بَعْدَ, عِنْدَ, بَيْنَ, فَوْقَ, تَحْتَ", "Genitive (as muḍāf ilayh)"],
+        ["Preposition + Ẓarf", "مِنْ قَبْلِ, مِنْ بَعْدِ", "Ẓarf itself becomes genitive after مِنْ!"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "جَلَسَ الطَّالِبُ أَمَامَ المُعَلِّمِ",
+      "transliteration": "jalasa ṭ-ṭālibu ʾamāma l-muʿallimi",
+      "translation": "The student sat in front of the teacher.",
+      "irab": "أَمَامَ: ظَرْفُ مَكَانٍ مَنْصُوبٌ وَهُوَ مُضَافٌ | المُعَلِّمِ: مُضَافٌ إِلَيْهِ مَجْرُورٌ بِالكَسْرَةِ",
+      "notes": "أَمَامَ takes fatḥah (accusative) as a ẓarf and governs المُعَلِّمِ in the genitive as muḍāf ilayh.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Helping Vowels on مِنْ and عَنْ",
+      "body": "Before hamzat al-waṣl, مِنْ takes fatḥah (مِنَ البَيْتِ) while عَنْ takes kasrah (عَنِ المَدِينَةِ)."
+    }
+  ]
+}

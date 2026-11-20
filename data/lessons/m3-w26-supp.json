@@ -1,0 +1,56 @@
+{
+  "id": "m3-w26-supp",
+  "moduleId": "module-3",
+  "week": 26,
+  "chapter": "supplement",
+  "title": "Capstone Qur'anic & Classical Literary Analysis",
+  "titleArabic": "المُخْتَارَاتُ الأَدَبِيَّةُ وَالإِعْرَابُ",
+  "reviewStatus": "pending",
+  "source": "Original synthesis lesson authored for this application (syllabus ref: Haywood & Nahmad Literary Supplement pp. 462–495 & Appendix B; Ryding Appendix II; Qur'an 1:1–7)",
+  "objectives": [
+    "Execute full word-by-word iʿrāb parsing on Sūrat al-Fātiḥah (Qur'an 1:1–7).",
+    "Apply the Daily 3-Step Textual Iʿrāb Routine to unvocalized classical prose (Ṣaḥīḥ al-Bukhārī, Kalīlah wa-Dimnah, Ibn Baṭṭūṭah).",
+    "Transition to advanced classical reference grammars (William Wright) and classical tafsīr."
+  ],
+  "recallPrompt": "Review: What are the three steps of the Daily Textual Iʿrāb Routine before translating a classical passage?",
+  "glossaryTerms": ["mubtada", "khabar", "fail", "maful", "idafah", "raf", "nasb", "jarr"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Capstone: Integrating Ṣarf, Naḥw, and Iʿrāb",
+      "body": "At the culmination of the 26-week curriculum, you combine morphology (ṣarf) and syntax (naḥw) to read authentic unvocalized Classical Arabic. Always parse grammatical roles and governing factors (ʿawāmil) before translating, and keep linguistic analysis distinct from theological or interpretive tafsīr."
+    },
+    {
+      "type": "rule",
+      "label": "Capstone Reading Method",
+      "arabicTerm": "مَنْهَجُ القِرَاءَةِ التُّرَاثِيَّةِ",
+      "summary": "1) Mark sentence boundaries (Nominal vs. Verbal). 2) Restore vocalization on every word (especially final case/mood endings). 3) Identify all governing particles (prepositions, iḍāfah, kāna, inna, nawāṣib, jawāzim). 4) Translate only after the syntax is clear."
+    },
+    {
+      "type": "example",
+      "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "transliteration": "iyyāka naʿbudu wa-iyyāka nastaʿīnu",
+      "translation": "You alone we worship, and You alone we ask for help. (Qur'an 1:5)",
+      "irab": "إِيَّاكَ: ضَمِيرُ نَصْبٍ مُنْفَصِلٌ مُقَدَّمٌ مَفْعُولٌ بِهِ | نَعْبُدُ: فِعْلٌ مُضَارِعٌ مَرْفُوعٌ (الفَاعِلُ نَحْنُ) | نَسْتَعِينُ: مُضَارِعٌ مَرْفُوعٌ (وَزْنُ اِسْتَفْعَلَ مِنْ ع-و-ن)",
+      "notes": "Notice two curriculum milestones in one āyah: fronted independent accusative pronoun إِيَّاكَ (for exclusivity), and Form X hollow verb نَسْتَعِينُ (from ع-و-ن).",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "table",
+      "heading": "Classical Reading & Reference Pathway (Appendix B)",
+      "headers": ["Source Category", "Representative Work", "Focus"],
+      "rows": [
+        ["Qur'an", "Sūrat al-Fātiḥah & Qur'anic selections", "Full iʿrāb & rhetorical syntax"],
+        ["Hadith", "Ṣaḥīḥ al-Bukhārī", "Concise classical narrative & chains (isnād)"],
+        ["Classical Prose", "Kalīlah wa-Dimnah & Ibn Baṭṭūṭah", "Unvocalized literary & historical prose"],
+        ["Next Reference", "W. Wright, A Grammar of the Arabic Language", "Advanced classical philology & reference"]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Grammatical Analysis vs. Tafsīr",
+      "body": "Grammatical parsing explains how case endings, verb stems, and particles relate structurally; it is a foundational tool, not a complete theological interpretation of an āyah."
+    }
+  ]
+}

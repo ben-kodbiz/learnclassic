@@ -1,0 +1,56 @@
+{
+  "id": "m3-w22-ch43",
+  "moduleId": "module-3",
+  "week": 22,
+  "chapter": 43,
+  "title": "Plurals of Paucity, Multitude & Plural of Plurals",
+  "titleArabic": "جُمُوعُ القِلَّةِ وَالكَثْرَةِ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 43; Ryding Ch. 6–7)",
+  "objectives": [
+    "Recognize the four patterns of plurals of paucity (jamʿ al-qillah, denoting 3–10): أَفْعُلٌ, أَفْعَالٌ, أَفْعِلَةٌ, فِعْلَةٌ.",
+    "Distinguish plurals of paucity from plurals of multitude (jamʿ al-kathrah).",
+    "Recognize plural of plurals (jamʿ al-jamʿ) in classical prose."
+  ],
+  "recallPrompt": "From Chapter 36: Which number band (3–10 or 11–99) takes a plural genitive counted noun?",
+  "glossaryTerms": ["ism"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Paucity (3–10) vs. Multitude (11+)",
+      "body": "Some Arabic nouns possess two broken plurals: a plural of paucity (jamʿ al-qillah) used classically for small counts (3–10), and a plural of multitude (jamʿ al-kathrah) for larger numbers. Classical texts also occasionally form a 'plural of a plural' (jamʿ al-jamʿ) to express great abundance."
+    },
+    {
+      "type": "rule",
+      "label": "The Four Plurals of Paucity",
+      "arabicTerm": "أَوْزَانُ جَمْعِ القِلَّةِ",
+      "summary": "Only four broken plural patterns belong to jamʿ al-qillah: أَفْعُلٌ (أَشْهُرٌ 'months'), أَفْعَالٌ (أَيَّامٌ 'days'), أَفْعِلَةٌ (أَسْئِلَةٌ 'questions'), and فِعْلَةٌ (فِتْيَةٌ 'youths')."
+    },
+    {
+      "type": "table",
+      "heading": "Paucity vs. Multitude Examples",
+      "headers": ["Singular", "Plural of Paucity (3–10)", "Plural of Multitude", "Meaning"],
+      "rows": [
+        ["شَهْرٌ", "أَشْهُرٌ (أَفْعُلٌ)", "شُهُورٌ (فُعُولٌ)", "month(s)"],
+        ["نَفْسٌ", "أَنْفُسٌ (أَفْعُلٌ)", "نُفُوسٌ (فُعُولٌ)", "soul(s)"],
+        ["يَدٌ", "أَيْدٍ (أَفْعُلٌ)", "أَيَادٍ (plural of plural)", "hand(s)"],
+        ["قَوْلٌ", "أَقْوَالٌ (أَفْعَالٌ)", "أَقَاوِيلُ (jamʿ al-jamʿ)", "saying(s)"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "ثَلَاثَةُ أَشْهُرٍ",
+      "transliteration": "thalāthatu ʾashhurin",
+      "translation": "Three months.",
+      "irab": "ثَلَاثَةُ: مُضَافٌ مَرْفُوعٌ | أَشْهُرٍ: مُضَافٌ إِلَيْهِ مَجْرُورٌ (جَمْعُ قِلَّةٍ)",
+      "notes": "For counts 3–10, classical style prefers the plural of paucity أَشْهُرٍ over شُهُورٍ.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Most Nouns Have Only One Plural",
+      "body": "When a noun has only a single broken plural, that one form is used for all counts (both 3–10 and general plurality)."
+    }
+  ]
+}

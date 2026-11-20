@@ -1,0 +1,56 @@
+{
+  "id": "m3-w22-ch42",
+  "moduleId": "module-3",
+  "week": 22,
+  "chapter": 42,
+  "title": "Exceptional Gender Categories",
+  "titleArabic": "المُؤَنَّثُ السَّمَاعِيُّ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 42; Ryding Ch. 6)",
+  "objectives": [
+    "Identify unmarked feminine nouns (al-muʾannath al-samāʿī): paired body parts, elemental nouns, and cities/tribes.",
+    "Recognize nouns of common gender (treated as either masculine or feminine, e.g., طَرِيقٌ, سَبِيلٌ, حَالٌ).",
+    "Identify feminine markers beyond ة: alif maqṣūrah (ـى, e.g., كُبْرَى) and alif mamdūdah (ـَاءُ, e.g., صَحْرَاءُ)."
+  ],
+  "recallPrompt": "From Chapter 3: Name two unmarked feminine nouns learned in Module 1.",
+  "glossaryTerms": ["ism"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Beyond Tāʾ Marbūṭah",
+      "body": "Besides tāʾ marbūṭah (ة), Arabic has two other feminine markers—alif maqṣūrah (ـى, as in كُبْرَى 'greatest f.') and alif mamdūdah (ـَاءُ, as in صَحْرَاءُ 'desert')—both of which make the word a diptote. Furthermore, many nouns are grammatically feminine by classical usage (samāʿī) without any marker."
+    },
+    {
+      "type": "rule",
+      "label": "Unmarked Feminine Categories",
+      "arabicTerm": "المُؤَنَّثُ السَّمَاعِيُّ",
+      "summary": "Always feminine without ة: (1) paired body parts (يَدٌ 'hand', عَيْنٌ 'eye', رِجْلٌ 'foot', أُذُنٌ 'ear'); (2) elemental/cosmic nouns (شَمْسٌ, أَرْضٌ, نَارٌ, رِيحٌ, نَفْسٌ); (3) names of cities, lands, and tribes (مَكَّةُ, مِصْرُ, قُرَيْشٌ)."
+    },
+    {
+      "type": "table",
+      "heading": "Exceptional Gender Reference",
+      "headers": ["Category", "Examples", "Gender"],
+      "rows": [
+        ["Paired body parts", "يَدٌ، عَيْنٌ، رِجْلٌ، أُذُنٌ", "Feminine"],
+        ["Elemental / cosmic", "شَمْسٌ، أَرْضٌ، نَارٌ، رِيحٌ، نَفْسٌ", "Feminine"],
+        ["Common gender (both allowed)", "طَرِيقٌ، سَبِيلٌ، حَالٌ، سَمَاءٌ", "Masculine or Feminine"],
+        ["Alif maqṣūrah / mamdūdah", "كُبْرَى، صَحْرَاءُ، حَمْرَاءُ", "Feminine (Diptote)"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "النَّفْسُ المُطْمَئِنَّةُ",
+      "transliteration": "an-nafsu l-muṭmaʾinnatu",
+      "translation": "The tranquil soul.",
+      "irab": "النَّفْسُ: مُؤَنَّثٌ سَمَاعِيٌّ مَرْفُوعٌ | المُطْمَئِنَّةُ: نَعْتٌ مَرْفُوعٌ مُؤَنَّثٌ",
+      "notes": "نَفْسٌ ('soul/self') has no ة, yet it is feminine by usage, so its adjective المُطْمَئِنَّةُ takes ة.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Singular Body Parts",
+      "body": "While paired body parts (يَدٌ, عَيْنٌ) are feminine, single body parts (رَأْسٌ 'head', قَلْبٌ 'heart', لِسَانٌ 'tongue') are masculine."
+    }
+  ]
+}

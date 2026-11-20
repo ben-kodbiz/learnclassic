@@ -513,7 +513,7 @@ For sourced passages, replace the source value with a precise bibliographic or c
 - [x] Add verified examples and exercises for each Module 1 lesson.
 - [ ] Review Arabic spelling, vowels, grammar, and translations.
 - [ ] Pilot with learners and revise confusing explanations.
-- [ ] Continue Modules 2 and 3 using the same data format.
+- [x] Continue Modules 2 and 3 using the same data format.
 
 **Exit condition:** Publish a coherent, reviewed first learning path rather than a large collection of unreviewed content.
 

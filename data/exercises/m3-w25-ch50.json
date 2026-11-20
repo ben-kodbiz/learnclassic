@@ -1,0 +1,36 @@
+{
+  "lessonId": "m3-w25-ch50",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w25-ch50-001",
+      "lessonId": "m3-w25-ch50",
+      "type": "fill-in-blank",
+      "prompt": "Select the correctly vocalized muḍāf vocative: 'O seeker of knowledge!'",
+      "arabic": "يَا _____ العِلْمِ",
+      "choices": ["طَالِبَ", "طَالِبُ", "طَالِبٍ"],
+      "answer": "طَالِبَ",
+      "explanation": "When the addressed noun after يَا is annexed as muḍāf, it takes the ACCUSATIVE: يَا طَالِبَ العِلْمِ.",
+      "feedback": {
+        "rule": "Muḍāf vocative is accusative; single-word definite vocative takes single ḍammah.",
+        "caseOrMood": "Accusative (manṣūb)"
+      },
+      "skillTags": ["vocative", "nasb"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w25-ch50-002",
+      "lessonId": "m3-w25-ch50",
+      "type": "multiple-choice",
+      "prompt": "What case does wāw al-qasam (وَاوُ القَسَمِ) govern in وَاللَّهِ / وَالعَصْرِ?",
+      "choices": ["Genitive (majrūr)", "Nominative (marfūʿ)", "Accusative (manṣūb)"],
+      "answer": "Genitive (majrūr)",
+      "explanation": "Oath particles (وَ, تَـ, بِـ) are prepositions that govern the object sworn by in the genitive case.",
+      "feedback": { "rule": "Oath particles govern the genitive (jarr)." },
+      "skillTags": ["oaths", "jarr"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

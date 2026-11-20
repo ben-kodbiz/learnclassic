@@ -1,0 +1,55 @@
+{
+  "id": "m3-w25-ch48",
+  "moduleId": "module-3",
+  "week": 25,
+  "chapter": 48,
+  "title": "Adverbial Usages & Inna wa-Akhawātuhā",
+  "titleArabic": "إِنَّ وَأَخَوَاتُهَا",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 48; Ryding Ch. 19)",
+  "objectives": [
+    "Identify the six corroborating particles (إِنَّ, أَنَّ, كَأَنَّ, لٰكِنَّ, لَيْتَ, لَعَلَّ).",
+    "Apply the governance of إِنَّ (opposite of كَانَ: ism inna is accusative, khabar inna is nominative).",
+    "Recognize al-lām al-muzaḥlaqah (emphatic لَـ) on khabar inna."
+  ],
+  "recallPrompt": "From Chapter 13: How does كَانَ affect the subject and predicate of a nominal sentence?",
+  "glossaryTerms": ["harf", "nasb", "raf"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Particles of Corroboration (Al-Ḥurūf al-Mushabbahah bi-l-Fiʿl)",
+      "body": "Inna and her sisters (إِنَّ 'indeed', أَنَّ 'that', كَأَنَّ 'as if', لٰكِنَّ 'but', لَيْتَ 'if only', لَعَلَّ 'perhaps') introduce nominal sentences with emphasis or nuance. Their case governance is the exact mirror image of كَانَ."
+    },
+    {
+      "type": "rule",
+      "label": "Governance of Inna & Sisters",
+      "arabicTerm": "إِنَّ تَنْصِبُ الاسْمَ وَتَرْفَعُ الخَبَرَ",
+      "summary": "إِنَّ places its subject (ism inna) in the ACCUSATIVE (manṣūb) and leaves its predicate (khabar inna) in the NOMINATIVE (marfūʿ). An emphatic lām (لَـ, al-lām al-muzaḥlaqah) may attach to khabar inna without changing its nominative case (e.g., إِنَّ اللَّهَ لَغَفُورٌ)."
+    },
+    {
+      "type": "table",
+      "heading": "Kāna vs. Inna Comparison",
+      "headers": ["Governor", "Example", "Subject Case", "Predicate Case"],
+      "rows": [
+        ["None (unmarked)", "العِلْمُ نُورٌ", "Nominative (العِلْمُ)", "Nominative (نُورٌ)"],
+        ["كَانَ (was)", "كَانَ العِلْمُ نُورًا", "Nominative (العِلْمُ)", "Accusative (نُورًا)"],
+        ["إِنَّ (indeed)", "إِنَّ العِلْمَ نُورٌ", "Accusative (العِلْمَ)", "Nominative (نُورٌ)"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "إِنَّ الصَّبْرَ مِفْتَاحُ الفَرَجِ",
+      "transliteration": "inna ṣ-ṣabra miftāḥu l-faraji",
+      "translation": "Indeed, patience is the key to relief.",
+      "irab": "إِنَّ: حَرْفُ تَوْكِيدٍ وَنَصْبٍ | الصَّبْرَ: اسْمُ إِنَّ مَنْصُوبٌ بِالفَتْحَةِ | مِفْتَاحُ: خَبَرُ إِنَّ مَرْفُوعٌ",
+      "notes": "Remember: إِنَّ (with kasrah) opens main sentences and follows قَالَ ('he said'); أَنَّ (with fatḥah) introduces subordinate clauses ('I know that...').",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Attached Pronouns with إِنَّ",
+      "body": "When a pronoun attaches to إِنَّ, it serves as ism inna in the place of accusative: إِنَّهُ ('indeed he'), إِنَّنِي / إِنِّي ('indeed I')."
+    }
+  ]
+}

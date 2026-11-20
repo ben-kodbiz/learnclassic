@@ -1,0 +1,37 @@
+{
+  "lessonId": "m3-w24-ch46",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w24-ch46-001",
+      "lessonId": "m3-w24-ch46",
+      "type": "fill-in-blank",
+      "prompt": "Select the correctly inflected badal: 'I read half of the book.'",
+      "arabic": "قَرَأْتُ الكِتَابَ _____",
+      "choices": ["نِصْفَهُ", "نِصْفُهُ", "نِصْفِهِ"],
+      "answer": "نِصْفَهُ",
+      "explanation": "الكِتَابَ is accusative (direct object), so its part-of-whole badal (نِصْفَ) must also be accusative: نِصْفَهُ.",
+      "feedback": {
+        "rule": "Al-badal matches the exact grammatical case of its antecedent (al-mubdal minhu).",
+        "caseOrMood": "Accusative (manṣūb)"
+      },
+      "skillTags": ["badal", "nasb"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w24-ch46-002",
+      "lessonId": "m3-w24-ch46",
+      "type": "true-false",
+      "prompt": "True or False: In الخَلِيفَةُ عُمَرُ ('the Caliph ʿUmar'), عُمَرُ is an identical badal (بَدَلٌ مُطَابِقٌ).",
+      "arabic": "الخَلِيفَةُ عُمَرُ",
+      "choices": ["True", "False"],
+      "answer": "True",
+      "explanation": "True. A proper name following a title/role is an identical badal sharing the title's case.",
+      "feedback": { "rule": "Title + proper name = identical badal." },
+      "skillTags": ["badal"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

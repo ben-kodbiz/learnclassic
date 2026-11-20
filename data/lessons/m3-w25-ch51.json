@@ -1,0 +1,54 @@
+{
+  "id": "m3-w25-ch51",
+  "moduleId": "module-3",
+  "week": 25,
+  "chapter": 51,
+  "title": "Exception (Al-Istithnāʾ)",
+  "titleArabic": "الاِسْتِثْنَاءُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 51; Ryding Ch. 37)",
+  "objectives": [
+    "Vocalize the excepted noun (al-mustathnā) after إِلَّا across affirmative, complete-negative, and incomplete-negative clauses.",
+    "Use the exception nouns غَيْرُ and سِوَى governing the following noun in the genitive."
+  ],
+  "recallPrompt": "From Chapter 28: How did إِلَّا function in لَمْ يَقُلْ إِلَّا الحَقَّ?",
+  "glossaryTerms": ["nasb", "jarr"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "The Three Environments of إِلَّا",
+      "body": "The case of the noun following إِلَّا ('except / only') depends on whether the sentence is affirmative or negative, and whether the general category (al-mustathnā minhu) is mentioned."
+    },
+    {
+      "type": "rule",
+      "label": "Case Rules for Al-Istithnāʾ",
+      "arabicTerm": "أَحْكَامُ المُسْتَثْنَى بِإِلَّا",
+      "summary": "1) Affirmative & complete: MUST be ACCUSATIVE (حَضَرَ الطُّلَّابُ إِلَّا وَاحِدًا). 2) Negative & complete: either accusative OR badal matching the category. 3) Negative & incomplete (mustathnā minhu omitted): إِلَّا is grammatically transparent ('only'), and the noun takes whatever case the verb requires (مَا قَرَأْتُ إِلَّا كِتَابًا). 4) غَيْرُ / سِوَى take the case that would have fallen after إِلَّا and govern the following noun in the GENITIVE."
+    },
+    {
+      "type": "table",
+      "heading": "Exception Constructions",
+      "headers": ["Type", "Arabic", "Transliteration", "Case After إِلَّا / غَيْر"],
+      "rows": [
+        ["Affirmative complete", "جَاءَ القَوْمُ إِلَّا زَيْدًا", "jāʾa l-qawmu ʾillā zaydan", "Accusative (زَيْدًا)"],
+        ["Negative incomplete ('only')", "مَا جَاءَ إِلَّا زَيْدٌ", "mā jāʾa ʾillā zaydun", "Nominative fāʿil (زَيْدٌ)"],
+        ["With غَيْرُ", "جَاءَ القَوْمُ غَيْرَ زَيْدٍ", "jāʾa l-qawmu ghayra zaydin", "غَيْرَ accusative; زَيْدٍ genitive!"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "مَا قُلْتُ إِلَّا الصِّدْقَ",
+      "transliteration": "mā qultu ʾillā ṣ-ṣidqa",
+      "translation": "I spoke nothing but the truth.",
+      "irab": "مَا: نَافِيَةٌ | قُلْتُ: فِعْلٌ وَفَاعِلٌ | إِلَّا: أَدَاةُ حَصْرٍ | الصِّدْقَ: مَفْعُولٌ بِهِ مَنْصُوبٌ",
+      "notes": "Because the general category is omitted in a negative clause, إِلَّا acts as a restrictive particle ('only') and الصِّدْقَ is simply the direct object of قُلْتُ.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Quick Test for Incomplete Negative",
+      "body": "Mentally cover مَا and إِلَّا: if the remaining words form a complete sentence (قُلْتُ الصِّدْقَ), assign the normal case!"
+    }
+  ]
+}

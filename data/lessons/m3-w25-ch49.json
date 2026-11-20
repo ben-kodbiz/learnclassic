@@ -1,0 +1,55 @@
+{
+  "id": "m3-w25-ch49",
+  "moduleId": "module-3",
+  "week": 25,
+  "chapter": 49,
+  "title": "Coordinating Conjunctions (Ḥurūf al-ʿAṭf)",
+  "titleArabic": "حُرُوفُ العَطْفِ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 49; Ryding Ch. 18)",
+  "objectives": [
+    "Distinguish the temporal/logical nuances of وَ, فَـ, ثُمَّ, أَوْ, أَمْ, and بَلْ.",
+    "Apply case and mood agreement across conjoined elements (al-maʿṭūf)."
+  ],
+  "recallPrompt": "From Chapter 1: Which conjunction drops hamzat al-waṣl in connected reading?",
+  "glossaryTerms": ["harf"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Precision in Classical Conjunctions",
+      "body": "Arabic coordinating conjunctions carry precise logical and temporal distinctions. Whereas English uses 'and' for almost everything, Arabic distinguishes simple simultaneity/association (وَ) from immediate consequence (فَـ) and sequence after a delay (ثُمَّ)."
+    },
+    {
+      "type": "rule",
+      "label": "Case & Mood Sharing (Al-ʿAṭf)",
+      "arabicTerm": "المَعْطُوفُ يَتْبَعُ المَعْطُوفَ عَلَيْهِ",
+      "summary": "A conjoined noun or verb (al-maʿṭūf) always shares the grammatical case or mood of the preceding item (al-maʿṭūf ʿalayh)."
+    },
+    {
+      "type": "table",
+      "heading": "Core Coordinating Conjunctions",
+      "headers": ["Particle", "Nuance", "Example"],
+      "rows": [
+        ["وَ", "Simple association (no order implied)", "جَاءَ زَيْدٌ وَعَمْرٌو"],
+        ["فَـ", "Immediate succession / consequence", "دَخَلَ المُعَلِّمُ فَجَلَسَ الطُّلَّابُ"],
+        ["ثُمَّ", "Succession after a pause or delay", "دَرَسَ ثُمَّ سَافَرَ"],
+        ["بَلْ", "Rectification ('rather / nay, on the contrary')", "مَا قَرَأَ كِتَابًا بَلْ كِتَابَيْنِ"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "قَرَأْتُ الفَاتِحَةَ ثُمَّ السُّورَةَ",
+      "transliteration": "qaraʾtu l-fātiḥata thumma s-sūrata",
+      "translation": "I recited al-Fātiḥah and then (afterward) the sūrah.",
+      "irab": "الفَاتِحَةَ: مَفْعُولٌ بِهِ مَنْصُوبٌ | ثُمَّ: حَرْفُ عَطْفٍ | السُّورَةَ: مَعْطُوفٌ مَنْصُوبٌ",
+      "notes": "Because الفَاتِحَةَ is accusative, السُّورَةَ conjoined by ثُمَّ is also accusative.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "أَوْ vs. أَمْ ('Or')",
+      "body": "أَوْ is used in statements and open questions; أَمْ is used after interrogative أَ to ask 'which of two?' (أَأَنْتَ كَتَبْتَ أَمْ هُوَ؟)."
+    }
+  ]
+}

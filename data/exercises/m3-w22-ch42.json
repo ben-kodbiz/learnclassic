@@ -1,0 +1,32 @@
+{
+  "lessonId": "m3-w22-ch42",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w22-ch42-001",
+      "lessonId": "m3-w22-ch42",
+      "type": "multiple-choice",
+      "prompt": "Which of the following body-part nouns is grammatically FEMININE without tāʾ marbūṭah?",
+      "choices": ["عَيْنٌ ('eye')", "قَلْبٌ ('heart')", "رَأْسٌ ('head')"],
+      "answer": "عَيْنٌ ('eye')",
+      "explanation": "Paired body parts (عَيْنٌ, يَدٌ, رِجْلٌ, أُذُنٌ) are grammatically feminine, whereas single parts (قَلْبٌ, رَأْسٌ) are masculine.",
+      "feedback": { "rule": "Paired body parts are unmarked feminines (muʾannath samāʿī)." },
+      "skillTags": ["gender", "exceptional-feminine"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w22-ch42-002",
+      "lessonId": "m3-w22-ch42",
+      "type": "true-false",
+      "prompt": "True or False: Nouns ending in feminine alif mamdūdah (e.g., صَحْرَاءُ) or alif maqṣūrah (e.g., كُبْرَى) are diptotes.",
+      "choices": ["True", "False"],
+      "answer": "True",
+      "explanation": "True. Both feminine endings (ـَاءُ and ـَى) bar tanwīn.",
+      "feedback": { "rule": "Feminine alif mamdūdah and alif maqṣūrah are diptote markers." },
+      "skillTags": ["gender", "diptote"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

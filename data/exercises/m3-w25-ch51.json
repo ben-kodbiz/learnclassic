@@ -1,0 +1,38 @@
+{
+  "lessonId": "m3-w25-ch51",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w25-ch51-001",
+      "lessonId": "m3-w25-ch51",
+      "type": "fill-in-blank",
+      "prompt": "Select the correct case in an incomplete negative clause ('No one came except Zayd'):",
+      "arabic": "مَا جَاءَ إِلَّا _____",
+      "choices": ["زَيْدٌ", "زَيْدًا", "زَيْدٍ"],
+      "answer": "زَيْدٌ",
+      "explanation": "In an incomplete negative clause, إِلَّا is transparent ('only'), and زَيْدٌ takes the nominative case as the fāʿil of جَاءَ.",
+      "feedback": {
+        "rule": "Incomplete negative exception: assign the case demanded by the verb.",
+        "role": "Fāʿil of جَاءَ",
+        "caseOrMood": "Nominative (marfūʿ)"
+      },
+      "skillTags": ["exception", "raf"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w25-ch51-002",
+      "lessonId": "m3-w25-ch51",
+      "type": "fill-in-blank",
+      "prompt": "What case does a noun take after غَيْرَ or سِوَى ('other than Zayd')?",
+      "arabic": "جَاءَ القَوْمُ غَيْرَ _____",
+      "choices": ["زَيْدٍ (genitive)", "زَيْدًا (accusative)", "زَيْدٌ (nominative)"],
+      "answer": "زَيْدٍ (genitive)",
+      "explanation": "غَيْرَ and سِوَى are nouns acting as muḍāf, so the following noun is always genitive (muḍāf ilayh).",
+      "feedback": { "rule": "Nouns after غَيْر and سِوَى are always genitive (majrūr)." },
+      "skillTags": ["exception", "jarr"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

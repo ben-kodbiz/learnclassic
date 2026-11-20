@@ -1,0 +1,56 @@
+{
+  "id": "m3-w22-ch41",
+  "moduleId": "module-3",
+  "week": 22,
+  "chapter": 41,
+  "title": "Abstract Nouns & Classical Proper Names",
+  "titleArabic": "المَصْدَرُ الصِّنَاعِيُّ وَالأَعْلَامُ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 41; Ryding Ch. 5)",
+  "objectives": [
+    "Form abstract nouns (al-maṣdar al-ṣināʿī) with the suffix ـِيَّةٌ (e.g., إِنْسَانِيَّةٌ, عِلْمِيَّةٌ).",
+    "Identify the four components of classical Arabic names: ism, kunya, nasab, and laqab.",
+    "Parse patronymic chains using ابْنُ / بِنْتُ (dropping initial alif of ابْنُ between two proper names)."
+  ],
+  "recallPrompt": "From Chapter 40: How does the nisbah suffix ـِيٌّ attach to a noun?",
+  "glossaryTerms": ["ism", "idafah"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Abstract Nouns & Classical Biographical Names",
+      "body": "Adding ـِيَّةٌ (feminine nisbah ending) to a noun or adjective creates an abstract noun (e.g., حُرٌّ 'free' → حُرِّيَّةٌ 'freedom'). In classical literature and history, personal names follow a structured four-part system: given name (ism), teknonym (kunya: Abū / Umm), lineage (nasab: ibn / bint), and honorific epithet (laqab)."
+    },
+    {
+      "type": "rule",
+      "label": "Orthography of اِبْنُ Between Two Names",
+      "arabicTerm": "حَذْفُ أَلِفِ ابْنٍ",
+      "summary": "When ابْنُ ('son of') stands directly between a person's name and their father's name (on the same line), its initial alif is dropped in writing: عُمَرُ بْنُ الخَطَّابِ (ʿUmar ibn al-Khaṭṭāb)."
+    },
+    {
+      "type": "table",
+      "heading": "Classical Name Components",
+      "headers": ["Component", "Arabic Term", "Example", "Function"],
+      "rows": [
+        ["Given name", "اِسْمٌ (ism)", "عَلِيٌّ / فَاطِمَةُ", "Personal given name"],
+        ["Teknonym", "كُنْيَةٌ (kunyah)", "أَبُو بَكْرٍ / أُمُّ سَلَمَةَ", "Construct with Abū / Umm ('father/mother of...')"],
+        ["Lineage", "نَسَبٌ (nasab)", "بْنُ عَبْدِ اللَّهِ", "Patronymic chain (muḍāf + muḍāf ilayh)"],
+        ["Epithet", "لَقَبٌ (laqab)", "الصِّدِّيقُ / الفَارُوقُ", "Descriptive honorific or title"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "أَبُو عَبْدِ اللَّهِ مُحَمَّدُ بْنُ إِسْمَاعِيلَ البُخَارِيُّ",
+      "transliteration": "ʾabū ʿabdi llāhi muḥammadu bnu ʾismāʿīla l-bukhāriyyu",
+      "translation": "Abū ʿAbd Allāh Muḥammad ibn Ismāʿīl al-Bukhārī.",
+      "irab": "أَبُو: كُنْيَةٌ مَرْفُوعٌ بِالوَاوِ | مُحَمَّدُ: اِسْمٌ (بَدَلٌ) مَرْفُوعٌ | بْنُ: نَعْتٌ/بَدَلٌ مُضَافٌ | إِسْمَاعِيلَ: مُضَافٌ إِلَيْهِ مَجْرُورٌ بِالفَتْحَةِ (مَمْنُوعٌ مِنَ الصَّرْفِ) | البُخَارِيُّ: نِسْبَةٌ",
+      "notes": "Notice how a single classical citation combines kunya (أَبُو عَبْدِ اللَّهِ), ism (مُحَمَّدُ), nasab (بْنُ إِسْمَاعِيلَ), and nisbah (البُخَارِيُّ).",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Case Inflection of أَبُو (The Five Nouns)",
+      "body": "أَبٌ ('father') and أَخٌ ('brother') inflect with long letters when annexed: أَبُو (nom.), أَبَا (acc.), أَبِي (gen.)."
+    }
+  ]
+}

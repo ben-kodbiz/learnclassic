@@ -1,0 +1,56 @@
+{
+  "id": "m3-w22-ch40",
+  "moduleId": "module-3",
+  "week": 22,
+  "chapter": 40,
+  "title": "Relative Adjectives (Al-Nisbah) & Intensive Forms",
+  "titleArabic": "النِّسْبَةُ وَصِيَغُ المُبَالَغَةِ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 40; Ryding Ch. 5 §5.7, Ch. 10)",
+  "objectives": [
+    "Form nisbah adjectives (ـِيٌّ / ـِيَّةٌ) from nouns, removing tāʾ marbūṭah.",
+    "Recognize intensive adjectival patterns (ṣiyagh al-mubālaghah: فَعَّالٌ, فَعُولٌ, مِفْعَالٌ, فَعِيلٌ).",
+    "Parse intensive patterns frequent in divine attributes (al-Asmāʾ al-Ḥusnā)."
+  ],
+  "recallPrompt": "From Chapter 11: How do attributive adjectives agree with the noun they modify?",
+  "glossaryTerms": ["ism"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "Al-Nisbah & Intensive Adjectives",
+      "body": "The relative adjective (al-nisbah) suffixes ـِيٌّ (fem. ـِيَّةٌ) to indicate origin, affiliation, or category (e.g., عَرَبٌ → عَرَبِيٌّ, مَكَّةُ → مَكِّيٌّ). Separately, intensive patterns (ṣiyagh al-mubālaghah) express habitual or superabundant performance of an action—central to classical divine attributes."
+    },
+    {
+      "type": "rule",
+      "label": "Nisbah & Mubālaghah Rules",
+      "arabicTerm": "يَاءُ النِّسْبَةِ وَصِيَغُ المُبَالَغَةِ",
+      "summary": "To form a nisbah: drop tāʾ marbūṭah (مَكَّةُ → مَكِّيٌّ) and suffix ـِيٌّ. Intensive patterns include فَعَّالٌ (غَفَّارٌ 'Ever-Forgiving'), فَعُولٌ (غَفُورٌ 'All-Forgiving', شَكُورٌ 'Most Appreciative'), and فَعِيلٌ (عَلِيمٌ 'All-Knowing', رَحِيمٌ)."
+    },
+    {
+      "type": "table",
+      "heading": "Nisbah & Intensive Patterns",
+      "headers": ["Pattern", "Example", "Root", "Meaning"],
+      "rows": [
+        ["ـِيٌّ (Nisbah)", "عَرَبِيٌّ / مَدَنِيٌّ", "ع-ر-ب / م-د-ن", "Arabic / Medinan (drop ة in مَدِينَةٌ)"],
+        ["فَعَّالٌ (Intensive)", "غَفَّارٌ / تَوَّابٌ", "غ-ف-ر / ت-و-ب", "Ever-Forgiving / Oft-Relenting"],
+        ["فَعُولٌ (Intensive)", "غَفُورٌ / صَبُورٌ", "غ-ف-ر / ص-ب-ر", "All-Forgiving / Most Patient"],
+        ["فَعِيلٌ (Intensive)", "عَلِيمٌ / حَكِيمٌ", "ع-ل-م / ح-ك-م", "All-Knowing / All-Wise"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "اللَّهُ غَفُورٌ رَحِيمٌ",
+      "transliteration": "allāhu ghafūrun raḥīmun",
+      "translation": "God is All-Forgiving, Especially Merciful.",
+      "irab": "اللَّهُ: لَفْظُ الجَلَالَةِ مُبْتَدَأٌ مَرْفُوعٌ | غَفُورٌ: خَبَرٌ أَوَّلُ (صِيغَةُ مُبَالَغَةٍ) | رَحِيمٌ: خَبَرٌ ثَانٍ مَرْفُوعٌ",
+      "notes": "Both غَفُورٌ (فَعُولٌ) and رَحِيمٌ (فَعِيلٌ) are intensive adjectival patterns.",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Nisbah Sound Plurals",
+      "body": "Nisbah adjectives referring to human groups take sound masculine plurals (عَرَبِيُّونَ) or collective forms."
+    }
+  ]
+}

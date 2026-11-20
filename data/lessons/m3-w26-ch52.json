@@ -1,0 +1,56 @@
+{
+  "id": "m3-w26-ch52",
+  "moduleId": "module-3",
+  "week": 26,
+  "chapter": 52,
+  "title": "Classical Versification Metrics (Al-ʿArūḍ)",
+  "titleArabic": "عِلْمُ العَرُوضِ",
+  "reviewStatus": "pending",
+  "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 52; Ryding Appendix II)",
+  "objectives": [
+    "Understand the prosodic system of al-Khalīl ibn Aḥmad based on short/long syllable patterns.",
+    "Distinguish prosodic units: cord (sabab) and peg (watad).",
+    "Recognize the names and rhythms of major classical meters (الطَّوِيلُ, الكَامِلُ, البَسِيطُ, الوَافِرُ) and rhyme (al-qāfiyah)."
+  ],
+  "recallPrompt": "From Chapter 1: What distinguishes a short open syllable (CV) from a long syllable (CV̄ or CVC)?",
+  "glossaryTerms": ["harf"],
+  "sections": [
+    {
+      "type": "explanation",
+      "heading": "The Metrical System of Al-Khalīl ibn Aḥmad",
+      "body": "Classical Arabic poetry is quantitative—built on alternating patterns of short (vowelled consonant, ᴗ) and long (vowelled + vowelless/long vowel, —) syllables grouped into mnemonic feet (tafʿīlāt) derived from ف-ع-ل. Al-Khalīl ibn Aḥmad systematized sixteen classical meters (buḥūr)."
+    },
+    {
+      "type": "rule",
+      "label": "Prosodic Writing (Al-Kitābah al-ʿArūḍiyyah)",
+      "arabicTerm": "الكِتَابَةُ العَرُوضِيَّةُ",
+      "summary": "In scansion, write ONLY what is pronounced: double every shaddah into two consonants (CْCَ), write tanwīn as a vowelless nūn (نْ), and drop silent letters (such as hamzat al-waṣl mid-line)."
+    },
+    {
+      "type": "table",
+      "heading": "Basic Prosodic Units & Major Meters",
+      "headers": ["Term", "Arabic", "Structure", "Example Foot"],
+      "rows": [
+        ["Sabab Khafīf (Light cord)", "سَبَبٌ خَفِيفٌ", "Vowelled + vowelless (—)", "فَعْ / لُنْ"],
+        ["Watad Majmūʿ (Joined peg)", "وَتَدٌ مَجْمُوعٌ", "Two vowelled + vowelless (ᴗ —)", "فَعُو / مَفَا"],
+        ["Al-Ṭawīl (The Long Meter)", "بَحْرُ الطَّوِيلِ", "فَعُولُنْ مَفَاعِيلُنْ (×2 per hemistich)", "Classic qaṣīdah meter"],
+        ["Al-Kāmil (The Complete Meter)", "بَحْرُ الكَامِلِ", "مُتَفَاعِلُنْ (×3 per hemistich)", "Common elegiac/didactic meter"]
+      ]
+    },
+    {
+      "type": "example",
+      "arabic": "فَعُولُنْ مَفَاعِيلُنْ فَعُولُنْ مَفَاعِيلُنْ",
+      "transliteration": "faʿūlun mafāʿīlun faʿūlun mafāʿīlun",
+      "translation": "Mnemonic scansion pattern of one hemistich of al-Ṭawīl.",
+      "irab": "فَعُولُنْ (وَتَدٌ + سَبَبٌ) | مَفَاعِيلُنْ (وَتَدٌ + سَبَبَانِ)",
+      "notes": "Each classical verse (bayt) consists of two equal hemistichs (ṣadr and ʿajuz) sharing the same meter and ending in a unified rhyme consonant (rawī).",
+      "reviewStatus": "pending"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "heading": "Poetic License (Ḍarūrah)",
+      "body": "In classical verse, short final vowels at the end of a hemistich are lengthened for rhyme (ishbāʿ), and occasionally diptotes take tanwīn."
+    }
+  ]
+}

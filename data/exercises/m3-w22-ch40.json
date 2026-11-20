@@ -1,0 +1,32 @@
+{
+  "lessonId": "m3-w22-ch40",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w22-ch40-001",
+      "lessonId": "m3-w22-ch40",
+      "type": "fill-in-blank",
+      "prompt": "Select the correct nisbah adjective formed from مَكَّةُ ('Meccan'):",
+      "choices": ["مَكِّيٌّ", "مَكَّتِيٌّ", "مَكَّةِيٌّ"],
+      "answer": "مَكِّيٌّ",
+      "explanation": "Forming the nisbah removes tāʾ marbūṭah (ة) and suffixes ـِيٌّ: مَكِّيٌّ.",
+      "feedback": { "rule": "Drop ة before adding the nisbah suffix ـِيٌّ." },
+      "skillTags": ["nisbah"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w22-ch40-002",
+      "lessonId": "m3-w22-ch40",
+      "type": "multiple-choice",
+      "prompt": "Which pattern represents an intensive adjectival form (ṣīghat mubālaghah)?",
+      "choices": ["غَفَّارٌ (فَعَّالٌ)", "مَسْجِدٌ (مَفْعِلٌ)", "كِتَابَةٌ (فِعَالَةٌ)"],
+      "answer": "غَفَّارٌ (فَعَّالٌ)",
+      "explanation": "فَعَّالٌ (like غَفَّارٌ, تَوَّابٌ) is a classic intensive pattern denoting abundant/habitual action.",
+      "feedback": { "rule": "Intensive patterns: فَعَّالٌ, فَعُولٌ, فَعِيلٌ, مِفْعَالٌ." },
+      "skillTags": ["intensive-forms"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    }
+  ]
+}

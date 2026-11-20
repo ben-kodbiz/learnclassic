@@ -1,0 +1,51 @@
+{
+  "lessonId": "m3-w24-ch45",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w24-ch45-001",
+      "lessonId": "m3-w24-ch45",
+      "type": "multiple-choice",
+      "prompt": "Identify the accusative function of مُسْرِعًا in خَرَجَ الرَّجُلُ مُسْرِعًا ('The man went out hurrying').",
+      "arabic": "خَرَجَ الرَّجُلُ مُسْرِعًا",
+      "target": "مُسْرِعًا",
+      "choices": [
+        "Ḥāl (circumstantial accusative of manner)",
+        "Mafʿūl muṭlaq (cognate accusative)",
+        "Mafʿūl bihi (direct object)"
+      ],
+      "answer": "Ḥāl (circumstantial accusative of manner)",
+      "explanation": "مُسْرِعًا is an indefinite accusative participle describing the state of the definite subject الرَّجُلُ during the action.",
+      "feedback": {
+        "rule": "Ḥāl = indefinite accusative participle describing a definite antecedent's state.",
+        "caseOrMood": "Accusative (manṣūb)"
+      },
+      "skillTags": ["hal", "mansubat", "nasb"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w24-ch45-002",
+      "lessonId": "m3-w24-ch45",
+      "type": "matching",
+      "prompt": "Match each accusative example to its syntactic category:",
+      "pairs": [
+        { "left": "ذَكَرْتُهُ ذِكْرًا كَثِيرًا", "right": "Mafʿūl Muṭlaq (cognate)" },
+        { "left": "جَاءَ الطَّالِبُ مُبْتَسِمًا", "right": "Ḥāl (circumstantial)" },
+        { "left": "اِزْدَادَ عِلْمًا", "right": "Tamyīz (specification)" },
+        { "left": "قُمْتُ احْتِرَامًا", "right": "Mafʿūl li-Ajlihi (cause)" }
+      ],
+      "answer": {
+        "ذَكَرْتُهُ ذِكْرًا كَثِيرًا": "Mafʿūl Muṭlaq (cognate)",
+        "جَاءَ الطَّالِبُ مُبْتَسِمًا": "Ḥāl (circumstantial)",
+        "اِزْدَادَ عِلْمًا": "Tamyīz (specification)",
+        "قُمْتُ احْتِرَامًا": "Mafʿūl li-Ajlihi (cause)"
+      },
+      "explanation": "These four represent the core adverbial/qualifying accusatives (al-manṣūbāt).",
+      "feedback": { "rule": "Accusative syntax categories (al-manṣūbāt)" },
+      "skillTags": ["mansubat", "nasb"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

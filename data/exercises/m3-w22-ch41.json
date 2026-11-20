@@ -1,0 +1,42 @@
+{
+  "lessonId": "m3-w22-ch41",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w22-ch41-001",
+      "lessonId": "m3-w22-ch41",
+      "type": "matching",
+      "prompt": "Match each part of a classical biographical name to its term:",
+      "pairs": [
+        { "left": "أَبُو عَبْدِ اللَّهِ", "right": "Kunya (teknonym)" },
+        { "left": "مُحَمَّدُ", "right": "Ism (given name)" },
+        { "left": "بْنُ إِسْمَاعِيلَ", "right": "Nasab (lineage)" },
+        { "left": "البُخَارِيُّ", "right": "Nisbah (origin)" }
+      ],
+      "answer": {
+        "أَبُو عَبْدِ اللَّهِ": "Kunya (teknonym)",
+        "مُحَمَّدُ": "Ism (given name)",
+        "بْنُ إِسْمَاعِيلَ": "Nasab (lineage)",
+        "البُخَارِيُّ": "Nisbah (origin)"
+      },
+      "explanation": "Classical names distinguish kunya, ism, nasab, laqab, and nisbah.",
+      "feedback": { "rule": "Classical Arabic personal name structure" },
+      "skillTags": ["proper-names"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w22-ch41-002",
+      "lessonId": "m3-w22-ch41",
+      "type": "true-false",
+      "prompt": "True or False: Between two personal names on the same line (e.g., عُمَرُ بْنُ الخَطَّابِ), the initial alif of ابْنُ is dropped.",
+      "choices": ["True", "False"],
+      "answer": "True",
+      "explanation": "True. Orthographic convention drops the initial alif of ابْنُ when it stands between a son's and father's name.",
+      "feedback": { "rule": "Drop alif of ابْنُ between two proper names." },
+      "skillTags": ["proper-names", "orthography"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

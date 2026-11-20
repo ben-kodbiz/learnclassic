@@ -1,0 +1,41 @@
+{
+  "lessonId": "m3-w25-ch47",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w25-ch47-001",
+      "lessonId": "m3-w25-ch47",
+      "type": "multiple-choice",
+      "prompt": "How does changing the preposition alter the meaning of رَغِبَ?",
+      "choices": [
+        "رَغِبَ فِي = 'to desire'; رَغِبَ عَنْ = 'to turn away from / dislike'",
+        "Both mean 'to desire'",
+        "رَغِبَ فِي = 'to dislike'; رَغِبَ عَنْ = 'to desire'"
+      ],
+      "answer": "رَغِبَ فِي = 'to desire'; رَغِبَ عَنْ = 'to turn away from / dislike'",
+      "explanation": "Classical Arabic verbs frequently shift or invert meaning depending on the governing preposition.",
+      "feedback": { "rule": "Verb–preposition idioms: رَغِبَ فِي (desire) vs. رَغِبَ عَنْ (shun)." },
+      "skillTags": ["prepositions", "idioms"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w25-ch47-002",
+      "lessonId": "m3-w25-ch47",
+      "type": "fill-in-blank",
+      "prompt": "Identify the case of أَمَامَ and المُعَلِّمِ in جَلَسَ الطَّالِبُ أَمَامَ المُعَلِّمِ:",
+      "arabic": "جَلَسَ الطَّالِبُ أَمَامَ المُعَلِّمِ",
+      "choices": [
+        "أَمَامَ = Accusative ẓarf (muḍāf); المُعَلِّمِ = Genitive muḍāf ilayh",
+        "Both are genitive",
+        "Both are accusative"
+      ],
+      "answer": "أَمَامَ = Accusative ẓarf (muḍāf); المُعَلِّمِ = Genitive muḍāf ilayh",
+      "explanation": "Locative nouns (ẓurūf) take the adverbial accusative and annex the following noun in the genitive.",
+      "feedback": { "rule": "Ẓarf (manṣūb, muḍāf) + muḍāf ilayh (majrūr)." },
+      "skillTags": ["zuruf", "idafah"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

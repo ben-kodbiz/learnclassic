@@ -1,0 +1,32 @@
+{
+  "lessonId": "m3-w22-ch43",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w22-ch43-001",
+      "lessonId": "m3-w22-ch43",
+      "type": "multiple-choice",
+      "prompt": "Which pattern is a plural of paucity (jamʿ al-qillah, denoting 3–10)?",
+      "choices": ["أَشْهُرٌ (أَفْعُلٌ)", "شُهُورٌ (فُعُولٌ)", "مَسَاجِدُ (مَفَاعِلُ)"],
+      "answer": "أَشْهُرٌ (أَفْعُلٌ)",
+      "explanation": "The four patterns of paucity are أَفْعُلٌ, أَفْعَالٌ, أَفْعِلَةٌ, and فِعْلَةٌ.",
+      "feedback": { "rule": "Jamʿ al-qillah = أَفْعُلٌ, أَفْعَالٌ, أَفْعِلَةٌ, فِعْلَةٌ." },
+      "skillTags": ["plurals-of-paucity"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w22-ch43-002",
+      "lessonId": "m3-w22-ch43",
+      "type": "true-false",
+      "prompt": "True or False: أَقَاوِيلُ (from أَقْوَالٌ, from قَوْلٌ) is an example of a plural of a plural (jamʿ al-jamʿ).",
+      "choices": ["True", "False"],
+      "answer": "True",
+      "explanation": "True. Classical Arabic occasionally forms a secondary plural on a broken plural to indicate abundance.",
+      "feedback": { "rule": "Jamʿ al-jamʿ is formed from an existing broken plural." },
+      "skillTags": ["plurals-of-paucity"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "lessonId": "m3-w25-ch48",
+  "reviewStatus": "pending",
+  "exercises": [
+    {
+      "id": "ex-m3-w25-ch48-001",
+      "lessonId": "m3-w25-ch48",
+      "type": "fill-in-blank",
+      "prompt": "Vocalize the nominal sentence after إِنَّ ('Indeed, patience is the key to relief'):",
+      "arabic": "إِنَّ _____ مِفْتَاحُ الفَرَجِ",
+      "choices": ["الصَّبْرَ", "الصَّبْرُ", "الصَّبْرِ"],
+      "answer": "الصَّبْرَ",
+      "explanation": "إِنَّ governs its subject (ism inna) in the ACCUSATIVE (fatḥah) while leaving its predicate (مِفْتَاحُ) nominative.",
+      "feedback": {
+        "rule": "إِنَّ makes ism inna accusative (manṣūb) and keeps khabar inna nominative (marfūʿ).",
+        "governor": "إِنَّ"
+      },
+      "skillTags": ["inna", "nasb"],
+      "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m3-w25-ch48-002",
+      "lessonId": "m3-w25-ch48",
+      "type": "true-false",
+      "prompt": "True or False: Attaching emphatic لَـ (al-lām al-muzaḥlaqah) to khabar inna (e.g., إِنَّ اللَّهَ لَغَفُورٌ) changes its case to genitive.",
+      "arabic": "إِنَّ اللَّهَ لَغَفُورٌ",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "False. Al-lām al-muzaḥlaqah is a particle of emphasis, not a preposition; khabar inna remains nominative (لَغَفُورٌ).",
+      "feedback": { "rule": "Emphatic لَـ on khabar inna does not alter its nominative case." },
+      "skillTags": ["inna", "raf"],
+      "difficulty": 2,
+      "reviewStatus": "pending"
+    }
+  ]
+}
