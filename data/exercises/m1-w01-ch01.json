@@ -6,7 +6,7 @@
       "id": "ex-m1-w01-ch01-001",
       "lessonId": "m1-w01-ch01",
       "type": "multiple-choice",
-      "prompt": "How is the definite article أَلْ pronounced in الشَّمْسُ?",
+      "prompt": "How is the definite article (الـ) pronounced in الشَّمْسُ?",
       "arabic": "الشَّمْسُ",
       "choices": [
         "ash-shamsu (lām assimilates into shīn)",
@@ -14,9 +14,9 @@
         "a-shamsu (single shīn without doubling)"
       ],
       "answer": "ash-shamsu (lām assimilates into shīn)",
-      "explanation": "ش is a solar letter (ḥarf shamsī), so the lām of أَلْ assimilates completely into ش, which is pronounced doubled (shaddah): ash-shamsu.",
+      "explanation": "ش is a solar letter (ḥarf shamsī), so the lām of the definite article (الـ) assimilates completely into ش, which is pronounced doubled (shaddah): ash-shamsu.",
       "feedback": {
-        "rule": "Solar letters assimilate the lām of أَلْ and take shaddah.",
+        "rule": "Solar letters assimilate the lām of the definite article (الـ) and take shaddah.",
         "commonError": "Pronouncing the lām before a solar letter or omitting the shaddah."
       },
       "skillTags": ["phonetics", "solar-lunar"],
@@ -61,6 +61,22 @@
       },
       "skillTags": ["orthography"],
       "difficulty": 1,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "ex-m1-w01-ch01-004",
+      "lessonId": "m1-w01-ch01",
+      "type": "typed-arabic",
+      "prompt": "Active Recall: Type the Arabic word for 'the sun' with the definite article (with or without tashkīl):",
+      "answer": "الشَّمْسُ",
+      "acceptableAnswers": ["الشمس", "الشَّمْس", "ٱلشَّمْسُ", "ٱلشمس"],
+      "explanation": "The word for 'the sun' is الشَّمْسُ. Notice that because ش is a solar letter, in pronunciation the lām assimilates, giving ash-shamsu.",
+      "feedback": {
+        "rule": "Solar assimilation doubles the solar letter (shaddah) after the definite article (الـ).",
+        "commonError": "Remember to write the lām in script even though it assimilates in pronunciation."
+      },
+      "skillTags": ["active-recall", "orthography", "solar-lunar"],
+      "difficulty": 2,
       "reviewStatus": "pending"
     }
   ]

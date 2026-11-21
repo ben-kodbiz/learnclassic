@@ -98,6 +98,76 @@
       "termArabic": "تَنْوِين",
       "definition": "A doubled short vowel (-un, -an, -in) at the end of a fully declinable indefinite noun.",
       "lessonIds": ["m1-w01-ch02", "m3-w23-ch44"]
+    },
+    {
+      "id": "sarf",
+      "term": "Ṣarf (Morphology)",
+      "termArabic": "صَرْف",
+      "definition": "The science of internal word structure, root derivation, and morphological patterns (awzān).",
+      "lessonIds": ["m1-w03-ch06", "m2-w11-ch19"]
+    },
+    {
+      "id": "nahw",
+      "term": "Naḥw (Syntax)",
+      "termArabic": "نَحْو",
+      "definition": "The science of clause structure, sentence boundaries, word order, and syntactic governance.",
+      "lessonIds": ["m1-w01-ch02", "m1-w06-ch12"]
+    },
+    {
+      "id": "irab",
+      "term": "Iʿrāb (Desinential Inflection)",
+      "termArabic": "إِعْرَاب",
+      "definition": "The vocalization of final case (on nouns) and mood (on verbs) vowels or letters reflecting syntactic governance.",
+      "lessonIds": ["m1-w02-ch04", "m1-w08-cons", "m3-w26-supp"]
+    },
+    {
+      "id": "amil",
+      "term": "ʿĀmil (Governing Factor)",
+      "termArabic": "عَامِل",
+      "definition": "A syntactic regent (such as a verb, preposition, inna, or conditional particle) that causes a word to take a specific case or mood.",
+      "lessonIds": ["m1-w02-ch04", "m2-w09-ch15", "m3-w25-ch48"]
+    },
+    {
+      "id": "naat",
+      "term": "Naʿt (Attributive Adjective)",
+      "termArabic": "نَعْت",
+      "definition": "A descriptive follower that agrees with its antecedent noun in four respects: gender, number, case, and definiteness.",
+      "lessonIds": ["m1-w06-ch11"]
+    },
+    {
+      "id": "hal",
+      "term": "Ḥāl (Circumstantial Accusative)",
+      "termArabic": "حَال",
+      "definition": "An accusative noun, participle, or clause describing the state or manner of the subject or object during an action.",
+      "lessonIds": ["m3-w24-ch45"]
+    },
+    {
+      "id": "tamyiz",
+      "term": "Tamyīz (Specification / Clarification)",
+      "termArabic": "تَمْيِيز",
+      "definition": "An indefinite accusative noun that clarifies ambiguity in quantity, dimension, counted numbers, or vague comparative statements.",
+      "lessonIds": ["m3-w20-ch36", "m3-w24-ch45"]
+    },
+    {
+      "id": "badal",
+      "term": "Badal (Appositive Permutative)",
+      "termArabic": "بَدَل",
+      "definition": "A syntactic substitute or appositive that follows an antecedent (mubdal minhu) and shares its grammatical case without an intervening conjunction.",
+      "lessonIds": ["m3-w24-ch46"]
+    },
+    {
+      "id": "sila",
+      "term": "Ṣilah (Relative Clause)",
+      "termArabic": "صِلَة",
+      "definition": "A clause attached to a relative pronoun (al-mawṣūl) containing a returning pronoun (al-ʿāʾid) that refers back to the antecedent.",
+      "lessonIds": ["m3-w18-ch34"]
+    },
+    {
+      "id": "wazn",
+      "term": "Wazn (Morphological Metric Paradigm)",
+      "termArabic": "وَزْن",
+      "definition": "A phonetic template based on the triliteral template f-ʿ-l (ف-ع-ل) representing metric weight, vocalic patterns, and augments.",
+      "lessonIds": ["m1-w03-ch06", "m2-w11-ch19"]
     }
   ]
 }

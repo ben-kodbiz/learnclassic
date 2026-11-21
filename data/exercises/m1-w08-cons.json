@@ -6,7 +6,7 @@
       "id": "ex-m1-w08-cons-001",
       "lessonId": "m1-w08-cons",
       "type": "multiple-choice",
-      "prompt": "In قَرَأَ الطَّالِبُ كِتَابَ التَّارِيخِ, why does كِتَابَ end in a single fatḥah without أَلْ or tanwīn?",
+      "prompt": "In قَرَأَ الطَّالِبُ كِتَابَ التَّارِيخِ, why does كِتَابَ end in a single fatḥah without the definite article (الـ) or tanwīn?",
       "arabic": "قَرَأَ الطَّالِبُ كِتَابَ التَّارِيخِ",
       "target": "كِتَابَ",
       "choices": [
@@ -15,9 +15,9 @@
         "It is the subject of the verb"
       ],
       "answer": "It is the direct object (accusative) AND the muḍāf of an iḍāfah",
-      "explanation": "كِتَابَ receives the action of قَرَأَ (so it is accusative, -a) and is annexed to التَّارِيخِ (so as muḍāf it drops أَلْ and tanwīn).",
+      "explanation": "كِتَابَ receives the action of قَرَأَ (so it is accusative, -a) and is annexed to التَّارِيخِ (so as muḍāf it drops the definite article (الـ) and tanwīn).",
       "feedback": {
-        "rule": "A noun's case comes from its sentence role; iḍāfah strips أَلْ and tanwīn from the muḍāf.",
+        "rule": "A noun's case comes from its sentence role; iḍāfah strips the definite article (الـ) and tanwīn from the muḍāf.",
         "governor": "قَرَأَ (governs naṣb) + iḍāfah",
         "role": "Mafʿūl bihi & Muḍāf",
         "caseOrMood": "Accusative (manṣūb) marked by fatḥah"

@@ -41,6 +41,11 @@
   "conventions": {
     "transliteration": "Academic Latin transliteration with macrons (ā, ī, ū), underdots (ḥ, ṣ, ḍ, ṭ, ẓ), hamza (ʾ), and ʿayn (ʿ). Arabic script with full tashkīl remains primary.",
     "reviewStatuses": ["pending", "reviewed", "verified"],
+    "reviewStatusDefinitions": {
+      "pending": "Drafted; not yet checked by an appropriately qualified Arabic reviewer.",
+      "reviewed": "Checked by a qualified reviewer with corrections or comments recorded; may await secondary verification.",
+      "verified": "Approved against Classical Arabic linguistic standards by an appropriately qualified reviewer."
+    },
     "chapterOrderNote": "Haywood & Nahmad Chapters 1–52 + Literary Supplement are mapped across 26 weeks alongside Karin C. Ryding Chapters 1–39 & Appendices I–II. Original textbook chapter numbers are preserved."
   },
   "totalWeeks": 26,

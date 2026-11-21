@@ -48,6 +48,14 @@ function main() {
     assert(mod.moduleId === modMeta.id, `moduleId mismatch in ${modMeta.dataFile}`);
     assert(Array.isArray(mod.weeks) && mod.weeks.length > 0, `No weeks in ${modMeta.dataFile}`);
 
+    const modWeeks = mod.weeks.map((w) => w.week);
+    const minWk = Math.min(...modWeeks);
+    const maxWk = Math.max(...modWeeks);
+    assert(
+      modMeta.weekRange[0] === minWk && modMeta.weekRange[1] === maxWk,
+      `Module ${modMeta.id} weekRange [${modMeta.weekRange}] does not match weeks contained [${minWk}, ${maxWk}]`
+    );
+
     for (const weekObj of mod.weeks) {
       assert(Number.isInteger(weekObj.week), `Invalid week number in ${modMeta.id}`);
       assert(!seenWeeks.has(weekObj.week), `Duplicate week ${weekObj.week}`);
@@ -68,6 +76,14 @@ function main() {
         );
         assert(Array.isArray(ch.coreRules) && ch.coreRules.length > 0, `Missing coreRules on ${ch.id}`);
         assert(validStatuses.has(ch.reviewStatus), `Invalid reviewStatus on ${ch.id}`);
+
+        // Verify lesson and exercise files exist for every chapter
+        const lessonPath = path.join(rootDir, "data", "lessons", `${ch.id}.json`);
+        assert(fs.existsSync(lessonPath), `Missing lesson file for chapter ${ch.id} at ${lessonPath}`);
+
+        const exercisePath = path.join(rootDir, "data", "exercises", `${ch.id}.json`);
+        assert(fs.existsSync(exercisePath), `Missing exercise file for chapter ${ch.id} at ${exercisePath}`);
+
         allChapters.push(ch);
       }
     }

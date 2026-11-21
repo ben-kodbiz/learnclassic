@@ -10,7 +10,7 @@
   "objectives": [
     "Identify short vowels (fatḥah, kasrah, ḍammah) and auxiliary signs (sukūn, shaddah, maddah).",
     "Distinguish hamzat al-qaṭʿ (disjunctive) from hamzat al-waṣl (elidable) in connected reading.",
-    "Apply solar (shamsiyyah) and lunar (qamariyyah) assimilation rules with the definite article أَلْ."
+    "Apply solar (shamsiyyah) and lunar (qamariyyah) assimilation rules with the definite article الـ (al-)."
   ],
   "recallPrompt": "Why does Classical Arabic require vocalizing short vowel endings rather than dropping them in pause?",
   "glossaryTerms": ["harf", "tanwin"],
@@ -24,7 +24,7 @@
       "type": "rule",
       "label": "Solar vs. Lunar Assimilation",
       "arabicTerm": "الحُرُوفُ الشَّمْسِيَّةُ وَالقَمَرِيَّةُ",
-      "summary": "Before the 14 solar letters (ت ث د ذ ر ز س ش ص ض ط ظ ل ن), the lām of أَلْ assimilates completely into the following consonant, which takes shaddah. Before the 14 lunar letters, the lām is pronounced clearly with sukūn."
+      "summary": "Before the 14 solar letters (ت ث د ذ ر ز س ش ص ض ط ظ ل ن), the lām of the definite article (الـ / ٱلْـ) assimilates completely into the following consonant, which takes shaddah. Before the 14 lunar letters, the lām is pronounced clearly with sukūn. Note: The article begins with hamzat al-waṣl and is orthographically written الـ (or ٱلـ with waṣlah), never with hamzat al-qaṭʿ (أ)."
     },
     {
       "type": "table",
@@ -50,7 +50,7 @@
       "type": "callout",
       "variant": "tip",
       "heading": "Qur'anic Reading Habit",
-      "body": "Always read shaddah as two full consonant beats (e.g., أَلشَّمْسُ = ash-shamsu, not a-shamsu). Dropping a shaddah changes word meaning and root structure."
+      "body": "Always read shaddah as two full consonant beats (e.g., الشَّمْسُ = ash-shamsu, not a-shamsu; written with waṣlah as ٱلشَّمْسُ). Dropping a shaddah changes word meaning and root structure."
     }
   ]
 }

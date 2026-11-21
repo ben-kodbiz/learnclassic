@@ -4,27 +4,28 @@
   "week": 1,
   "chapter": 2,
   "title": "The Definite Article & The Nominal Sentence",
-  "titleArabic": "أَلْ التَّعْرِيفِ وَالجُمْلَةُ الاسْمِيَّةُ",
+  "titleArabic": "لاَمُ التَّعْرِيفِ وَالجُمْلَةُ الاسْمِيَّةُ",
   "reviewStatus": "pending",
   "source": "Original instructional lesson authored for this application (syllabus ref: Haywood & Nahmad Ch. 2; Ryding Ch. 4 §§4.1–4.2)",
   "objectives": [
-    "Distinguish indefinite nouns marked by tanwīn from definite nouns prefixed with al-.",
-    "Identify the mubtadaʾ (subject) and khabar (predicate) in an equational nominal sentence.",
-    "Explain why Arabic requires no present-tense copula ('is/are') in basic nominal clauses."
+    "Distinguish indefinite nouns marked by tanwīn from definite nouns prefixed with the definite article (الـ).",
+    "Identify the mubtadaʾ (subject) and khabar (predicate) in an introductory equational nominal sentence.",
+    "Explain why Arabic requires no present-tense copula ('is/are') in basic nominal clauses.",
+    "Understand the common introductory definite + indefinite pattern while recognizing that other predicate forms exist."
   ],
-  "recallPrompt": "From Chapter 1: When reading أَلشَّمْسُ aloud, does the lām of أَلْ remain silent or pronounced, and why?",
+  "recallPrompt": "From Chapter 1: When reading الشَّمْسُ aloud, does the lām of the definite article (الـ) remain silent or pronounced, and why?",
   "glossaryTerms": ["ism", "mubtada", "khabar", "tanwin", "raf"],
   "sections": [
     {
       "type": "explanation",
       "heading": "Definiteness and Nunation (Tanwīn)",
-      "body": "Classical Arabic has no separate word for the indefinite article ('a' or 'an'). Instead, an indefinite singular noun carries nunation (tanwīn)—a doubled vowel ending (-un, -an, or -in). Prefixing the definite article أَلْ (al-, 'the') makes the noun definite and removes tanwīn."
+      "body": "Classical Arabic has no separate word for the indefinite article ('a' or 'an'). Instead, an indefinite singular noun carries nunation (tanwīn)—a doubled vowel ending (-un, -an, or -in). Prefixing the definite article الـ (al-, 'the'; with hamzat al-waṣl: ٱلـ) makes the noun definite and removes tanwīn."
     },
     {
       "type": "rule",
-      "label": "Definiteness & Zero-Copula Rule",
+      "label": "Basic Equational Sentence Pattern",
       "arabicTerm": "المُبْتَدَأُ وَالخَبَرُ",
-      "summary": "A basic equational nominal sentence (al-jumlah al-ismiyyah) pairs a definite nominative subject (mubtadaʾ) with an indefinite nominative predicate (khabar), with no verb 'to be' in the present tense."
+      "summary": "The foundational pattern for an equational nominal sentence (al-jumlah al-ismiyyah) pairs a definite nominative subject (mubtadaʾ) with an indefinite nominative predicate (khabar), with no overt verb 'to be' in the present tense. Indefiniteness on the predicate serves in this introductory construction to clearly distinguish the statement from an attributive noun-adjective phrase."
     },
     {
       "type": "table",
@@ -42,7 +43,7 @@
       "transliteration": "al-ʿilmu nūrun",
       "translation": "Knowledge is light.",
       "irab": "العِلْمُ: مُبْتَدَأٌ مَرْفُوعٌ بِالضَّمَّةِ | نُورٌ: خَبَرٌ مَرْفُوعٌ بِالضَّمَّةِ",
-      "notes": "Both words are nominative (marfūʿ). Definiteness on the first word and indefiniteness on the second signals a complete equational sentence rather than a phrase.",
+      "notes": "Both words are nominative (marfūʿ). In this basic introductory pattern, definiteness on the first word and indefiniteness on the second signals a complete equational sentence rather than a phrase.",
       "reviewStatus": "pending"
     },
     {
@@ -59,6 +60,12 @@
       "variant": "tip",
       "heading": "Phrase vs. Sentence Check",
       "body": "Always check the definiteness of both words: 'العِلْمُ النَّافِعُ' (both definite) is a noun phrase ('the beneficial knowledge'), whereas 'العِلْمُ نَافِعٌ' (definite + indefinite) is a complete sentence ('Knowledge is beneficial')."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "heading": "Advanced Note: Other Valid Predicate Forms",
+      "body": "While beginners start with an indefinite singular khabar (e.g. العِلْمُ نُورٌ) to clearly distinguish a sentence from an attributive phrase, the predicate in Classical Arabic is not restricted to indefinite nouns. Later chapters explore: (1) Definite predicates for identity or rhetorical restriction / qaṣr (e.g. اللَّهُ الصَّمَدُ, أَنْتَ الصَّدِيقُ); (2) Prepositional and adverbial phrases (shibh jumlah, e.g. الرَّجُلُ فِي الدَّارِ); and (3) Verbal sentences functioning as predicate."
     }
   ]
 }

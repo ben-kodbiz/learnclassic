@@ -24,12 +24,12 @@
       "id": "ex-m1-w05-ch09-002",
       "lessonId": "m1-w05-ch09",
       "type": "true-false",
-      "prompt": "True or False: A noun with an attached possessive pronoun (such as كِتَابُهُ) may also take the definite article أَلْ (الكِتَابُهُ).",
+      "prompt": "True or False: A noun with an attached possessive pronoun (such as كِتَابُهُ) may also take the definite article الـ (الكِتَابُهُ).",
       "choices": ["True", "False"],
       "answer": "False",
-      "explanation": "False. The attached pronoun functions as a muḍāf ilayh, so the noun acts as muḍāf and never takes أَلْ or tanwīn.",
+      "explanation": "False. The attached pronoun functions as a muḍāf ilayh, so the noun acts as muḍāf and never takes the definite article (الـ) or tanwīn.",
       "feedback": {
-        "rule": "Noun + attached pronoun = iḍāfah (no أَلْ, no tanwīn)."
+        "rule": "Noun + attached pronoun = iḍāfah (no الـ, no tanwīn)."
       },
       "skillTags": ["attached-pronouns", "idafah"],
       "difficulty": 1,

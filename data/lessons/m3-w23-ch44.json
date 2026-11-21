@@ -10,7 +10,7 @@
   "objectives": [
     "Explain how diptotes differ from fully declinable triptotes in case endings and nunation.",
     "Identify major morphological and semantic categories of diptotes (foreign names, afʿal adjectives, mafāʿil/mafāʿīl plurals).",
-    "Apply the reversion rule when a diptote takes أَلْ or serves as muḍāf in an iḍāfah."
+    "Apply the reversion rule when a diptote takes the definite article (الـ) or serves as muḍāf in an iḍāfah."
   ],
   "recallPrompt": "From Chapter 4: What case ending does a regular indefinite singular noun take after a preposition such as فِي or إِلَى?",
   "glossaryTerms": ["mamnu-min-al-sarf", "tanwin", "jarr", "idafah"],
@@ -24,7 +24,7 @@
       "type": "rule",
       "label": "The Diptote Reversion Rule",
       "arabicTerm": "عَوْدَةُ المَمْنُوعِ مِنَ الصَّرْفِ إِلَى الجَرِّ بِالكَسْرَةِ",
-      "summary": "An indefinite diptote takes fatḥah in the genitive (e.g., فِي مَسَاجِدَ). However, if it is prefixed by أَلْ or functions as the muḍāf of an iḍāfah, it reverts to full triptote declension and takes kasrah in the genitive."
+      "summary": "An indefinite diptote takes fatḥah in the genitive (e.g., فِي مَسَاجِدَ). However, if it is prefixed by the definite article (الـ) or functions as the muḍāf of an iḍāfah, it reverts to full triptote declension and takes kasrah in the genitive."
     },
     {
       "type": "table",

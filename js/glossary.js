@@ -2,6 +2,8 @@
  * Loads glossary.json and renders the searchable Glossary view (#/glossary).
  */
 
+import { normalizeArabic } from "./arabic-utils.js";
+
 let glossaryCache = null;
 
 export async function loadGlossary() {
@@ -19,10 +21,17 @@ export function getGlossaryById(glossary, id) {
 }
 
 export function renderGlossaryView(glossary, curriculum, query, esc) {
-  const q = (query || "").trim().toLowerCase();
+  const rawQ = (query || "").trim();
+  const qLower = rawQ.toLowerCase();
+  const qNormAr = normalizeArabic(rawQ);
+
   const terms = (glossary?.terms || []).filter((t) => {
-    if (!q) return true;
-    return [t.term, t.termArabic, t.definition].join(" ").toLowerCase().includes(q);
+    if (!rawQ) return true;
+    const textEn = [t.term, t.definition].join(" ").toLowerCase();
+    if (textEn.includes(qLower)) return true;
+    const textAr = normalizeArabic(t.termArabic);
+    if (textAr.includes(qNormAr)) return true;
+    return false;
   });
 
   const cards = terms.length

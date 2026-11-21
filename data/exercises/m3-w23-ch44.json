@@ -37,7 +37,7 @@
       "answer": "مَسَاجِدِ",
       "explanation": "Under the diptote reversion rule, serving as the muḍāf of an iḍāfah restores regular genitive kasrah: مَسَاجِدِ.",
       "feedback": {
-        "rule": "Diptotes revert to taking kasrah in the genitive when prefixed by أَلْ or when serving as muḍāf.",
+        "rule": "Diptotes revert to taking kasrah in the genitive when prefixed by the definite article (الـ) or when serving as muḍāf.",
         "governor": "فِي (preposition) + iḍāfah annexation",
         "caseOrMood": "Genitive (majrūr) marked by kasrah",
         "commonError": "Leaving fatḥah (مَسَاجِدَ) when annexed violates the diptote reversion rule."

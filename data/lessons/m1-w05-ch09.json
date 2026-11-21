@@ -12,13 +12,13 @@
     "Attach pronominal suffixes to prepositions (e.g., لَهُ, مِنْهُ, فِيهِ).",
     "Apply the vowel-harmony shift in 3rd-person suffixes (-hu / -hum → -hi / -him) after kasrah or yāʾ."
   ],
-  "recallPrompt": "From Chapter 8: Why does a noun lose أَلْ and tanwīn when it serves as muḍāf?",
+  "recallPrompt": "From Chapter 8: Why does a noun lose the definite article (الـ) and tanwīn when it serves as muḍāf?",
   "glossaryTerms": ["idafah", "jarr", "harf"],
   "sections": [
     {
       "type": "explanation",
       "heading": "Enclitic Pronouns on Nouns and Prepositions",
-      "body": "Arabic uses attached pronominal suffixes (al-ḍamāʾir al-muttaṣilah) rather than separate possessive adjectives ('my', 'his', 'their'). Attached to a noun, the suffix acts as the muḍāf ilayh—so the noun drops أَلْ and tanwīn. Attached to a preposition, the suffix serves as its genitive object."
+      "body": "Arabic uses attached pronominal suffixes (al-ḍamāʾir al-muttaṣilah) rather than separate possessive adjectives ('my', 'his', 'their'). Attached to a noun, the suffix acts as the muḍāf ilayh—so the noun drops the definite article (الـ) and tanwīn. Attached to a preposition, the suffix serves as its genitive object."
     },
     {
       "type": "rule",

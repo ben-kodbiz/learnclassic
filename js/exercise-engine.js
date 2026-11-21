@@ -5,6 +5,7 @@
  * immediate explanatory feedback and retry of incorrect answers.
  */
 
+import { hasArabic, normalizeArabic, stripTashkeel } from "./arabic-utils.js";
 import { renderFeedbackHtml } from "./feedback.js";
 import { recordExerciseAttempt } from "./storage.js";
 
@@ -15,6 +16,8 @@ const ALLOWED_TYPES = new Set([
   "fill-in-blank",
   "matching",
   "word-ordering",
+  "typed-arabic",
+  "text-input",
 ]);
 
 export function validateExerciseSet(data, expectedLessonId) {
@@ -47,6 +50,13 @@ export function validateExerciseSet(data, expectedLessonId) {
     if (ex.type === "word-ordering" && (!Array.isArray(ex.tokens) || !Array.isArray(ex.answer))) {
       throw new Error(`Word-ordering exercise '${ex.id}' requires tokens and answer arrays.`);
     }
+    if (
+      (ex.type === "typed-arabic" || ex.type === "text-input") &&
+      typeof ex.answer !== "string" &&
+      !Array.isArray(ex.answer)
+    ) {
+      throw new Error(`Typed exercise '${ex.id}' requires a string or array answer.`);
+    }
   }
   return data;
 }
@@ -69,10 +79,6 @@ export async function loadExercises(lessonId) {
   const validated = validateExerciseSet(raw, lessonId);
   exerciseCache.set(lessonId, validated);
   return validated;
-}
-
-function hasArabic(text) {
-  return /[\u0600-\u06FF]/.test(String(text || ""));
 }
 
 function renderExerciseInput(ex, state, esc) {
@@ -162,6 +168,59 @@ function renderExerciseInput(ex, state, esc) {
     `;
   }
 
+  if (ex.type === "typed-arabic" || ex.type === "text-input") {
+    const userVal = state.answers[ex.id] || "";
+    const isArabic = ex.type === "typed-arabic" || hasArabic(ex.answer) || hasArabic(ex.prompt);
+    const dir = isArabic ? "rtl" : "ltr";
+    const lang = isArabic ? 'lang="ar"' : 'lang="en"';
+    const placeholder = isArabic ? "اكتب الإجابة هنا…" : "Type your answer here…";
+
+    const diacriticsToolbar = isArabic && !state.checked[ex.id]
+      ? `
+        <div class="arabic-virtual-keys" aria-label="Arabic diacritics shortcuts">
+          <span class="keys-label">Insert Tashkīl:</span>
+          ${[
+            ["ـَ", "fatḥah", "\u064E"],
+            ["ـُ", "ḍammah", "\u064F"],
+            ["ـِ", "kasrah", "\u0650"],
+            ["ـْ", "sukūn", "\u0652"],
+            ["ـّ", "shaddah", "\u0651"],
+            ["ـً", "tanwīn fatḥ", "\u064B"],
+            ["ـٌ", "tanwīn ḍamm", "\u064C"],
+            ["ـٍ", "tanwīn kasr", "\u064D"],
+            ["ٱ", "hamzat al-waṣl", "\u0671"],
+          ]
+            .map(
+              ([glyph, name, code]) =>
+                `<button type="button" class="btn btn-key insert-diacritic-btn" data-ex-id="${esc(ex.id)}" data-char="${esc(code)}" title="${esc(name)}">${esc(glyph)}</button>`
+            )
+            .join("")}
+        </div>
+      `
+      : "";
+
+    return `
+      <div class="typed-input-wrap">
+        <input
+          type="text"
+          id="input-${esc(ex.id)}"
+          class="text-input typed-exercise-input"
+          data-ex-id="${esc(ex.id)}"
+          ${lang}
+          dir="${dir}"
+          placeholder="${esc(placeholder)}"
+          value="${esc(userVal)}"
+          ${state.checked[ex.id] ? "disabled" : ""}
+          autocomplete="off"
+          autocorrect="off"
+          autocapitalize="off"
+          spellcheck="false"
+        >
+        ${diacriticsToolbar}
+      </div>
+    `;
+  }
+
   return "";
 }
 
@@ -176,6 +235,29 @@ function evaluateAnswer(ex, userAnswer) {
   if (ex.type === "word-ordering") {
     if (!Array.isArray(userAnswer) || userAnswer.length !== ex.answer.length) return false;
     return ex.answer.every((tok, idx) => userAnswer[idx] === tok);
+  }
+  if (ex.type === "typed-arabic" || ex.type === "text-input") {
+    if (userAnswer === undefined || userAnswer === null) return false;
+    const trimmed = String(userAnswer).trim();
+    if (!trimmed) return false;
+
+    const acceptable = Array.isArray(ex.answer) ? [...ex.answer] : [ex.answer];
+    if (Array.isArray(ex.acceptableAnswers)) {
+      acceptable.push(...ex.acceptableAnswers);
+    }
+
+    if (ex.strictTashkeel) {
+      return acceptable.some((ans) => String(ans).trim() === trimmed);
+    }
+
+    return acceptable.some((ans) => {
+      const ansStr = String(ans).trim();
+      if (ansStr === trimmed) return true;
+      if (ansStr.toLowerCase() === trimmed.toLowerCase()) return true;
+      const normAns = normalizeArabic(ansStr, { normalizeTaaMarbutah: true });
+      const normUser = normalizeArabic(trimmed, { normalizeTaaMarbutah: true });
+      return normAns === normUser;
+    });
   }
   return false;
 }
@@ -210,7 +292,7 @@ export function renderExerciseSection(exerciseSet, state, esc) {
                 : `<button type="button" class="btn btn-secondary retry-one-btn" data-ex-id="${esc(ex.id)}">Try Again</button>`
             }
           </div>
-          ${isChecked ? renderFeedbackHtml(ex, Boolean(isCorrect), esc) : ""}
+          ${isChecked ? renderFeedbackHtml(ex, Boolean(isCorrect), esc, state.answers[ex.id]) : ""}
         </article>
       `;
     })
@@ -250,6 +332,38 @@ export function bindExerciseEvents(container, exerciseSet, state, onUpdate) {
     input.addEventListener("change", (e) => {
       const exId = e.target.name.replace(/^q-/, "");
       state.answers[exId] = e.target.value;
+    });
+  });
+
+  container.querySelectorAll(".typed-exercise-input").forEach((input) => {
+    const exId = input.dataset.exId;
+    input.addEventListener("input", (e) => {
+      state.answers[exId] = e.target.value;
+    });
+    input.addEventListener("change", (e) => {
+      state.answers[exId] = e.target.value;
+    });
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" && !state.checked[exId]) {
+        e.preventDefault();
+        const checkBtn = container.querySelector(`.check-ex-btn[data-ex-id="${exId}"]`);
+        checkBtn?.click();
+      }
+    });
+  });
+
+  container.querySelectorAll(".insert-diacritic-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const { exId, char } = btn.dataset;
+      const input = container.querySelector(`#input-${exId}`);
+      if (!input || state.checked[exId]) return;
+      const start = input.selectionStart ?? input.value.length;
+      const end = input.selectionEnd ?? input.value.length;
+      const val = input.value;
+      input.value = val.slice(0, start) + char + val.slice(end);
+      input.selectionStart = input.selectionEnd = start + char.length;
+      state.answers[exId] = input.value;
+      input.focus();
     });
   });
 

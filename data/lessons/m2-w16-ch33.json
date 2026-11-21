@@ -24,7 +24,7 @@
       "type": "rule",
       "label": "4-Step Root Extraction Method",
       "arabicTerm": "تَجْرِيدُ الجَذْرِ",
-      "summary": "1) Strip inflectional prefixes/suffixes (أَلْ, بـ, تـ, ـون, ـات, ـة). 2) Strip derivational augments (حُرُوفُ الزِّيَادَةِ, mnemonic: سَأَلْتُمُونِيهَا). 3) If fewer than 3 consonants remain, restore an elided weak radical (و/ي), uncontract a shaddah, or check Form VIII تّ → و. 4) Look up the root in alphabetical order."
+      "summary": "1) Strip inflectional prefixes/suffixes (الـ, بـ, تـ, ـون, ـات, ـة). 2) Strip derivational augments (حُرُوفُ الزِّيَادَةِ, mnemonic: سَأَلْتُمُونِيهَا). 3) If fewer than 3 consonants remain, restore an elided weak radical (و/ي), uncontract a shaddah, or check Form VIII تّ → و. 4) Look up the root in alphabetical order."
     },
     {
       "type": "table",

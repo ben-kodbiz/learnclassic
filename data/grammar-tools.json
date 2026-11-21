@@ -173,38 +173,58 @@
   "rootPatterns": [
     {
       "word": "مَسْجِدٌ",
+      "meaning": "mosque / place of prostration",
       "root": "س-ج-د",
       "pattern": "مَفْعِلٌ",
+      "affixes": "Prefix مَـ",
+      "patternSemantics": "Noun of Place (Ism Makān): designates location where the root action is performed.",
       "category": "Noun of Place (Ism Makān)",
-      "note": "Prefix مَـ marks place of prostration (سَجَدَ)."
+      "lessonId": "m3-w21-ch38",
+      "note": "Prefix مَـ indicates place of prostration (سَجَدَ). Semantic tendency, not a rigid mechanical code."
     },
     {
       "word": "مِفْتَاحٌ",
+      "meaning": "key / instrument for opening",
       "root": "ف-ت-ح",
       "pattern": "مِفْعَالٌ",
+      "affixes": "Prefix مِـ + infix long ā",
+      "patternSemantics": "Noun of Instrument (Ism al-Ālah): designates the physical implement used to perform the verb.",
       "category": "Noun of Instrument (Ism al-Ālah)",
+      "lessonId": "m3-w21-ch38",
       "note": "Prefix مِـ + long ā marks an instrument for opening (فَتَحَ)."
     },
     {
       "word": "اِسْتِغْفَارٌ",
+      "meaning": "seeking forgiveness",
       "root": "غ-ف-ر",
       "pattern": "اِسْتِفْعَالٌ",
+      "affixes": "Augmented prefix اِسْتَـ + infix long ā",
+      "patternSemantics": "Form X Verbal Noun (Maṣdar): designates petition, seeking, or requesting the root quality.",
       "category": "Form X Maṣdar",
-      "note": "Strip augmented اِسْتَـ and ا to recover root غ-ف-ر."
+      "lessonId": "m2-w14-ch23",
+      "note": "Strip augmented اِسْتَـ and ا to recover triliteral root غ-ف-ر ('forgive')."
     },
     {
       "word": "اِتِّحَادٌ",
+      "meaning": "union / unification",
       "root": "و-ح-د",
       "pattern": "اِفْتِعَالٌ",
+      "affixes": "Prefix اِ + infixed -t- (doubled تّ)",
+      "patternSemantics": "Form VIII Assimilated Maṣdar: participatory or unified state.",
       "category": "Form VIII Maṣdar (Assimilated)",
-      "note": "Initial wāw assimilated into infixed -t- (تّ); underlying root is و-ح-د."
+      "lessonId": "m2-w13-ch22",
+      "note": "Initial radical wāw assimilated into infixed -t- (تّ); underlying root is و-ح-د ('one/single')."
     },
     {
       "word": "عُلَمَاءُ",
+      "meaning": "scholars / learned persons",
       "root": "ع-ل-م",
       "pattern": "فُعَلَاءُ",
+      "affixes": "Suffix -āʾ (ـَاءُ)",
+      "patternSemantics": "Plural of personal description / diptote broken plural.",
       "category": "Diptote Broken Plural",
-      "note": "Strip trailing اءُ to recover root ع-ل-م ('scholars')."
+      "lessonId": "m3-w23-ch44",
+      "note": "Strip trailing اءُ to recover root ع-ل-م ('knowledge'). Barred from tanwīn (diptote)."
     }
   ],
   "irabLab": [
@@ -246,6 +266,24 @@
         { "word": "الْحَمْدُ", "analysis": "Mubtadaʾ marfūʿ bi-ḍ-ḍammah" },
         { "word": "لِلَّهِ", "analysis": "Jārr wa-majrūr (لِـ + اللَّهِ) in the place of khabar" },
         { "word": "رَبِّ الْعَالَمِينَ", "analysis": "Naʿt/Badal majrūr (muḍāf) + muḍāf ilayh majrūr bi-l-yāʾ" }
+      ]
+    },
+    {
+      "id": "bukhari-hadith-1",
+      "title": "Ṣaḥīḥ al-Bukhārī (Hadith 1)",
+      "source": "Ṣaḥīḥ al-Bukhārī, Kitāb Badʾ al-Waḥy, Hadith 1 (Linguistic parsing only; distinct from tafsīr or fiqh)",
+      "reviewStatus": "pending",
+      "arabic": "إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى",
+      "translation": "Actions are judged only by intentions, and every person will have only what they intended.",
+      "tokens": [
+        { "word": "إِنَّمَا", "analysis": "إِنَّ (corroboration) + مَا كَافَّة (preventive particle restricting government; creates rhetorical restriction / qaṣr)" },
+        { "word": "الأَعْمَالُ", "analysis": "Plural of عَمَلٌ, mubtadaʾ marfūʿ bi-ḍ-ḍammah" },
+        { "word": "بِالنِّيَّاتِ", "analysis": "بِـ (ḥarf jarr) + النِّيَّاتِ (sound feminine plural, majrūr bi-l-kasrah); prepositional phrase functioning as khabar" },
+        { "word": "وَإِنَّمَا", "analysis": "وَ (conjunction) + إِنَّمَا (particle of restriction)" },
+        { "word": "لِكُلِّ", "analysis": "لِـ (ḥarf jarr) + كُلِّ (majrūr, muḍāf); fronted prepositional phrase predicate (khabar muqaddam)" },
+        { "word": "امْرِئٍ", "analysis": "Muḍāf ilayh majrūr bi-l-kasrah ('person / man')" },
+        { "word": "مَا", "analysis": "Ism mawṣūl (relative pronoun meaning 'that which'), in the syntactic place of postponed subject (mubtadaʾ muʾakhkhar)" },
+        { "word": "نَوَى", "analysis": "Fiʿl māḍī (Form I defective verb, root ن-و-ي); relative clause (jumlat al-ṣilah) with elided returning pronoun" }
       ]
     }
   ]

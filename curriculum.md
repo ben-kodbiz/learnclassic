@@ -90,14 +90,21 @@ All modern conversational, journalistic, and spoken dialect components (such as 
 * **Chapter 13: Pronominal Objects & *Kāna* and Its Sisters (*Kāna wa-Akhawātuhā*)**
   * **Core Grammar Rules:** Attaching object pronouns directly to verbs (*-nī*, *-ka*, *-hu*); the governing dynamics of *kāna* (past state): its subject (*ism kāna*) remains nominative (*marfūʻ*), while its predicate (*khabar kāna*) is placed in the accusative (*manṣūb*).
   * **Practice:** **Exercises 23 & 24** (identifying direct objects on verbs; vocalizing sentences governed by *kāna*).
-* **Consolidation:** Review of Chapters 1–13 (the final chapters providing phonetic transliteration aids).
+
+---
+
+### **Week 8: Consolidation of Module 1**
+* **Consolidation Unit 1: Foundations Synthesis (*Al-Mabādiʼ wa-l-Asmāʼ*)**
+  * **Classical Focus:** Comprehensive integration of Chapters 1–13: orthography, solar/lunar assimilation, the 3-case system, annexation (*iḍāfah*), pronouns, adjectives, and regular Form I perfect conjugation.
+  * **Core Rules:** Sentence boundary discrimination (Nominal vs. Verbal clauses); vocalizing full case endings in connected speech.
+  * **Practice:** Diagnostic reading, full *iʿrāb* parsing of multi-tier nominal constructs, and Form I perfect paradigm mastery.
 
 ---
 
 # Module 2: Verbal System, Mood Governance & Morphological Stems (*Ṣiyagh al-Fiʻl*)
-*Chapters 14–33: Imperfect moods (Indicative, Subjunctive, Jussive), Imperative, Passive, Forms II–X, root phonology of doubled, hamzated, and weak verbs, and classical dictionary mechanics.*
+*Chapters 14–31, 33: Imperfect moods (Indicative, Subjunctive, Jussive), Imperative, Passive, Forms II–X, root phonology of doubled, hamzated, and weak verbs, and classical dictionary mechanics.*
 
-### **Week 8: Imperfect System & Subjunctive Governance (*Al-Nawāṣib*)**
+### **Week 9: Imperfect System & Subjunctive Governance (*Al-Nawāṣib*)**
 * **Chapter 14: The Imperfect Tense (*Al-Muḍāriʻ al-Marfūʻ*)**
   * **Classical Focus:** Present and future continuous states; imperfect prefixes (*a-*, *ta-*, *ya-*, *na-*); indicative mood markers (final *ḍammah* or retained *nūn* in *afʻāl al-khamsah*).
   * **Core Rules:** Negation with *mā* (past) vs. *lā* (present); future particles (*sa-* and *sawfa*).
@@ -109,7 +116,7 @@ All modern conversational, journalistic, and spoken dialect components (such as 
 
 ---
 
-### **Week 9: Jussive Governance (*Al-Jawāzim*), Imperative & Passive (*Al-Majhūl*)**
+### **Week 10: Jussive Governance (*Al-Jawāzim*), Imperative & Passive (*Al-Majhūl*)**
 * **Chapter 16: The Jussive Mood (*Al-Muḍāriʻ al-Majzūm*)**
   * **Classical Focus:** Jussive triggers: past negation with *lam* (*lam yafʻal* = did not do); prohibitive commands with *lā al-nāhiyah*; introduction to conditional particles.
   * **Core Rules:** Jussive markers: final *sukūn* on sound singulars; dropping of final *nūn*; apocopation of final weak letters.
@@ -123,7 +130,21 @@ All modern conversational, journalistic, and spoken dialect components (such as 
 
 ---
 
-### **Week 10: Derived Stems — Principles & Forms II, III, IV**
+### **Week 10: Jussive Governance (*Al-Jawāzim*), Imperative & Passive (*Al-Majhūl*)**
+* **Chapter 16: The Jussive Mood (*Al-Muḍāriʻ al-Majzūm*)**
+  * **Classical Focus:** Jussive triggers: past negation with *lam* (*lam yafʻal* = did not do); prohibitive commands with *lā al-nāhiyah*; introduction to conditional particles.
+  * **Core Rules:** Jussive markers: final *sukūn* on sound singulars; dropping of final *nūn*; apocopation of final weak letters.
+  * **Practice:** **Exercises 29 & 30** (contrasting *mā* + perfect vs. *lam* + jussive; composing classical prohibitions).
+* **Chapter 17: The Imperative (*Fiʻl al-Amr*)**
+  * **Classical Focus:** Derivation from the jussive stem; prefixing prosthetic *hamzat al-waṣl*; vowel quality of the prefix based on middle radical (takes *ḍammah* if middle vowel is *u*, *kasrah* if middle vowel is *a* or *i*).
+  * **Practice:** **Exercises 31 & 32** (forming positive commands and pairing with *lā* + jussive negative commands).
+* **Chapter 18: The Passive Voice (*Al-Fiʻl al-Majhūl*)**
+  * **Classical Focus:** Internal vowel transformations: perfect *fuʻila*, imperfect *yufʻalu*; syntactic deletion of the subject and promotion of the direct object to "deputy agent" (*nāʼib al-fāʻil*), taking the nominative case (*rafʻ*).
+  * **Practice:** **Exercises 33 & 34** (converting active transitive clauses to passive; vocalizing *nāʼib al-fāʻil*).
+
+---
+
+### **Week 11: Derived Stems — Principles & Forms II, III, IV**
 * **Chapter 19: The Extended Verb Paradigm (*Awzān al-Fiʻl al-Mazīd*)**
   * **Classical Focus:** Semantic mechanics of root augmentation: how morphological additions systematically modify core root meanings; predictable generation of verbal nouns (*maṣādir*) and participles (*ism al-fāʻil / ism al-mafʻūl*).
   * **Practice:** Systematizing the derived verb chart across all ten stems.
@@ -133,7 +154,7 @@ All modern conversational, journalistic, and spoken dialect components (such as 
 
 ---
 
-### **Week 11: Reflexive & Reciprocal Stems — Forms V & VI**
+### **Week 12: Reflexive & Reciprocal Stems — Forms V & VI**
 * **Chapter 21: Forms V (*tafaʻʻala*) & VI (*tafāʻala*)**
   * **Classical Focus:** Form V as reflexive/resultative of Form II; Form VI as mutual/reciprocal realization of Form III; distinctive *maṣdar* vowel patterns ending in *ḍammah* (*tafaʻʻul*, *tafāʻul*).
   * **Core Rules:** Syntactic shifts from transitive to intransitive/reflexive across stems.
@@ -141,7 +162,7 @@ All modern conversational, journalistic, and spoken dialect components (such as 
 
 ---
 
-### **Week 12: Passive-Reflexive & Participatory Stems — Forms VII & VIII**
+### **Week 13: Passive-Reflexive & Participatory Stems — Forms VII & VIII**
 * **Chapter 22: Forms VII (*infaʻala*) & VIII (*iftaʻala*)**
   * **Classical Focus:** Form VII as intrinsic passive/unaccusative (action occurring to oneself, never taking an explicit agent); Form VIII as subjective participation or intensive acquisition.
   * **Core Rules:** Form VIII dental assimilation rules: phonetic shifts when root initial consonant is *wāw*, *zāy*, *dāl*, *ṣād*, or *ṭāʼ* (e.g., *ittiḥād* from root *w-ḥ-d*).
@@ -149,51 +170,54 @@ All modern conversational, journalistic, and spoken dialect components (such as 
 
 ---
 
-### **Week 13: Stative & Desiderative Stems — Forms IX & X**
+### **Week 14: Stative & Inchoative Stems (Forms IX & X) & Doubled Verbs**
 * **Chapter 23: Forms IX (*ifʻalla*) & X (*istafʻala*)**
   * **Classical Focus:** Form IX (fixed physical characteristics, bodily defects, colors); Form X (requesting, seeking, or considering something to possess a quality—*istifʻāl*, e.g., *istaghfara* / to seek forgiveness).
   * **Core Rules:** Conjugation paradigms and active/passive participles for Forms IX and X.
   * **Practice:** **Exercises 41 & 42** (translating classical petitions and invocations using Form X).
-
----
-
-### **Week 14: Irregular Phonology I — Doubled & Hamzated Verbs**
 * **Chapter 24: The Doubled Verb (*Al-Fiʻl al-Muḍāʻaf*)**
   * **Classical Focus:** Verbs where the second and third radicals are identical (e.g., *madda*, *dalla*); phonetic rules of gemination (*idghām*); conditions under which roots contract with *shaddah* vs. uncontract when following subject suffixes begin with consonants.
   * **Practice:** **Exercises 43 & 44** (conjugating doubled verbs in past, present, and jussive; tracking *idghām* rules).
+
+---
+
+### **Week 15: Hamzated & Assimilated Verbs**
 * **Chapters 25 & 26: Hamzated Verbs (*Al-Fiʻl al-Mahmūz*)**
   * **Classical Focus:** Verbs with *hamza* as first (*akhadha*), second (*saʼala*), or third (*qaraʼa*) radical; classical rules governing the orthographic seat (*kursī al-hamzah*) on *alif*, *wāw*, *yāʼ*, or the line based on vowel sequences.
   * **Practice:** **Exercises 45–48** (conjugation drills; irregular imperatives *khudh*, *kul*; vocalizing *hamza* across cases).
-
----
-
-### **Week 15: Irregular Phonology II — Assimilated & Hollow Verbs**
 * **Chapter 27: The Assimilated Verb (*Al-Fiʻl al-Mithāl*)**
   * **Classical Focus:** Verbs with initial weak radical *wāw* or *yāʼ* (e.g., *waṣala*, *waqaʻa*); systematic elision of initial *wāw* in Form I imperfect and imperative (*yaṣilu*, *ṣil*).
   * **Practice:** **Exercises 49 & 50** (conjugating assimilated verbs across tenses; tracking vowel drops).
-* **Chapter 28: The Hollow Verb (*Al-Fiʻl al-Ajwaf*)**
-  * **Classical Focus:** Verbs with middle radical *wāw* or *yāʼ* (e.g., *qāla*, *bāʻa*, *khāfa*); vowel shortening in closed syllables caused by *sukūn* (*qultu*, *lam yaqul*).
-  * **Practice:** **Exercises 51 & 52** (conjugating hollow verbs in indicative, subjunctive, and jussive; parsing speech and narrative verbs in classical texts).
 
 ---
 
-### **Week 16: Irregular Phonology III — Defective Verbs & Lexicography**
-* **Chapters 29 & 30: Defective & Multiply Weak Verbs (*Al-Nāqiṣ wa-l-Lafīf*)**
-  * **Classical Focus:** Verbs ending in weak radical *wāw* or *yāʼ* (e.g., *ramā*, *daʻā*, *radiya*); apocopation in the jussive (complete deletion of the final weak letter); defective nouns and active participles (*qāḍin / al-qāḍī*); doubly/trebly weak roots (*waqā*, *raʼā*) and single-letter imperatives (*qi*).
-  * **Practice:** **Exercises 53–56** (conjugating defective verbs across moods; parsing Qur’an 1:6 in Ex. 56).
-* **Chapter 31: The Quadriliteral Verb (*Al-Fiʻl al-Rubāʻī*)**
-  * **Classical Focus:** Four-radical roots (*faʻlala*, e.g., *zalzala*, *waswasa*) and their derived forms; parallel conjugation to Form II/V triliterals.
-  * **Practice:** **Exercises 57 & 58** (conjugating quadriliterals and identifying their *maṣādir*).
+### **Week 16: Hollow Verbs, Defective Verbs & Lexicography**
+* **Chapter 28: The Hollow Verb (*Al-Fiʻl al-Ajwaf*)**
+  * **Classical Focus:** Verbs with middle radical *wāw* or *yāʼ* (e.g., *qāla*, *bāʻa*, *khāfa*); vowel shortening in closed syllables caused by *sukūn* (*qultu*, *lam yaqul*).
+  * **Practice:** **Exercises 51 & 52** (conjugating hollow verbs in indicative, subjunctive, and jussive; parsing speech and narrative verbs in classical texts).
+* **Chapter 29: Defective Verbs I (*Al-Fiʻl al-Nāqiṣ*)**
+  * **Classical Focus:** Verbs ending in weak radical *wāw* or *yāʼ* (e.g., *ramā*, *daʻā*, *radiya*); apocopation in the jussive (complete deletion of the final weak letter); defective nouns and active participles (*qāḍin / al-qāḍī*).
+  * **Practice:** **Exercises 53 & 54** (conjugating defective verbs across moods; parsing Qur’anic verses).
 * **Chapter 33: Classical Lexicography & Dictionary Mastery**
   * **Classical Focus:** Organizing principles of root-based lexicons (Hans Wehr, Lane’s *Arabic-English Lexicon*, *Lisān al-ʻArab*); stripping augmented letters (*ḥurūf al-ziyādah*) to isolate the three-letter base.
   * **Practice:** Systematic root extraction and lexical lookup of complex derived vocabulary.
 
 ---
 
-# Module 3: Advanced Classical Syntax, Qur’anic Structures & Stylistics (*Al-Asālīb wa-l-Iʻrāb*)
-*Chapters 32, 34–52: Particles of praise/blame, complex relative and conditional clauses, numerical grammar, noun derivations, detailed accusative syntax, diptotes, classical versification, and the reading supplement.*
+### **Week 17: Multiply Weak Verbs, Quadriliterals & Module 2 Consolidation**
+* **Chapter 30: Doubly & Trebly Weak Verbs (*Al-Lafīf*)**
+  * **Classical Focus:** Roots with two weak radicals (*lafīf maqrūn* and *mafrūq*, e.g., *waqā*, *ṭawā*, *raʼā*); extreme apocopation and single-letter imperatives (*qi*).
+  * **Practice:** **Exercises 55 & 56** (conjugation and Qur’anic parsing).
+* **Chapter 31: The Quadriliteral Verb (*Al-Fiʻl al-Rubāʻī*) & Consolidation**
+  * **Classical Focus:** Four-radical roots (*faʻlala*, e.g., *zalzala*, *waswasa*) and their derived forms; comprehensive synthesis of all derived and irregular verb stems.
+  * **Practice:** **Exercises 57 & 58**; Module 2 diagnostic consolidation.
 
-### **Week 17: Special Verbs & Relative Clauses**
+---
+
+# Module 3: Advanced Classical Syntax, Qur’anic Structures & Stylistics (*Al-Asālīb wa-l-Iʻrāb*)
+*Chapters 32, 34–52 & Supplement: Special invariable verbs, relative and conditional clauses, numerical grammar, noun derivations, detailed accusative syntax, diptotes, classical versification, and authentic literary analysis.*
+
+### **Week 18: Unorthodox Verbs & The Relative Sentence (*Jumlat al-Ṣilah*)**
 * **Chapter 32: Unorthodox & Invariable Verbs**
   * **Classical Focus:** Verbs of praise and blame (*niʻma* / *biʼsa*); negative verb of being (*laysa*); verbs of appropinquation (*kāda*, *ʻasā*) governing imperfect complements.
   * **Practice:** **Exercises 59 & 60** (translating classical rhetorical judgments with *niʻma* and *biʼsa*).
@@ -203,41 +227,45 @@ All modern conversational, journalistic, and spoken dialect components (such as 
 
 ---
 
-### **Week 18: Conditional Sentences (*Al-Sharṭ wa-l-Jazāʼ*)**
+### **Week 19: Conditional Sentences (*Al-Sharṭ wa-l-Jazāʼ*)**
 * **Chapter 35: Conditionals & The Apodosis Connector (*Fa-*)**
   * **Classical Focus:** Real conditions (*in*, *idhā*) governing past verbs or jussives; counterfactual/hypothetical conditions (*law*, *lawlā*); the apodosis connector *fa-* (*fāʼ al-jazāʼ*) and mandatory environments (when the result clause is nominal, imperative, negated, or introduced by *qad*, *sa-*, *sawfa*, *lan*).
   * **Practice:** **Exercises 63 & 64** (translating Qur’anic conditionals; applying *fa-* correctly to non-verbal apodoses).
 
 ---
 
-### **Week 19: The Classical Numeral System**
+### **Week 20: The Classical Numeral System**
 * **Chapters 36 & 37: Cardinal Numbers, Ordinals & Fractions**
   * **Classical Focus:** Gender polarity for numbers 3–10 (masculine nouns take feminine numerals and vice-versa); compound numbers 11–19; decade numbers 20–90; syntax of the counted noun (*tamyīz al-ʻadad*: plural genitive for 3–10, singular accusative for 11–99, singular genitive for 100/1000); ordinal adjective agreement.
   * **Practice:** **Exercises 65–68** (writing out scriptural numbers, calendar periods, and ordinal sequences).
 
 ---
 
-### **Week 20: Noun Derivations & Morphology**
+### **Week 21: Noun Derivations & Nominal Architecture**
 * **Chapters 38 & 39: Nominal Architecture, Nouns of Place, Time & Instrument**
-  * **Classical Focus:** Survey of primitive vs. derived noun forms; systematic Form I *maṣdar* patterns; nouns of place and time (*mafʻal*, *mafʻil*); nouns of instrument (*mifʻāl*, *mifʻal*, *mifʻalah*); diminutive formations (*fuʻayl*, *fuʻayʻil*).
+  * **Classical Focus:** Survey of primitive vs. derived noun forms; systematic Form I *maṣdar* patterns; nouns of place and time (*mafʻal*, *mafʻil*); nouns of instrument (*mifʻāl*, *mifʻal*, *mifʻalah*).
   * **Practice:** **Exercises 69–72** (deriving nouns of place, time, and instrument from verbal roots).
-* **Chapters 40 & 41: Relative Adjectives (*Al-Nisbah*), Intensive Forms & Proper Names**
-  * **Classical Focus:** Formation of *nisbah* adjectives (*-īy*); intensive adjectival patterns (*faʻʻāl*, *faʻūl*); structure of classical names (*ism*, *kunya*, *nasab*, *laqab*).
-  * **Practice:** **Exercises 73–76** (parsing classical patronymics and intensive adjectival patterns).
 
 ---
 
-### **Week 21: Advanced Gender, Number & Diptotes (*Al-Mamnūʻ min al-Ṣarf*)**
+### **Week 22: Adjectival Derivations, Names & Plural Classifications**
+* **Chapters 40 & 41: Relative Adjectives (*Al-Nisbah*), Intensive Forms & Proper Names**
+  * **Classical Focus:** Formation of *nisbah* adjectives (*-īy*); intensive adjectival patterns (*faʻʻāl*, *faʻūl*); structure of classical names (*ism*, *kunya*, *nasab*, *laqab*).
+  * **Practice:** **Exercises 73–76** (parsing classical patronymics and intensive adjectival patterns).
 * **Chapters 42 & 43: Exceptional Gender & Plural Classification**
   * **Classical Focus:** Unmarked feminine nouns (body parts, elemental nouns, towns); plurals of paucity (*jamʻ al-qillah*, 3–10) vs. plurals of multitude (*jamʻ al-kathrah*); plural of plurals (*jamʻ al-jamʻ*).
   * **Practice:** **Exercises 77–80** (identifying rare plurals and applying classical agreement rules).
+
+---
+
+### **Week 23: Diptote Declension (*Al-Mamnūʻ min al-Ṣarf*)**
 * **Chapter 44: Diptote Declension (*Al-Mamnūʻ min al-Ṣarf*)**
   * **Classical Focus:** Nouns barred from nunation taking two case endings (nominative *ḍammah*, accusative/genitive *fatḥah*); reasons for diptote status (proper names, *afʻal* patterns, plural forms on *mafāʻil / mafāʻīl*); conditions where diptotes revert to full three-case triptotes (when prefixed by *al-* or in *iḍāfah*).
   * **Practice:** **Exercises 81 & 82** (vocalizing diptote nouns and broken plurals in genitive positions).
 
 ---
 
-### **Week 22: Accusative Governance (*Al-Manṣūbāt*) & Apposition (*Al-Badal*)**
+### **Week 24: Comprehensive Accusative Syntax (*Al-Manṣūbāt*) & Apposition (*Al-Badal*)**
 * **Chapter 45: Detailed Syntactic Functions of the Accusative**
   * **Classical Focus:** Direct object (*al-mafʻūl bihi*); absolute cognate accusative (*al-mafʻūl al-muṭlaq*); circumstantial accusative of manner (*al-ḥāl*); specification (*al-tamyīz*); vocative particles (*yā*, *ayyuhā*) and noun inflection.
   * **Practice:** **Exercises 83 & 84** (identifying and vocalizing *ḥāl* and *tamyīz* in Qur’anic prose).
@@ -247,34 +275,22 @@ All modern conversational, journalistic, and spoken dialect components (such as 
 
 ---
 
-### **Week 23: Prepositions, Adverbial Particles & Corroboration**
-* **Chapter 47: Prepositions (*Ḥurūf al-Jarr*) & Idiomatic Verbs**
-  * **Classical Focus:** True prepositions vs. locative nouns in the accusative (*ẓurūf*); semantic shifts in verbs based on prepositions (e.g., *raghiba fī* [desire] vs. *raghiba ʻan* [turn away from]).
-  * **Practice:** **Exercises 87 & 88** (parsing classical prepositional idioms).
-* **Chapter 48: Adverbial Usages & *Inna* and Its Sisters (*Inna wa-Akhawātuhā*)**
-  * **Classical Focus:** Particles of corroboration (*inna*, *anna*, *ka-anna*, *lākinna*, *layta*, *laʻalla*); syntactic rule: *inna* causes its noun to be accusative (*manṣūb*) and its predicate to remain nominative (*marfūʻ*); *lām* of emphasis (*al-lām al-muzahlaqah*).
-  * **Practice:** **Exercises 89 & 90** (syntactic parsing of sentences introduced by *inna* and *anna*).
+### **Week 25: Prepositions, Inna, Conjunctions, Oaths & Exception**
+* **Chapters 47 & 48: Prepositions & *Inna* and Its Sisters**
+  * **Classical Focus:** True prepositions vs. locative nouns in the accusative (*ẓurūf*); semantic shifts in verbs based on prepositions; particles of corroboration (*inna*, *anna*, *ka-anna*, etc.) governing *ism* in accusative and *khabar* in nominative.
+  * **Practice:** **Exercises 87–90** (parsing prepositional idioms and clauses with *inna*).
+* **Chapters 49, 50 & 51: Conjunctions, Oaths & Exception (*Al-Istithnāʼ*)**
+  * **Classical Focus:** Conjunction particles (*wa-*, *fa-*, *thumma*, *bal*); oaths governing genitive; exception with *illā* across affirmative, negative complete, and incomplete sentences; *ghayr* and *siwā*.
+  * **Practice:** **Exercises 91–94** (vocalizing exception clauses across contexts).
 
 ---
 
-### **Week 24: Conjunctions, Oaths, Interjections & Exception**
-* **Chapters 49 & 50: Conjunctions (*Ḥurūf al-ʻAṭf*) & Oaths/Interjections**
-  * **Classical Focus:** Subtle nuances of conjunctions: *wa-* (simple association), *fa-* (immediate succession), *thumma* (succession with delay), *bal* (rectification); particles of swearing and oaths (*wāw*, *tāʼ*, and *bāʼ al-qasam*) governing the genitive.
-  * **Practice:** **Exercises 91 & 92** (parsing classical oaths and rhetorical transitions).
-* **Chapter 51: Exception (*Al-Istithnāʼ*)**
-  * **Classical Focus:** The particle *illā*: affirmative sentences (noun after *illā* must be accusative); negative sentences with complete mention (permissible to treat as accusative or *badal*); incomplete negative sentences where word after *illā* takes the case demanded by the verb; exception words governing genitive (*ghayr*, *siwā*).
-  * **Practice:** **Exercises 93 & 94** (vocalizing exception clauses across complete, incomplete, and negative contexts).
-
----
-
-### **Week 25: Classical Versification & Poetic Metrics (*Al-ʻArūḍ*)**
-* **Chapter 52: The Rules of Classical Arabic Metrics**
-  * **Classical Focus:** The metrical system of al-Khalīl ibn Aḥmad; syllable classification into cords (*sabab*) and pegs (*watad*); the primary classical meters (*al-Ṭawīl*, *al-Kāmil*, *al-Basīṭ*, *al-Wāfir*).
-  * **Practice:** Scanning classical poetic hemistichs; vocalizing poetic rhyme consonants (*al-qāfiyah*).
-
----
-
-### **Week 26: Capstone Reading of Authentic Classical Literature**
+### **Week 26: Classical Versification & Authentic Capstone Reading**
+* **Chapter 52: Classical Arabic Poetic Metrics (*Al-ʻArūḍ*)**
+  * **Classical Focus:** The metrical system of al-Khalīl ibn Aḥmad; syllable classification into cords (*sabab*) and pegs (*watad*); primary classical meters (*al-Ṭawīl*, *al-Kāmil*, *al-Basīṭ*, *al-Wāfir*).
+* **Literary Supplement:**
+  * **Classical Texts:** Analytical reading and *Iʻrāb* parsing of **Sūrat al-Fātiḥah**, **Ṣaḥīḥ al-Bukhārī**, **Kalīlah wa-Dimnah**, and **Ibn Baṭṭūṭah**.
+  * **Study Guide:** Developing an ongoing reading methodology with classical tafsīr, anthologies, and advanced reference grammars.
 * **Literary Supplement (Textbook pp. 462–495):**
   * **Qur’anic Text:** Analytical reading and *Iʻrāb* parsing of **Sūrat al-Fātiḥah** and selections from the Qur’an.
   * **Hadith Literature:** Unvocalized readings from **Ṣaḥīḥ al-Bukhārī**.

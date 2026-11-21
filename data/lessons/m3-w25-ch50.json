@@ -23,7 +23,7 @@
       "type": "rule",
       "label": "Oath Governance & Vocative Rules",
       "arabicTerm": "القَسَمُ وَالنِّدَاءُ",
-      "summary": "1) Oath particles وَ, تَـ (restricted to اللَّهِ), and بِـ govern the sworn object in the GENITIVE (وَالعَصْرِ, تَاللَّهِ, وَاللَّهِ). 2) After يَا: a single addressed name takes single ḍammah without tanwīn (يَا زَيْدُ); an annexed muḍāf takes ACCUSATIVE (يَا رَسُولَ اللَّهِ); a noun with أَلْ requires أَيُّهَا / أَيَّتُهَا (يَا أَيُّهَا النَّاسُ)."
+      "summary": "1) Oath particles وَ, تَـ (restricted to اللَّهِ), and بِـ govern the sworn object in the GENITIVE (وَالعَصْرِ, تَاللَّهِ, وَاللَّهِ). 2) After يَا: a single addressed name takes single ḍammah without tanwīn (يَا زَيْدُ); an annexed muḍāf takes ACCUSATIVE (يَا رَسُولَ اللَّهِ); a noun with the definite article الـ requires أَيُّهَا / أَيَّتُهَا (يَا أَيُّهَا النَّاسُ)."
     },
     {
       "type": "table",
@@ -34,7 +34,7 @@
         ["Oath with تَـ", "تَاللَّهِ", "ta-llāhi", "Genitive; تَـ used only with اللَّهِ"],
         ["Single-word vocative", "يَا طَالِبُ", "yā ṭālibu", "Single ḍammah without tanwīn"],
         ["Muḍāf vocative", "يَا طَالِبَ العِلْمِ", "yā ṭāliba l-ʿilmi", "Accusative muḍāf (fatḥah)"],
-        ["Definite noun with أَلْ", "يَا أَيُّهَا الإِنْسَانُ", "yā ʾayyuhā l-ʾinsānu", "Requires أَيُّهَا before أَلْ"]
+        ["Definite noun with الـ", "يَا أَيُّهَا الإِنْسَانُ", "yā ʾayyuhā l-ʾinsānu", "Requires أَيُّهَا before الـ"]
       ]
     },
     {

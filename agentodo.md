@@ -48,7 +48,7 @@ By completing the curriculum, a learner should progressively be able to:
 The supplied curriculum is arranged as **26 weeks in three modules**. The week labels are a suggested learning path, not a requirement that every learner finish a week in seven days.
 
 ## Module 1 — Foundations: Script, Nouns, Cases, and Basic Verbs
-**Weeks 1–7 | Chapters 1–13**
+**Weeks 1–8 | Chapters 1–13 + Consolidation**
 
 Purpose: establish the learner’s foundation in Arabic script, nominal syntax, noun inflection, pronouns, and the basic perfect verb.
 
@@ -60,46 +60,46 @@ Purpose: establish the learner’s foundation in Arabic script, nominal syntax, 
 | 4 | 7–8 | More broken-plural patterns; root-pattern recognition; *iḍāfah* (genitive construct); *muḍāf* and *muḍāf ilayh*; construct chains and their case rules. |
 | 5 | 9–10 | Attached pronouns on nouns and prepositions; pronominal suffixes; demonstratives for near and distant reference; demonstrative phrases versus complete nominal sentences. |
 | 6 | 11–12 | Adjective–noun agreement in gender, number, case, and definiteness; comparative and superlative forms; Form I perfect verb; conjugation; verbal sentence order and agreement. |
-| 7 | 13 | Attached object pronouns on verbs; *kāna wa-akhawātuhā*; *ism kāna* remains nominative and *khabar kāna* becomes accusative; consolidation of Chapters 1–13. |
+| 7 | 13 | Attached object pronouns on verbs; *kāna wa-akhawātuhā*; *ism kāna* remains nominative and *khabar kāna* becomes accusative. |
+| 8 | Consolidation | Module 1 comprehensive review; dual/plural case inflections; nominal and verbal sentence boundary parsing; iḍāfah chains. |
 
 **Module 1 checkpoint:** Learner can read simple vowelled sentences, identify their core structure, assign basic case endings, recognise common noun forms, and conjugate regular Form I perfect verbs.
 
 ## Module 2 — The Verbal System, Moods, and Morphological Forms
-**Weeks 8–16 | Primarily Chapters 14–31 and 33 in the supplied outline**
+**Weeks 9–17 | Chapters 14–31 and 33 + Consolidation**
 
 Purpose: understand the imperfect verb, mood governance, derived verb forms, weak and irregular verbs, and root-based dictionary lookup.
 
 | Week | Chapters | Main learning content |
 |---|---|---|
-| 8 | 14–15 | Imperfect verb (*muḍāriʿ*); indicative mood; prefixes; future particles *sa-* and *sawfa*; negation; subjunctive mood and governing particles such as *an*, *lan*, *kay*, *li-*, and *ḥattā*. |
-| 9 | 16–18 | Jussive mood and its triggers; *lam* and prohibitive *lā*; conditional particles (introduction); imperative formation; passive perfect and imperfect; *nāʾib al-fāʿil*. |
-| 10 | 19–20 | The ten derived triliteral forms; how added morphology can affect meaning; Forms II, III, and IV; conjugation, verbal nouns (*maṣādir*), and active/passive participles. |
-| 11 | 21 | Forms V and VI; reflexive, resultative, mutual, and reciprocal meanings; changes in transitivity. |
-| 12 | 22 | Forms VII and VIII; passive-like or intransitive patterns; Form VIII root assimilation and recognition of underlying roots. |
-| 13 | 23 | Forms IX and X; colours and physical characteristics; seeking/requesting meanings; conjugation and derived participles. |
-| 14 | 24–26 | Doubled verbs; *idghām* and uncontracted forms; hamzated verbs; hamza spelling and irregular imperative forms. |
-| 15 | 27–28 | Assimilated verbs with an initial weak radical; hollow verbs with a middle weak radical; changes across perfect, imperfect, and jussive forms. |
-| 16 | 29–31, 33 | Defective and doubly weak verbs; weak-letter deletion; quadriliteral verbs; root extraction and classical dictionary lookup. |
+| 9 | 14–15 | Imperfect verb (*muḍāriʿ*); indicative mood; prefixes; future particles *sa-* and *sawfa*; negation; subjunctive mood and governing particles such as *an*, *lan*, *kay*, *li-*, and *ḥattā*. |
+| 10 | 16–18 | Jussive mood and its triggers; *lam* and prohibitive *lā*; conditional particles (introduction); imperative formation; passive perfect and imperfect; *nāʾib al-fāʿil*. |
+| 11 | 19–20 | The ten derived triliteral forms; how added morphology can affect meaning; Forms II, III, and IV; conjugation, verbal nouns (*maṣādir*), and active/passive participles. |
+| 12 | 21 | Forms V and VI; reflexive, resultative, mutual, and reciprocal meanings; changes in transitivity. |
+| 13 | 22 | Forms VII and VIII; passive-like or intransitive patterns; Form VIII root assimilation and recognition of underlying roots. |
+| 14 | 23–24 | Forms IX and X; colours and physical characteristics; seeking/requesting meanings; doubled verbs (*muḍāʿaf*); *idghām* and uncontracted forms. |
+| 15 | 25–27 | Hamzated verbs; assimilated verbs (*mithāl*) with initial weak radical; hollow verbs (*ajwaf*) with middle weak radical. |
+| 16 | 28–29, 33 | Hollow verbs continued; defective verbs (*nāqiṣ*) with weak final radical; classical lexicography, root extraction, and dictionary lookup. |
+| 17 | 30–31 | Doubly weak verbs (*lafīf*); quadriliteral verbs (*al-rubāʿī*); Module 2 consolidation of derived and irregular verb stems. |
 
 **Module 2 checkpoint:** Learner can identify the imperfect mood, explain common governing particles, recognise the ten derived forms, identify major irregular verb classes, and retrieve a likely root for dictionary research.
 
 ## Module 3 — Advanced Syntax and Classical Reading
-**Weeks 17–26 | Chapters 32 and 34–52, plus the literary supplement**
+**Weeks 18–26 | Chapters 32 and 34–52, plus the literary supplement**
 
 Purpose: combine morphology and syntax to analyse increasingly complex sentences and read authentic classical material.
 
 | Week | Chapters | Main learning content |
 |---|---|---|
-| 17 | 32, 34 | Special and invariable verbs: *niʿma*, *biʾsa*, *laysa*, *kāda*, and *ʿasā*; relative pronouns; relative clauses; the returning pronoun (*al-ʿāʾid*). |
-| 18 | 35 | Conditional sentences; *in*, *idhā*, *law*, and *lawlā*; conditional result clauses and the connector *fa-* (*fāʾ al-jazāʾ*). |
-| 19 | 36–37 | Cardinal and ordinal numbers; gender polarity; compound numbers; counted nouns (*tamyīz al-ʿadad*); fractions. |
-| 20 | 38–41 | Verbal nouns; nouns of place, time, and instrument; diminutives; *nisbah* adjectives; intensive forms; classical personal-name structures. |
-| 21 | 42–44 | Exceptional gender and plural categories; plurals of paucity and multitude; plural of plurals; diptote declension (*al-mamnūʿ min al-ṣarf*). |
-| 22 | 45–46 | Accusative functions: direct object, cognate accusative, circumstantial accusative, specification, and vocative; apposition (*al-badal*). |
-| 23 | 47–48 | Prepositions and their meanings; adverbial expressions; idiomatic verb–preposition combinations; *inna wa-akhawātuhā* and their case governance. |
-| 24 | 49–51 | Conjunction particles and their nuances; oaths; interjections; exception with *illā*, *ghayr*, and *siwā*. |
-| 25 | 52 | Classical Arabic prosody (*al-ʿarūḍ*); *sabab*, *watad*, major metres, and rhyme. |
-| 26 | Literary supplement | Guided reading and grammatical analysis of selected Qur’anic passages, Sūrat al-Fātiḥah, selected hadith from *Ṣaḥīḥ al-Bukhārī*, *Kalīlah wa-Dimnah*, and selections associated with Ibn Baṭṭūṭah. Introduce the use of classical tafsīr, anthologies, and advanced grammar references. |
+| 18 | 32, 34 | Special and invariable verbs: *niʿma*, *biʾsa*, *laysa*, *kāda*, and *ʿasā*; relative pronouns; relative clauses; the returning pronoun (*al-ʿāʾid*). |
+| 19 | 35 | Conditional sentences; *in*, *idhā*, *law*, and *lawlā*; conditional result clauses and the connector *fa-* (*fāʾ al-jazāʾ*). |
+| 20 | 36–37 | Cardinal and ordinal numbers; gender polarity; compound numbers; counted nouns (*tamyīz al-ʿadad*); fractions. |
+| 21 | 38–39 | Verbal nouns; nouns of place, time, and instrument; nominal architecture. |
+| 22 | 40–43 | Diminutives; *nisbah* adjectives; intensive forms; classical personal-name structures; plurals of paucity and multitude. |
+| 23 | 44 | Diptote declension (*al-mamnūʿ min al-ṣarf*); conditions for full triptote inflection with *al-* or in *iḍāfah*. |
+| 24 | 45–46 | Comprehensive accusative syntax: direct object, cognate accusative, circumstantial accusative, specification, and vocative; apposition (*al-badal*). |
+| 25 | 47–51 | Prepositions; adverbial particles; *inna wa-akhawātuhā*; conjunction particles; oaths; interjections; exception (*al-istithnāʾ*). |
+| 26 | 52, Supp. | Classical Arabic prosody (*al-ʿarūḍ*); capstone textual analysis: Sūrat al-Fātiḥah, *Ṣaḥīḥ al-Bukhārī*, *Kalīlah wa-Dimnah*, and Ibn Baṭṭūṭah. |
 
 **Module 3 checkpoint:** Learner can analyse a wider range of classical sentence structures and apply grammar knowledge to guided reading of authentic texts.
 

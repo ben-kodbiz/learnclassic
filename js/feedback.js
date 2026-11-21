@@ -4,7 +4,9 @@
  * rule, governing factor (ʿāmil), role, case/mood, and common error notes.
  */
 
-export function renderFeedbackHtml(exercise, isCorrect, esc) {
+import { hasArabic } from "./arabic-utils.js";
+
+export function renderFeedbackHtml(exercise, isCorrect, esc, userAnswer = null) {
   const fb = exercise.feedback || {};
   const statusLabel = isCorrect ? "✓ Correct" : "✗ Incorrect";
   const cls = isCorrect ? "feedback-box feedback-correct" : "feedback-box feedback-incorrect";
@@ -18,13 +20,27 @@ export function renderFeedbackHtml(exercise, isCorrect, esc) {
             .map(([k, v]) => `${k} → ${v}`)
             .join(" | ");
 
+  const userGivenStr =
+    typeof userAnswer === "string"
+      ? userAnswer
+      : Array.isArray(userAnswer)
+        ? userAnswer.join(" ")
+        : userAnswer && typeof userAnswer === "object"
+          ? Object.entries(userAnswer).map(([k, v]) => `${k} → ${v}`).join(" | ")
+          : "";
+
   return `
     <div class="${cls}" role="status">
       <p class="feedback-status"><strong>${statusLabel}</strong></p>
       <p>${esc(exercise.explanation)}</p>
       ${
+        !isCorrect && userGivenStr
+          ? `<p><strong>Your Answer:</strong> <span class="feedback-answer" ${hasArabic(userGivenStr) ? 'lang="ar" dir="rtl"' : ""}>${esc(userGivenStr)}</span></p>`
+          : ""
+      }
+      ${
         !isCorrect
-          ? `<p><strong>Expected Answer:</strong> <span class="feedback-answer">${esc(expectedText)}</span></p>`
+          ? `<p><strong>Expected Answer:</strong> <span class="feedback-answer" ${hasArabic(expectedText) ? 'lang="ar" dir="rtl"' : ""}>${esc(expectedText)}</span></p>`
           : ""
       }
       <ul class="rules-list">

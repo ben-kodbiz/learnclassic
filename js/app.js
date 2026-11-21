@@ -1,3 +1,4 @@
+import { hasArabic, normalizeArabic } from "./arabic-utils.js";
 import { loadCurriculum } from "./curriculum.js";
 import {
   bindExerciseEvents,
@@ -128,26 +129,34 @@ function renderChapterCard(ch) {
 }
 
 function renderWeeksList(weeks) {
-  const q = searchQuery.trim().toLowerCase();
+  const rawQ = searchQuery.trim();
+  const qLower = rawQ.toLowerCase();
+  const qNormAr = normalizeArabic(rawQ);
   const blocks = [];
 
   for (const wk of weeks) {
     const filtered = wk.chapters.filter((ch) => {
       const status = getChapterStatus(ch.id);
       if (statusFilter !== "all" && status !== statusFilter) return false;
-      if (!q) return true;
-      const haystack = [
+      if (!rawQ) return true;
+
+      const haystackEn = [
         chapterLabel(ch),
         ch.title,
         ch.textbookTitle,
         ch.rydingReference,
-        ch.titleArabic,
         ch.classicalFocus,
         ...(ch.coreRules || []),
       ]
         .join(" ")
         .toLowerCase();
-      return haystack.includes(q);
+
+      if (haystackEn.includes(qLower)) return true;
+
+      const haystackAr = [ch.titleArabic, ...(ch.coreRules || [])].join(" ");
+      if (normalizeArabic(haystackAr).includes(qNormAr)) return true;
+
+      return false;
     });
 
     if (filtered.length === 0) continue;
@@ -545,6 +554,21 @@ function bindFooterActions() {
     if (!file) return;
     try {
       const text = await file.text();
+      let parsed;
+      try {
+        parsed = JSON.parse(text);
+      } catch {
+        throw new Error("File is not valid JSON.");
+      }
+      if (!parsed || typeof parsed !== "object" || !parsed.chapters) {
+        throw new Error("File does not contain valid LearnClassic progress data.");
+      }
+      const count = Object.keys(parsed.chapters || {}).length;
+      const ok = window.confirm(
+        `Import progress file containing ${count} chapter record(s)? This will replace your current study progress.`
+      );
+      if (!ok) return;
+
       importProgressJson(text);
       render();
       alert("Progress imported successfully.");

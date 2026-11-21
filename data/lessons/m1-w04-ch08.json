@@ -24,7 +24,7 @@
       "type": "rule",
       "label": "Core Rules of Al-Iḍāfah",
       "arabicTerm": "المُضَافُ وَالمُضَافُ إِلَيْهِ",
-      "summary": "1) The muḍāf NEVER takes أَلْ or tanwīn (and drops final nūn in duals and sound masculine plurals). 2) The muḍāf takes whatever case its role in the sentence demands. 3) The muḍāf ilayh is ALWAYS genitive (majrūr). 4) Definiteness of the whole construct is determined by the final muḍāf ilayh."
+      "summary": "1) The muḍāf NEVER takes the definite article (الـ) or tanwīn (and drops final nūn in duals and sound masculine plurals). 2) The muḍāf takes whatever case its role in the sentence demands. 3) The muḍāf ilayh is ALWAYS genitive (majrūr). 4) Definiteness of the whole construct is determined by the final muḍāf ilayh."
     },
     {
       "type": "table",
@@ -42,7 +42,7 @@
       "transliteration": "bābu l-masjidi maftūḥun",
       "translation": "The door of the mosque is open.",
       "irab": "بَابُ: مُبْتَدَأٌ مَرْفُوعٌ وَهُوَ مُضَافٌ | المَسْجِدِ: مُضَافٌ إِلَيْهِ مَجْرُورٌ بِالكَسْرَةِ | مَفْتُوحٌ: خَبَرٌ مَرْفُوعٌ",
-      "notes": "بَابُ has neither أَلْ nor tanwīn, yet the whole phrase بَابُ المَسْجِدِ is definite because المَسْجِدِ is definite. Therefore it serves cleanly as the mubtadaʾ.",
+      "notes": "بَابُ has neither the definite article (الـ) nor tanwīn, yet the whole phrase بَابُ المَسْجِدِ is definite because المَسْجِدِ is definite. Therefore it serves cleanly as the mubtadaʾ.",
       "reviewStatus": "pending"
     },
     {

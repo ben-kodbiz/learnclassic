@@ -7,6 +7,8 @@
  * 5. Guided Classical Reading Mode
  */
 
+import { normalizeArabic } from "./arabic-utils.js";
+
 let toolsCache = null;
 
 export async function loadToolsData() {
@@ -124,33 +126,65 @@ export function renderToolsView(data, state, esc) {
       </section>
     `;
   } else if (activeTab === "roots") {
-    const q = (state.rootQuery || "").trim().toLowerCase();
+    const rawQ = (state.rootQuery || "").trim();
+    const qLower = rawQ.toLowerCase();
+    const qNormAr = normalizeArabic(rawQ);
+
     const items = data.rootPatterns.filter((r) => {
-      if (!q) return true;
-      return [r.word, r.root, r.pattern, r.category, r.note].join(" ").toLowerCase().includes(q);
+      if (!rawQ) return true;
+      const textEn = [r.category, r.note, r.meaning || "", r.patternSemantics || ""].join(" ").toLowerCase();
+      if (textEn.includes(qLower)) return true;
+      const textAr = [r.word, r.root, r.pattern, r.affixes || ""].join(" ");
+      if (normalizeArabic(textAr).includes(qNormAr)) return true;
+      return false;
     });
 
     bodyHtml = `
       <section class="panel">
         <h2>Root &amp; Pattern Explorer (Wazn)</h2>
+        <p class="chapter-focus">Analyze how augmented patterns systematically modify core triliteral root meanings.</p>
+        <div class="notice">
+          <strong>Morphological Note:</strong> A metric pattern suggests a semantic tendency (such as causativity, reciprocity, intensification, or instrument), but does not guarantee one deterministic meaning for every root. Always verify contextual usage.
+        </div>
         <div class="filter-bar">
-          <input id="root-search" class="search-input" type="search" placeholder="Filter by word, root, or pattern…" value="${esc(state.rootQuery || "")}">
+          <input id="root-search" class="search-input" type="search" placeholder="Filter by Arabic word, root, pattern, or meaning…" value="${esc(state.rootQuery || "")}">
         </div>
         <div class="table-wrap">
           <table class="grammar-table">
             <thead>
-              <tr><th>Word</th><th>Root</th><th>Pattern</th><th>Category</th><th>Morphological Note</th></tr>
+              <tr>
+                <th>Word &amp; Meaning</th>
+                <th>Root &amp; Pattern</th>
+                <th>Augments / Affixes</th>
+                <th>Category &amp; Semantic Tendency</th>
+                <th>Lesson</th>
+              </tr>
             </thead>
             <tbody>
               ${items
                 .map(
                   (r) => `
                 <tr>
-                  <td lang="ar" dir="rtl" class="table-ar">${esc(r.word)}</td>
-                  <td lang="ar" dir="rtl">${esc(r.root)}</td>
-                  <td lang="ar" dir="rtl">${esc(r.pattern)}</td>
-                  <td>${esc(r.category)}</td>
-                  <td>${esc(r.note)}</td>
+                  <td>
+                    <strong lang="ar" dir="rtl" class="table-ar">${esc(r.word)}</strong>
+                    ${r.meaning ? `<br><small class="chapter-focus">${esc(r.meaning)}</small>` : ""}
+                  </td>
+                  <td>
+                    <span lang="ar" dir="rtl" class="arabic-inline">Root: <strong>${esc(r.root)}</strong></span><br>
+                    <span lang="ar" dir="rtl" class="arabic-inline">Pattern: ${esc(r.pattern)}</span>
+                  </td>
+                  <td>${esc(r.affixes || "—")}</td>
+                  <td>
+                    <strong>${esc(r.category)}</strong><br>
+                    <small>${esc(r.patternSemantics || r.note)}</small>
+                  </td>
+                  <td>
+                    ${
+                      r.lessonId
+                        ? `<a class="btn btn-secondary" href="#/chapter/${encodeURIComponent(r.lessonId)}">Lesson</a>`
+                        : "—"
+                    }
+                  </td>
                 </tr>
               `
                 )
@@ -206,18 +240,45 @@ export function renderToolsView(data, state, esc) {
       ${labs}
     `;
   } else if (activeTab === "reading") {
+    state.readingSelected = state.readingSelected || {};
     const readings = data.classicalReadings
-      .map(
-        (rd) => `
+      .map((rd) => {
+        const selectedIdx = state.readingSelected[rd.id];
+        const selectedToken = Number.isInteger(selectedIdx) ? rd.tokens[selectedIdx] : null;
+        return `
         <article class="panel lesson-shell">
           <div class="chapter-card-top">
             <span class="module-kicker">${esc(rd.title)}</span>
             <span class="badge badge-${esc(rd.reviewStatus)}">review: ${esc(rd.reviewStatus)}</span>
           </div>
-          <p class="chapter-focus">${esc(rd.source)}</p>
+          <p class="chapter-focus"><strong>Source Citation:</strong> ${esc(rd.source)}</p>
           <p class="arabic-example" lang="ar" dir="rtl">${esc(rd.arabic)}</p>
           <p><strong>Translation:</strong> ${esc(rd.translation)}</p>
-          <h3>Word-by-Word Grammatical Analysis</h3>
+
+          <p><strong>Click any token to inspect grammatical breakdown:</strong></p>
+          <div class="word-order-bank" lang="ar" dir="rtl">
+            ${rd.tokens
+              .map(
+                (t, idx) =>
+                  `<button type="button" class="token-chip ${selectedIdx === idx ? "token-chosen" : ""} reading-token-btn" data-reading="${esc(rd.id)}" data-idx="${idx}">${esc(t.word)}</button>`
+              )
+              .join("")}
+          </div>
+
+          ${
+            selectedToken
+              ? `
+            <div class="rule-card" style="margin-top: 0.75rem;">
+              <p><strong lang="ar" dir="rtl" class="arabic-inline">${esc(selectedToken.word)}</strong></p>
+              <p><strong>Syntactic &amp; Morphological Analysis:</strong> ${esc(selectedToken.analysis)}</p>
+              ${selectedToken.role ? `<p><strong>Role:</strong> ${esc(selectedToken.role)}</p>` : ""}
+              ${selectedToken.caseOrMood ? `<p><strong>Case / Mood:</strong> ${esc(selectedToken.caseOrMood)}</p>` : ""}
+            </div>
+          `
+              : ""
+          }
+
+          <h3>Complete Word-by-Word Analysis</h3>
           <ul class="rules-list">
             ${rd.tokens
               .map(
@@ -227,13 +288,13 @@ export function renderToolsView(data, state, esc) {
               .join("")}
           </ul>
         </article>
-      `
-      )
+      `;
+      })
       .join("");
 
     bodyHtml = `
       <div class="notice">
-        Grammatical parsing is presented as linguistic analysis only and is distinct from tafsīr or theological commentary.
+        <strong>Classical Reading Safeguards:</strong> Grammatical parsing is presented solely as linguistic analysis (syntax, morphology, and inflection) and is strictly distinct from theological tafsīr, legal derivation, or sectarian commentary.
       </div>
       ${readings}
     `;
@@ -295,6 +356,14 @@ export function bindToolsEvents(container, data, state, onUpdate) {
   container.querySelectorAll(".irab-word-btn").forEach((btn) => {
     btn.addEventListener("click", () => {
       state.irabSelected[btn.dataset.lab] = Number(btn.dataset.idx);
+      onUpdate();
+    });
+  });
+
+  container.querySelectorAll(".reading-token-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.readingSelected = state.readingSelected || {};
+      state.readingSelected[btn.dataset.reading] = Number(btn.dataset.idx);
       onUpdate();
     });
   });

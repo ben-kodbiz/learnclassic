@@ -24,7 +24,7 @@
       "type": "rule",
       "label": "Demonstrative Phrase vs. Clause",
       "arabicTerm": "المُشَارُ إِلَيْهِ",
-      "summary": "When a demonstrative is followed by a noun WITH أَلْ (هٰذَا الكِتَابُ), the two form a single noun phrase ('this book'), NOT a complete sentence. When followed by an INDEFINITE noun (هٰذَا كِتَابٌ), they form a complete equational sentence ('This is a book.')."
+      "summary": "When a demonstrative is followed by a noun WITH the definite article الـ (هٰذَا الكِتَابُ), the two form a single noun phrase ('this book'), NOT a complete sentence. When followed by an INDEFINITE noun (هٰذَا كِتَابٌ), they form a complete equational sentence ('This is a book.')."
     },
     {
       "type": "table",

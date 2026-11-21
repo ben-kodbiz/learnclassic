@@ -34,10 +34,10 @@
       "arabic": "_____ الطَّالِبِ",
       "choices": ["كِتَابَا", "كِتَابَانِ", "الكِتَابَا"],
       "answer": "كِتَابَا",
-      "explanation": "A dual muḍāf drops its final nūn (كِتَابَانِ → كِتَابَا) and never takes أَلْ.",
+      "explanation": "A dual muḍāf drops its final nūn (كِتَابَانِ → كِتَابَا) and never takes the definite article (الـ).",
       "feedback": {
         "rule": "Duals and sound masculine plurals drop final nūn when serving as muḍāf.",
-        "commonError": "Keeping the nūn (كِتَابَانِ الطَّالِبِ) or adding أَلْ (الكِتَابَا)."
+        "commonError": "Keeping the nūn (كِتَابَانِ الطَّالِبِ) or adding the definite article (الكِتَابَا)."
       },
       "skillTags": ["idafah", "dual"],
       "difficulty": 2,
